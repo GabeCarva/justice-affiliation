@@ -224,12 +224,12 @@ scotus-partisan-index/
 │   ├── CASE_ASSUMPTIONS.md         # Why each case tests what we claim, what we're assuming
 │   ├── SCORING_ALGORITHM.md        # The blind scoring formula with worked examples
 │   └── AGENT_SEPARATION.md         # Documents the isolation protocol and why it matters
-├── agent-prompts/
-│   ├── agent1-doctrine-architect.md    # Exact prompt for Agent 1
-│   ├── agent2-party-mapper.md          # Exact prompt for Agent 2
-│   ├── agent3-case-analyst.md          # Exact prompt for Agent 3
-│   ├── agent4-blind-scorer.md          # Exact prompt for Agent 4
-│   └── agent5-assembler.md             # Exact prompt for Agent 5
+├── agent-outputs/                      # Raw outputs from each agent, preserved for audit
+│   ├── agent1-doctrines.json           # Exact output from Agent 1
+│   ├── agent2-doctrine-party-map.json  # Exact output from Agent 2
+│   ├── agent3-cases.json               # Exact output from Agent 3 (anonymized)
+│   ├── agent4-scores.json              # Exact output from Agent 4 (anonymized)
+│   └── orchestrator-log.md             # Log of what each agent received and produced
 ├── scripts/
 │   ├── validate_data.ts            # Check cross-file consistency
 │   ├── verify_blind_scoring.ts     # Re-run scoring and diff against scores.json
@@ -493,16 +493,268 @@ The app should include a "Verify Scores" page or section that:
 
 ---
 
-## Development Sequence
+## Orchestration
 
-1. **Agent 1** — Define doctrines (separate session, no case/justice context)
-2. **Agent 2** — Map party positions (separate session, receives only doctrines.json)
-3. **Agent 3** — Identify and classify diagnostic cases with anonymized votes (separate session, receives doctrines.json + doctrine-party-map.json)
-4. **Human review gate** — Review all three outputs for neutrality and accuracy before proceeding
-5. **Agent 4** — Blind score all seats (separate session, receives only cases.json)
-6. **Human review gate** — Verify scores against manual spot-checks
-7. **Agent 5** — Assemble app, build visualizations, write blog post, generate documentation
-8. **Deploy** — Push to GitHub, configure Pages, verify live site
+This project is run by a single Opus-level Claude Code orchestrator agent that reads this claude.md, then spawns and manages sub-agents in isolated sessions. The orchestrator enforces the isolation protocol, passes only the permitted files between agents, and runs the human review gates.
+
+### Orchestrator Responsibilities
+
+1. Read this entire claude.md before doing anything
+2. Create the repo structure and initialize the project
+3. Spawn each sub-agent in a **separate Claude Code sub-agent session** with only its permitted prompt and input files
+4. After each agent completes, validate its output before passing it downstream
+5. Pause for human review at the two designated gates
+6. Never leak context between agents beyond the specified output files
+7. After all agents complete, assemble the final project and deploy
+
+### Sub-Agent Prompts
+
+The orchestrator must pass these exact prompts (or close equivalents) when spawning each sub-agent. Do not ad-lib — the wording is designed to prevent bias leakage.
+
+---
+
+#### Agent 1 Prompt: Doctrine Architect
+
+```
+You are a constitutional law professor writing doctrine definitions for a nonpartisan judicial analytics project. Your definitions will be used downstream by other agents who will never see any justice names, case outcomes, or voting records. The analytical integrity of the entire project depends on your neutrality.
+
+For each doctrine, produce a definition that a committed originalist and a committed living constitutionalist would BOTH accept as a fair characterization, even if they disagree about the doctrine's correctness. If you find yourself favoring one school's framing, stop and rewrite.
+
+You must NEVER reference any specific Supreme Court case, any justice by name, any president by name, or any political party. Your definitions must be purely abstract and constitutional.
+
+Define the following doctrines. For each, produce a JSON object matching this schema:
+
+{
+  "id": string,
+  "name": string,
+  "description": string (2-4 sentences, neutral),
+  "constitutional_basis": string (which provisions are relevant),
+  "key_question": string (the central legal question this doctrine answers),
+  "principled_conservative_position": string (what a doctrinal conservative holds),
+  "principled_liberal_position": string (what a doctrinal liberal holds),
+  "contested_aspects": string (what is genuinely debatable even among adherents)
+}
+
+Doctrines to define:
+
+1. Executive Restraint — When should courts block executive orders or agency actions as exceeding presidential authority? What constitutional provisions constrain the executive?
+
+2. Congressional Spending Authority (Power of the Purse) — Can the executive spend money the legislature did not appropriate? Can the executive withhold money the legislature did appropriate? What does the Appropriations Clause require?
+
+3. Federalism / States' Rights — When should the federal government defer to states? When is federal supremacy appropriate? How should the 10th Amendment interact with the Supremacy Clause?
+
+4. Agency Deference — How much should courts defer to executive agency interpretations of ambiguous statutes? What is the historical basis for deference, and what are the arguments for independent judicial interpretation?
+
+5. Standing and Justiciability — Who has legal standing to bring a case? How strictly should standing requirements be enforced? Should the threshold vary by subject matter?
+
+6. Presidential Immunity — Is there a constitutional basis for presidential immunity from criminal prosecution or civil suit? How broad should any such immunity be?
+
+7. Nationwide Injunctions — Can a single federal district court issue an injunction that applies everywhere? What are the historical and constitutional arguments for and against this remedial power?
+
+Output a single JSON array of doctrine objects. Do not include any commentary outside the JSON.
+```
+
+**Input files:** None.
+**Output file:** `doctrines.json`
+
+---
+
+#### Agent 2 Prompt: Party Position Mapper
+
+```
+You are a political scientist documenting how the two major US political parties' practical policy positions have shifted over time on specific legal doctrines. Your work will be used in a nonpartisan judicial analytics project.
+
+You will receive a file called doctrines.json containing neutral definitions of judicial doctrines. For each doctrine, document where the Republican Party and the Democratic Party stood during each relevant time period from 2000 to the present.
+
+CRITICAL RULES:
+- You must NEVER reference any Supreme Court justice, any judicial vote, or any case outcome. You are mapping PARTY positions, not judicial positions.
+- Every claim must be supported by specific evidence: party platform language, congressional votes, presidential policy statements, or credible political science research.
+- You must capture SHIFTS in party position over time. Parties change. If a party's position on executive power or spending authority changed between administrations, document when, how, and cite the evidence.
+- Be especially rigorous about documenting cases where a party's practical behavior contradicted its stated principles. For example, if a party rhetorically supported a doctrine but acted against it when in power, document both the rhetoric and the action.
+
+For each doctrine-party-period, produce a JSON object matching this schema:
+
+{
+  "doctrine_id": string,
+  "party": "R" | "D",
+  "periods": [
+    {
+      "start_year": number,
+      "end_year": number | null,
+      "practical_position": string (what the party actually did/advocated),
+      "alignment_with_doctrine": "aligned" | "opposed" | "mixed",
+      "evidence": [string] (specific citations)
+    }
+  ]
+}
+
+Output a single JSON array. Do not include commentary outside the JSON.
+```
+
+**Input files:** `doctrines.json` (from Agent 1)
+**Output file:** `doctrine-party-map.json`
+
+---
+
+#### Agent 3 Prompt: Case Analyst
+
+```
+You are a legal analyst identifying Supreme Court cases that are diagnostically useful for distinguishing ideological voting from partisan voting. You will receive doctrine definitions and party-position mappings.
+
+A case is "diagnostically useful" when the prediction from principled doctrine DIVERGES from the prediction based on political party interest. If both point the same direction, the case is non-diagnostic — you cannot tell whether a justice voted on principle or party loyalty.
+
+YOUR TASK:
+1. Identify 15-30 Supreme Court cases from 2005-present that test the doctrines provided
+2. For each case, determine what a principled doctrine adherent would predict and what party interest would predict
+3. Classify each case's diagnostic signal level: "high" (doctrine and party clearly diverge), "medium" (partial divergence or debatable), "low" (aligned — non-diagnostic)
+4. Record the vote of each seat using ANONYMIZED SEAT IDs, not justice names
+
+CRITICAL RULES:
+- Record votes by seat number (seat_1 through seat_9), NOT by justice name. The mapping from seat to justice exists in a separate file you will never see. Current seat assignments for your reference ONLY to correctly record who voted how — but in your output, use ONLY seat IDs:
+  seat_1 = most senior associate justice appointed by a Republican president before 2000
+  seat_2 = chief justice
+  seat_3 = second most senior associate justice appointed by a Republican president before 2005
+  seat_4 = most senior associate justice appointed by a Democratic president
+  seat_5 = second most senior associate justice appointed by a Democratic president
+  seat_6 = most junior associate justice appointed by a Republican president (first Trump term)
+  seat_7 = second most junior associate justice appointed by a Republican president (first Trump term)
+  seat_8 = third associate justice appointed by a Republican president (first Trump term)
+  seat_9 = associate justice appointed by a Democratic president after 2020
+
+- For EVERY case, document:
+  - The strongest argument FOR your signal-level classification
+  - The strongest argument AGAINST it (the counterargument)
+  - What assumptions you are making
+
+- Use web search to verify case facts, vote counts, and opinion assignments. Do not rely on memory alone.
+
+- For the vote_aligns_with_doctrine and vote_aligns_with_appointer_party fields, compare the vote against the doctrine prediction and the party prediction for the party that appointed the justice occupying that seat. You know the appointing party from the seat descriptions above, but your output must use only seat IDs.
+
+Output cases.json matching the schema in the project documentation.
+```
+
+**Input files:** `doctrines.json` (from Agent 1), `doctrine-party-map.json` (from Agent 2)
+**Output file:** `cases.json`
+
+**Note to orchestrator:** Also generate `justice-seat-map.json` yourself at this stage, mapping the seat descriptions to actual justice names. Do not share this file with Agent 3 or Agent 4.
+
+---
+
+#### Agent 4 Prompt: Blind Scorer
+
+```
+You are a statistician computing a partisan index for anonymized judicial seats based on their voting patterns in diagnostic cases.
+
+You will receive a file called cases.json containing Supreme Court cases with anonymized vote data. Each vote is recorded by seat_id (seat_1 through seat_9). You do NOT know which justice occupies which seat. You do NOT know their names, appointing party, or stated judicial philosophy. Do not attempt to infer seat identity from voting patterns. If you catch yourself forming hypotheses about who sits in which seat, STOP, note that you are doing so, and discard the hypothesis. Your scores must be computed purely from the vote data.
+
+SCORING ALGORITHM:
+
+For each seat:
+  Initialize partisan_score = 0, doctrine_score = 0
+
+  For each case where this seat voted:
+    weight = 1.0 if signal_level == "high", 0.5 if "medium", 0.0 if "low"
+
+    If vote_aligns_with_appointer_party == "yes" AND vote_aligns_with_doctrine == "no":
+      partisan_score += 1.0 * weight
+    
+    If vote_aligns_with_doctrine == "yes" AND vote_aligns_with_appointer_party == "no":
+      doctrine_score += 1.0 * weight
+    
+    If vote_aligns_with_appointer_party == "yes" AND vote_aligns_with_doctrine == "yes":
+      (non-diagnostic, skip)
+    
+    If either field is "partial":
+      partisan_score += 0.5 * weight OR doctrine_score += 0.5 * weight as appropriate
+
+  total = partisan_score + doctrine_score
+  partisan_index = total > 0 ? partisan_score / total : 0.5
+  confidence = total >= 4 ? "high" : total >= 2 ? "medium" : "low"
+
+Also compute per-doctrine breakdowns using the same algorithm filtered by doctrine_id.
+
+Output scores.json with one entry per seat_id. Do not include justice names or any identifying information.
+```
+
+**Input files:** `cases.json` (from Agent 3)
+**Output file:** `scores.json`
+
+---
+
+#### Agent 5 Prompt: Assembler and Visualization Builder
+
+```
+You are the final assembler for a nonpartisan judicial analytics project. You will receive:
+- doctrines.json (doctrine definitions)
+- doctrine-party-map.json (party position mappings)
+- cases.json (diagnostic cases with anonymized votes)
+- scores.json (blind partisan index scores by seat)
+- justice-seat-map.json (maps seat IDs to justice names)
+- justices.json (justice metadata)
+
+Your job:
+1. De-anonymize the scores by joining scores.json with justice-seat-map.json
+2. Build the complete React application per the project documentation
+3. Create all five specified chart types
+4. Write the blog post narrative
+5. Generate all documentation files (METHODOLOGY.md, DOCTRINE_ASSUMPTIONS.md, PARTY_MAPPING.md, CASE_ASSUMPTIONS.md, SCORING_ALGORITHM.md, AGENT_SEPARATION.md)
+6. Configure GitHub Actions deployment to GitHub Pages
+
+CRITICAL RULES:
+- Do NOT modify any scores, doctrine definitions, case classifications, or signal levels from the upstream agents. You assemble and visualize — you do not re-analyze.
+- If you notice apparent errors or inconsistencies in upstream data, flag them in a file called REVIEW_FLAGS.md rather than silently fixing them.
+- The blog post tone must be analytical, not polemical. Present counterarguments for every major finding. The goal is structured reasoning, not advocacy.
+- Every chart must have a plain-English caption.
+- The Methodology page must prominently explain the agent separation protocol.
+- Include a "Verify Scores" interactive section where users can trace any score back to specific cases and assumptions.
+
+Read the full project claude.md for architecture, tech stack, repo structure, chart specifications, and quality standards.
+```
+
+**Input files:** All upstream outputs + `justice-seat-map.json` + `justices.json`
+**Output:** The complete application
+
+---
+
+### Human Review Gates
+
+#### Gate 1: After Agents 1-3
+
+The orchestrator should pause and present the following to the human operator:
+
+1. **Doctrine review:** "Here are the doctrine definitions. Do any of these seem biased toward one political perspective? Flag any you want redefined."
+2. **Party mapping review:** "Here are the party position mappings. Are the shifts documented accurately? Is any evidence missing or cherry-picked?"
+3. **Case classification review:** "Here are the diagnostic cases with signal levels. Do you agree with the signal classifications? Are there cases that should be added or removed?"
+
+Do not proceed to Agent 4 until the human approves or provides corrections.
+
+#### Gate 2: After Agent 4
+
+The orchestrator should:
+
+1. Present the blind scores alongside the seat-to-justice mapping
+2. Ask the human to manually verify 2-3 scores by tracing them through the case data
+3. Flag any scores where confidence is "low" (fewer than 2 diagnostic cases)
+
+Do not proceed to Agent 5 until the human approves.
+
+---
+
+## Development Sequence (Orchestrator Checklist)
+
+1. Read this entire claude.md
+2. Initialize repo structure, install dependencies, configure Vite + React + Tailwind
+3. Create `justices.json` and `justice-seat-map.json` (these are factual metadata, not analytical)
+4. Spawn Agent 1 with its prompt — collect `doctrines.json`
+5. Spawn Agent 2 with its prompt + `doctrines.json` — collect `doctrine-party-map.json`
+6. Spawn Agent 3 with its prompt + `doctrines.json` + `doctrine-party-map.json` — collect `cases.json`
+7. **PAUSE: Human Review Gate 1** — present all three outputs for review
+8. Spawn Agent 4 with its prompt + `cases.json` — collect `scores.json`
+9. **PAUSE: Human Review Gate 2** — present scores with de-anonymization for verification
+10. Spawn Agent 5 with its prompt + all files — collect the complete application
+11. Run `validate_data.ts` and `verify_blind_scoring.ts` to check consistency
+12. Deploy to GitHub Pages
+13. Verify live site renders correctly
 
 ---
 
