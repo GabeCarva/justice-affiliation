@@ -1,0 +1,349 @@
+[
+  {
+    "seat_id": "seat_1",
+    "partisan_index": 0.745,
+    "total_diagnostic_cases": 20,
+    "partisan_votes": 10,
+    "doctrine_votes": 3,
+    "mixed_votes": 3,
+    "per_doctrine": {
+      "federalism-states-rights": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 3
+      },
+      "executive-restraint": {
+        "partisan_index": 0.8,
+        "cases_evaluated": 9
+      },
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 7
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 1
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.333,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_2",
+    "partisan_index": 0.511,
+    "total_diagnostic_cases": 20,
+    "partisan_votes": 6,
+    "doctrine_votes": 5,
+    "mixed_votes": 6,
+    "per_doctrine": {
+      "federalism-states-rights": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.667,
+        "cases_evaluated": 3
+      },
+      "executive-restraint": {
+        "partisan_index": 0.4,
+        "cases_evaluated": 9
+      },
+      "agency-deference": {
+        "partisan_index": 0.944,
+        "cases_evaluated": 7
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 1
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_3",
+    "partisan_index": 0.911,
+    "total_diagnostic_cases": 20,
+    "partisan_votes": 11,
+    "doctrine_votes": 1,
+    "mixed_votes": 4,
+    "per_doctrine": {
+      "federalism-states-rights": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 3
+      },
+      "executive-restraint": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 9
+      },
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 7
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 1
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.667,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_4",
+    "partisan_index": 0.412,
+    "total_diagnostic_cases": 20,
+    "partisan_votes": 2,
+    "doctrine_votes": 2,
+    "mixed_votes": 4,
+    "per_doctrine": {
+      "federalism-states-rights": {
+        "partisan_index": 0.333,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 3
+      },
+      "executive-restraint": {
+        "partisan_index": 0.4,
+        "cases_evaluated": 9
+      },
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 7
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 1
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 0.2,
+        "cases_evaluated": 2
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_5",
+    "partisan_index": 0.353,
+    "total_diagnostic_cases": 20,
+    "partisan_votes": 2,
+    "doctrine_votes": 2,
+    "mixed_votes": 4,
+    "per_doctrine": {
+      "federalism-states-rights": {
+        "partisan_index": 0.333,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 3
+      },
+      "executive-restraint": {
+        "partisan_index": 0.3,
+        "cases_evaluated": 9
+      },
+      "agency-deference": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 7
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 1
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 0.2,
+        "cases_evaluated": 2
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_6",
+    "partisan_index": 0.733,
+    "total_diagnostic_cases": 17,
+    "partisan_votes": 9,
+    "doctrine_votes": 3,
+    "mixed_votes": 3,
+    "per_doctrine": {
+      "executive-restraint": {
+        "partisan_index": 0.8,
+        "cases_evaluated": 8
+      },
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 6
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 1
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 2
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.333,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      },
+      "federalism-states-rights": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_7",
+    "partisan_index": 0.535,
+    "total_diagnostic_cases": 16,
+    "partisan_votes": 6,
+    "doctrine_votes": 5,
+    "mixed_votes": 3,
+    "per_doctrine": {
+      "executive-restraint": {
+        "partisan_index": 0.556,
+        "cases_evaluated": 7
+      },
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 6
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 1
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 2
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      },
+      "federalism-states-rights": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_8",
+    "partisan_index": 0.568,
+    "total_diagnostic_cases": 13,
+    "partisan_votes": 6,
+    "doctrine_votes": 4,
+    "mixed_votes": 1,
+    "per_doctrine": {
+      "agency-deference": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 5
+      },
+      "executive-restraint": {
+        "partisan_index": 0.667,
+        "cases_evaluated": 4
+      },
+      "nationwide-injunctions": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 1
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 2
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 1.0,
+        "cases_evaluated": 2
+      },
+      "federalism-states-rights": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      }
+    },
+    "confidence": "high"
+  },
+  {
+    "seat_id": "seat_9",
+    "partisan_index": 0.286,
+    "total_diagnostic_cases": 10,
+    "partisan_votes": 0,
+    "doctrine_votes": 1,
+    "mixed_votes": 2,
+    "per_doctrine": {
+      "executive-restraint": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
+      },
+      "congressional-spending-authority": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
+      },
+      "standing-justiciability": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 3
+      },
+      "agency-deference": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 3
+      },
+      "presidential-immunity": {
+        "partisan_index": 0.2,
+        "cases_evaluated": 2
+      },
+      "federalism-states-rights": {
+        "partisan_index": 0.0,
+        "cases_evaluated": 1
+      }
+    },
+    "confidence": "low"
+  }
+]

@@ -1,0 +1,826 @@
+[
+  {
+    "doctrine_id": "executive-restraint",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush administration aggressively expanded executive authority, asserting broad Commander-in-Chief powers to authorize warrantless surveillance, enhanced interrogation, and military commissions without express congressional approval. Republicans largely defended these expansions as inherent Article II powers in a national-security emergency, directly opposing the doctrine's demand that presidential action rest on specific textual or statutory grants.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "2002 Republican Platform affirming robust presidential war powers without limiting language",
+          "Authorization for Use of Military Force (AUMF), Pub. L. 107-40 (Sept. 18, 2001), interpreted by OLC as conferring near-unlimited wartime executive authority",
+          "OLC 'Torture Memo' (Aug. 1, 2002) asserting Commander-in-Chief authority supersedes statutory limits under 18 U.S.C. \u00a7 2340"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of power and facing an activist Democratic executive, Republicans pivoted rhetorically to executive-restraint arguments, condemning Obama's executive orders on immigration and environmental regulation as unconstitutional overreach. Congressional Republicans passed resolutions and filed suit challenging the scope of presidential action, aligning their stated position with restraint doctrine even as their earlier record contradicted it.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "H.R. 5 (113th Cong.), the REINS Act, passed House in 2011, requiring congressional approval of major agency rules \u2014 an executive-restraint measure",
+          "Republican House leadership sued over unilateral ACA employer-mandate delay in U.S. House of Representatives v. Burwell (D.D.C. 2015)",
+          "2012 Republican Platform condemning Obama's 'imperial presidency' and calling for strict limits on executive orders"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "With a Republican in the White House, the party returned to defending broad executive authority, supporting aggressive use of executive orders on immigration (travel bans, DACA rescission), trade (Section 232 tariffs), and emergency declarations for border-wall funding. Congressional Republicans rarely challenged these actions and defended them as valid exercises of Article II and statutory authority, opposing restraint doctrine in practice.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "EO 13769 (Jan. 27, 2017) travel ban, defended by administration and most Republican members as within 8 U.S.C. \u00a7 1182(f) and Article II",
+          "National Emergency Declaration of Feb. 15, 2019 (Proclamation 9844) redirecting $6.1B in military funds for border wall without new appropriation",
+          "2016 Republican Platform endorsing broad use of executive authority to roll back regulations without requiring new congressional authorization"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Back in opposition, Republicans again championed executive-restraint arguments, challenging Biden administration vaccine mandates, student-loan relief, and agency rulemaking as constitutional overreach. The party broadly supported legal challenges invoking the major-questions doctrine and nondelegation principles, rhetorically aligning with restraint doctrine.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Republican attorneys general multistate suit against OSHA ETS vaccine mandate, leading to NFIB v. OSHA (2022) \u2014 Republican amicus and political support for limiting executive power",
+          "Republican-led Senate resolution under 5 U.S.C. \u00a7 802 (Congressional Review Act) disapproving OSHA vaccine ETS, passed Dec. 8, 2021",
+          "2024 Republican Platform calling for elimination of the 'administrative state' and strict limits on executive agency rulemaking authority"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has pursued the most expansive assertion of unilateral executive authority in modern history, issuing sweeping executive orders dismantling agencies, impounding congressionally appropriated funds, and invoking emergency powers across domestic policy domains. Republicans in Congress have largely acquiesced, rendering the party's practical stance directly opposed to executive-restraint doctrine.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "EO 14158 (Jan. 20, 2025) and related DOGE directives asserting executive authority to reorganize and reduce agencies without statutory authorization",
+          "Presidential proclamation invoking Alien Enemies Act of 1798 (March 2025) for domestic deportation operations, asserting broad inherent wartime executive power",
+          "Republican majority in Congress declining to pass legislation constraining executive impoundment or agency-closure actions taken unilaterally by OMB in early 2025"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "executive-restraint",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats in Congress and the party broadly opposed Bush-era assertions of sweeping executive wartime authority, arguing that surveillance, detention, and interrogation programs violated statutory limits and the separation of powers. The party's position during this period closely tracked executive-restraint doctrine, emphasizing that the President must act within statutory and constitutional limits.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "2004 Democratic Platform condemning Bush administration claims of unchecked executive power in the war on terror",
+          "Senate Democrats' opposition to and partial blocking of provisions of the USA PATRIOT Act reauthorization (2005-2006) on executive-overreach grounds",
+          "Sen. Russ Feingold's S.Res. 398 (109th Cong., 2006) censuring the President for warrantless surveillance as exceeding statutory authority under FISA"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "With a Democrat in the White House, the party defended expansive use of executive orders on immigration (DACA, DAPA), climate (Clean Power Plan), and labor policy as legitimate exercises of statutory discretion, shifting away from restraint doctrine. Democrats argued broad congressional delegations and Article II authority provided adequate legal grounding for these unilateral actions.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "EO 13658 (Feb. 12, 2014) establishing minimum wage for federal contractors, justified by Democrats as within Federal Property and Administrative Services Act authority",
+          "DHS Secretary Memorandum establishing DACA (June 15, 2012), defended by administration and Democratic members as lawful prosecutorial discretion under 6 U.S.C. \u00a7 202",
+          "2012 Democratic Platform celebrating executive action on immigration and environment as necessary governance when Congress fails to act"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Back in opposition, Democrats returned to executive-restraint arguments, challenging travel bans, regulatory rollbacks, and emergency declarations as violations of the separation of powers and statutory limits. The party supported legal actions and legislative efforts to constrain unilateral executive action, re-aligning with restraint doctrine.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic state attorneys general multistate litigation against EO 13769 travel ban, argued on statutory ultra vires and constitutional grounds",
+          "H.R. 2043 (116th Cong.), the ARTICLE ONE Act, introduced by Democrats to limit emergency powers declarations \u2014 passed House Judiciary Committee 2019",
+          "2020 Democratic Platform calling for reforms to curb unilateral executive authority and restore congressional primacy in war-making and domestic emergencies"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "The Biden administration made extensive use of executive orders, agency guidance, and emergency authority on student loans, COVID mandates, and climate regulation, while rhetorically invoking statutory authority rather than inherent presidential power. Democrats defended these actions as grounded in specific statutory delegations, presenting a mixed posture \u2014 acknowledging doctrinal limits in theory while pursuing aggressive rulemaking in practice.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 14092 (Feb. 16, 2023) directing agency climate reviews, justified by Democrats as within existing statutory grants under the Clean Air Act and National Environmental Policy Act",
+          "Biden student-loan cancellation program invoking HEROES Act of 2003, 20 U.S.C. \u00a7 1098bb, defended as express statutory authority \u2014 challenged by Republicans as overreach",
+          "2024 Democratic Platform defending expansive use of executive authority as necessary responses to climate, economic, and public-health crises within statutory frameworks"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "In opposition, Democrats have strongly reasserted executive-restraint doctrine, condemning Trump's second-term use of emergency powers, impoundments, and agency dismantlement as unconstitutional usurpations of legislative authority. The party has supported court challenges and congressional actions to restore checks on unilateral presidential action, aligning closely with doctrine.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic minority in Senate introduced S. 1003 (119th Cong., 2025) to reform the National Emergencies Act and limit unilateral executive spending redirections",
+          "Democratic state attorneys general coalition filing for injunctions against Trump EO 14158 DOGE reorganization orders in February 2025, arguing violation of statutory and constitutional limits",
+          "House Democratic leadership statements of January\u2013February 2025 formally invoking the separation of powers and the Take Care Clause against executive impoundment of foreign-aid and domestic program funds"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "congressional-spending-authority",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Republicans generally deferred to Bush administration spending priorities and did not challenge executive redirection of appropriated funds, supporting supplemental off-budget war appropriations that gave the executive considerable flexibility. Congressional Republicans declined to enforce strict Appropriations Clause limits when the executive reprogrammed military and intelligence funds, opposing the doctrine's structural requirement of legislative control.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Emergency Supplemental Appropriations Act for Defense, the Global War on Terror, and Tsunami Relief, Pub. L. 109-13 (2005), providing broad executive discretion in obligation of funds",
+          "Republican majority blocked Democratic amendments in FY2006 and FY2007 defense appropriations that would have restricted executive reprogramming authority",
+          "2004 Republican Platform endorsing presidential flexibility in directing national-security spending without itemized congressional restriction"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Republicans weaponized congressional spending authority as a tool of political opposition, using appropriations riders, debt-ceiling standoffs, and sequestration to constrain Obama administration spending. This posture partially aligned with the doctrine's principle that Congress controls the purse, though the motive was partisan policy leverage rather than principled constitutional enforcement.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Budget Control Act of 2011, Pub. L. 112-25, imposing sequestration caps that constrained executive spending discretion \u2014 enacted by Republican House majority",
+          "Continuing resolution standoff and government shutdown of October 2013, driven by House Republicans attaching ACA defunding conditions to appropriations",
+          "Republican appropriations riders in FY2012 (Pub. L. 112-74) blocking executive branch spending on various Obama priorities including climate and gun-tracking programs"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Republicans acquiesced in Trump administration assertions that the executive could redirect congressionally appropriated military funds to border-wall construction and decline to obligate foreign-aid appropriations, undermining the Appropriations Clause's structural check. Congressional Republicans did not enforce the Impoundment Control Act when the administration withheld Ukraine security assistance, opposing the doctrine in practice.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Proclamation 9844 (Feb. 15, 2019) declaring national emergency to redirect $6.1B in military construction funds for border wall without new appropriation, supported by Senate Republican majority",
+          "OMB hold on Ukraine security assistance (July\u2013September 2019) in violation of Impoundment Control Act, 2 U.S.C. \u00a7 684, with no Republican-led corrective legislation",
+          "Republican Senate rejection of House-passed appropriations provisions that would have prohibited border-wall fund transfers in FY2019 (Pub. L. 116-6 conference negotiations)"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Republicans reasserted the congressional spending authority doctrine as a political weapon against Biden, objecting to student-loan cancellation as an unauthorized expenditure and using debt-ceiling leverage to force spending reductions. The party's alignment was rhetorical and selective rather than principled \u2014 invoking Appropriations Clause arguments when opposing Democratic spending while not acknowledging the same limits on prior Republican executive action.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Republican majority in House passed the Limit, Save, Grow Act (H.R. 2811, 118th Cong., 2023) conditioning debt-ceiling increase on spending caps, invoking congressional purse-power authority",
+          "Republican-led opposition to Biden student-loan relief argued executive lacked appropriations authority for debt cancellation under HEROES Act \u2014 amicus briefs in Biden v. Nebraska (2023)",
+          "Republican appropriations riders in FY2024 omnibus negotiations targeting executive discretionary spending accounts as unauthorized or exceeding statutory limits"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has directly violated the Appropriations Clause by impounding, freezing, and effectively canceling congressionally directed spending across multiple domestic and foreign-aid programs, with Republican congressional majorities declining to object or enforce existing impoundment law. This represents the party's most direct opposition to the congressional-spending-authority doctrine in the modern era.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "OMB Memorandum M-25-13 (Jan. 27, 2025) freezing broad categories of federal grants and loans despite congressional appropriations, rescinded under court order but followed by programmatic terminations",
+          "DOGE-directed USAID funding freeze and program cancellations beginning January 2025, terminating congressionally appropriated foreign-assistance funds without rescission legislation",
+          "Republican congressional leadership statements of February\u2013March 2025 declining to pass legislation enforcing the Impoundment Control Act against administration spending holds"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "congressional-spending-authority",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats consistently argued that Bush administration off-budget war supplementals, secret intelligence expenditures, and flexible military reprogramming violated the Appropriations Clause's requirement of specific legislative authorization before funds leave the Treasury. The party aligned with the doctrine's demand for legislative control, though it lacked the majority power to enforce those objections through legislation.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "2004 Democratic Platform criticizing Bush administration use of emergency supplementals to avoid regular appropriations scrutiny and accountability",
+          "Sen. Robert Byrd floor statements (2003\u20132006) invoking Article I, Section 9 against administration reprogramming of Iraqi reconstruction funds without adequate statutory authorization",
+          "Democratic minority amendments to FY2004 and FY2005 defense bills seeking to restrict executive reprogramming authority \u2014 all defeated by Republican majority"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "With control of the executive and initially the legislature, Democrats enacted large spending programs through formal appropriations and the American Recovery and Reinvestment Act but also tested the limits of executive spending flexibility via agency guidance and delayed implementation of ACA employer mandates. The party's posture was mixed: generally supporting formal appropriations process while occasionally defending executive latitude in timing and administration of expenditures.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "American Recovery and Reinvestment Act, Pub. L. 111-5 (2009), channeling $787B through statutory appropriations with explicit programmatic designations \u2014 aligned with doctrine",
+          "Obama administration unilateral delay of ACA employer-mandate payments in 2013\u20132014, defended by Democrats as administrative discretion under 26 U.S.C. \u00a7 4980H without new statutory authority",
+          "2012 Democratic Platform defending executive flexibility in implementing congressionally enacted programs when funding levels were held hostage by Republican Congress"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Democrats strongly invoked congressional spending authority as a check on Trump, arguing that border-wall fund transfers, Ukraine aid holds, and domestic program impoundments violated the Appropriations Clause and the Impoundment Control Act. The party consistently and principally aligned with the doctrine, filing legal objections and passing House appropriations bills with explicit anti-impoundment provisions.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "House Democratic majority passed H.R. 2740 (FY2020 Labor-HHS appropriations) with rider explicitly prohibiting executive reprogramming of military funds for border wall",
+          "House impeachment inquiry (2019) included article focused on withholding of Ukraine security assistance as violation of congressional appropriations authority and Impoundment Control Act, 2 U.S.C. \u00a7 684",
+          "Democratic attorneys general filed suit in Sierra Club v. Trump (9th Cir. 2020) arguing border-wall fund transfers violated Appropriations Clause; 9th Circuit ruled for plaintiffs"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Democrats enacted the largest set of programmatic appropriations in decades through the Infrastructure Investment and Jobs Act and the Inflation Reduction Act, routing spending through formal statutory appropriations and defending congressional prerogatives. The party maintained alignment with spending-authority doctrine while also defending executive agency latitude in implementing complex multi-year funding streams.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Infrastructure Investment and Jobs Act, Pub. L. 117-58 (2021), appropriating $550B in new spending through detailed statutory designations requiring formal congressional authorization",
+          "Inflation Reduction Act, Pub. L. 117-169 (2022), specifying IRS, EPA, and energy-program funding with explicit statutory controls on obligation and expenditure",
+          "2024 Democratic Platform reaffirming congressional spending authority as a democratic accountability mechanism and opposing executive impoundment as unconstitutional"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Democrats have mounted the most sustained defense of the Appropriations Clause in decades, challenging Trump administration impoundments, USAID shutdowns, and OMB spending freezes in courts and through legislative opposition. The party has uniformly invoked Article I, Section 9 and the Impoundment Control Act as hard constitutional and statutory limits on executive action, fully aligned with the doctrine.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic minority members filed amicus briefs and supported plaintiffs in National Council of Nonprofits v. OMB (D.D.C., Feb. 2025) challenging OMB M-25-13 spending freeze as violating Appropriations Clause",
+          "Senate Democratic Caucus letter to OMB Director (Feb. 3, 2025) invoking 2 U.S.C. \u00a7 684 of the Impoundment Control Act and demanding immediate release of withheld appropriated funds",
+          "House Democratic leadership introduced H.R. 891 (119th Cong., 2025) to strengthen enforcement mechanisms of the Impoundment Control Act against executive spending withholdings"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "federalism-states-rights",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Despite the party platform's federalism rhetoric, the Bush administration pursued expansive federal authority in education, drug policy, and national security, overriding state prerogatives in practice. Federal preemption of state tort law and state medical-marijuana statutes reflected a nationalist posture inconsistent with Tenth Amendment limits the platform espoused.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "No Child Left Behind Act, Pub. L. 107-110 (2002): imposed detailed federal mandates on state K-12 education systems, displacing traditional state control",
+          "2004 Republican Party Platform: affirmed federalism and states' rights in the abstract while endorsing sweeping federal education and homeland-security mandates",
+          "Gonzales v. Raich (2005) federal position: DOJ argued for broad Commerce Clause authority to preempt California's Compassionate Use Act, prevailing before the Supreme Court"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of power federally, Republicans embraced robust states'-rights arguments to challenge ACA Medicaid expansion as unconstitutional coercion and to defend state-level policy experimentation. Republican governors and state attorneys general coordinated multi-state litigation asserting Tenth Amendment limits on federal spending conditions.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "2012 Republican Party Platform: explicitly condemned ACA Medicaid expansion as federal coercion and called for block-granting Medicaid to states",
+          "State attorneys general (26 states) brief in NFIB v. Sebelius (2012): argued Medicaid expansion violated the anti-coercion principle of the Spending Clause",
+          "H.R. 3762, Restoring Americans' Healthcare Freedom Reconciliation Act (2015): passed by Republican Congress to repeal ACA and return healthcare authority to states; vetoed by Obama"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "The first Trump administration used Spending Clause leverage aggressively to pressure so-called sanctuary cities and states, threatening to withhold federal grants to compel state immigration enforcement cooperation. Simultaneously, the administration supported regulatory rollbacks that devolved some environmental and labor policy to states, reflecting selective federalism.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 13768 (Jan. 25, 2017): directed federal agencies to withhold grants from jurisdictions that refused to cooperate with federal immigration detainer requests, asserting commandeering-adjacent federal pressure on states",
+          "2016 Republican Party Platform: affirmed block grants, local control of education, and opposition to federal overreach, while the administration simultaneously threatened grant cutoffs to non-compliant states",
+          "Executive Order 13777 (Feb. 24, 2017): directed agencies to repeal regulations burdening economic activity, reducing some federal footprint over state-regulated industries"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "In opposition, congressional Republicans and state Republican officials mounted robust federalism arguments against Biden-era vaccine mandates, OSHA emergency rules, and the expanded use of the spending power to enforce civil-rights conditions. Republicans championed state autonomy on abortion regulation after Dobbs and resisted federal preemption of state firearms laws.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "2024 Republican Party Platform: pledged to return abortion policy entirely to states, framing Dobbs as a federalism victory, and called for eliminating federal education mandates",
+          "Republican state AG coalition briefs against OSHA COVID vaccine-or-test ETS (NFIB v. OSHA, 2022): argued federal mandate exceeded statutory authority and intruded on state police powers",
+          "H.R. 5 (2023), Parents Bill of Rights Act: asserted local and parental control over school curricula as a counter to federal DEI-related spending conditions"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has pursued a paradoxical federalism stance: invoking states' rights to justify withdrawing federal civil-rights enforcement and education mandates while simultaneously deploying federal authority to override sanctuary policies and punish states that resist federal immigration or DEI directives. Selective federalism continues to dominate over a principled Tenth Amendment baseline.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 14173 (Jan. 20, 2025): directed federal agencies to terminate DEI programs and threatened grant termination to states and universities that maintained them, asserting federal supremacy over state institutions",
+          "2025 budget reconciliation proposals: sought to block-grant Medicaid, ostensibly devolving authority, while conditioning grants on state compliance with federal work requirements",
+          "DHS directives (Feb. 2025): escalated threats to withhold federal law-enforcement grants from sanctuary jurisdictions, reflecting a coercive rather than cooperative federalism model"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "federalism-states-rights",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats in the Bush era generally supported broad federal authority under the Commerce and Spending Clauses, opposing states'-rights arguments that they associated with resistance to civil-rights and environmental protections. Democrats occasionally invoked state autonomy opportunistically when defending California's stricter environmental standards against federal preemption.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "2004 Democratic Party Platform: called for uniform federal standards in environmental protection, workers' rights, and civil rights, explicitly rejecting a race to the bottom among states",
+          "Democratic opposition to EPA denial of California Clean Air Act waiver (2007): Democrats defended California's right to set stricter auto-emissions standards under cooperative federalism, an exception to their generally nationalist posture",
+          "Democratic support for No Child Left Behind reauthorization debates (2001-2007): most Democrats voted for the original NCLB, accepting robust federal mandates over state education systems"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "The Obama administration pursued an expansive reading of the Commerce and Spending Clauses to enact the ACA, argued for broad federal regulatory authority over carbon emissions under the Clean Air Act, and used cooperative federalism models that attached extensive federal conditions to Medicaid and education grants. States'-rights arguments were resisted as obstacles to uniform national standards.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Patient Protection and Affordable Care Act, Pub. L. 111-148 (2010): mandated individual insurance coverage under the Commerce Clause and substantially expanded Medicaid with conditions the administration defended as non-coercive",
+          "2012 Democratic Party Platform: affirmed federal responsibility to set national standards for healthcare, environmental protection, and education, rejecting devolution to states",
+          "EPA Clean Power Plan (2015), 80 Fed. Reg. 64,662: asserted broad federal authority under Clean Air Act Section 111(d) to regulate state electricity generation, displacing traditional state utility regulation"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "In opposition, Democrats defended federal supremacy on immigration against sanctuary-city threats and asserted that states could not override federal ACA protections. Democrats also invoked state authority selectively when arguing states had the right to set stricter environmental and labor rules than federal floors under the Trump rollbacks.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic attorneys general coalition defending sanctuary city funding rules in City of Chicago v. Sessions (7th Cir., 2018): argued federal grant conditions exceeded statutory authority, a states'-rights-adjacent argument",
+          "2020 Democratic Party Platform: reaffirmed comprehensive federal standards on climate, civil rights, and healthcare while opposing Trump's rollbacks that removed federal minimums",
+          "Democratic opposition to EO 13768: framed sanctuary jurisdiction protections as assertions of state and local autonomy against federal commandeering, borrowing federalism rhetoric selectively"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "The Biden administration revived expansive use of federal spending conditions and regulatory mandates\u2014OSHA vaccine-or-test rules, federal contractor vaccine mandates, and broad IRA and IIJA grant conditions\u2014asserting national authority to drive state-level outcomes on climate and infrastructure. Democrats accepted state experimentation only where federal floors were simultaneously established.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Bipartisan Infrastructure Law, Pub. L. 117-58 (2021): conditioned $1.2 trillion in federal grants on state compliance with Buy America, labor, and equity requirements, exercising expansive Spending Clause authority",
+          "OSHA COVID-19 Vaccination and Testing ETS, 86 Fed. Reg. 61,402 (Nov. 5, 2021): asserted federal authority to mandate vaccine-or-test policies for private employers in all states regardless of state law",
+          "2024 Democratic Party Platform: endorsed federal action to establish national standards on voting rights, climate, housing, and healthcare, explicitly rejecting a return to state-by-state variation"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "In opposition, Democrats have adopted selective federalism arguments to defend state authority against Trump-era federal coercion, particularly defending states that resist federal immigration enforcement or seek to preserve state environmental and social-program standards above federal minimums. This represents a tactical rather than principled shift toward greater acceptance of state autonomy.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic state AG coalition lawsuits challenging EO 14173 (Jan.-Mar. 2025): argued federal DEI grant conditions constituted unconstitutional coercion of state universities and governments",
+          "Senate Democratic Policy Committee statement (Feb. 2025): defended California's right to maintain stricter vehicle-emissions standards against federal preemption attempts",
+          "Democratic opposition to second-term immigration enforcement directives: framed sanctuary-city protections as a matter of state and local sovereignty, invoking anti-commandeering principles"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "agency-deference",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush administration generally accepted and exploited agency-deference doctrines when they shielded executive regulatory choices from judicial second-guessing, particularly on environmental rollbacks, national-security-related rulemaking, and financial regulation. Republicans did not challenge the deference framework while they controlled the executive branch and benefited from it.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "2004 Republican Party Platform: emphasized regulatory relief and executive management of agencies without calling for limits on judicial deference to agency interpretations",
+          "Bush EPA reliance on Chevron deference to support the 'clear skies' regulatory interpretation and to defend NAAQS rollbacks against industry and environmental challengers in court briefs",
+          "OLC opinions (2001-2007) on AUMF and surveillance: invoked broad agency and executive interpretive authority, implicitly relying on deference principles to insulate legal interpretations from judicial review"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of power, Republicans pivoted sharply to criticizing Chevron deference as an unconstitutional delegation of judicial power to politically motivated agencies, attacking the Obama EPA's and NLRB's expansive statutory interpretations. Congressional Republicans introduced legislation to require de novo judicial review of major agency rules and to restrict agency interpretive latitude.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "REINS Act, H.R. 10 (2011, 2013, 2015): passed by House Republicans to require congressional approval of major rules, reflecting distrust of broad agency interpretive authority",
+          "2012 Republican Party Platform: condemned regulatory overreach and called for reforms curbing agency discretion, including enhanced congressional and judicial oversight of rulemaking",
+          "Regulatory Accountability Act, H.R. 185 (2015): passed by Republican House to impose de novo judicial review of agency legal interpretations, directly targeting Chevron deference"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "The first Trump administration was schizophrenic on deference: it relied on agency interpretive authority when reversing Obama-era regulations (claiming the same deference for its own rollbacks) while publicly attacking the deference framework through its judicial nominees and regulatory-reform agenda. EO 13771 imposed a one-in-two-out rule that implied agencies should be constrained, not expansively empowered.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 13771 (Jan. 30, 2017): required agencies to repeal two rules for every new rule issued and imposed a regulatory cost cap, signaling skepticism of expansive agency authority even while relying on agency interpretive power to roll back prior rules",
+          "EO 13777 (Feb. 24, 2017): directed agencies to establish regulatory reform task forces and reduce interpretive guidance documents, targeting the informal agency interpretive practices undergirded by deference doctrine",
+          "2020 Republican Party Platform: called for slashing regulations and ending 'regulatory overreach,' implicitly attacking the deference framework that enables broad agency interpretation, while Trump administration simultaneously used that framework to defend its own rulemaking"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "In opposition, Republicans fully embraced the anti-deference position, supporting litigation challenging Chevron's constitutionality and the major-questions doctrine as a limit on agency authority. The party championed judicial de novo review of agency statutory interpretations as a separation-of-powers imperative.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Amicus briefs filed by Republican state AGs in Loper Bright Enterprises v. Raimondo (2024): urged the Court to overturn Chevron deference as an unconstitutional transfer of Article III interpretive power to agencies",
+          "2024 Republican Party Platform: called for dismantling the administrative state and restoring congressional and judicial control over regulatory interpretation",
+          "House passage of the Separation of Powers Restoration Act, H.R. 288 (2023): directed courts to review agency statutory interpretations de novo, directly eliminating Chevron deference by statute"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has again inverted its stated position: it publicly celebrates the end of Chevron deference while relying on broad agency interpretive discretion and presidential directive to implement sweeping regulatory and spending changes at agencies like DOGE-restructured OMB and the Department of Education. The party's rhetoric opposes deference while executive practice depends on unchecked agency action.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 14219 (Feb. 19, 2025): directed all executive agencies to submit regulatory agendas consistent with presidential policy priorities, centralizing interpretive authority in the White House rather than courts or Congress",
+          "OMB memo (Feb. 2025) pausing congressionally appropriated grant disbursements: relied on executive interpretive authority over appropriations law without seeking judicial or congressional sanction",
+          "2025 administration statements celebrating Loper Bright while simultaneously directing CFPB, EPA, and Education Department to use residual agency interpretive authority to rescind prior rules in ways that courts have not yet reviewed"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "agency-deference",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats consistently defended Chevron and related deference doctrines as necessary to protect expert regulatory agencies' ability to interpret complex statutes, attacking Bush administration rollbacks as arbitrary under the APA rather than challenging the deference framework itself. The party's litigation strategy in opposition depended on arguing agencies had been unreasonable under Chevron step two, not on rejecting deference.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "2004 Democratic Party Platform: defended independent regulatory agencies and their expert authority against Bush administration political interference, implicitly endorsing the deference framework",
+          "Democratic amicus and advocacy positions in Massachusetts v. EPA (2007): argued the EPA was obligated to exercise its statutory interpretive authority under the Clean Air Act to regulate greenhouse gases, invoking the deference framework to compel rather than limit agency action",
+          "Senate Democratic floor statements opposing Bush EPA rollbacks (2002-2005): characterized reversals of Clinton-era rules as arbitrary and capricious under the APA, accepting Chevron's framework while contesting its application"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "The Obama administration aggressively relied on Chevron and its progeny to defend landmark regulatory initiatives\u2014the Clean Power Plan, net neutrality, DACA, and Dodd-Frank implementing rules\u2014arguing that complex and ambiguous statutes delegated gap-filling authority to expert agencies. Democrats defended broad deference as constitutionally sound and practically essential.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "DOJ and agency briefs defending Clean Power Plan (2015-2016): argued EPA had Chevron-supported authority to read Clean Air Act Section 111(d) to address system-wide generation-shifting, a broad interpretive claim dependent on deference",
+          "FCC Open Internet Order, 80 Fed. Reg. 19,738 (2015): relied on Chevron deference and Brand X to reclassify broadband as a Title II telecommunications service, defended by Obama administration and Democratic commissioners",
+          "2016 Democratic Party Platform: endorsed robust federal regulation on climate, financial markets, and workers' rights, presupposing the continued validity of agency deference doctrines enabling such regulation"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Democrats ardently defended Chevron deference against Republican legislative and judicial attacks, arguing that eliminating deference would paralyze environmental, financial, and labor regulation by forcing courts to second-guess every agency interpretation. The party filed amicus briefs and issued platform statements warning that anti-deference doctrine was a tool of deregulation.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic minority opposition to REINS Act reintroduction (H.R. 26, 2017): Senate Democrats argued the bill would gut agency authority and undermine expert regulatory governance",
+          "Democratic amicus briefs in Kisor v. Wilkie (2019): supported retention of Auer deference to agency interpretations of their own regulations as necessary for stable administrative governance",
+          "2020 Democratic Party Platform: defended the regulatory state and expert agency authority, calling for reversal of Trump administration deregulatory actions and restoration of Obama-era rules"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "The Biden administration continued to rely heavily on Chevron and the major-questions doctrine's counter-arguments to defend expansive regulatory authority on climate, student loans, and labor, while publicly supporting the deference framework in litigation. Democrats treated growing judicial skepticism of deference as a threat to the progressive regulatory agenda.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Biden DOJ briefs in Loper Bright Enterprises v. Raimondo (2023-2024): defended Chevron as a constitutionally sound allocation of interpretive authority that courts should retain",
+          "Biden EPA and DOJ defense of tailpipe emissions rules (2023): relied on broad agency authority under Clean Air Act to set vehicle-emissions standards, with DOJ arguing agencies possessed Chevron-protected interpretive latitude",
+          "2024 Democratic Party Platform: affirmed the role of expert regulatory agencies and warned that the Republican agenda to eliminate deference would undermine environmental, financial, and public-health regulation"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "In opposition, Democrats have found themselves defending agency expertise and statutory interpretation against a Trump administration that now uses unilateral executive authority rather than Chevron-style deference\u2014arguing that agencies must follow notice-and-comment rulemaking, APA constraints, and statutory text even when those constraints limit executive action Democrats once championed. The party's pro-deference position has evolved into a defense of APA procedural regularity over unchecked executive discretion.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic state AG coalition lawsuits challenging DOGE-directed agency restructuring (Feb.-Mar. 2025): argued agencies must follow APA and statutory mandates rather than presidential directive alone, invoking rule-of-law principles that overlap with the deference framework's statutory-fidelity rationale",
+          "Senate Democratic floor statements opposing OMB grant-pause memo (Feb. 2025): argued executive agencies are bound by congressional appropriations statutes and cannot substitute executive interpretations for statutory commands",
+          "Democratic amicus positions in pending APA challenges to Education Department and EPA rescissions (2025): argued that post-Loper Bright courts must still apply APA arbitrary-and-capricious review and that agencies cannot act outside statutory text, defending a rule-of-law check on executive interpretive overreach"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "standing-justiciability",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush administration generally favored narrow standing rules to limit challenges to executive counterterrorism and national-security programs, opposing legislative expansions that would allow citizens to sue over government surveillance or detention policies without demonstrating individualized harm. The administration filed briefs arguing that generalized grievances over executive conduct belong to the political branches rather than federal courts.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "DOJ amicus and litigation positions in Rumsfeld v. Forum for Academic and Institutional Rights (2006) and related national-security cases arguing that plaintiffs lacked particularized injury sufficient for Article III standing",
+          "Bush administration opposition to the Standing to Sue for Environmental Harm provisions sought by environmental plaintiffs, consistent with restricting diffuse-injury claims; see administration statements accompanying EPA regulatory actions (2001-2008)"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of executive power, congressional Republicans backed standing-expanding litigation vehicles when politically advantageous, including supporting state attorneys general suits challenging the Affordable Care Act and EPA rules, and co-sponsoring legislation such as the REINS Act (H.R. 10, 2011) that would have enabled broader congressional standing to challenge major rules. This reflected a selective, outcome-driven use of expanded access to courts rather than principled enforcement of narrow standing doctrine.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "House Republicans filed as amici or intervenors in Florida v. United States Department of Health and Human Services (11th Cir. 2011), supporting expansive state standing to challenge the ACA individual mandate despite doctrinal concerns about third-party and organizational standing",
+          "REINS Act of 2011 (H.R. 10, 112th Congress), co-sponsored by House Republican leadership, included provisions creating congressional standing to nullify major agency rules, a mechanism critics noted would circumvent traditional injury-in-fact requirements"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "The first Trump administration revived strict standing arguments to defend executive actions from legal challenge, filing motions to dismiss suits over immigration enforcement, environmental rollbacks, and financial regulation on grounds that plaintiffs lacked concrete injury or redressability. Simultaneously, the administration supported state-led suits challenging Obama-era policies where Republican-aligned states could assert standing as regulated parties.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "DOJ briefs in DHS v. Regents of the University of California (2020) and related DACA litigation argued that advocacy organizations and universities lacked the requisite particularized injury to challenge rescission of the program",
+          "Trump DOJ's support for Texas-led coalition in Texas v. United States (5th Cir. 2019) challenging ACA, where the administration argued states had standing as employers subject to the employer mandate while simultaneously urging narrow standing in other contexts"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "In opposition, congressional Republicans championed expansive standing for states and regulated industries to challenge Biden-era agency rules and executive orders, including provisions in legislation and resolutions invoking the Congressional Review Act that assumed broad institutional standing. Republican attorneys general pursued multi-state litigation challenging vaccination mandates, student loan forgiveness, and energy regulations, asserting novel theories of state standing as parens patriae.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Republican-led coalition of 27 states filed in Biden v. Nebraska (2023), asserting state standing to challenge student-loan forgiveness under the HEROES Act; Republican amici argued for expansive state sovereign-interest standing beyond traditional proprietary injury theories",
+          "House Republicans passed the Regulatory Accountability Act of 2023 (H.R. 277, 118th Congress), which included provisions broadening judicial review triggers and standing for regulated entities to challenge agency rulemaking before rules took effect"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has aggressively contested standing in suits challenging executive orders on immigration, birthright citizenship, and agency reorganization, arguing in federal courts that plaintiffs including states and advocacy organizations lack sufficient concrete injury. At the same time, the administration has supported Republican congressional proposals to codify standing for states challenging federal regulations, reflecting continued selective deployment of standing doctrine based on litigation posture.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "DOJ motions to dismiss in Trump v. CASA (4th Cir. 2025) and related birthright-citizenship suits argued that plaintiff states lacked particularized injury and that organizational standing based on diversion-of-resources theory was overbroad",
+          "Republican-backed State Sovereignty and Regulatory Relief Act introduced in the 119th Congress (2025) proposed statutory standing for any state to challenge federal regulations affecting state fiscal interests, explicitly expanding beyond Article III minimum floor as supplemented by congressional authorization"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "standing-justiciability",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats in Congress and Democratic-aligned litigants pushed to expand access to courts for environmental, civil-rights, and national-security plaintiffs, backing legislation such as the procedural rights provisions in the Clean Air Act and supporting broad organizational and associational standing theories in litigation against Bush administration policies. The party's practical stance opposed strict injury-in-fact requirements when diffuse harms or systemic violations were alleged.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic members of Congress filed amicus briefs in Massachusetts v. EPA (2007) arguing that states and environmental organizations should have standing to compel EPA greenhouse gas regulation based on probabilistic future climate harms, a non-traditional injury-in-fact theory",
+          "Democratic co-sponsors of the National Security Whistleblower Protection Act (S. 1 114, 2007) sought to create statutory standing for employees and advocacy groups to challenge NSA surveillance programs, expressly attempting to use Congress's power to confer standing for injuries falling short of judicially developed minima"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "The Obama administration used litigation posture to expand standing where it aligned with policy goals, including supporting organizational standing in civil-rights and environmental suits, while opposing narrow standing arguments that would insulate executive national-security programs from review. The administration's DOJ generally argued that statutory conferral of standing by Congress should be given weight, supporting the liberal doctrinal position that Congress may lower prudential barriers.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Obama DOJ brief in Clapper v. Amnesty International USA (2013) ultimately opposed broad probabilistic standing for surveillance targets, but the administration's broader regulatory agenda supported legislative standing expansions in the Dodd-Frank Act (2010), which created statutory private rights of action and whistleblower standing for financial industry plaintiffs",
+          "EPA and DOJ jointly defended broad organizational standing for environmental groups challenging Clean Power Plan opponents in D.C. Circuit proceedings (2015-2016), arguing that diffuse climate-related injuries satisfy injury-in-fact when Congress has legislatively identified the protected interest"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Out of executive power, Democrats and Democratic-aligned state attorneys general aggressively invoked expansive standing theories to challenge Trump administration executive orders and agency rollbacks, asserting state standing as parens patriae, organizational standing based on mission-diversion, and novel theories of informational injury under statutory schemes. Congressional Democrats introduced legislation to codify broad standing for environmental and civil-rights plaintiffs.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic attorneys general in Washington v. Trump (9th Cir. 2017) successfully argued that states had standing to challenge the travel ban based on injury to state universities and state residents, invoking broad third-party and parens patriae standing theories that went beyond traditional proprietary injury",
+          "The Environmental Justice Act of 2018 (H.R. 2821, 115th Congress), introduced by House Democrats, included provisions creating statutory standing for community organizations to challenge environmental permitting decisions based on cumulative disparate impact, explicitly lowering the injury-in-fact threshold through congressional authorization"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "The Biden administration supported broad congressional standing-conferral in climate, voting-rights, and consumer-protection legislation while its DOJ defended administration programs against narrow standing challenges by Republican states. The administration backed expanded qui tam and citizen-suit provisions in proposed legislation and filed briefs arguing for relaxed injury-in-fact standards in statutory enforcement contexts.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Biden DOJ defended broad organizational standing for voting-rights groups in litigation challenging state election laws (e.g., supporting plaintiffs in consolidated Arizona voting-rights suits, 2022-2023), arguing that statistical injury to an organization's members satisfies concrete-injury requirements",
+          "Build Back Better Act (H.R. 5376, 117th Congress, as passed by House, 2021) included citizen-suit provisions in its climate and environmental titles that would have statutorily conferred standing on individuals and organizations for diffuse environmental harms, reflecting the Democratic position that Congress may expand judicial access beyond judge-made minima"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "In opposition, congressional Democrats and Democratic-aligned states have championed broad standing for challengers of second-term Trump executive orders, supporting multi-state litigation that asserts state parens patriae standing, organizational diversion-of-resources injury, and statutory standing under existing civil-rights and administrative statutes. Democratic legislators have introduced bills to codify expanded access to courts for impacted communities and to override anticipated narrow-standing rulings.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic attorneys general in CASA v. Trump (D. Md. 2025) and parallel suits challenging birthright-citizenship executive orders argued for expansive state and organizational standing based on anticipated fiscal and programmatic harms to state agencies, asserting injury prior to any concrete enforcement action",
+          "Access to Courts Restoration Act introduced by Senate Democrats in the 119th Congress (2025) proposed overriding recent doctrinal narrowing of the injury-in-fact requirement for informational and procedural injuries, expressly invoking Congress's Article III authority to confer standing for statutory rights violations without independent proof of tangible harm"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "presidential-immunity",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush administration DOJ asserted broad executive privilege and argued that the President's exercise of commander-in-chief authority was largely immune from judicial review, particularly in the national-security and detention contexts. The administration resisted congressional subpoenas and judicial process directed at senior executive officials on structural immunity grounds.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "DOJ Office of Legal Counsel memoranda (2001-2003) asserting that the President's authority as Commander-in-Chief over detention and interrogation policy could not be regulated or subjected to judicial second-guessing (the 'Torture Memos' series, especially Bybee memo, Aug. 1, 2002).",
+          "Bush administration refusal to comply with congressional subpoenas for Karl Rove and Harriet Miers in the U.S. Attorneys firing investigation (2007-2008), invoking absolute executive privilege and presidential-communications immunity."
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Republicans in Congress, now in opposition, reversed course and pressed aggressively for accountability from the Obama administration, using subpoenas and contempt resolutions to compel disclosure rather than shielding executive actors. Republican rhetoric shifted toward emphasizing that no one is above the law, undercutting broad immunity claims they had championed while in power.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "House Republican majority held Attorney General Eric Holder in contempt of Congress (June 2012) over Fast and Furious documents, directly contesting the Obama administration's assertion of executive privilege\u2014a position that implicitly narrowed immunity claims for executive-branch conduct.",
+          "Republican-led House Select Committee on Benghazi (2014-2016) sought extensive document production and sworn testimony from former Secretary Clinton and current executive officials, rejecting broad immunity or privilege claims as a shield against congressional oversight."
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "The Trump administration and congressional Republicans reasserted sweeping presidential immunity claims, arguing that a sitting president cannot be indicted, that the special counsel investigation was constitutionally illegitimate, and that all presidential communications and tax records were immune from compelled disclosure to Congress and state prosecutors. Republican senators unified around rejecting post-impeachment criminal accountability.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "DOJ Office of Legal Counsel reaffirmed and extended its 2000 opinion that a sitting president is categorically immune from federal indictment while in office, a position the Trump DOJ invoked to foreclose Mueller investigation charging decisions (OLC opinion cited in Mueller Report, Vol. II, 2019).",
+          "Senate Republican caucus (45 of 50 senators) voted in the second impeachment trial (Feb. 2021) that the Senate lacked jurisdiction to convict a former president, effectively arguing that post-term congressional accountability proceedings\u2014and by implication criminal prosecution\u2014were constitutionally impermissible for official conduct."
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Out-of-power Republicans and Trump's legal team advanced maximalist presidential immunity arguments in federal and state court proceedings arising from the 2020 election, contending that all official acts of the presidency are absolutely immune from criminal prosecution and that state-court jurisdiction over a former president is constitutionally barred. Congressional Republicans largely opposed the January 6 select committee and resisted any accountability framework that would expose a former Republican president to legal liability.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Trump defense filings in United States v. Trump (D.D.C., Case No. 23-cr-257) argued that a former president enjoys absolute immunity from criminal prosecution for all official acts, that the indictment violated separation of powers, and that the Impeachment Judgment Clause bars prosecution absent prior Senate conviction (Motion to Dismiss, Dec. 2023).",
+          "House Republican majority voted to hold the January 6 select committee's criminal referrals in contempt procedurally and declined to reauthorize the committee in the 118th Congress (Jan. 2023), removing an institutional mechanism that could have generated factual records usable in prosecution."
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has institutionalized the broadest practical immunity position in modern executive history, with the DOJ moving to dismiss federal prosecutions of the president and adopting internal guidance treating presidential directives as categorically unreviewable in a range of contexts. Executive orders and DOJ policy have operationalized the view that official acts attract absolute immunity and that state or private legal action targeting presidential decisions constitutes an unconstitutional incursion on executive power.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Acting Deputy Attorney General's January 2025 directive instructing DOJ to move to dismiss all pending federal criminal cases against President Trump, on the stated ground that continued prosecution of a sitting president is constitutionally impermissible, citing and extending prior OLC guidance on presidential immunity from indictment.",
+          "Executive Order on 'Protecting the American People Against Invasion' and associated DOJ guidance (2025) asserting that presidential determinations in immigration enforcement are official-act exercises of core Article II authority immune from judicial injunction, reflecting a broader administration posture that official-act immunity forecloses equitable as well as criminal process."
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "presidential-immunity",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats in Congress and opposition legal commentators consistently argued that the Bush administration's executive-privilege and commander-in-chief immunity claims were constitutionally overreaching, urging courts and Congress to reject the view that the president's official acts were insulated from judicial review or legislative oversight. The party's practical position treated immunity as a narrow exception, not a broad shield.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Senate Democratic leadership opposed the Bush administration's assertion of absolute executive privilege over U.S. Attorney dismissal communications (2007), with Senate Judiciary Committee Democrats issuing subpoenas and voting to authorize civil enforcement suits to compel testimony from Rove and Miers.",
+          "Democratic senators and House members publicly opposed OLC legal positions shielding enhanced-interrogation decisions from accountability, calling for special prosecutor investigations and arguing that presidential direction of illegal conduct could not be immunized by official-act designation (Senate Armed Services Committee report, Dec. 2008)."
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "The Obama administration DOJ maintained the traditional OLC position that a sitting president is immune from federal indictment while in office but otherwise avoided expansive immunity claims in civil litigation and declined to assert that former presidents carried forward absolute immunity for official acts. The administration accepted rather than contested congressional oversight in most contexts, though it invoked executive privilege selectively.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Obama DOJ invoked executive privilege over Fast and Furious documents in June 2012 but framed the claim narrowly as deliberative-process privilege rather than absolute presidential immunity, distinguishing prior Bush-era categorical immunity assertions and accepting judicial review of the privilege claim's scope.",
+          "Obama administration filed briefs in civil immunity cases (e.g., Jaber v. United States, D.C. Cir. 2015) that preserved some official-act immunity defenses for national-security conduct, reflecting a mixed posture that accepted immunity for core functions while rejecting absolute or categorical coverage."
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Congressional Democrats led two impeachment proceedings and supported the special counsel investigation, consistently maintaining that a sitting or former president enjoys no immunity from congressional accountability or, ultimately, from criminal prosecution for conduct that violates federal law. The party platform and caucus messaging strongly emphasized the rule-of-law principle that no person\u2014including the president\u2014is above the law.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "House Democratic impeachment managers in the first Trump impeachment (Jan. 2020) explicitly argued that the Constitution provides no immunity from congressional removal proceedings for official acts and that the Framers rejected any king-like executive exemption from accountability, directly contesting structural immunity claims advanced by the Trump defense.",
+          "Democratic National Committee 2020 platform stated: 'No one is above the law, including the President,' and called for the repeal or reform of DOJ policy shielding a sitting president from indictment, signaling the party's official rejection of categorical immunity doctrine."
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Democrats supported the January 6 select committee's criminal referrals, backed the DOJ's decision to seek indictments of a former president for post-presidential and election-related conduct, and argued in public and amicus filings that former presidents retain no immunity from prosecution for conduct\u2014including official acts\u2014that constitutes a crime. The party treated post-term criminal accountability as constitutionally required by the rule of law.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "House January 6 Select Committee (Democratic-majority) criminal referral to DOJ (Dec. 2022) formally recommended prosecution of former President Trump on four counts, explicitly rejecting any immunity defense and arguing that the Impeachment Judgment Clause's reference to subsequent criminal liability confirms that the Framers intended former presidents to be prosecutable.",
+          "Senate Democratic caucus members filed or joined amicus briefs in Trump v. United States arguing that recognizing absolute immunity for official acts would eliminate accountability for the most serious abuses of power and was unsupported by constitutional text, history, or structure."
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Democrats have uniformly opposed the second Trump administration's assertion of categorical presidential immunity, condemning DOJ's dismissal of pending criminal cases as a corruption of the rule of law and supporting ongoing state-level prosecutions and civil suits as constitutionally valid accountability mechanisms. The party has called for legislative action to codify limits on presidential immunity and to prevent future DOJ dismissals of cases against sitting presidents on immunity grounds.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Senate Democratic minority introduced the 'No President Is Above the Law Act' (2025), proposing to toll statutes of limitations during a president's term and to prohibit DOJ from dismissing cases against a sitting president on immunity grounds alone, directly repudiating the immunity position operationalized by the Trump DOJ.",
+          "Democratic state attorneys general in multiple jurisdictions filed briefs supporting continued state-court jurisdiction over former-president defendants and opposing federal preemption or removal arguments premised on immunity, arguing that the Constitution's silence on express immunity precludes judicially or executively created absolute protection."
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "nationwide-injunctions",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush administration generally operated under an era when nationwide injunctions were relatively rare and did not face systematic obstruction of its agenda through such orders; the DOJ did not mount a sustained campaign against the practice, and Republican rhetoric focused instead on 'activist judges' overturning legislation rather than on the geographic scope of injunctive relief specifically.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "DOJ briefs in Hamdan v. Rumsfeld (2006) and related enemy combatant litigation contested judicial authority over executive war powers but did not argue that any resulting injunctive relief should be narrowed to named parties, reflecting an undeveloped party position on remedy scope.",
+          "The Republican Party platform of 2004 attacked 'judicial activism' broadly and called for 'strict constructionist' judges, but the platform's critique targeted substantive rulings on issues such as marriage and religion rather than the universal geographic reach of injunctive orders."
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of executive power and confronting an Obama administration whose policies they opposed, Republican legislators and state attorneys general began aggressively using single-district litigation to obtain nationwide injunctions blocking Obama-era rules, including immigration and environmental regulations, demonstrating an opportunistic embrace of the practice despite rhetorical alignment with limiting judicial overreach.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Texas v. United States (S.D. Tex. 2015), brought by a Republican-led coalition of 26 states, produced a nationwide injunction blocking the Obama administration's Deferred Action for Parents of Americans (DAPA) program; Republican state AGs celebrated the ruling and made no argument limiting its geographic scope to the plaintiff states.",
+          "House Republicans introduced the Separation of Powers Restoration Act of 2016 (H.R. 4768) to curtail agency deference, but no parallel legislative proposal during this period sought to restrict the geographic scope of injunctions that Republican-allied plaintiffs were actively obtaining against Obama policies."
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Upon returning to executive power, the Trump administration reversed course and became the most vocal institutional opponent of nationwide injunctions in modern history, with DOJ briefs, Attorney General statements, and White House rhetoric consistently arguing that single district courts lacked authority to freeze government-wide enforcement of executive policies and that such orders enabled minority forum-shopping.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Attorney General Jeff Sessions issued a memorandum in 2018 directing DOJ litigators to challenge the scope of nationwide injunctions in all appropriate cases and to argue that relief should be limited to the named plaintiffs, marking the first systematic executive branch campaign against the practice.",
+          "The Trump DOJ's briefs in challenges to the travel ban (Hawaii v. Trump, 9th Cir. 2017) and the 'public charge' rule argued explicitly that universal injunctions exceed the equitable authority of district courts and that the proper vehicle for class-wide relief is a class action certified under Rule 23, a position consistent with the principled conservative doctrine."
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Out of power again, Republican state attorneys general and aligned advocacy groups reverted to aggressively seeking nationwide injunctions against Biden administration policies on immigration, vaccine mandates, and student loan relief, abandoning the principled objections raised while the party held the executive and instead treating broad injunctive relief as a strategic tool.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Republican-led states obtained a nationwide injunction from the Southern District of Texas in Biden v. Nebraska-related proceedings blocking the administration's student loan forgiveness program, and no prominent Republican official or legislator argued that the order's geographic scope should be limited to the plaintiff states.",
+          "A coalition of Republican AGs secured a nationwide injunction in Missouri v. Biden (W.D. La. 2022) concerning administration contacts with social media companies; the plaintiffs and their Republican allies made no argument for narrowing relief to the named parties, directly contradicting the party's stated position during the first Trump term."
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Back in executive power, the Trump administration has again positioned itself as a systematic opponent of nationwide injunctions, with DOJ briefs and executive officials publicly condemning district court orders blocking immigration enforcement and other second-term initiatives as illegitimate usurpations of executive authority by individual judges, and calling for legislative or procedural reforms to curtail the practice.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "The Trump DOJ filed emergency applications in multiple circuits in early 2025 arguing that district court nationwide injunctions blocking second-term executive orders on birthright citizenship and immigration enforcement exceeded traditional equitable authority and should be stayed pending appeal, explicitly invoking the party-of-record limiting principle.",
+          "Administration officials including senior DOJ leadership made public statements in 2025 calling on Congress to enact legislation limiting the geographic scope of district court injunctive relief to the named plaintiffs, echoing proposals that had been circulated within conservative legal circles since the first term."
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "nationwide-injunctions",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Out of executive power and facing Bush administration policies they opposed, Democrats and aligned advocacy groups used federal litigation to seek broad injunctive relief against Bush-era security and environmental actions, treating nationwide court orders as a legitimate check on executive overreach without developing a principled position on remedy scope.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "The ACLU and allied Democratic-aligned groups obtained broad injunctions against NSA surveillance programs exposed after 2005, arguing that relief must extend beyond named plaintiffs because the surveillance was by definition covert and the class of affected parties unknowable, a practical argument for universality that had no limiting principle.",
+          "Democratic members of Congress praised district court orders blocking Bush environmental rollbacks in cases such as challenges to the Clean Air Act's New Source Review rules, making no argument that such orders should be limited to the jurisdictions of the plaintiff states or the named organizational plaintiffs."
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Holding executive power, the Obama administration was on the receiving end of nationwide injunctions issued at the behest of Republican states and did not mount a systematic campaign against the practice, instead contesting individual orders on the merits while accepting the basic legal framework that allowed such broad relief; DOJ briefs did not consistently argue for limiting injunctions to named parties.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "The Obama DOJ's briefing in Texas v. United States (5th Cir. 2015-16), challenging the nationwide injunction blocking DAPA, focused on the merits of the immigration policy and on appellate procedure rather than on a principled argument that the district court lacked authority to issue government-wide relief, reflecting the administration's strategic choice not to contest injunction scope.",
+          "Senate Democrats blocked floor consideration of Republican proposals that would have curtailed judicial remedies, including measures relating to immigration injunctions, but offered no affirmative legislative alternative to reform the scope of nationwide injunctions, indicating acquiescence in the practice as a check on executive action."
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Out of executive power and facing the first Trump term, Democrats and aligned state attorneys general became the most frequent beneficiaries and most outspoken defenders of nationwide injunctions, arguing that they were a necessary and historically grounded equitable remedy to protect individuals uniformly subject to unlawful federal policies, while dismissing Trump administration arguments against them as self-interested special pleading.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic AGs from California, New York, and Washington publicly defended the nationwide injunctions blocking the travel ban as essential to protecting all persons subject to the policy, arguing in amicus briefs that partial injunctions limited to plaintiff states would be impractical and would create an incoherent patchwork of enforcement.",
+          "Democratic members of Congress and party leaders issued statements criticizing the Trump DOJ's 2018 campaign against nationwide injunctions as an attempt to insulate unlawful executive action from judicial accountability, framing broad injunctive relief as an essential constitutional check rather than a problematic expansion of judicial power."
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Back in executive power and now facing nationwide injunctions issued against their own policies, the Biden administration and Democratic legal commentators began to express more nuanced or critical views of the practice, with some DOJ filings arguing against overly broad injunctive relief in specific cases, though the party did not pursue systematic reform or legislative action.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "The Biden DOJ in several appellate briefs, including in proceedings related to the student loan forgiveness litigation, argued that injunctive relief should be tailored to the plaintiffs' demonstrated injuries and should not extend to a universal bar on program implementation, a partial adoption of the limiting principle the party had rejected during the first Trump term.",
+          "Democratic senators introduced no legislation to curtail nationwide injunctions during the Biden term despite facing repeated district court orders blocking administration priorities, indicating that while individual DOJ briefs reflected a more cautious posture, no party-wide institutional commitment to reforming the practice emerged."
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Out of executive power in the second Trump term, Democrats and aligned advocacy groups have returned to full-throated defense of nationwide injunctions as essential democratic safeguards, with party leaders and state AGs celebrating district court orders blocking second-term Trump executive actions and arguing that any effort to curtail such relief through legislation or procedural rules would undermine the rule of law.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic state AGs from a multi-state coalition filed amicus briefs in early 2025 defending nationwide injunctions blocking second-term immigration orders, arguing that the Trump administration's campaign against broad injunctive relief was an unprecedented assault on judicial independence and that universal relief was necessary to prevent irreparable harm to non-party individuals.",
+          "Senate Democratic leaders publicly criticized Republican proposals introduced in 2025 to legislatively cap the geographic scope of district court injunctions, characterizing the proposals as designed to immunize unlawful executive action rather than to vindicate any genuine principle of equity or separation of powers."
+        ]
+      }
+    ]
+  }
+]

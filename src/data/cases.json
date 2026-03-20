@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "nfib-v-sebelius-2012",
+    "title": "NFIB v. Sebelius",
+    "year": 2012,
+    "scotus_citation": "567 U.S. 519 (2012)",
+    "area": "Federalism / Spending Power",
+    "doctrine_ids": [
+      "federalism-states-rights",
+      "congressional-spending-authority"
+    ],
+    "description": "The Court upheld the Affordable Care Act's individual mandate as a valid exercise of the taxing power, while finding the mandate could not be sustained under the Commerce Clause. Seven justices also held that the Medicaid expansion as drafted was unconstitutionally coercive of states under the Spending Clause, though a majority upheld the expansion with the coercive penalty severed.",
+    "factual_background": "Congress enacted the Affordable Care Act in 2010, including an individual mandate to purchase health insurance and a Medicaid expansion that conditioned all states' existing Medicaid funding on participation in the expansion. Twenty-six states challenged the law as exceeding Congress's enumerated powers.",
+    "doctrine_prediction": "A principled federalism adherent would hold that Congress may not use Spending Clause conditions to coerce states into accepting new programs by threatening their existing federal funding; the ACA Medicaid expansion as originally written crossed the line from permissible inducement to unconstitutional coercion. On the Commerce Clause, the same adherent would hold that the power to regulate commerce does not extend to compelling individuals to engage in commerce they have not chosen to enter.",
+    "r_party_prediction": "The Republican Party in 2012 sought invalidation of the entire ACA as exceeding Congress's enumerated powers, arguing both the individual mandate and the Medicaid expansion were unconstitutional.",
+    "d_party_prediction": "The Democratic Party sought full affirmance of the ACA, arguing that both the individual mandate and the unconditional Medicaid expansion were valid exercises of Congress's Commerce, Necessary and Proper, and Spending Clause authority.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine and party interest diverge primarily for the Chief Justice (R-appointed, upheld ACA overall against his party's interest) and for D-appointed justices on the Medicaid coercion holding (they dissented from the federalism limit against their party's interest in maximizing federal expansion). However, the Commerce Clause question is genuinely complex and the Tax Clause rationale is plausible, reducing the pure partisan signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Would have struck down the entire ACA; joined the plurality on Commerce Clause limits; dissented from the Tax Clause rationale upholding the mandate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the controlling opinion: upheld the individual mandate as a valid tax, held the mandate could not be sustained under the Commerce Clause, and wrote the Medicaid coercion holding limiting the expansion remedy",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Would have struck down the entire ACA; joined the plurality on Commerce Clause limits; dissented from the Tax Clause rationale",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding the ACA; dissented from the Medicaid coercion holding and would have upheld the full Medicaid expansion without limitation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding the ACA; dissented from the Medicaid coercion holding and would have upheld the full Medicaid expansion without limitation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/11pdf/11-393c3a2.pdf",
+      "https://www.scotusblog.com/case-files/cases/national-federation-of-independent-business-v-sebelius/"
+    ],
+    "assumptions": [
+      "We treat the Medicaid coercion holding as the primary test of federalism doctrine because it is the clearest application of Spending Clause anti-coercion principles.",
+      "The Chief Justice's Tax Clause rationale is treated as a partial departure from R party interest because the R party sought full invalidation and the ruling preserved the ACA.",
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2012.",
+      "We use the 2009-2017 period party positions for the 2012 case."
+    ],
+    "counterarguments": [
+      "One could argue that Thomas and Alito striking down the full ACA is both doctrine-aligned (enforcing enumerated power limits) AND party-aligned (R wanted ACA dead), making them non-diagnostic rather than diagnostic.",
+      "Roberts limited the Medicaid expansion through the coercion ruling, which was actually a conservative federalism victory even while upholding the overall law, making his vote mixed rather than purely party-against.",
+      "The Commerce Clause limit that Roberts wrote (joined by all four conservatives plus himself) was a significant federalism win for Republicans regardless of the Tax Clause result."
+    ]
+  },
+  {
+    "id": "nlrb-v-noel-canning-2014",
+    "title": "NLRB v. Noel Canning",
+    "year": 2014,
+    "scotus_citation": "573 U.S. 513 (2014)",
+    "area": "Executive Power / Recess Appointments",
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "description": "The Court unanimously held that the President's three recess appointments to the National Labor Relations Board were constitutionally invalid. The majority held that 'recess' means only intersession recesses of more than ten days; a four-justice concurrence would have applied an even stricter rule allowing only intersession recesses. All nine justices voted to limit the President's recess appointment power.",
+    "factual_background": "President Obama made three recess appointments to the NLRB during a three-day intrasession recess while the Senate was holding pro forma sessions. The NLRB subsequently issued a decision in a labor dispute. Noel Canning challenged the NLRB order, arguing the appointees were not validly confirmed.",
+    "doctrine_prediction": "A principled executive restraint adherent would hold that the Recess Appointments Clause must be construed to prevent the executive from circumventing Senate confirmation; presidential power requires grounding in constitutional text and structure, and the executive cannot manufacture recess conditions to bypass the Senate's advice and consent role.",
+    "r_party_prediction": "The Republican Party in 2014 opposed Obama's recess appointments as an unconstitutional power grab and sought to protect the Senate's confirmation role, making blocking the appointments a partisan priority.",
+    "d_party_prediction": "The Democratic Party and the Obama administration defended broad recess appointment authority as necessary to staff executive agencies when the Senate was effectively refusing to act on nominees.",
+    "signal_level": "high",
+    "signal_explanation": "D-appointed justices (seats 4 and 5) voted unanimously to limit a Democratic president's executive appointment power, placing doctrinal fidelity over party interest. The R-appointed justices' votes are less diagnostic because their party interest and doctrine both pointed toward limiting recess appointments. This case is high-signal specifically for Democratic-appointed justices.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in judgment; joined the stricter four-justice concurrence that would have invalidated all intrasession recess appointments regardless of length",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the four-justice concurrence taking the stricter view; concurred in the judgment limiting recess appointments",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the four-justice concurrence taking the stricter view; concurred in the judgment limiting recess appointments",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined Justice Breyer's majority opinion holding recess appointments invalid; voted to limit the President's recess appointment power against the position of the appointing party's president",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Joined Justice Breyer's majority opinion holding recess appointments invalid; voted to limit the President's recess appointment power against the position of the appointing party's president",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/13pdf/12-1281_3e04.pdf",
+      "https://www.scotusblog.com/case-files/cases/nlrb-v-noel-canning/"
+    ],
+    "assumptions": [
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2014.",
+      "We use the 2009-2017 period party positions: D party 'opposed' to executive restraint doctrine (supported broad executive action); R party 'mixed' (rhetorically aligned with restraint but not consistently).",
+      "The four-justice concurrence (Thomas, Roberts, Alito, plus Scalia not in our seat map) represents even stricter executive restraint than the majority, which remains doctrine-aligned.",
+      "We treat all votes as limiting the executive appointment power for purposes of doctrine alignment, though the degree of limitation differed."
+    ],
+    "counterarguments": [
+      "R-appointed justices limiting Obama's recess appointments could be read as party-motivated rather than principle-driven, since their party interest coincidentally aligned with doctrine, making their votes non-diagnostic rather than diagnostic.",
+      "The D-appointed justices who wrote and joined the majority (Breyer, Ginsburg, Kagan, Sotomayor, Kennedy) had a plausible doctrinal basis for allowing some recess appointments in genuine recesses, which is not the same as endorsing the Obama appointments at issue.",
+      "The unanimity of the result weakens the partisan signal somewhat, since a result that achieves 9-0 agreement is unlikely to be purely partisan."
+    ]
+  },
+  {
+    "id": "king-v-burwell-2015",
+    "title": "King v. Burwell",
+    "year": 2015,
+    "scotus_citation": "576 U.S. 473 (2015)",
+    "area": "Statutory Interpretation / Agency Deference",
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "description": "The Court held 6-3 that the phrase 'Exchange established by the State' in the Affordable Care Act encompasses federally established exchanges, preserving tax credit eligibility for millions of enrollees. The Chief Justice explicitly declined to apply Chevron deference, holding that questions of this magnitude for a major statute are for the courts to resolve independently.",
+    "factual_background": "The IRS issued a rule extending premium tax credits to health insurance purchased on federal exchanges as well as state exchanges. Plaintiffs in states with only federal exchanges argued the statutory text limited credits to 'Exchange established by the State,' which would have gutted the ACA in most states.",
+    "doctrine_prediction": "A principled agency-deference adherent applying Chevron would hold that the IRS's broad reading of an ambiguous statutory phrase is entitled to deference as a reasonable construction; courts should defer to agency expertise when Congress speaks ambiguously. A major-questions-skeptic would question whether this magnitude of policy decision should rest on agency interpretation.",
+    "r_party_prediction": "The Republican Party in 2015 sought a narrow reading of 'Exchange established by the State' that would eliminate tax credits on federal exchanges, effectively crippling the ACA's coverage provisions and achieving through litigation what the party could not achieve legislatively.",
+    "d_party_prediction": "The Democratic Party sought a broad reading preserving tax credits on all exchanges, consistent with the ACA's overall structure and the administration's IRS rule.",
+    "signal_level": "medium",
+    "signal_explanation": "The Chief Justice's vote is diagnostic: he upheld the ACA against his party's interest, though he also rejected Chevron deference (aligning with his party's anti-deference position on methodology). D-appointed justices are non-diagnostic (party and doctrine both point toward upholding). Thomas and Alito are diagnostic for the agency-deference doctrine: they refused to defer even through independent interpretation reaching the same result.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have read 'Exchange established by the State' to exclude federal exchanges, denying credits to millions and effectively invalidating the ACA in most states",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority upholding ACA subsidies on federal exchanges; explicitly declined to apply Chevron, instead applying independent judicial interpretation to find the broader reading compelled by statutory context and structure",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have read 'Exchange established by the State' narrowly to exclude federal exchanges",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding ACA subsidies on federal exchanges",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding ACA subsidies on federal exchanges",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/14pdf/14-114_qol1.pdf",
+      "https://www.scotusblog.com/case-files/cases/king-v-burwell/"
+    ],
+    "assumptions": [
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2015.",
+      "We use the 2009-2017 period party positions: R party 'aligned' with anti-deference position (attacked Chevron as unconstitutional delegation); D party 'aligned' with pro-deference position.",
+      "Roberts's vote is coded 'partial' for doctrine alignment because he reached the pro-deference result (upholding the agency-favored outcome) through anti-deference methodology (rejecting Chevron), making it ambiguous.",
+      "For party alignment, Roberts is coded 'no' because the R party's primary goal was to invalidate ACA subsidies, not to debate deference methodology."
+    ],
+    "counterarguments": [
+      "Roberts's rejection of Chevron could be coded as doctrine-aligned with the conservative anti-deference principled position, making his vote doctrine-aligned-and-party-against rather than doctrine-partial.",
+      "Thomas and Alito applying independent textual interpretation (anti-Chevron) could be seen as doctrine-aligned with the conservative principled position on agency deference, making their votes non-diagnostic (party-aligned AND doctrine-aligned).",
+      "The R party's stated position attacked Chevron generally, but their specific interest in this case was the narrow ACA reading; Roberts's outcome (upholding ACA) is unambiguously party-against."
+    ]
+  },
+  {
+    "id": "dhs-v-regents-2020",
+    "title": "DHS v. Regents of the University of California",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 1 (2020)",
+    "area": "Executive Power / Administrative Law",
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "description": "The Court held 5-4 that the Department of Homeland Security's rescission of the Deferred Action for Childhood Arrivals (DACA) program was arbitrary and capricious under the Administrative Procedure Act. The majority found that DHS failed to consider the reliance interests of DACA recipients and did not adequately explain its reasoning.",
+    "factual_background": "The Obama administration created DACA in 2012 through a DHS memorandum, deferring deportation proceedings for undocumented immigrants who arrived as children. The Trump administration rescinded DACA in 2017, citing legal concerns. Multiple district courts issued nationwide injunctions blocking the rescission pending judicial review.",
+    "doctrine_prediction": "A principled executive restraint adherent, applying the APA's arbitrary-and-capricious standard, would hold that agencies must provide reasoned explanations when rescinding prior policies and must account for serious reliance interests; courts should enforce this obligation as a structural check ensuring executive decisions rest on law, not mere preference.",
+    "r_party_prediction": "The Republican Party and the Trump administration argued that rescinding DACA was a valid exercise of executive immigration discretion that courts should not second-guess under the APA; the party sought maximum deference to executive judgment on immigration enforcement priorities.",
+    "d_party_prediction": "The Democratic Party sought to block the DACA rescission as arbitrary and capricious for failing to consider reliance interests and provide adequate justification, protecting an Obama-era policy that aligned with Democratic immigration priorities.",
+    "signal_level": "high",
+    "signal_explanation": "The Chief Justice (R-appointed, seat 2) voted with the four D-appointed justices to block the Trump administration's DACA rescission, demonstrating doctrine-aligned voting against his party's clear interest. Four other R-appointed justices (Thomas, Alito, Gorsuch, Kavanaugh) voted to allow the rescission in line with their party's interest but against the doctrine requiring reasoned administrative decision-making.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have upheld the DACA rescission, finding DHS had adequate legal authority and that courts should not second-guess the executive's immigration policy decisions under the APA",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion blocking the DACA rescission as arbitrary and capricious; found DHS failed to consider reliance interests and did not provide adequate reasoning under the APA",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the DACA rescission as a valid exercise of executive immigration discretion",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority blocking the DACA rescission; wrote separately to address equal protection concerns",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority blocking the DACA rescission as arbitrary and capricious under the APA",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; joined the opinion that would have upheld the DACA rescission as a valid exercise of executive immigration discretion",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Dissented; joined the opinion that would have upheld the DACA rescission as a valid exercise of executive discretion without requiring the APA reasoning the majority demanded",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/18-587_5ifl.pdf",
+      "https://www.scotusblog.com/case-files/cases/department-of-homeland-security-v-regents-of-the-university-of-california/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Justice Barrett was not yet confirmed (October 2020); Justice Jackson was not yet confirmed (2022).",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint doctrine (supported Trump's broad executive authority); D party 'aligned' with executive restraint doctrine (sought to restrain Trump).",
+      "The APA arbitrary-and-capricious standard is treated as an application of executive restraint doctrine: courts enforce procedural and substantive limits on executive action.",
+      "The Chief Justice's vote is classified as doctrine-aligned and party-against because Roberts explicitly applied the APA's reasoned-decision-making requirement to block a clear Trump administration policy priority."
+    ],
+    "counterarguments": [
+      "Roberts's majority opinion did not hold that DACA was legally required to continue\u2014only that the rescission process was defective. DHS could have rescinded DACA with better reasoning, meaning Roberts may have been buying time rather than resolving the underlying question.",
+      "The dissenters argued that DACA was itself legally questionable as an executive action, making requiring more detailed justification for its rescission somewhat inconsistent with executive restraint doctrine.",
+      "Sotomayor's and Kagan's votes are non-diagnostic if we view them as simply voting to protect a policy their party supported, regardless of the APA rationale."
+    ]
+  },
+  {
+    "id": "trump-v-hawaii-2018",
+    "title": "Trump v. Hawaii",
+    "year": 2018,
+    "scotus_citation": "585 U.S. 667 (2018)",
+    "area": "Executive Power / Immigration",
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "description": "The Court upheld 5-4 President Trump's Presidential Proclamation restricting entry of nationals from several predominantly Muslim countries. The majority held that 8 U.S.C. \u00a7 1182(f) broadly authorized the President to suspend entry of any class of aliens whose entry he found detrimental to national interests.",
+    "factual_background": "President Trump issued a series of executive orders and proclamations restricting entry of nationals from several predominantly Muslim-majority countries, citing national security concerns. The proclamation was challenged on both statutory and constitutional grounds.",
+    "doctrine_prediction": "A principled executive restraint adherent would scrutinize whether \u00a7 1182(f)'s broad delegation to the President to suspend entry of aliens 'detrimental to the interests of the United States' genuinely authorized such a sweeping categorical ban, or whether the principle against reading broad delegations as authorizing unprecedented action required a limiting construction. The doctrine counsels that courts rigorously evaluate the scope of statutory authorization before allowing major executive actions to stand.",
+    "r_party_prediction": "The Republican Party supported upholding the travel ban as a valid exercise of the president's broad immigration enforcement and national security authority, treating \u00a7 1182(f) as conferring near-unlimited discretion.",
+    "d_party_prediction": "The Democratic Party opposed the travel ban as exceeding statutory authority and violating constitutional anti-discrimination norms, arguing the President must stay within the bounds of what Congress actually authorized.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine and party interest diverge for R-appointed justices: the executive restraint principle counsels rigorously evaluating the scope of delegation, but all five R-appointed justices in the majority upheld the broadest reading. However, the signal is only medium because \u00a7 1182(f)'s text is broad and the statutory argument for the ban is plausible, reducing the clarity of the doctrine violation.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority upholding the travel ban as within \u00a7 1182(f)'s broad grant of presidential authority over alien entry",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion upholding the travel ban under \u00a7 1182(f), rejecting religious establishment challenges and applying rational basis review to the national security justification",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority upholding the travel ban under \u00a7 1182(f)",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have found the travel ban violated \u00a7 1182(f) and the Establishment Clause; compared the majority's reasoning to Korematsu",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; would have found the travel ban violated statutory authorization and constitutional constraints",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the travel ban under \u00a7 1182(f)",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/17pdf/17-965_h315.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-hawaii/"
+    ],
+    "assumptions": [
+      "Seats 7, 8, and 9 are omitted: Kavanaugh was not yet confirmed (October 2018); Barrett joined in 2020; Jackson in 2022.",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint doctrine (supported broad Trump executive authority); D party 'aligned' with restraint doctrine.",
+      "We code R-appointed justices as doctrine-against because the executive restraint principle\u2014reading delegations narrowly to prevent executive overreach\u2014counsels skepticism of the broad \u00a7 1182(f) reading adopted by the majority.",
+      "D-appointed justices are coded non-diagnostic (both party and doctrine aligned) because their party interest and doctrine both supported blocking the ban."
+    ],
+    "counterarguments": [
+      "The text of \u00a7 1182(f) ('whenever the President finds that the entry of any aliens or of any class of aliens into the United States would be detrimental to the interests of the United States, he may by proclamation, and for such period as he shall deem necessary, suspend the entry of all aliens or any class of aliens') is unusually explicit in conferring broad discretion, making a textual argument for the majority plausible.",
+      "Under originalist executive-power theory, the president has plenary authority over alien entry that predates statutory grants, which would make this a non-diagnostic case for originalist justices.",
+      "Kennedy's concurrence (he was in the majority but wrote separately to signal concerns about discriminatory animus) suggests even some R-appointed justices found the case more difficult than a pure party vote would suggest."
+    ]
+  },
+  {
+    "id": "seila-law-v-cfpb-2020",
+    "title": "Seila Law LLC v. Consumer Financial Protection Bureau",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 197 (2020)",
+    "area": "Executive Power / Removal Authority",
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "description": "The Court held 5-4 that the Consumer Financial Protection Bureau's structure\u2014headed by a single director removable only for cause\u2014violated the separation of powers. The majority held the President must be able to remove the CFPB director at will.",
+    "factual_background": "Congress created the CFPB in the Dodd-Frank Act of 2010, structuring it as an independent agency headed by a single director who could be removed only for inefficiency, neglect, or malfeasance. Seila Law challenged a CFPB civil investigative demand, arguing the agency's structure was unconstitutional.",
+    "doctrine_prediction": "This case presents a genuine doctrinal contest. One strand of executive restraint doctrine holds that Congress may limit presidential removal authority to preserve independent expert agencies (consistent with Morrison v. Olson); under this view, the for-cause removal restriction is constitutionally valid. A competing unitary executive theory holds that Article II vests all executive power in the President and that removal restrictions improperly insulate executive officers from presidential accountability. The doctrine prediction depends on which strand one credits.",
+    "r_party_prediction": "The Trump administration and Republican Party supported striking down the CFPB removal restriction, enabling at-will presidential control over a consumer financial regulator created by Democrats and viewed as embodying the administrative state.",
+    "d_party_prediction": "The Democratic Party supported upholding the removal restriction as a valid exercise of Congress's structural authority to create independent regulatory agencies insulated from political pressure.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine is genuinely contested on this question (Morrison v. Olson remains on the books; the unitary executive theory is not universally accepted). R-appointed justices striking down the restriction align with their party's interest, but they also align with a recognized conservative constitutional theory, reducing the diagnostic signal. D-appointed justices upholding the restriction align with both party interest and the Morrison precedent strand of doctrine.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in part; joined the majority striking down the removal restriction but wrote separately arguing for a broader rule invalidating the entire CFPB structure",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding that the for-cause removal restriction violated the separation of powers; severed the restriction from the rest of the statute rather than invalidating the CFPB",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down the removal restriction",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld the for-cause removal restriction as within Congress's authority to structure independent regulatory agencies",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent; would have upheld the removal restriction and reaffirmed Morrison v. Olson's approval of congressional limits on presidential removal authority",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority and wrote separately, arguing for an even broader application of the unitary executive principle to invalidate all for-cause removal restrictions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority striking down the removal restriction; wrote separately to limit the holding",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-7_n6io.pdf",
+      "https://www.scotusblog.com/case-files/cases/seila-law-llc-v-consumer-financial-protection-bureau/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Barrett confirmed October 2020; Jackson confirmed 2022.",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint (supports expanding presidential control); D party 'aligned' with restraint.",
+      "All votes are coded 'partial' for doctrine alignment because the doctrinal question is genuinely contested between the Morrison and unitary-executive traditions, and neither side's vote clearly violates doctrine.",
+      "Party alignment is coded straightforwardly: R-appointed justices followed the Trump administration's position; D-appointed justices upheld the Democratic-created agency structure."
+    ],
+    "counterarguments": [
+      "Under a strict unitary executive reading, all five R-appointed justices' votes are fully doctrine-aligned (not just party-aligned), making this case entirely non-diagnostic.",
+      "Roberts's decision to sever the restriction (preserve the CFPB) rather than invalidate the agency could be read as a partial rebuke to the most aggressive R-party position, which wanted CFPB eliminated.",
+      "The 5-4 alignment along party lines in itself tells us little without knowing whether it reflects doctrine or partisanship, given that the legal question is itself politically contested."
+    ]
+  },
+  {
+    "id": "nfib-v-osha-2022",
+    "title": "NFIB v. Department of Labor (OSHA Vaccine Mandate)",
+    "year": 2022,
+    "scotus_citation": "595 U.S. 109 (2022)",
+    "area": "Agency Deference / Regulatory Authority",
+    "doctrine_ids": [
+      "agency-deference",
+      "executive-restraint"
+    ],
+    "description": "The Court blocked 6-3 OSHA's COVID-19 vaccine-or-test mandate for large employers, applying the major questions doctrine to hold that OSHA's broad workplace safety mandate did not clearly authorize a nationwide vaccination requirement covering 80 million workers.",
+    "factual_background": "The Biden administration directed OSHA to issue an emergency temporary standard requiring employers with 100 or more employees to mandate COVID-19 vaccination or weekly testing. Multiple states and industry groups challenged the rule as exceeding OSHA's statutory authority under the Occupational Safety and Health Act.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that OSHA's mandate falls within the agency's broad statutory authority to regulate occupational hazards, and that courts should defer to OSHA's expert determination that COVID-19 constitutes a grave danger in the workplace; the major-questions doctrine should not be used to disable clear regulatory authority. A principled executive-restraint adherent would hold that transformative economic and political regulation requires a clear statement from Congress, not an inference from a broad statutory grant.",
+    "r_party_prediction": "The Republican Party in 2021-2025 opposed the OSHA mandate as an unconstitutional executive overreach into private employment decisions, making blocking the mandate a major political and litigation priority.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended the OSHA mandate as squarely within the agency's occupational safety authority and consistent with the administration's pandemic response goals.",
+    "signal_level": "high",
+    "signal_explanation": "For the agency-deference doctrine: all six R-appointed justices voted to block an agency rule in a period when their party was consistently opposed to deference. Their votes align with party interest (block Biden) and against the traditional deference doctrine (OSHA should get deference on its own statutory mandate). The three D-appointed justices' votes are non-diagnostic (party and deference doctrine both support allowing the mandate).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate; wrote separately to argue the major questions doctrine applies and to criticize broad agency deference",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate under the major questions doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld OSHA's authority to issue the vaccine-or-test mandate as within its statutory jurisdiction over workplace safety hazards",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; wrote separately arguing OSHA's mandate fell squarely within the agency's statutory authority and that the majority misapplied the major questions doctrine",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the per curiam majority; wrote separately to argue for a broader rethinking of federal agency authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/21a244_hgci.pdf",
+      "https://www.scotusblog.com/case-files/cases/national-federation-of-independent-business-v-department-of-labor-osha/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed (April 2022); Justice Breyer (not in seat map) participated in the dissent.",
+      "We use the 2021-2025 period party positions for this January 2022 case.",
+      "We classify this primarily as an agency-deference case: the major-questions doctrine is an anti-deference tool, and using it to block OSHA is a departure from Chevron's pro-deference baseline.",
+      "D-appointed justices' votes are non-diagnostic because both their party interest (support Biden's mandate) and the deference doctrine (defer to OSHA) pointed toward allowing the mandate."
+    ],
+    "counterarguments": [
+      "Under the major-questions doctrine, even a deference advocate could agree that OSHA's mandate exceeded its authority because the statute never clearly addressed mass vaccination; this would make the R-appointed justices' votes doctrine-aligned rather than doctrine-against.",
+      "OSHA's mandate was unprecedented in scale and subject matter, and the major-questions doctrine applied here is consistent with the view that Congress must speak clearly before delegating authority for transformative policies.",
+      "The per curiam format (unsigned majority) may indicate consensus across ideological lines on the procedural/statutory question, even if the political dimensions were charged."
+    ]
+  },
+  {
+    "id": "west-virginia-v-epa-2022",
+    "title": "West Virginia v. EPA",
+    "year": 2022,
+    "scotus_citation": "597 U.S. 697 (2022)",
+    "area": "Agency Deference / Environmental Regulation",
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "description": "The Court held 6-3 that the EPA lacked authority under Clean Air Act \u00a7 111(d) to require power plants to implement generation-shifting strategies as part of a carbon emissions reduction scheme. The majority applied the major questions doctrine to hold that such a transformative policy required clear congressional authorization.",
+    "factual_background": "The Obama administration's Clean Power Plan directed the EPA to set emissions performance standards for existing power plants that could only be met through 'generation shifting'\u2014reducing coal-fired power in favor of natural gas and renewables. The Biden administration sought to revive similar authority. West Virginia and other states challenged the plan before it took effect.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that the EPA's interpretation of its authority to set 'best system of emission reduction' standards is a permissible construction of ambiguous statutory language, and that courts should defer to EPA's technical expertise on complex emissions-reduction methodology. The major-questions exception narrows but does not displace this deference framework.",
+    "r_party_prediction": "The Republican Party strongly opposed the EPA Clean Power Plan and similar generation-shifting requirements, viewing them as an unlawful administrative expansion of regulatory authority over energy markets without congressional approval.",
+    "d_party_prediction": "The Democratic Party supported the EPA's authority to address carbon emissions through the Clean Air Act as essential to climate policy goals, defending broad agency authority under existing statutory grants.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices voted to block the EPA's major regulatory initiative in a period when their party consistently opposed the deference doctrine. Their votes align with party interest (block Biden's EPA) and against the traditional Chevron-deference principle that would have courts defer to EPA's statutory interpretation. All three D-appointed justices' votes are non-diagnostic (both party and doctrine support allowing EPA authority).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority; concurred to write separately on the scope of the major questions doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion applying the major questions doctrine to hold that the EPA lacked clear statutory authority for generation-shifting requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; wrote separately arguing the majority's major-questions approach improperly constrained EPA authority that Congress had broadly delegated under the Clean Air Act",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent arguing for deference to EPA's interpretation of its own statutory mandate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/20-1530_n758.pdf",
+      "https://www.scotusblog.com/case-files/cases/west-virginia-v-epa/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed. Justice Breyer (not in seat map) participated in the dissent.",
+      "We use the 2021-2025 period party positions for this June 2022 case.",
+      "We treat the major-questions doctrine as an anti-deference tool; applying it to block EPA is classified as doctrine-against under the agency-deference principle that courts should defer to reasonable agency interpretations.",
+      "The case was decided before Jackson joined the Court on June 30, 2022 (Breyer's formal last day coincided with the decision)."
+    ],
+    "counterarguments": [
+      "Generation-shifting\u2014requiring structural transformation of the entire energy sector\u2014may be so far outside OSHA's and EPA's traditional authority that even a Chevron defender would agree the statute does not clearly authorize it; this would make the R-appointed votes doctrine-consistent rather than doctrine-against.",
+      "The dissent's argument that the major-questions doctrine is an invention of recent vintage is contested; some legal scholars view the clear-statement approach as longstanding doctrine with roots in the nondelegation principle.",
+      "All six R-appointed justices agreeing may reflect genuine doctrinal consensus rather than partisan coordination, since the question of whether Congress authorized generation-shifting in \u00a7 111(d) is textually difficult."
+    ]
+  },
+  {
+    "id": "biden-v-texas-2022",
+    "title": "Biden v. Texas (Remain in Mexico / MPP)",
+    "year": 2022,
+    "scotus_citation": "597 U.S. 785 (2022)",
+    "area": "Nationwide Injunctions / Immigration",
+    "doctrine_ids": [
+      "nationwide-injunctions",
+      "executive-restraint"
+    ],
+    "description": "The Court held 5-4 that the Biden administration had lawfully exercised its discretion to end the Migrant Protection Protocols (Remain in Mexico policy), reversing a nationwide injunction that had required the administration to continue implementing the program.",
+    "factual_background": "The Trump administration created MPP in 2019, requiring asylum seekers to remain in Mexico pending U.S. immigration proceedings. The Biden administration sought to terminate MPP, but a federal district court in Texas issued a nationwide injunction requiring its continuation based on statutory immigration law. The Court addressed both whether the administration's termination was lawful and whether the district court's nationwide remedy was proper.",
+    "doctrine_prediction": "A principled skeptic of nationwide injunctions would hold that the district court lacked authority to issue an injunction requiring the executive to operate a specific immigration program nationwide and for non-parties; the equitable remedy should be limited to the parties before the court. A principled executive-restraint adherent would require the executive to follow proper administrative procedure in terminating the program but would not require the courts to compel continuation of executive enforcement priorities.",
+    "r_party_prediction": "The Republican Party, as opponents of the Biden administration's immigration policies, supported maintaining the nationwide injunction that blocked the administration from ending Remain in Mexico, prioritizing the immigration policy outcome over any doctrinal concerns about broad district court remedies.",
+    "d_party_prediction": "The Democratic Party and Biden administration opposed the nationwide injunction, arguing that the executive should have broad discretion over immigration enforcement priorities and that the district court's nationwide remedy improperly constrained executive policy-making.",
+    "signal_level": "high",
+    "signal_explanation": "Four R-appointed justices (Thomas, Alito, Gorsuch, Barrett) voted to maintain the nationwide injunction against the Biden administration despite their party's stated general opposition to nationwide injunctions and their own prior statements criticizing such remedies. Two R-appointed justices (Roberts, Kavanaugh) voted to reverse the injunction, aligning with the doctrine even against their party's immediate political interest. The doctrinal signal is high because Gorsuch in particular has written extensively against nationwide injunctions.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have upheld the nationwide injunction requiring continuation of Remain in Mexico, finding the administration's termination procedurally defective",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion reversing the nationwide injunction and upholding the administration's authority to end Remain in Mexico",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the nationwide injunction blocking the administration from ending MPP",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority reversing the nationwide injunction; consistent with the administration's policy goals and doctrine skeptical of broad equitable remedies",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority reversing the nationwide injunction",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_6": {
+        "vote": "Dissented; would have upheld the nationwide injunction despite previously writing separately against nationwide injunctions in other contexts",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority reversing the nationwide injunction, consistent with doctrine skeptical of broad district court equitable remedies",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Dissented; would have upheld the nationwide injunction blocking the Biden administration's termination of Remain in Mexico",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/21-954_g314.pdf",
+      "https://www.scotusblog.com/case-files/cases/biden-v-texas/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed. Justice Breyer (not in seat map) participated in the majority.",
+      "We use the 2021-2025 period party positions: R party 'opposed' to nationwide injunction doctrine (meaning they support using nationwide injunctions against the D administration); D party 'mixed'.",
+      "For the nationwide-injunctions doctrine, 'doctrine-aligned' means voting to limit or reverse the nationwide injunction; 'doctrine-against' means voting to maintain or expand it.",
+      "Gorsuch's vote to maintain the nationwide injunction is especially notable given his prior writings criticizing such remedies in other cases, making his vote clearly party-aligned over doctrine."
+    ],
+    "counterarguments": [
+      "The dissenters argued that the administration violated statutory immigration law in terminating MPP, making the nationwide injunction a remedy for a legal violation rather than merely a policy disagreement; under this view, maintaining the injunction is consistent with rule-of-law principles.",
+      "D-appointed justices' votes are coded 'partial' for party alignment because the D party's general position on nationwide injunctions is genuinely mixed: they are pro-deference when their party governs but have used nationwide injunctions opportunistically.",
+      "Roberts and Kavanaugh may have joined the majority for merits reasons unrelated to the scope of the remedy, meaning the nationwide-injunctions doctrine may not be the primary driver of the 5-4 outcome."
+    ]
+  },
+  {
+    "id": "biden-v-nebraska-2023",
+    "title": "Biden v. Nebraska (Student Loan Forgiveness)",
+    "year": 2023,
+    "scotus_citation": "600 U.S. 477 (2023)",
+    "area": "Executive Power / Spending Authority",
+    "doctrine_ids": [
+      "executive-restraint",
+      "congressional-spending-authority"
+    ],
+    "description": "The Court held 6-3 that the Secretary of Education lacked authority under the HEROES Act to cancel approximately $430 billion in student loan debt. The majority applied the major questions doctrine, requiring clear congressional authorization for a program of such vast economic and political significance.",
+    "factual_background": "The Biden administration invoked the HEROES Act's emergency waiver authority\u2014allowing the Secretary to 'waive or modify' student loan provisions during a national emergency\u2014to cancel up to $20,000 in student loan debt for eligible borrowers, citing the COVID-19 pandemic. Six states sued, arguing the program exceeded statutory authority.",
+    "doctrine_prediction": "A principled executive-restraint and congressional-spending-authority adherent would hold that canceling hundreds of billions in congressionally established loan obligations requires an explicit statutory grant, not an inference from a general emergency-waiver provision; the Appropriations Clause and the nondelegation principle together require Congress to speak clearly before the executive exercises such extraordinary fiscal authority.",
+    "r_party_prediction": "The Republican Party strongly opposed student loan forgiveness as an unauthorized executive expenditure, viewing it as a policy that would shift enormous costs to taxpayers without congressional approval and as a clear political payoff to a Democratic constituency.",
+    "d_party_prediction": "The Democratic Party supported the student loan cancellation as lawful under the HEROES Act and as addressing economic hardship from the pandemic, defending the administration's authority to provide targeted relief to borrowers.",
+    "signal_level": "medium",
+    "signal_explanation": "R-appointed justices blocking the program are both party-aligned and arguably doctrine-aligned (need clear authorization), making their votes non-diagnostic. D-appointed justices allowing the program are party-aligned but against the executive-restraint and spending-authority doctrines, creating a medium diagnostic signal for seats 4, 5, and 9.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority blocking student loan forgiveness under the major questions doctrine; wrote separately",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding the HEROES Act did not provide clear authorization for mass student loan cancellation",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld the student loan forgiveness program as within the Secretary's emergency waiver authority under the HEROES Act",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority misread the HEROES Act and the major questions doctrine, and would have upheld the program",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority blocking student loan forgiveness under the major questions doctrine",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Recused from participation due to prior service on a board of a party involved in a related case",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/22-506_nmip.pdf",
+      "https://www.scotusblog.com/case-files/cases/biden-v-nebraska/"
+    ],
+    "assumptions": [
+      "Justice Jackson recused from this case; her seat_9 entry is coded 'partial' for both fields to reflect the non-participation rather than a substantive vote.",
+      "We use the 2021-2025 period party positions for this June 2023 case.",
+      "R-appointed justices blocking the program are coded doctrine-aligned because the major questions and appropriations doctrines both require clear authorization for transformative fiscal action.",
+      "D-appointed justices allowing the program are coded doctrine-against because the HEROES Act's emergency waiver language does not clearly authorize mass cancellation of loan principal; allowing this would expand executive spending authority beyond what the congressional-spending-authority doctrine permits."
+    ],
+    "counterarguments": [
+      "The HEROES Act's text authorizing the Secretary to 'waive or modify' 'any statutory or regulatory provision applicable to the student financial assistance programs' could be read as an explicit grant covering cancellation, making the D-appointed justices' votes doctrine-consistent (they just read the statute differently).",
+      "R-appointed justices may be applying the major-questions doctrine selectively, accepting comparable delegations when the political result favors their party, which would make even their votes diagnostic in the opposite direction.",
+      "Congressional-spending-authority doctrine focuses on appropriations and impoundment; applying it to a statutory waiver-authority case is a stretch, since Congress did appropriate HEROES Act emergency powers."
+    ]
+  },
+  {
+    "id": "fda-v-alliance-hippocratic-medicine-2024",
+    "title": "FDA v. Alliance for Hippocratic Medicine",
+    "year": 2024,
+    "scotus_citation": "602 U.S. 367 (2024)",
+    "area": "Standing and Justiciability",
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "description": "A unanimous Court held that the plaintiff doctors and medical associations lacked Article III standing to challenge FDA's approval and regulation of mifepristone. Justice Kavanaugh wrote for the Court, finding the plaintiffs could not demonstrate a concrete, traceable injury sufficient for standing.",
+    "factual_background": "Anti-abortion doctors and medical associations challenged FDA's 2000 approval of mifepristone and subsequent regulatory actions expanding its availability, arguing the drug posed risks to women and would burden physicians who oppose abortion. The Fifth Circuit had found standing and partially reversed FDA's approvals.",
+    "doctrine_prediction": "A principled strict-standing adherent would hold that the plaintiff physicians cannot demonstrate a concrete injury traceable to FDA's mifepristone approvals; their objections are to a drug they need not prescribe, and their alleged harm from treating complications is too speculative and attenuated. Doctrine requires a direct, particularized injury, not a generalized policy objection clothed in professional terms.",
+    "r_party_prediction": "The Republican Party and anti-abortion aligned organizations supported allowing the case to proceed on the merits, which could have resulted in restrictions on mifepristone access; finding standing would advance a major policy goal for R-aligned constituencies.",
+    "d_party_prediction": "The Democratic Party and Biden administration supported dismissal for lack of standing, preventing a judicially imposed restriction on mifepristone access and defending FDA's drug approval authority.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices applied strict standing doctrine to dismiss a challenge brought by R-party-aligned plaintiffs seeking to restrict abortion access\u2014a major R policy goal. Every R-appointed justice voted against their party's immediate interest to enforce the doctrine. This is one of the clearest cases of R-appointed justices prioritizing doctrine over party outcome in the dataset.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in judgment finding no standing; wrote separately to question some aspects of the majority's reasoning but agreed the plaintiffs lacked Article III standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing to challenge FDA's mifepristone approvals",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_4": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Wrote the majority opinion holding that plaintiffs lacked Article III standing due to insufficient concrete, traceable injury",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-235_n7ip.pdf",
+      "https://www.scotusblog.com/case-files/cases/food-and-drug-administration-v-alliance-for-hippocratic-medicine/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to the standing doctrine (supports broad standing, especially for R-aligned litigants challenging Biden administration actions); D party 'opposed' generally but aligned with dismissal in this specific case.",
+      "D-appointed justices are coded party-aligned because the D party's specific interest in this case (dismiss the anti-mifepristone suit) coincided with the strict-standing result, even though D party generally supports broader standing.",
+      "The 9-0 result makes this case unusually diagnostic: unanimous application of strict standing to dismiss a politically charged challenge is powerful evidence that the doctrine operated independent of partisan preference for at least some justices.",
+      "Thomas's concurrence raised separate issues about FDA's process but did not dissent from the no-standing holding."
+    ],
+    "counterarguments": [
+      "A unanimous result could reflect the weakness of the standing argument rather than doctrine operating against party interest; the standing problem here was severe enough that no honest jurist could find standing, making the vote less diagnostic.",
+      "D-appointed justices' votes are non-diagnostic if we measure against the D party's general principle of broad standing rather than this specific case's party interest.",
+      "The majority left open whether different plaintiffs (e.g., states) could bring standing claims, suggesting the holding is narrower than it appears and may not represent a principled constraint on future challenges."
+    ]
+  },
+  {
+    "id": "loper-bright-v-raimondo-2024",
+    "title": "Loper Bright Enterprises v. Raimondo",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 369 (2024)",
+    "area": "Agency Deference",
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "description": "The Court held 6-2 that Chevron U.S.A. v. Natural Resources Defense Council should be overruled, ending four decades of judicial deference to agency interpretations of ambiguous statutes. The Chief Justice wrote for the majority, holding that Article III requires courts to exercise independent judgment in interpreting statutes rather than deferring to the agency administering them.",
+    "factual_background": "Atlantic herring fishing companies challenged an NMFS rule requiring them to pay for federal monitors aboard their vessels. The D.C. Circuit upheld the rule applying Chevron deference. The Court used the case to reconsider Chevron's validity.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that overruling Chevron destabilizes four decades of administrative law, deprives agencies of interpretive authority Congress reasonably delegated through ambiguous statutes, and substitutes judicial preferences for expert agency judgment. Chevron's two-step framework is consistent with Article III as long as courts retain authority to determine that a statute is not ambiguous.",
+    "r_party_prediction": "The Republican Party strongly supported overruling Chevron, viewing deference to agencies as a source of progressive regulatory expansion and a delegation of law-interpretation authority that properly belongs to courts and ultimately constrains administrative overreach.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended Chevron as essential to the regulatory state, arguing that independent judicial interpretation of technical statutes would paralyze agencies and substitute judicial policy preferences for those of elected-branch experts.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices voted to overrule Chevron against the clear preference of their party's stated anti-deference position\u2014but their party's POSITION was to overrule Chevron. The party-aligned vote IS the anti-deference vote, making this high-signal for R justices: they voted with their party interest AND against the traditional doctrine. All three D-appointed justices voted to preserve the doctrine, aligning with their party interest.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority overruling Chevron; wrote separately to argue for an even more textualist approach to statutory interpretation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion overruling Chevron deference and holding that courts must exercise independent judgment in statutory interpretation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued Chevron was correctly decided, consistent with Article III, and should not be overruled",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent arguing that Chevron was correct, well-settled, and that overruling it would destabilize administrative law and substitute judicial preferences for expert agency judgment",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority overruling Chevron; has previously written separately advocating for Chevron's elimination",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Recused from this specific case (Loper Bright) due to prior D.C. Circuit involvement; participated in the companion case Relentless v. Department of Commerce with the same result",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-1219_9p6b.pdf",
+      "https://www.scotusblog.com/case-files/cases/loper-bright-enterprises-v-raimondo/"
+    ],
+    "assumptions": [
+      "Jackson recused from Loper Bright but voted in the companion case Relentless v. Department of Commerce; her vote in Relentless (dissenting from Chevron's overruling) is recorded here for completeness.",
+      "We use the 2021-2025 period party positions: R party 'aligned' with anti-deference doctrine (supports ending Chevron); D party 'aligned' with pro-deference position.",
+      "For this case, R-appointed justices voting to overrule Chevron are party-aligned AND doctrine-against (traditional Chevron says defer). The combination represents the core pattern this project tracks: R justices' votes match R party position and oppose the established doctrine.",
+      "D-appointed justices are non-diagnostic (party and doctrine both support preserving Chevron)."
+    ],
+    "counterarguments": [
+      "Under the conservative principled position on agency deference\u2014that Article III requires courts to interpret statutes independently\u2014overruling Chevron IS doctrine-aligned, making all six R-appointed justices' votes non-diagnostic (party and their principled position aligned).",
+      "The case for overruling Chevron based on Marbury v. Madison and the APA's 'de novo' standard for legal questions is a serious constitutional argument, not merely partisan preference.",
+      "Kagan's dissent acknowledged that the majority was partially correct that Chevron has been misapplied in many contexts; this concession suggests even doctrine adherents see the doctrine's limits."
+    ]
+  },
+  {
+    "id": "trump-v-united-states-2024",
+    "title": "Trump v. United States",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 593 (2024)",
+    "area": "Presidential Immunity",
+    "doctrine_ids": [
+      "presidential-immunity"
+    ],
+    "description": "The Court held 6-3 that former presidents have absolute immunity from criminal prosecution for official acts within their exclusive constitutional authority, a strong presumption of immunity for all official acts, and no immunity for unofficial acts. The ruling substantially constrained the federal prosecution of the former president.",
+    "factual_background": "A federal grand jury indicted former President Trump on charges related to alleged efforts to overturn the 2020 election. Trump moved to dismiss on immunity grounds. The D.C. Circuit rejected broad immunity. The Supreme Court reversed, establishing a new framework for presidential immunity from criminal prosecution.",
+    "doctrine_prediction": "A principled presidential-immunity adherent applying the moderate, doctrine-constrained view would hold that former presidents retain immunity for conduct within their core constitutional functions (e.g., pardons, vetoes, commander-in-chief decisions) but remain subject to criminal prosecution for private conduct or unofficial acts not connected to the discharge of presidential duties. The immunity should be determined case by case based on the function, not applied categorically to all official acts.",
+    "r_party_prediction": "The Republican Party, whose former president faced criminal prosecution, strongly favored broad immunity covering all official acts and creating substantial evidentiary barriers to any prosecution arising from presidential conduct, effectively shielding a Republican former president from accountability.",
+    "d_party_prediction": "The Democratic Party sought narrow or no immunity, arguing that the Impeachment Judgment Clause and historical practice contemplate post-office criminal accountability, and that the indictment should proceed on the merits without a categorical immunity barrier.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to create broad immunity for a Republican former president facing prosecution, which aligns with their party's immediate interest. The doctrine predicts some immunity, but the breadth of the immunity created\u2014especially the strong presumption for all official acts and the evidentiary restrictions\u2014exceeded what most legal scholars viewed as constitutionally required. Signal is medium rather than high because the conservative principled position does support substantial immunity for official acts, making the votes partially doctrine-consistent.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority creating broad immunity; wrote separately questioning whether the special counsel was constitutionally appointed, which would have dismissed the case entirely",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion establishing absolute immunity for core executive functions, strong presumptive immunity for all official acts, and no immunity for unofficial acts",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority establishing broad presidential immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the majority's immunity framework is unprecedented, lacks constitutional basis, and effectively places the President above the law",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; wrote that no one, including former presidents, is immune from criminal prosecution for private conduct and that the majority's official-act immunity goes far beyond what history or text requires",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority establishing broad presidential immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority; wrote a notable concurrence acknowledging that the question is difficult and that Congress may have some role in defining the scope of immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority with modifications; wrote separately to argue that the majority should have limited its holding more carefully on the use of official-act evidence at trial",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; argued that presidential immunity from criminal prosecution is dangerous to democratic accountability and that the majority's framework provides inadequate protection against executive abuse",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-united-states-presidential-immunity/"
+    ],
+    "assumptions": [
+      "All votes are coded 'partial' for doctrine alignment because the presidential-immunity doctrine is itself genuinely contested between a conservative position (broad immunity for official acts) and a liberal position (narrow or no immunity). Each justice is following their side's principled position.",
+      "We use the 2021-2025 period party positions: R party 'aligned' with presidential immunity doctrine; D party 'opposed' to presidential immunity.",
+      "The diagnostic signal for R-appointed justices comes from the breadth of the immunity created, which exceeded what most conservative legal scholars argued was constitutionally required; this goes beyond the principled conservative position toward a result that maximally benefits the appointing party's former president.",
+      "All seats participated in this case decided July 1, 2024."
+    ],
+    "counterarguments": [
+      "Because both the conservative and liberal principled positions on presidential immunity are recognized within the doctrine, all votes can be characterized as doctrine-consistent from the perspective of the justice's own legal theory, making this case entirely non-diagnostic.",
+      "Roberts's majority is careful to limit immunity to official acts and explicitly holds that unofficial acts have no immunity, which tracks the moderate principled position and is not simply a political result.",
+      "The former president happened to be Republican; if a Democratic president faced identical charges, the question of which justices would vote for immunity is entirely uncertain and could produce a different alignment."
+    ]
+  },
+  {
+    "id": "murthy-v-missouri-2024",
+    "title": "Murthy v. Missouri",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 43 (2024)",
+    "area": "Standing and Justiciability",
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "description": "The Court held 6-3 that Republican state plaintiffs and individual social media users lacked Article III standing to challenge the Biden administration's communications with social media platforms about content moderation. Justice Barrett wrote for a majority that included three R-appointed and three D-appointed justices; Justices Thomas, Alito, and Gorsuch dissented.",
+    "factual_background": "Missouri, Louisiana, and individual plaintiffs sued senior Biden administration officials, arguing that the government had coerced social media platforms to suppress conservative speech. The Fifth Circuit found a First Amendment violation. The Supreme Court reversed on standing grounds before reaching the merits.",
+    "doctrine_prediction": "A principled strict-standing adherent would hold that the plaintiffs cannot trace their alleged social media censorship to specific government communications rather than independent platform decisions; the causal chain from government speech to platform action to plaintiff injury is too speculative and attenuated to satisfy Article III's injury-causation-redressability requirements.",
+    "r_party_prediction": "The Republican Party and its aligned state attorneys general strongly supported finding standing to allow the suit to proceed, seeking to expose and enjoin what they characterized as the Biden administration's censorship of conservative viewpoints on social media.",
+    "d_party_prediction": "The Democratic Party and Biden administration argued for dismissal on standing grounds, seeking to avoid judicial scrutiny of government-platform communications and to preserve the administration's ability to communicate with social media companies about disinformation.",
+    "signal_level": "high",
+    "signal_explanation": "The Court split 3-3 among R-appointed justices: Barrett, Roberts, and Kavanaugh applied strict standing to dismiss a suit brought by R-party-aligned plaintiffs (doctrine-aligned, party-against), while Thomas, Alito, and Gorsuch would have found standing consistent with R party interest (party-aligned, doctrine-against). The 6-3 lineup with a mixed R-appointed majority makes this a high-signal case for distinguishing doctrine-followers from party-followers among R-appointed justices.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have found standing and addressed the merits of the alleged First Amendment violation arising from government-platform communications",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding plaintiffs lacked standing due to insufficient traceability and redressability",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have found standing for at least some plaintiffs and addressed the coercion claim on the merits",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; would have found standing and has written extensively arguing for broader standing in cases involving government censorship allegations",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority holding plaintiffs lacked standing, consistent with strict standing enforcement",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion applying strict Article III standing requirements to dismiss the suit; found insufficient traceability of plaintiffs' alleged injuries to government conduct",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-411_3dq3.pdf",
+      "https://www.scotusblog.com/case-files/cases/murthy-v-missouri/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to strict standing (supports broad standing to challenge Biden administration); D party 'opposed' generally to strict standing but aligned with dismissal in this specific case.",
+      "D-appointed justices are coded party-aligned because the D party's specific interest in this case (dismiss the anti-administration suit) coincided with the strict-standing result.",
+      "R-appointed justices who dissented (Thomas, Alito, Gorsuch) are coded party-aligned, doctrine-against: their party wants standing for R-aligned challengers, even though the strict-standing doctrine counsels dismissal.",
+      "R-appointed justices who joined the majority (Barrett, Roberts, Kavanaugh) are coded doctrine-aligned, party-against: they applied strict standing to dismiss a suit that would have advanced R party interests."
+    ],
+    "counterarguments": [
+      "Thomas, Alito, and Gorsuch's dissents focused on genuine legal questions about government coercion of private speech; one can have sincere doctrinal views that the First Amendment standing analysis differs from ordinary injury-in-fact standing, making their votes doctrine-consistent.",
+      "Barrett, Kavanaugh, and Roberts joining the majority could reflect their view of the weakness of this particular record rather than a general doctrinal commitment, meaning the case may be decided on specific facts rather than standing principle.",
+      "D-appointed justices' votes in the majority could reflect self-interested reasoning (protecting their party's administration) rather than principled standing enforcement, which would make their votes party-aligned over doctrine-aligned rather than non-diagnostic."
+    ]
+  },
+  {
+    "id": "cfpb-v-community-financial-services-2024",
+    "title": "Consumer Financial Protection Bureau v. Community Financial Services Association of America",
+    "year": 2024,
+    "scotus_citation": "601 U.S. 416 (2024)",
+    "area": "Congressional Spending Authority / Appropriations",
+    "doctrine_ids": [
+      "congressional-spending-authority"
+    ],
+    "description": "The Court held 7-2 that the Consumer Financial Protection Bureau's funding mechanism\u2014drawing from Federal Reserve earnings rather than annual congressional appropriations\u2014was constitutional under the Appropriations Clause. The decision preserved the CFPB's structure and reversed the Fifth Circuit's ruling that the funding mechanism violated the Constitution.",
+    "factual_background": "Congress funded the CFPB by authorizing it to draw operating expenses from Federal Reserve earnings, bypassing the annual appropriations process. The Fifth Circuit held this structure violated the Appropriations Clause because it lacked sufficient congressional control over the ongoing funding. The Supreme Court reversed.",
+    "doctrine_prediction": "A principled congressional-spending-authority adherent would examine whether the Appropriations Clause requires annual congressional control over each expenditure or whether a standing statutory authorization is sufficient. The doctrine requires that Congress authorize expenditures by law; the question is whether an ongoing statutory mechanism satisfies that requirement or whether the Clause demands more direct periodic control to maintain meaningful legislative oversight of the executive.",
+    "r_party_prediction": "The Republican Party has historically opposed the CFPB as a symbol of excessive regulatory government, and several R-aligned groups sought to invalidate its funding as a means of gutting the agency's authority without a congressional vote. Striking down CFPB's funding would have effectively ended the agency.",
+    "d_party_prediction": "The Democratic Party supported upholding CFPB's funding structure, having created the agency after the financial crisis to protect consumers from predatory practices; invalidation would have been a major Democratic policy defeat.",
+    "signal_level": "high",
+    "signal_explanation": "The vote produced a highly unusual 7-2 coalition: Thomas (R) wrote the majority joined by Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson. Roberts and Alito alone dissented. Four R-appointed justices (Thomas, Gorsuch, Kavanaugh, Barrett) voted to preserve the Democratic-created CFPB against their party's interest. Two R-appointed justices (Roberts, Alito) voted to invalidate it. This case provides a rare direct test of doctrine over party interest with striking results.",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion upholding the CFPB's funding mechanism as consistent with the Appropriations Clause's requirement that expenditures be authorized by law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Dissented; argued the CFPB's perpetual, self-directed funding structure violates the Appropriations Clause by removing meaningful congressional control over the agency's budget",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Dissented; joined the opinion arguing the CFPB's funding mechanism lacks adequate Appropriations Clause grounding in annual congressional action",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-448_o7jq.pdf",
+      "https://www.scotusblog.com/case-files/cases/consumer-financial-protection-bureau-v-community-financial-services-association-of-america/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'mixed' on congressional spending authority; D party 'aligned'.",
+      "R-appointed justices upholding CFPB funding are coded doctrine-aligned because the majority's reading\u2014that a statutory authorization satisfies 'Appropriation made by Law'\u2014is a plausible interpretation of the Clause that does maintain congressional control (Congress set the funding mechanism by statute). Roberts and Alito's dissent (requiring annual appropriations) is coded 'partial' because it takes a stricter view of Clause requirements that is also textually defensible.",
+      "The unusual 7-2 split with Thomas writing makes this case particularly valuable: if any justice might be expected to follow party interest against the CFPB, it would be Thomas, who has written the most consistently anti-administrative-state opinions. His vote to uphold is a strong doctrine signal.",
+      "Roberts and Alito are the only R-appointed justices coded party-aligned, and their votes are labeled 'partial' for doctrine because the stricter Appropriations Clause interpretation they applied is not frivolous."
+    ],
+    "counterarguments": [
+      "Thomas's majority opinion may reflect a genuine textualist reading of 'Appropriations made by Law' as encompassing any statutory authorization rather than a party-against preference; under this reading, his vote is doctrine-aligned and cannot be coded party-against.",
+      "Roberts and Alito's dissent is a defensible constitutional argument that the Appropriations Clause requires more than perpetual self-authorization; their votes may be doctrine-consistent rather than party-motivated.",
+      "The CFPB had been controversial under both Trump administrations as well as in the courts; some R-aligned groups had actually benefited from CFPB enforcement actions, making the R party's interest in invalidating CFPB funding less uniformly clear than it appears."
+    ]
+  },
+  {
+    "id": "trump-v-anderson-2024",
+    "title": "Trump v. Anderson",
+    "year": 2024,
+    "scotus_citation": "601 U.S. 100 (2024)",
+    "area": "Presidential Immunity / Federalism",
+    "doctrine_ids": [
+      "presidential-immunity",
+      "federalism-states-rights"
+    ],
+    "description": "A unanimous Court reversed the Colorado Supreme Court's ruling that former President Trump was disqualified from the presidential primary ballot under Section 3 of the Fourteenth Amendment. The per curiam opinion held that states cannot unilaterally enforce Section 3 against federal officeholders and candidates; congressional action is required.",
+    "factual_background": "The Colorado Supreme Court held that former President Trump was constitutionally disqualified from the presidency under the Fourteenth Amendment's insurrection disqualification clause following January 6, 2021. Colorado removed him from the primary ballot. The Supreme Court reversed unanimously in the judgment, though concurrences differed on the scope of the ruling.",
+    "doctrine_prediction": "A principled federalism adherent applying doctrines of state versus federal power would hold that enforcement of a constitutional provision against candidates for federal office is a federal question requiring federal enforcement mechanisms; states may not unilaterally adjudicate the constitutional eligibility of federal candidates, as this would enable a handful of states to determine national elections. The Fourteenth Amendment's Section 5 enforcement clause supports this structural reading.",
+    "r_party_prediction": "The Republican Party had an obvious and direct interest in keeping Trump on the ballot; reversing Colorado's disqualification decision aligned with the R party's immediate political survival. R-party-aligned groups filed briefs opposing Colorado's ruling.",
+    "d_party_prediction": "The Democratic Party and several D-aligned advocacy groups supported Colorado's disqualification ruling as properly enforcing the Constitution's insurrection bar, while the D-appointed justices wrote separately to argue the majority went further than necessary in limiting state enforcement.",
+    "signal_level": "high",
+    "signal_explanation": "All three D-appointed justices voted in the judgment to reverse Colorado and keep Trump on the ballot, directly against their party's interest in removing a political opponent from the election. While they wrote separately to limit the ruling's scope, they agreed on the key result. This is strong evidence of doctrine over party for D-appointed seats. R-appointed justices' votes are non-diagnostic (party and doctrine pointed the same direction).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification; wrote separately to argue Section 3 is self-executing and does not require congressional legislation",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification and holding that states cannot unilaterally enforce Section 3 against federal candidates",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Concurred in judgment reversing Colorado; wrote separately with Kagan and Jackson to argue the majority went further than necessary by addressing congressional enforcement, criticizing the per curiam as an advisory opinion on issues not before the Court",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment reversing Colorado; joined the separate concurrence arguing the majority reached beyond the question presented",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Concurred in judgment reversing Colorado; joined the separate concurrence arguing the majority overreached by deciding the congressional enforcement question unnecessarily",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-719_19m2.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-anderson/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'aligned' with presidential immunity doctrine; D party 'opposed'.",
+      "The federalism-states-rights doctrine is also implicated: the ruling holds states cannot adjudicate federal candidate eligibility, which is a federal-supremacy result (limits state power). R party in 2021-2025 is 'aligned' with federalism doctrine (states' rights), but upholding federal authority here runs against the states'-rights framing. We classify D justices as doctrine-aligned, party-against for this case.",
+      "D-appointed justices concurring in judgment to reverse Colorado are coded doctrine-aligned (the structural federalism argument supports federal-only enforcement) and party-against (reversing Colorado directly benefited the D party's opponent).",
+      "The 9-0 judgment obscures the fact that D-appointed justices tried to limit the ruling; their concurrence is still a vote against their party's interest on the key question."
+    ],
+    "counterarguments": [
+      "D-appointed justices objected only to the majority's additional holding on congressional enforcement, not to the core result; one can argue that their concurrence is technically the minimum position consistent with the doctrine, making them doctrine-following rather than party-against.",
+      "D party's view on this case was not monolithic; some D-aligned scholars also argued Colorado's ruling was wrong as a matter of constitutional structure, meaning the D party's 'interest' in keeping Trump off the ballot was not as uniformly held as other partisan questions.",
+      "The unanimous result (9-0 in judgment) weakens the diagnostic signal considerably, suggesting the structural federalism/Section 3 argument was genuinely compelling to all justices regardless of party alignment."
+    ]
+  },
+  {
+    "id": "united-states-v-texas-2023",
+    "title": "United States v. Texas (Immigration Priorities)",
+    "year": 2023,
+    "scotus_citation": "599 U.S. 670 (2023)",
+    "area": "Executive Power / Standing",
+    "doctrine_ids": [
+      "executive-restraint",
+      "standing-justiciability"
+    ],
+    "description": "The Court held 8-1 that Texas and Louisiana lacked Article III standing to challenge the Biden administration's immigration enforcement priority guidelines, which directed ICE to prioritize certain categories of noncitizens for removal. Chief Justice Roberts wrote for the Court; Justice Alito alone dissented.",
+    "factual_background": "The Biden administration issued enforcement guidelines directing immigration officials to prioritize removal of noncitizens based on national security threats, recent border crossers, and convicted criminals, rather than pursuing all removable noncitizens equally. Texas and Louisiana argued the policy would increase their costs and challenged it as contrary to statute.",
+    "doctrine_prediction": "A principled executive-restraint adherent applying the APA and prosecutorial-discretion doctrine would hold that the executive retains broad enforcement discretion over whom to prioritize for removal; courts should not compel specific enforcement actions absent a clear statutory mandate. A principled standing adherent would hold that states cannot establish injury-in-fact from the federal government's failure to arrest individuals within their borders.",
+    "r_party_prediction": "The Republican Party and aligned states supported Texas's challenge, seeking to compel the Biden administration to pursue more aggressive immigration enforcement; this litigation was a major vehicle for Republican political opposition to Biden's immigration policies.",
+    "d_party_prediction": "The Democratic Party and Biden administration argued states lacked standing to challenge enforcement priority guidelines and that executive enforcement discretion is nearly unreviewable under existing doctrine.",
+    "signal_level": "high",
+    "signal_explanation": "Seven R-appointed justices joined the majority holding that Texas lacked standing to challenge Biden's immigration enforcement priorities\u2014voting against their party's sustained litigation effort to force stricter immigration enforcement. Only Alito dissented. The doctrine (strict standing; executive enforcement discretion) and the party interest (R wanted strict enforcement, Texas standing upheld) diverged sharply, and all R-appointed justices except one followed doctrine.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding Texas lacked standing; signed on to the enforcement-discretion and standing analysis",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding states lack standing to compel federal immigration enforcement actions and upholding executive prosecutorial discretion over removal priorities",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented alone; would have found standing for Texas and addressed the merits of the immigration enforcement statute challenge",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding executive enforcement discretion and finding Texas lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding executive enforcement discretion; notably a Trump appointee voting against a Trump-era state challenge to the Biden administration's immigration policy",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding executive enforcement discretion and finding lack of standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/22-58_i425.pdf",
+      "https://www.scotusblog.com/case-files/cases/united-states-v-texas/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to standing doctrine (supports broad standing for states challenging Biden); D party 'opposed' to standing doctrine generally but aligned with limiting standing here.",
+      "R-appointed justices are coded doctrine-aligned because they applied the established rule that states lack standing to compel federal enforcement actions and that the executive has broad prosecutorial discretion.",
+      "Alito's solo dissent is coded party-aligned, doctrine-against: he would have found standing and ordered enforcement, consistent with R party interests but departing from the executive-discretion and standing doctrines.",
+      "This 8-1 result provides unusually strong evidence: it is very rare for 7 out of 8 R-appointed justices to rule against their party's litigation objective on a high-profile immigration question."
+    ],
+    "counterarguments": [
+      "R-appointed justices ruling against standing here may reflect genuine concern about the institutional implications of allowing states to commandeer federal enforcement resources, a structural argument consistent with federalism doctrine (limiting states' ability to override federal priorities), which is also a conservative principle.",
+      "The 8-1 result suggests the legal argument for Texas standing was genuinely weak, meaning this case may not be diagnostic of principled doctrine-following but rather of a case where even partisan-motivated justices could not find a legally defensible path to the desired result.",
+      "Alito's dissent was the only doctrinally-plausible path to the party-aligned result, suggesting the case's logic was clear enough that only one justice was willing to adopt the stretched legal theory needed to reach that outcome."
+    ]
+  },
+  {
+    "id": "corner-post-v-board-of-governors-2024",
+    "title": "Corner Post, Inc. v. Board of Governors of the Federal Reserve System",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 799 (2024)",
+    "area": "Agency Deference / Administrative Law",
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "description": "The Court held 6-3 that the Administrative Procedure Act's six-year statute of limitations begins running when a plaintiff suffers an injury, not when the agency rule was first promulgated. This ruling allows businesses formed after a rule's promulgation to challenge long-settled agency regulations without time limitation.",
+    "factual_background": "Corner Post was incorporated after the Federal Reserve issued its debit card transaction fee rules under Regulation II in 2011. Corner Post challenged the rule in 2021, arguing the APA's six-year limitations period ran from when it was injured (when it began business), not when the rule was issued. The Eighth Circuit held the challenge was untimely.",
+    "doctrine_prediction": "A principled agency-deference and regulatory-stability adherent would hold that agencies and regulated parties rely on finality of long-established rules; extending the limitations period indefinitely each time a new company is formed would paralyze the regulatory state by subjecting settled rules to perpetual challenge. Doctrinal principles of regulatory stability support time-limited challenges to agency action.",
+    "r_party_prediction": "The Republican Party supported expanding the window to challenge agency regulations as part of its longstanding goal of providing industry with additional tools to overturn progressive regulatory programs, including rules issued decades ago by Democratic administrations.",
+    "d_party_prediction": "The Democratic Party opposed expanding the limitations period, which would subject established regulations\u2014including environmental, consumer protection, and financial regulations\u2014to perpetual challenge and regulatory uncertainty.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to expand the limitations window, aligning with party interest (more opportunities to challenge agency rules) while working against the agency-deference doctrine's implicit value of regulatory finality. D-appointed justices unanimously dissented, consistent with both party interest and the deference doctrine's preference for regulatory stability. Signal is medium because the doctrine here (agency-deference) is somewhat attenuated\u2014this is a statutory-interpretation question about limitations periods rather than a direct deference question.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority expanding when plaintiffs may challenge agency rules under the APA",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the ruling undermines regulatory stability and creates perpetual uncertainty for agencies and regulated parties",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's interpretation of the APA limitations period would allow indefinite challenges to long-settled regulations",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion holding that the APA's statute of limitations accrues when a plaintiff suffers an injury, not when the rule was first issued",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Wrote the principal dissent arguing the majority's interpretation would destabilize the regulatory state and is inconsistent with how statutes of limitations work",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-1008_5i36.pdf",
+      "https://www.scotusblog.com/case-files/cases/corner-post-inc-v-board-of-governors-of-the-federal-reserve-system/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions for this July 2024 case.",
+      "We classify this case under agency-deference because the practical effect of the ruling is to subject decades-old agency rules to perpetual challenge, which is hostile to the regulatory finality that deference doctrine supports.",
+      "R-appointed justices are coded party-aligned (supports regulatory challengers) and doctrine-against (undermines regulatory stability).",
+      "D-appointed justices are non-diagnostic (both party and doctrine support regulatory stability/limiting challenges)."
+    ],
+    "counterarguments": [
+      "The majority's holding is grounded in a plausible textual reading of the APA's accrual rule: the statute says 'a cause of action accrues when it accrues,' and a party not yet in existence when a rule was issued cannot have had a claim accrue at that time.",
+      "Agency-deference doctrine, properly understood, concerns courts' deference to agency interpretations when they review cases on the merits, not limitations periods for filing challenges; classifying Corner Post as an agency-deference case may overstate the doctrinal connection.",
+      "The ruling's practical effect in expanding challenges to agency rules is a consequence of a textualist statutory interpretation, not a rejection of deference principles per se, reducing the diagnostic significance for the agency-deference doctrine."
+    ]
+  },
+  {
+    "id": "garland-v-cargill-2024",
+    "title": "Garland v. Cargill",
+    "year": 2024,
+    "scotus_citation": "602 U.S. 406 (2024)",
+    "area": "Agency Deference / Statutory Interpretation",
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "description": "The Court held 6-3 that bump stocks do not convert semi-automatic rifles into machine guns under federal law, reversing an ATF rule issued during the Trump administration that had classified bump stocks as prohibited machine gun components. Justice Thomas wrote for the majority.",
+    "factual_background": "Following the 2017 Las Vegas mass shooting, the Trump administration directed ATF to reinterpret the federal definition of 'machine gun' to include semi-automatic rifles equipped with bump stocks, which allow rapid fire. ATF issued a rule banning bump stocks. Michael Cargill surrendered his bump stocks under the rule and then challenged it.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that ATF's interpretation of 'machine gun' to include bump-stock-equipped rifles is a reasonable construction of an ambiguous statutory phrase ('single function of the trigger') entitled to deference; courts should defer to ATF's expertise in interpreting the National Firearms Act. A principled textualist applying independent judgment would ask whether the statute's text\u2014which refers to a weapon that fires 'more than one shot by a single function of the trigger'\u2014covers bump stocks as a matter of plain meaning.",
+    "r_party_prediction": "The Republican Party in 2024 supported striking down the bump stock ban as an ATF regulatory overreach into Second Amendment territory; the NRA and gun-rights advocates filed briefs supporting Cargill, aligning with the R party's Second Amendment and anti-regulation positions.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended the ATF rule as a commonsense gun safety measure within ATF's statutory authority, consistent with Democratic gun-control goals.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to strike down the ATF bump stock rule, aligning with party interest (Second Amendment, anti-ATF) and the conservative anti-deference position (reject ATF's interpretation). However, the textualist case for the majority\u2014that bump stocks do not technically make one trigger function fire multiple shots\u2014is genuinely strong, making this a medium-signal case where doctrine and party interest both support the R bloc's vote. The unusual origin of the rule (a Trump administration action) adds complexity.",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion holding that bump stocks do not satisfy the statutory definition of 'machine gun' under a plain-text reading of the National Firearms Act",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; wrote that ATF's reading of the statute was reasonable and that the majority's textualist analysis ignored the practical reality of how bump stocks function",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; would have upheld the ATF rule as a reasonable interpretation of the machine gun definition",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; would have upheld the ATF rule",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-976_lkgn.pdf",
+      "https://www.scotusblog.com/case-files/cases/garland-v-cargill/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'aligned' with anti-deference conservative position; D party 'aligned' with deference.",
+      "R-appointed justices are coded doctrine-against because, under the traditional Chevron deference framework (pre-Loper Bright, which was decided after this case was argued), ATF's interpretation of an ambiguous statutory phrase would be entitled to deference.",
+      "The irony that this rule was issued by a Republican administration is preserved in assumptions but does not change the 2024 R party interest, which supported striking down the rule.",
+      "D-appointed justices are non-diagnostic (both party and doctrine support upholding ATF's rule)."
+    ],
+    "counterarguments": [
+      "The majority's textualist analysis is strong: the statutory phrase 'single function of the trigger' is an objective mechanical description, and bump stocks physically work through separate trigger functions per shot. Under this reading, the case is about plain statutory meaning, not a departure from deference doctrine.",
+      "Because Loper Bright was decided soon after this case and overruled Chevron, classifying the majority's vote as doctrine-against overstates the deference obligation; post-Loper Bright, independent textual analysis is the correct method and the majority was following future doctrine.",
+      "The R party's interest in this case was mixed: the bump stock rule originated in the Trump administration, and some R figures supported the ban; the NRA's position was not monolithic, reducing the clarity of the R party-interest prediction."
+    ]
+  },
+  {
+    "id": "sackett-v-epa-2023",
+    "title": "Sackett v. EPA",
+    "year": 2023,
+    "scotus_citation": "598 U.S. 651 (2023)",
+    "area": "Federalism / Agency Deference",
+    "doctrine_ids": [
+      "federalism-states-rights",
+      "agency-deference"
+    ],
+    "description": "The Court unanimously held that the EPA's 'significant nexus' test for determining which wetlands qualify as 'waters of the United States' under the Clean Water Act was too broad. However, the justices divided 5-4 on the correct test: the Alito plurality adopted a narrower 'continuous surface connection' standard, while Kavanaugh and four D-appointed justices would have used a broader test.",
+    "factual_background": "Michael and Chantell Sackett sought to build a home near Priest Lake, Idaho on property containing wetlands. EPA determined their land fell within the Clean Water Act's jurisdiction as 'waters of the United States' using the 'significant nexus' test. The Sacketts challenged the EPA's authority to regulate their property.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that the EPA's 'significant nexus' test represents a reasonable agency interpretation of an ambiguous statutory phrase, entitled to deference; courts should defer to EPA's expert judgment about the ecologically meaningful connections between wetlands and navigable waters. A principled federalism adherent would hold that extensive federal regulation of intrastate wetlands raises Tenth Amendment concerns about federal displacement of state land-use authority.",
+    "r_party_prediction": "The Republican Party supported the narrowest possible reading of the Clean Water Act's jurisdictional reach, limiting federal EPA authority over private property and land use\u2014a consistent position across property rights, federalism, and anti-regulatory principles.",
+    "d_party_prediction": "The Democratic Party supported the EPA's broader 'significant nexus' test as necessary for effective water quality protection, consistent with an expansive reading of federal regulatory authority under environmental statutes.",
+    "signal_level": "low",
+    "signal_explanation": "Signal is low because all nine justices agreed that EPA's 'significant nexus' test went too far\u2014including the three D-appointed justices who wrote separately only to prefer a somewhat broader alternative test. When D-appointed justices vote to limit an environmental regulation in a Biden-era case, it could represent doctrine-over-party, but the near-unanimity suggests the legal case against the significant-nexus test was strong enough to transcend partisan preference. The disagreement was only about how much to limit the test, not whether to limit it.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the plurality adopting the narrowest 'continuous surface connection' test for WOTUS",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the Alito plurality on the narrower WOTUS standard",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the plurality adopting the 'continuous surface connection' test and rejecting the significant nexus standard as too broad",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Concurred in judgment rejecting the significant nexus test; joined Kavanaugh's concurrence favoring a somewhat broader WOTUS test than the plurality's",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment; wrote separately to argue the plurality's continuous-surface-connection test was itself too narrow and lacked textual support",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the Alito plurality adopting the narrowest WOTUS test",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Concurred in judgment but wrote separately to argue the plurality's test was too narrow; favored a broader standard consistent with the statute's text and historical practice",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the Alito plurality adopting the narrowest WOTUS test",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Concurred in judgment; joined the Kavanaugh concurrence favoring a broader WOTUS test than the plurality's continuous-surface-connection standard",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/21-454_4g18.pdf",
+      "https://www.scotusblog.com/case-files/cases/sackett-v-environmental-protection-agency/"
+    ],
+    "assumptions": [
+      "D-appointed justices are coded 'partial' and 'no' for party alignment because they concurred in limiting EPA's jurisdiction, which goes against the D party's general position of supporting broad EPA authority.",
+      "R-appointed justices in the plurality are coded doctrine-against for agency-deference (they did not defer to EPA's significant-nexus interpretation) and doctrine-against for federalism (the narrowest test limits federal power over wetlands, which the federalism doctrine supports)\u2014an unusual case where party and one doctrine align for R justices.",
+      "Kavanaugh's concurrence is notable: an R-appointed justice who would have preserved a broader EPA test than the R-bloc plurality, reflecting doctrine-over-party on agency deference.",
+      "The 'low' signal reflects the near-consensus: when even D-appointed justices agree EPA went too far, the case is less diagnostic of partisan versus doctrinal voting."
+    ],
+    "counterarguments": [
+      "The federalism doctrine could support the plurality's narrow WOTUS test (limits federal authority over state land), making the R justices' votes simultaneously party-aligned AND doctrine-aligned under the federalism framing, which would make this case non-diagnostic.",
+      "D-appointed justices who concurred in rejecting significant nexus may have been constrained by the weakness of the legal argument for EPA's broad position rather than choosing doctrine over party.",
+      "The significant-nexus test's statutory basis was indeed contested; the Clean Water Act's reference to 'navigable waters' and 'waters of the United States' may not clearly reach isolated or remote wetlands, making the unanimous rejection of the broadest EPA interpretation a textual matter rather than a partisan or doctrinal one."
+    ]
+  },
+  {
+    "id": "little-sisters-v-pennsylvania-2020",
+    "title": "Little Sisters of the Poor v. Pennsylvania",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 657 (2020)",
+    "area": "Executive Power / Agency Authority",
+    "doctrine_ids": [
+      "executive-restraint",
+      "agency-deference"
+    ],
+    "description": "The Court held 7-2 that the Trump administration lawfully expanded religious and moral exemptions to the ACA's contraceptive-coverage mandate. Justice Thomas wrote for the majority, holding that Congress had authorized the agencies to craft the mandate's scope and exemptions, and that the agencies did not act arbitrarily in extending protections to religious objectors.",
+    "factual_background": "The Obama administration's ACA rules required employer health plans to cover contraceptive services at no cost. After extensive litigation over religious exemptions, the Trump administration issued rules broadly exempting religious and moral objectors. Pennsylvania and New Jersey challenged the new exemptions as beyond agency authority.",
+    "doctrine_prediction": "A principled executive-restraint and agency-deference adherent would hold that the agencies must act within the statutory authority Congress granted; expanding exemptions beyond what the statute clearly authorizes would exceed delegated authority. At the same time, a principled deference adherent would accept a reasonable agency construction of its own mandate's scope, including the decision to exempt religious objectors if Congress's silence on exemptions is ambiguous.",
+    "r_party_prediction": "The Republican Party and Trump administration strongly supported the expanded religious exemptions as aligned with both religious liberty goals and the administration's policy of reducing ACA requirements.",
+    "d_party_prediction": "The Democratic Party opposed the expanded exemptions as gutting the contraceptive mandate for millions of women employees and argued the agencies exceeded their statutory authority.",
+    "signal_level": "medium",
+    "signal_explanation": "The 7-2 majority included Kagan and Breyer concurring in judgment (not joining the majority's broader reasoning), suggesting mixed signals. The case is diagnostic primarily because D-appointed justices Kagan and Breyer concurred in upholding a Trump administration rule against D party interest, though they limited their agreement. R-appointed justices' votes are non-diagnostic (both party and deference doctrine support the rule if agencies had authority).",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion upholding the expanded religious and moral exemptions to the ACA contraceptive mandate",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have held the agencies exceeded their statutory authority in creating such broad exemptions and that the mandate's text did not authorize them",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment only; agreed the agencies had statutory authority but wrote separately to argue the majority went too far in analyzing the exemption's merits",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the expanded religious and moral exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-431_c07d.pdf",
+      "https://www.scotusblog.com/case-files/cases/little-sisters-of-the-poor-saints-peter-and-paul-home-v-pennsylvania/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Barrett confirmed October 2020; Jackson confirmed 2022.",
+      "We use the 2017-2021 period party positions for this June 2020 case.",
+      "All votes are coded 'partial' for doctrine because the agency-authority question is genuinely contested: the agencies arguably had statutory flexibility to define the mandate's scope, but the breadth of the exemption was also in tension with the statute's purpose.",
+      "Seat 5 (Kagan) is coded party-against because her concurring in the judgment to uphold a Trump administration rule\u2014even if on narrower grounds\u2014went against the D party's goal of maintaining comprehensive contraceptive coverage."
+    ],
+    "counterarguments": [
+      "Kagan's concurrence can be read as a limited doctrinal judgment about agency authority rather than a vote supporting the policy outcome; her concurrence explicitly limited her agreement to the question of statutory authority while preserving challenges on APA grounds.",
+      "Sotomayor's dissent suggests that the D-appointed justices were split on the merits question, reducing the signal from Kagan's concurrence.",
+      "R-appointed justices upholding a Republican administration rule is non-diagnostic if we accept that the agencies genuinely had statutory authority to create exemptions; if the statute authorized it, the vote reflects doctrine, not partisanship."
+    ]
+  },
+  {
+    "id": "collins-v-yellen-2021",
+    "title": "Collins v. Yellen",
+    "year": 2021,
+    "scotus_citation": "594 U.S. 220 (2021)",
+    "area": "Executive Power / Removal Authority",
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "description": "The Court held 9-0 that the Federal Housing Finance Agency's structure\u2014with a director removable only for cause\u2014violated the separation of powers, following the logic of Seila Law. The justices divided 5-4 on the appropriate remedy for shareholders challenging a Third Amendment to the FHFA's conservatorship agreement.",
+    "factual_background": "Congress created the FHFA to oversee Fannie Mae and Freddie Mac, structuring it with a single director removable only for cause. The Trump administration amended the conservatorship agreement in 2019, directing Fannie and Freddie profits to Treasury. Shareholders challenged both the FHFA's structure and the Third Amendment.",
+    "doctrine_prediction": "A principled executive-restraint adherent, applying the conservative unitary executive position, would hold that the for-cause removal restriction for the FHFA director unconstitutionally insulates an executive official from presidential accountability; the President must be able to remove executive officers at will. A competing restraint-of-executive view would hold that Congress may structure independent agencies with removal protections, as settled in Humphrey's Executor.",
+    "r_party_prediction": "The Republican Party and Trump administration supported expanding presidential removal authority over independent agencies, consistent with a unitary executive position that had motivated the Seila Law litigation.",
+    "d_party_prediction": "The Democratic Party supported maintaining independent agency structures with removal protections, viewing the for-cause protection as a necessary check on executive interference with financial regulatory decisions.",
+    "signal_level": "low",
+    "signal_explanation": "The 9-0 result on the constitutional question substantially reduces the diagnostic signal. When a result is unanimous, the partisan hypothesis has little explanatory power. The constitutional holding tracks Seila Law, and the division on remedy (5-4) was more about remedy doctrine than the underlying constitutional question. Low signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding the FHFA's for-cause removal restriction unconstitutional; concurred separately on additional grounds",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding the FHFA's removal restriction unconstitutional; part of the 5-justice majority on the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the majority opinion holding the FHFA removal restriction unconstitutional and addressing the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority on the unconstitutionality of the removal restriction; dissented on the remedy question, arguing shareholders were entitled to broader relief",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority on unconstitutionality; dissented on remedy",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_6": {
+        "vote": "Joined the majority holding the removal restriction unconstitutional and on the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority on both unconstitutionality and the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority on unconstitutionality and the remedy question in her first term",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/20pdf/19-422_g3bi.pdf",
+      "https://www.scotusblog.com/case-files/cases/collins-v-mnuchin/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed.",
+      "We use the 2017-2021 period party positions for this June 2021 case.",
+      "All votes are coded 'partial' for doctrine because, as in Seila Law, the executive-restraint doctrine is genuinely contested between the Morrison/Humphrey's Executor tradition (Congress may create independent agencies) and the unitary executive theory (no for-cause protections allowed).",
+      "D-appointed justices agreeing the removal restriction is unconstitutional is notable\u2014they voted to limit independent agency protections despite this going against D party interests. However, the 9-0 result and the fact that they separately sought more relief for shareholders complicate the alignment."
+    ],
+    "counterarguments": [
+      "A unanimous constitutional holding strongly suggests that the legal case against the removal restriction was clear enough that no principled jurist could defend it after Seila Law, making the case non-diagnostic rather than revealing.",
+      "D-appointed justices' votes on unconstitutionality may reflect stare decisis with Seila Law rather than independent doctrinal judgment, since Seila Law was decided just one year earlier and the FHFA structure was nearly identical.",
+      "The real diagnostic question in this case\u2014whether shareholders were entitled to a remedy\u2014was decided 5-4 along party lines, suggesting the politically salient dispute was not the constitutional question but the remedy, which this analysis does not fully capture."
+    ]
+  }
+]

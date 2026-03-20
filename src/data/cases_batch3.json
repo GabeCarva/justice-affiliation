@@ -1,0 +1,233 @@
+[
+  {
+    "id": "fda-v-alliance-hippocratic-medicine-2024",
+    "title": "FDA v. Alliance for Hippocratic Medicine",
+    "year": 2024,
+    "scotus_citation": "602 U.S. 367 (2024)",
+    "area": "Standing and Justiciability",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "A unanimous Court held that the plaintiff doctors and medical associations lacked Article III standing to challenge FDA's approval and regulation of mifepristone. Justice Kavanaugh wrote for the Court, finding the plaintiffs could not demonstrate a concrete, traceable injury sufficient for standing.",
+    "factual_background": "Anti-abortion doctors and medical associations challenged FDA's 2000 approval of mifepristone and subsequent regulatory actions expanding its availability, arguing the drug posed risks to women and would burden physicians who oppose abortion. The Fifth Circuit had found standing and partially reversed FDA's approvals.",
+    "doctrine_prediction": "A principled strict-standing adherent would hold that the plaintiff physicians cannot demonstrate a concrete injury traceable to FDA's mifepristone approvals; their objections are to a drug they need not prescribe, and their alleged harm from treating complications is too speculative and attenuated. Doctrine requires a direct, particularized injury, not a generalized policy objection clothed in professional terms.",
+    "r_party_prediction": "The Republican Party and anti-abortion aligned organizations supported allowing the case to proceed on the merits, which could have resulted in restrictions on mifepristone access; finding standing would advance a major policy goal for R-aligned constituencies.",
+    "d_party_prediction": "The Democratic Party and Biden administration supported dismissal for lack of standing, preventing a judicially imposed restriction on mifepristone access and defending FDA's drug approval authority.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices applied strict standing doctrine to dismiss a challenge brought by R-party-aligned plaintiffs seeking to restrict abortion access—a major R policy goal. Every R-appointed justice voted against their party's immediate interest to enforce the doctrine. This is one of the clearest cases of R-appointed justices prioritizing doctrine over party outcome in the dataset.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in judgment finding no standing; wrote separately to question some aspects of the majority's reasoning but agreed the plaintiffs lacked Article III standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing to challenge FDA's mifepristone approvals",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_4": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Wrote the majority opinion holding that plaintiffs lacked Article III standing due to insufficient concrete, traceable injury",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority opinion holding plaintiffs lack standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-235_n7ip.pdf",
+      "https://www.scotusblog.com/case-files/cases/food-and-drug-administration-v-alliance-for-hippocratic-medicine/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to the standing doctrine (supports broad standing, especially for R-aligned litigants challenging Biden administration actions); D party 'opposed' generally but aligned with dismissal in this specific case.",
+      "D-appointed justices are coded party-aligned because the D party's specific interest in this case (dismiss the anti-mifepristone suit) coincided with the strict-standing result, even though D party generally supports broader standing.",
+      "The 9-0 result makes this case unusually diagnostic: unanimous application of strict standing to dismiss a politically charged challenge is powerful evidence that the doctrine operated independent of partisan preference for at least some justices.",
+      "Thomas's concurrence raised separate issues about FDA's process but did not dissent from the no-standing holding."
+    ],
+    "counterarguments": [
+      "A unanimous result could reflect the weakness of the standing argument rather than doctrine operating against party interest; the standing problem here was severe enough that no honest jurist could find standing, making the vote less diagnostic.",
+      "D-appointed justices' votes are non-diagnostic if we measure against the D party's general principle of broad standing rather than this specific case's party interest.",
+      "The majority left open whether different plaintiffs (e.g., states) could bring standing claims, suggesting the holding is narrower than it appears and may not represent a principled constraint on future challenges."
+    ]
+  },
+  {
+    "id": "loper-bright-v-raimondo-2024",
+    "title": "Loper Bright Enterprises v. Raimondo",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 369 (2024)",
+    "area": "Agency Deference",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-2 that Chevron U.S.A. v. Natural Resources Defense Council should be overruled, ending four decades of judicial deference to agency interpretations of ambiguous statutes. The Chief Justice wrote for the majority, holding that Article III requires courts to exercise independent judgment in interpreting statutes rather than deferring to the agency administering them.",
+    "factual_background": "Atlantic herring fishing companies challenged an NMFS rule requiring them to pay for federal monitors aboard their vessels. The D.C. Circuit upheld the rule applying Chevron deference. The Court used the case to reconsider Chevron's validity.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that overruling Chevron destabilizes four decades of administrative law, deprives agencies of interpretive authority Congress reasonably delegated through ambiguous statutes, and substitutes judicial preferences for expert agency judgment. Chevron's two-step framework is consistent with Article III as long as courts retain authority to determine that a statute is not ambiguous.",
+    "r_party_prediction": "The Republican Party strongly supported overruling Chevron, viewing deference to agencies as a source of progressive regulatory expansion and a delegation of law-interpretation authority that properly belongs to courts and ultimately constrains administrative overreach.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended Chevron as essential to the regulatory state, arguing that independent judicial interpretation of technical statutes would paralyze agencies and substitute judicial policy preferences for those of elected-branch experts.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices voted to overrule Chevron against the clear preference of their party's stated anti-deference position—but their party's POSITION was to overrule Chevron. The party-aligned vote IS the anti-deference vote, making this high-signal for R justices: they voted with their party interest AND against the traditional doctrine. All three D-appointed justices voted to preserve the doctrine, aligning with their party interest.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority overruling Chevron; wrote separately to argue for an even more textualist approach to statutory interpretation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion overruling Chevron deference and holding that courts must exercise independent judgment in statutory interpretation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued Chevron was correctly decided, consistent with Article III, and should not be overruled",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent arguing that Chevron was correct, well-settled, and that overruling it would destabilize administrative law and substitute judicial preferences for expert agency judgment",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority overruling Chevron; has previously written separately advocating for Chevron's elimination",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority overruling Chevron",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Recused from this specific case (Loper Bright) due to prior D.C. Circuit involvement; participated in the companion case Relentless v. Department of Commerce with the same result",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-1219_9p6b.pdf",
+      "https://www.scotusblog.com/case-files/cases/loper-bright-enterprises-v-raimondo/"
+    ],
+    "assumptions": [
+      "Jackson recused from Loper Bright but voted in the companion case Relentless v. Department of Commerce; her vote in Relentless (dissenting from Chevron's overruling) is recorded here for completeness.",
+      "We use the 2021-2025 period party positions: R party 'aligned' with anti-deference doctrine (supports ending Chevron); D party 'aligned' with pro-deference position.",
+      "For this case, R-appointed justices voting to overrule Chevron are party-aligned AND doctrine-against (traditional Chevron says defer). The combination represents the core pattern this project tracks: R justices' votes match R party position and oppose the established doctrine.",
+      "D-appointed justices are non-diagnostic (party and doctrine both support preserving Chevron)."
+    ],
+    "counterarguments": [
+      "Under the conservative principled position on agency deference—that Article III requires courts to interpret statutes independently—overruling Chevron IS doctrine-aligned, making all six R-appointed justices' votes non-diagnostic (party and their principled position aligned).",
+      "The case for overruling Chevron based on Marbury v. Madison and the APA's 'de novo' standard for legal questions is a serious constitutional argument, not merely partisan preference.",
+      "Kagan's dissent acknowledged that the majority was partially correct that Chevron has been misapplied in many contexts; this concession suggests even doctrine adherents see the doctrine's limits."
+    ]
+  },
+  {
+    "id": "trump-v-united-states-2024",
+    "title": "Trump v. United States",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 593 (2024)",
+    "area": "Presidential Immunity",
+    "doctrine_ids": ["presidential-immunity"],
+    "description": "The Court held 6-3 that former presidents have absolute immunity from criminal prosecution for official acts within their exclusive constitutional authority, a strong presumption of immunity for all official acts, and no immunity for unofficial acts. The ruling substantially constrained the federal prosecution of the former president.",
+    "factual_background": "A federal grand jury indicted former President Trump on charges related to alleged efforts to overturn the 2020 election. Trump moved to dismiss on immunity grounds. The D.C. Circuit rejected broad immunity. The Supreme Court reversed, establishing a new framework for presidential immunity from criminal prosecution.",
+    "doctrine_prediction": "A principled presidential-immunity adherent applying the moderate, doctrine-constrained view would hold that former presidents retain immunity for conduct within their core constitutional functions (e.g., pardons, vetoes, commander-in-chief decisions) but remain subject to criminal prosecution for private conduct or unofficial acts not connected to the discharge of presidential duties. The immunity should be determined case by case based on the function, not applied categorically to all official acts.",
+    "r_party_prediction": "The Republican Party, whose former president faced criminal prosecution, strongly favored broad immunity covering all official acts and creating substantial evidentiary barriers to any prosecution arising from presidential conduct, effectively shielding a Republican former president from accountability.",
+    "d_party_prediction": "The Democratic Party sought narrow or no immunity, arguing that the Impeachment Judgment Clause and historical practice contemplate post-office criminal accountability, and that the indictment should proceed on the merits without a categorical immunity barrier.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to create broad immunity for a Republican former president facing prosecution, which aligns with their party's immediate interest. The doctrine predicts some immunity, but the breadth of the immunity created—especially the strong presumption for all official acts and the evidentiary restrictions—exceeded what most legal scholars viewed as constitutionally required. Signal is medium rather than high because the conservative principled position does support substantial immunity for official acts, making the votes partially doctrine-consistent.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority creating broad immunity; wrote separately questioning whether the special counsel was constitutionally appointed, which would have dismissed the case entirely",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion establishing absolute immunity for core executive functions, strong presumptive immunity for all official acts, and no immunity for unofficial acts",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority establishing broad presidential immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the majority's immunity framework is unprecedented, lacks constitutional basis, and effectively places the President above the law",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; wrote that no one, including former presidents, is immune from criminal prosecution for private conduct and that the majority's official-act immunity goes far beyond what history or text requires",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority establishing broad presidential immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority; wrote a notable concurrence acknowledging that the question is difficult and that Congress may have some role in defining the scope of immunity",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority with modifications; wrote separately to argue that the majority should have limited its holding more carefully on the use of official-act evidence at trial",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; argued that presidential immunity from criminal prosecution is dangerous to democratic accountability and that the majority's framework provides inadequate protection against executive abuse",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-united-states-presidential-immunity/"
+    ],
+    "assumptions": [
+      "All votes are coded 'partial' for doctrine alignment because the presidential-immunity doctrine is itself genuinely contested between a conservative position (broad immunity for official acts) and a liberal position (narrow or no immunity). Each justice is following their side's principled position.",
+      "We use the 2021-2025 period party positions: R party 'aligned' with presidential immunity doctrine; D party 'opposed' to presidential immunity.",
+      "The diagnostic signal for R-appointed justices comes from the breadth of the immunity created, which exceeded what most conservative legal scholars argued was constitutionally required; this goes beyond the principled conservative position toward a result that maximally benefits the appointing party's former president.",
+      "All seats participated in this case decided July 1, 2024."
+    ],
+    "counterarguments": [
+      "Because both the conservative and liberal principled positions on presidential immunity are recognized within the doctrine, all votes can be characterized as doctrine-consistent from the perspective of the justice's own legal theory, making this case entirely non-diagnostic.",
+      "Roberts's majority is careful to limit immunity to official acts and explicitly holds that unofficial acts have no immunity, which tracks the moderate principled position and is not simply a political result.",
+      "The former president happened to be Republican; if a Democratic president faced identical charges, the question of which justices would vote for immunity is entirely uncertain and could produce a different alignment."
+    ]
+  }
+]
