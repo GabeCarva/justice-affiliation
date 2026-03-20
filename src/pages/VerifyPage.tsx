@@ -163,6 +163,70 @@ export function VerifyPage() {
             </button>
           </div>
 
+          {/* Per-doctrine breakdown */}
+          <h3 className="font-serif font-semibold text-lg mb-3">Score by Doctrine</h3>
+          <div className="mb-8 overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="text-left py-2 pr-4 font-medium text-gray-600">Doctrine</th>
+                  <th className="text-right py-2 pr-4 font-medium text-gray-600">Partisan Index</th>
+                  <th className="text-right py-2 pr-4 font-medium text-gray-600">Doctrinal Adherence</th>
+                  <th className="text-right py-2 font-medium text-gray-600">Cases</th>
+                </tr>
+              </thead>
+              <tbody>
+                {doctrines.map(d => {
+                  const pd = score.per_doctrine[d.id]
+                  if (!pd) return (
+                    <tr key={d.id} className="border-b border-gray-100">
+                      <td className="py-2 pr-4 text-gray-400">{d.name}</td>
+                      <td className="py-2 pr-4 text-right text-gray-300">—</td>
+                      <td className="py-2 pr-4 text-right text-gray-300">—</td>
+                      <td className="py-2 text-right text-gray-300">0</td>
+                    </tr>
+                  )
+                  const partisan = pd.partisan_index
+                  const doctrinal = 1 - partisan
+                  return (
+                    <tr key={d.id} className="border-b border-gray-100">
+                      <td className="py-2 pr-4 font-medium">{d.name}</td>
+                      <td className="py-2 pr-4 text-right">
+                        <div className="flex items-center justify-end gap-2">
+                          <div className="w-24 bg-gray-100 rounded-full h-1.5">
+                            <div
+                              className="h-1.5 rounded-full"
+                              style={{
+                                width: `${(partisan * 100).toFixed(0)}%`,
+                                backgroundColor: partisan >= 0.6 ? '#dc2626' : partisan <= 0.4 ? '#2563eb' : '#6b7280',
+                              }}
+                            />
+                          </div>
+                          <span className="font-mono w-10 text-right">{(partisan * 100).toFixed(0)}%</span>
+                        </div>
+                      </td>
+                      <td className="py-2 pr-4 text-right">
+                        <div className="flex items-center justify-end gap-2">
+                          <div className="w-24 bg-gray-100 rounded-full h-1.5">
+                            <div
+                              className="h-1.5 rounded-full bg-blue-500"
+                              style={{ width: `${(doctrinal * 100).toFixed(0)}%` }}
+                            />
+                          </div>
+                          <span className="font-mono w-10 text-right">{(doctrinal * 100).toFixed(0)}%</span>
+                        </div>
+                      </td>
+                      <td className="py-2 text-right text-gray-500">{pd.cases_evaluated}</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+            <p className="text-xs text-gray-400 mt-2">
+              Doctrinal adherence = 1 − partisan index. Per-doctrine scores use the same diagnostic cases filtered by doctrine tag.
+            </p>
+          </div>
+
           {/* Case-by-case trace */}
           <h3 className="font-serif font-semibold text-lg mb-3">Case-by-Case Breakdown</h3>
           <div className="space-y-2 mb-8">
