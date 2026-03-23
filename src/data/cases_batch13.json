@@ -1,0 +1,115 @@
+[
+  {
+    "id": "clapper",
+    "title": "Clapper v. Amnesty International USA",
+    "year": 2013,
+    "scotus_citation": "568 U.S. 398 (2013)",
+    "area": "Standing / Speculative Injury",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "The Court held 5-4 that attorneys and human rights organizations challenging FISA surveillance lacked standing because their alleged injury — that their communications with foreign clients might be intercepted — was too speculative to satisfy the injury-in-fact requirement.",
+    "factual_background": "Section 702 of FISA Amendments Act of 2008 authorized the government to conduct surveillance of non-U.S. persons abroad. Attorneys, journalists, and organizations whose work required communicating with foreign individuals likely targeted for surveillance challenged the law's constitutionality. They argued they were chilled from communicating freely and had incurred costs protecting their communications.",
+    "doctrine_prediction": "A principled adherent of standing doctrine holds that Article III requires a concrete, non-speculative injury in fact. Plaintiffs cannot manufacture standing by spending money to guard against speculative future harm or by self-censoring in anticipation of surveillance that may never occur. The injury-in-fact requirement must be taken seriously even when the underlying constitutional claim is weighty.",
+    "r_party_prediction": "Republicans and the Obama administration jointly defended the constitutionality of the FISA surveillance program and urged the Court to deny standing, insulating a major national security tool from judicial challenge. R-party position supported broad government surveillance authority and strict standing limits that kept challenges out of court.",
+    "d_party_prediction": "Civil liberties-oriented Democrats and the plaintiffs' coalition sought to establish standing to challenge mass surveillance, arguing the chilling effect on attorney-client and journalistic communications was a cognizable injury. The D-party institutional position was divided — the Obama administration defended the surveillance program while many D-aligned groups challenged it.",
+    "signal_level": "high",
+    "signal_explanation": "The 5-4 split follows partisan appointment lines. Standing doctrine holds that speculative, self-manufactured injury should not satisfy Article III — and the R-appointed majority enforced this rigorously. D-appointed justices' willingness to find standing for speculative injuries aligns with D-party interest in enabling challenges to national-security surveillance but diverges from the doctrine's requirement of concrete harm.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding plaintiffs lacked standing; argued the majority's holding was compelled by Article III's case-or-controversy requirement and did not foreclose all challenges to surveillance programs",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding that the speculative nature of the alleged surveillance injury defeated standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the majority opinion holding that respondents' fear of future surveillance was too speculative to constitute injury in fact and that self-inflicted harm to avoid speculative surveillance did not supply standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued plaintiffs faced a sufficiently imminent threat of surveillance given the government's admitted use of Section 702 to monitor persons with whom plaintiffs regularly communicated",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's standing analysis was so restrictive it would insulate government surveillance programs from any meaningful judicial review",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/12pdf/11-1025_ihdj.pdf",
+      "https://www.scotusblog.com/case-files/cases/clapper-v-amnesty-international-usa/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: those justices were not yet on the Court.",
+      "We use 2009–2017 period party positions. R = 'aligned' with strict standing (limiting judicial challenges to executive action); D position is coded partial because the Obama administration (D) actually defended the surveillance program and also sought standing denied — creating a split between the institutional D-party and D-aligned civil liberties groups.",
+      "Sotomayor and Kagan are coded party-partial because D-party institutional interest was itself divided: the executive branch (D) wanted standing denied; civil liberties groups (D-aligned) wanted standing granted."
+    ],
+    "counterarguments": [
+      "The Obama administration (a D administration) supported the same outcome as the R-appointed majority, complicating any purely partisan reading of the decision.",
+      "Breyer's dissent (not in seat map) made a careful probabilistic argument that surveillance was sufficiently likely given the government's stated practices — a doctrinal argument rather than a partisan one.",
+      "The secrecy surrounding FISA surveillance made it structurally impossible for plaintiffs to prove concrete injury, which may mean the doctrine-enforcing majority was applying strict standing rules to deliberately insulate classified programs from review."
+    ]
+  },
+  {
+    "id": "spokeo",
+    "title": "Spokeo, Inc. v. Robins",
+    "year": 2016,
+    "scotus_citation": "578 U.S. 330 (2016)",
+    "area": "Standing / Statutory Violations",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "The Court held 6-2 that standing requires both particularized and concrete injury; a bare procedural violation of a federal statute does not automatically confer standing without a showing of real-world harm. The case was remanded to assess whether the statutory violation caused concrete injury to the plaintiff.",
+    "factual_background": "Thomas Robins sued Spokeo — a 'people search engine' — under the Fair Credit Reporting Act, alleging Spokeo had published inaccurate information about him. The inaccuracies included a false zip code and inflated education and income levels. Robins argued the FCRA violations themselves constituted injury. The Ninth Circuit found standing based on violation of a statutory right; the Supreme Court vacated and remanded.",
+    "doctrine_prediction": "A principled adherent of standing doctrine holds that Congress may create new legal rights through statute, but it cannot define away Article III's injury-in-fact requirement simply by labeling a procedural violation as an injury. Courts must independently assess whether an alleged statutory violation is concrete — whether it actually harmed the plaintiff or presents a sufficient risk of real harm — rather than deferring to Congress's judgment that any violation causes cognizable injury.",
+    "r_party_prediction": "Republicans and business groups supported strict standing limits that would require concrete harm for FCRA class actions, reducing class-action litigation exposure for companies based on technical statutory violations that caused no real-world damage.",
+    "d_party_prediction": "Democrats and consumer advocates supported broad standing to enforce consumer protection statutes, arguing Congress's decision to create a private right of action should be respected and that statutory violations themselves cause legally cognizable harm.",
+    "signal_level": "medium",
+    "signal_explanation": "Kagan joined the majority alongside the four R-appointed justices, providing a doctrine-over-party signal. Ginsburg and Sotomayor dissented. The cross-partisan character of the 6-2 vote moderates the diagnostic signal, as does the procedural posture — the Court remanded rather than deciding standing definitively.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority; wrote separately to note that many violations of legally created rights are themselves concrete injuries under historical common-law analogues, potentially limiting the majority's reach",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding that concreteness and particularity are both required for standing even when Congress creates a statutory right of action",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the majority opinion holding that injury in fact requires both particularized and concrete harm; vacated and remanded for the Ninth Circuit to assess whether Robins's injury was concrete",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the majority's concreteness requirement was unnecessary given that Robins had alleged a particularized statutory violation and that the case should proceed on the merits",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority holding that standing requires concrete injury even for statutory violations; a bare procedural violation untethered to real-world harm is insufficient",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/15pdf/13-1339_f2q3.pdf",
+      "https://www.scotusblog.com/case-files/cases/spokeo-inc-v-robins/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: those justices were not yet on the Court (Gorsuch confirmed April 2017).",
+      "Kagan (seat_5) is coded doctrine-yes/party-no because she joined the majority's strict concreteness requirement against the expected D-party preference for broad standing in consumer protection cases.",
+      "We use 2009–2017 period party positions: R = 'aligned' with strict standing; D = 'opposed' (favoring broad standing for statutory rights).",
+      "Ginsburg's dissent (not in seat map) accompanied Sotomayor's."
+    ],
+    "counterarguments": [
+      "The Court did not deny standing entirely — it remanded for the lower court to assess concreteness, leaving open the possibility that Robins would ultimately be found to have standing.",
+      "Thomas's concurrence substantially limited the majority's reach by emphasizing that historical common-law analogues can establish concrete injury, which many FCRA plaintiffs could satisfy on remand.",
+      "Kagan's joining the majority may reflect her genuine view about Article III limits rather than a departure from partisan preference, since she has been consistent about requiring concrete injury in subsequent cases."
+    ]
+  }
+]

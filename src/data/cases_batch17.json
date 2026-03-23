@@ -1,0 +1,271 @@
+[
+  {
+    "id": "aid-alliance",
+    "title": "Agency for Int'l Dev. v. Alliance for Open Society Int'l",
+    "year": 2013,
+    "scotus_citation": "570 U.S. 205 (2013)",
+    "area": "Federalism / Spending Conditions",
+    "doctrine_ids": ["congressional-spending-authority"],
+    "description": "The Court held 6-2 that a federal law conditioning AIDS-relief funding on recipients having an explicit organizational policy opposing prostitution and sex trafficking violated the First Amendment by compelling speech beyond the government program's scope. Roberts wrote the majority.",
+    "factual_background": "Congress conditioned receipt of federal AIDS-relief funds on recipient organizations having 'a policy explicitly opposing prostitution and sex trafficking.' U.S.-based affiliates of international health organizations argued the requirement violated their First Amendment rights by mandating adoption of a specific viewpoint as a condition of federal funding. The government argued the condition merely restricted how federal money could be spent.",
+    "doctrine_prediction": "A principled adherent of spending-authority doctrine holds that Congress may attach conditions to federal grants that require recipients to spend money in ways consistent with the program's purposes, but may not use funding conditions to compel organizations to adopt specific ideological positions that extend beyond the federally funded program. The distinction between restricting the use of federal funds (permissible) and compelling a recipient to adopt an organization-wide viewpoint (unconstitutional) is essential to protecting First Amendment freedoms from funding leverage.",
+    "r_party_prediction": "Congressional Republicans broadly supported the anti-prostitution pledge requirement as a moral condition on foreign aid, consistent with R-party positions on sex trafficking and opposition to normalizing prostitution. The R-party had championed this requirement in the original legislation.",
+    "d_party_prediction": "The Obama administration defended the pledge requirement as a permissible condition limiting how federal funds could be spent and who could receive them; however, many D-aligned civil liberties organizations supported striking it down as compelled speech that undermined public health organizations' effectiveness abroad.",
+    "signal_level": "medium",
+    "signal_explanation": "Roberts writing the majority striking down an R-favored congressional policy is a strong doctrine-over-party signal. Thomas dissenting alongside Scalia to uphold the pledge requirement maintains the R-partisan position. The D-party position was itself divided — the Obama administration defended the pledge — making the D-appointed justices' votes partially diagnostic.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued the anti-prostitution pledge requirement was a permissible restriction on how federal funds could be spent and who could be eligible to receive them, not a compulsion of private speech",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion striking down the pledge requirement as compelled speech that went beyond restricting how federal funds were spent to mandating organizations adopt an organization-wide ideological policy",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Joined Thomas's dissent; argued the government may require recipients to agree with the conditions of its funding program as a prerequisite for receiving federal money",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority striking down the pledge requirement as an unconstitutional condition on the receipt of federal funds",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority striking down the pledge requirement; argued the government may not use federal funding to compel private organizations to endorse government policy as their own",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/12pdf/12-10_j4ck.pdf",
+      "https://www.scotusblog.com/case-files/cases/agency-for-intl-development-v-alliance-for-open-society-intl-inc/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: not yet on the Court.",
+      "D-appointed justices (seats 4, 5) are coded party-partial because the Obama administration (a D administration) defended the pledge requirement, creating a split between the executive branch and D-aligned civil liberties groups.",
+      "Roberts (seat_2) is coded party-no because he struck down an R-sponsored policy condition against the R-party's stated political position.",
+      "We use 2009–2017 period party positions."
+    ],
+    "counterarguments": [
+      "The case is as much a First Amendment case as a spending-power case; coding it primarily as a spending-authority case may understate the free-speech dimension.",
+      "The Obama administration defending the R-designed pledge condition makes the partisan alignment complex — the executive branch's position crossed party lines.",
+      "Thomas and Scalia's dissent that funding conditions may require ideological agreement is a defensible view of the unconstitutional conditions doctrine, not necessarily a partisan position."
+    ]
+  },
+  {
+    "id": "trump-vance",
+    "title": "Trump v. Vance",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 786 (2020)",
+    "area": "Presidential Immunity / State Criminal Process",
+    "doctrine_ids": ["presidential-immunity"],
+    "description": "The Court held 7-2 that a sitting President is not absolutely immune from a state grand jury's subpoena for personal financial records; the state grand jury's subpoena to Trump's accounting firm was enforceable. Roberts wrote for the majority.",
+    "factual_background": "Manhattan District Attorney Cy Vance subpoenaed Trump's long-time accounting firm Mazars USA for financial records as part of a grand jury investigation. Trump argued a sitting President has absolute immunity from state criminal process. The Court rejected absolute immunity but remanded for lower courts to consider whether the specific subpoena posed heightened burdens on presidential functions.",
+    "doctrine_prediction": "A principled adherent of presidential-immunity doctrine holds that the Constitution does not provide a sitting President with absolute immunity from state criminal process. Presidential accountability to the law — including state criminal investigations — is a foundational constitutional principle. While a President may seek to show that a specific subpoena poses undue burden on executive functions, there is no categorical bar to state criminal process applicable to presidents.",
+    "r_party_prediction": "The Trump administration and Republicans argued for broad presidential immunity from state criminal process, asserting that allowing states to investigate sitting presidents would create harassment risks and distract from presidential duties; the R-party's institutional interest was in protecting Trump from the Manhattan DA's investigation.",
+    "d_party_prediction": "Democrats and the Manhattan DA's office supported enforcing the subpoena, arguing no person — including the President — is above the law and that state criminal investigations must be able to proceed regardless of the subject's office.",
+    "signal_level": "high",
+    "signal_explanation": "Gorsuch and Kavanaugh joining the seven-justice majority against the Trump administration's position is highly diagnostic — two Trump-appointed justices voted against their appointer's claimed immunity. Thomas and Alito dissented, partially maintaining the pro-immunity position. Roberts writing the majority against the R-party's interest provides the strongest doctrine-over-party signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented in part; would have imposed additional judicial safeguards before any state criminal subpoena for presidential records could be enforced, arguing the majority's standard was insufficient to protect against harassment of sitting presidents",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding there is no absolute presidential immunity from state criminal subpoenas; the President may challenge specific subpoenas on undue-burden grounds but cannot categorically block state grand jury process",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; argued the majority's framework was insufficiently protective of the presidency from politically motivated state prosecutorial harassment",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority holding that no person, including the President, is absolutely immune from state grand jury subpoenas",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority; argued the majority's holding correctly applied the principle that the President is subject to the law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority holding that absolute presidential immunity from state criminal process is not supported by the Constitution's text, history, or precedent",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority rejecting absolute presidential immunity from state grand jury subpoenas",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-635_o7jp.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-vance/"
+    ],
+    "assumptions": [
+      "Seat 8 (Barrett) omitted: confirmed October 2020; Trump v. Vance was decided July 9, 2020.",
+      "Seat 9 (Jackson) omitted: not yet on the Court.",
+      "Gorsuch (seat_6) and Kavanaugh (seat_7) are coded doctrine-yes/party-no: they are Trump-appointed justices who voted against Trump's claimed immunity, the paradigmatic doctrine-over-party signal.",
+      "We use 2017–2021 period party positions: R = 'opposed' to executive restraint (supporting broad presidential immunity for Trump); D = 'aligned' (supporting criminal accountability of presidents)."
+    ],
+    "counterarguments": [
+      "Roberts's majority actually remanded for lower courts to consider whether the subpoena imposed undue burdens — meaning Trump could still challenge the subpoena's specific terms, limiting the practical effect of the ruling.",
+      "Thomas and Alito's dissents are framed as institutional concerns about the risk of politically motivated state prosecutorial harassment, which is a principled institutional argument rather than a purely partisan defense of Trump.",
+      "The 7-2 majority including all three Trump-appointed justices who were on the Court at the time provides unusually strong evidence against the partisan-capture thesis for Gorsuch and Kavanaugh."
+    ]
+  },
+  {
+    "id": "trump-mazars",
+    "title": "Trump v. Mazars USA, LLP",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 848 (2020)",
+    "area": "Presidential Immunity / Congressional Subpoenas",
+    "doctrine_ids": ["presidential-immunity"],
+    "description": "The Court held 7-2 that congressional committee subpoenas for a sitting President's personal financial records are subject to heightened scrutiny and must be justified by a legitimate legislative purpose proportionate to the intrusion on the Executive. Roberts wrote the majority; the case was remanded for lower-court application of this standard.",
+    "factual_background": "Three House committees subpoenaed Trump's accounting firm and banks for personal financial records, claiming legislative purposes including ethics legislation and national security concerns. Trump sued to block the subpoenas. The D.C. Circuit and Second Circuit upheld the subpoenas; the Supreme Court vacated and remanded with a new standard requiring courts to evaluate whether the subpoenas served a valid legislative need, were appropriately tailored, and were not motivated by exposure rather than legislation.",
+    "doctrine_prediction": "A principled adherent of presidential-immunity doctrine holds that the legislative branch's subpoena power does not extend to unlimited demands for presidential financial records absent a demonstrated nexus to a legitimate legislative function. While no person is entirely above legislative process, a sitting President's personal records demand heightened scrutiny because unchecked congressional subpoena power could paralyze the executive through perpetual legislative investigation. Courts must independently balance the legislative need against executive-branch interests.",
+    "r_party_prediction": "The Trump administration and Republicans argued Congress had no legislative basis for the financial records subpoenas and that the subpoenas were designed to embarrass and harass a sitting president rather than advance legislation; the R-party's institutional interest was in blocking the subpoenas entirely.",
+    "d_party_prediction": "House Democrats and the D-party sought to enforce the subpoenas as part of oversight investigations into whether legislation was needed on financial ethics, presidential conflicts of interest, and foreign financial entanglements; the D-party position was that Congress's broad oversight authority supported enforcement.",
+    "signal_level": "high",
+    "signal_explanation": "The 7-2 decision against the Trump administration — with both Gorsuch and Kavanaugh in the majority — provides strong doctrine-over-party signal for those two justices. Roberts imposing a heightened-scrutiny standard rather than blocking the subpoenas entirely also falls short of the maximum R-party interest in full protection. Thomas and Alito dissenting and arguing for stronger protection for the President aligns with R-party interest.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued the majority's heightened-scrutiny standard was insufficient and that congressional subpoenas for presidential financial records should require a clear statement of specific legislative need before courts enforce them",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion imposing heightened scrutiny on congressional subpoenas for presidential financial records; remanded for lower courts to apply the new standard balancing legislative need against executive-branch interests",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_3": {
+        "vote": "Dissented; argued Congress must affirmatively demonstrate a specific, legitimate legislative purpose before any court should enforce a subpoena for presidential personal records",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority; argued the heightened-scrutiny standard adequately protected the executive while permitting legitimate congressional oversight",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority; held that Congress has broad investigative authority but that authority must be exercised with legitimate legislative purpose proportionate to any intrusion on presidential functions",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority rejecting absolute presidential immunity from congressional subpoenas while imposing a heightened-scrutiny standard",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority imposing heightened scrutiny on congressional subpoenas for presidential financial records",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-715_febh.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-mazars-usa-llp/"
+    ],
+    "assumptions": [
+      "Seat 8 (Barrett) omitted: confirmed October 2020; Trump v. Mazars was decided July 9, 2020.",
+      "Seat 9 (Jackson) omitted: not yet on the Court.",
+      "Roberts (seat_2) is coded partial/partial on party alignment: he imposed heightened scrutiny that was less protective than the R-party wanted (full block) but also less permissive than the D-party wanted (immediate enforcement).",
+      "Gorsuch (seat_6) and Kavanaugh (seat_7) are coded party-no: they voted against the Trump administration's maximum position.",
+      "We use 2017–2021 period party positions."
+    ],
+    "counterarguments": [
+      "Roberts's heightened-scrutiny remand could be read as a practical win for Trump since it delayed enforcement of the subpoenas through the remainder of his term without a definitive ruling against him.",
+      "Thomas and Alito's dissents arguing for stronger protection are principled institutional arguments about separation of powers, not necessarily purely partisan defenses of Trump.",
+      "The subpoenas were ultimately unresolved when Trump left office in January 2021, meaning the heightened-scrutiny standard Roberts created was never applied to produce a final outcome."
+    ]
+  },
+  {
+    "id": "trump-casa",
+    "title": "Trump v. CASA, Inc.",
+    "year": 2025,
+    "scotus_citation": "No. 24A884 (2025)",
+    "area": "Nationwide Injunctions / Birthright Citizenship",
+    "doctrine_ids": ["nationwide-injunctions"],
+    "description": "The Court held 6-3 that federal district courts may not issue 'universal' or 'nationwide' injunctions that prohibit enforcement of a federal policy against non-parties to the litigation. The ruling limited injunctive relief to the actual parties before the court. Barrett wrote for the majority; Sotomayor, Kagan, and Jackson dissented.",
+    "factual_background": "President Trump issued an executive order purporting to eliminate birthright citizenship for children born in the United States to parents who are unlawfully present or temporarily present. Multiple district courts issued nationwide injunctions blocking enforcement of the order against all persons, not merely the plaintiffs. The administration sought emergency stays arguing the nationwide scope exceeded district courts' equitable authority.",
+    "doctrine_prediction": "A principled adherent of nationwide-injunction doctrine holds that courts of equity have traditionally granted relief tailored to the parties before them; their power does not extend to binding the government's conduct toward all persons in the country, most of whom are not parties to the litigation. Nationwide injunctions aggrandize individual district courts, create forum shopping, and require a single judge's view to control national policy — none of which is consistent with Article III's limitation of judicial power to actual cases and controversies between the parties.",
+    "r_party_prediction": "The Trump administration and Republicans strongly opposed nationwide injunctions that blocked administration policies across the country based on challenges by selected plaintiffs in favorable jurisdictions; the R-party had long complained about nationwide injunctions as a tool used by D-aligned litigants to halt R-administration policies through strategic venue selection.",
+    "d_party_prediction": "Democrats and immigration advocates supported nationwide injunctions in this context as necessary to protect all affected persons — not merely named plaintiffs — from enforcement of an unconstitutional executive order; the D-party position was that nationwide relief was appropriate given the nationwide scope of the challenged policy.",
+    "signal_level": "high",
+    "signal_explanation": "The 6-3 split precisely follows the partisan appointment divide on a doctrine question that has direct and immediate political consequences for the Trump administration's immigration agenda. All six Republican-appointed justices limited nationwide injunctions; all three Democratic-appointed justices dissented. The clean partisan alignment on a high-stakes, high-salience case is maximally diagnostic.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority limiting nationwide injunctions to parties before the court; wrote separately to argue the historical equitable practice has never supported universal injunctions and the Court should make clear they are categorically impermissible",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority limiting the scope of injunctive relief to the parties before the court",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority holding district courts lack equitable authority to issue injunctions protecting non-parties",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Wrote the principal dissent; argued the majority's ruling would force affected parties to intervene in litigation or file duplicative suits while the government proceeded to implement a potentially unconstitutional policy against all others pending appeal",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's restriction on nationwide injunctions would deprive courts of an essential tool to provide complete relief and would permit enforcement of unconstitutional policies against non-parties while litigation proceeded",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority limiting nationwide injunctions to parties before the district court",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority holding that equitable principles limit injunctions to parties before the court and do not authorize courts to bind the government's conduct toward the general public",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion holding that courts of equity have not historically issued universal injunctions and that district courts may only enjoin enforcement against the parties before them",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; argued the majority's ruling made it structurally impossible to obtain meaningful relief against government policies that operate uniformly against all persons, not merely named plaintiffs",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.scotusblog.com/case-files/cases/trump-v-casa-inc/",
+      "https://www.supremecourt.gov/docket/docketfiles/html/public/24a884.html"
+    ],
+    "assumptions": [
+      "We use the 2025-present period party positions: R = 'opposed' to executive restraint broadly (Trump second term asserting broad executive power) but strongly supportive of limiting nationwide injunctions as a check on judicial overreach blocking executive policy.",
+      "D party in 2025 favors preserving nationwide injunctions as a tool to block Trump administration policies.",
+      "All six R-appointed justices are coded doctrine-yes/party-yes (non-diagnostic) because both doctrine and R-party interest aligned on limiting nationwide injunctions.",
+      "All three D-appointed justices are coded doctrine-no/party-yes (partisan signal) because they voted to preserve broader injunctive authority aligned with D-party interest in blocking the Trump birthright citizenship order."
+    ],
+    "counterarguments": [
+      "The nationwide injunction doctrine question has genuine historical ambiguity — scholars dispute whether equity courts have ever issued truly universal relief — meaning the majority's holding may be more historically contestable than it appears.",
+      "Republicans enthusiastically used nationwide injunctions when they were plaintiffs challenging the Biden administration's policies (e.g., vaccine mandates, student loan forgiveness), meaning both parties have historically shifted positions depending on who is in power.",
+      "The D-appointed dissenters' concern about practical access to relief is a genuine institutional argument, not reducible to a partisan defense of immigration policy — it applies equally to any future universal policy of any administration."
+    ]
+  }
+]

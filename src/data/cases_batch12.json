@@ -1,0 +1,307 @@
+[
+  {
+    "id": "ohio-epa",
+    "title": "Ohio v. EPA",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 279 (2024)",
+    "area": "Agency Deference / Reasoned Decision-Making",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court granted a stay of EPA's Good Neighbor Plan 5-4, holding that EPA likely acted arbitrarily and capriciously by failing to adequately respond to states' objections to their state implementation plan disapprovals before promulgating the federal plan. Gorsuch wrote for the majority; Roberts, Sotomayor, Kagan, and Jackson dissented.",
+    "factual_background": "EPA's Good Neighbor Plan regulated upwind states' contributions to downwind air pollution under the Clean Air Act. When EPA disapproved numerous states' implementation plans, those states challenged the disapprovals; several courts stayed those disapprovals. EPA nonetheless finalized the federal Good Neighbor Plan, relying on the participation of states whose plans had been stayed. Multiple states and industry groups sought an emergency stay of the entire federal plan.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that agency rules must rest on reasoned decision-making that responds to all material objections. When the legal and factual premises underlying a rule change dramatically mid-rulemaking — here, stays of state plan disapprovals — an agency that refuses to reconsider the rule's viability acts arbitrarily. Courts are not required to defer to an agency that ignores the logical foundation of its own regulatory scheme.",
+    "r_party_prediction": "Republicans and Republican-led states strongly opposed the Good Neighbor Plan as federal overreach that imposed costly emissions controls on upwind states for the benefit of distant downwind jurisdictions, and supported staying the rule pending judicial review of EPA's disapproval decisions.",
+    "d_party_prediction": "The Biden EPA and Democrats defended the Good Neighbor Plan as necessary to address interstate air pollution under the Act's interstate transport provisions, arguing the stays of individual state plans did not undermine the federal plan's legal basis or workability.",
+    "signal_level": "medium",
+    "signal_explanation": "Roberts's notable dissent from the conservative majority — arguing the Court was too eager to intervene before the lower courts had ruled — provides meaningful cross-partisan signal. The 5-4 split otherwise follows party lines, but Roberts's position complicates a purely partisan reading. The stay posture also moderates the signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority granting the stay; EPA's failure to address the significance of the stayed state plan disapprovals was likely arbitrary and capricious",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Dissented; argued the Court should not grant an emergency stay while lower courts were still adjudicating the underlying state plan disapprovals, and that EPA's statutory authority was more defensible than the majority suggested",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_3": {
+        "vote": "Joined the majority granting the stay of the Good Neighbor Plan",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have denied the stay and allowed EPA's rule to take effect while judicial review proceeded in the lower courts",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued EPA's decision was legally defensible and the Court was improperly displacing normal appellate process with emergency intervention",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Wrote the majority opinion granting the stay; held EPA likely failed to conduct reasoned decision-making in light of the changed factual landscape created by the stayed state plan disapprovals",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority granting the stay of the Good Neighbor Plan",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority granting the stay of the Good Neighbor Plan",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; argued the emergency stay standard was not met and the Court should allow normal appellate review to proceed",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23a349_i4ek.pdf",
+      "https://www.scotusblog.com/case-files/cases/ohio-v-environmental-protection-agency/"
+    ],
+    "assumptions": [
+      "We use 2021–2025 period party positions: R = 'aligned' with limiting agency deference; D = 'opposed' (defending Biden EPA's broad regulatory authority).",
+      "Roberts is coded partial/partial because his dissent focused on the Court's emergency-stay jurisprudence rather than a full defense of EPA's merits position — he did not endorse EPA's Good Neighbor Plan.",
+      "The decision was issued on an emergency stay application before full merits review, moderating the diagnostic value."
+    ],
+    "counterarguments": [
+      "Roberts's dissent is focused on institutional concerns about the Court's shadow docket rather than a defense of EPA's rule, making his vote ambiguous as a signal about agency deference.",
+      "The majority's reasoning — that EPA had to reconsider after the state plan disapprovals were stayed — may be a sound APA reasoned-decision-making point unrelated to partisan views on climate regulation.",
+      "The stay was later upheld by the DC Circuit on remand, suggesting EPA's rule did have underlying legal defects that even a more deferential court might have identified."
+    ]
+  },
+  {
+    "id": "sec-jarkesy",
+    "title": "SEC v. Jarkesy",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 109 (2024)",
+    "area": "Agency Deference / Seventh Amendment",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that the Seventh Amendment's jury trial right applies to SEC civil enforcement actions seeking civil penalties, and that Congress cannot route such suits through administrative proceedings to avoid Article III courts. Roberts wrote for the majority.",
+    "factual_background": "The SEC brought an administrative enforcement action against hedge fund manager George Jarkesy, alleging securities fraud. The Dodd-Frank Act allowed the SEC to choose between bringing enforcement actions in federal district court (with jury trial) or before an in-house ALJ. Jarkesy argued the SEC's use of an in-house tribunal to impose civil penalties violated his Seventh Amendment right to a jury trial.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that Congress may not abrogate constitutional rights — including the Seventh Amendment jury trial right for common-law-like claims — simply by routing them through administrative agencies. Agency adjudication of civil penalties that closely resemble common-law fraud actions must comport with the Seventh Amendment; courts should not defer to Congress's or agencies' choices about tribunal design when constitutional rights are at stake.",
+    "r_party_prediction": "Republicans and business groups supported limiting in-house agency enforcement proceedings, viewing the SEC's ALJ system as rigged in favor of the agency, and supported requiring jury trials in federal court for civil penalties.",
+    "d_party_prediction": "Democrats and the SEC defended the ALJ system as a congressional choice to use expert tribunals for complex securities enforcement, arguing the public-rights exception permitted Congress to route enforcement actions through administrative proceedings without triggering the Seventh Amendment.",
+    "signal_level": "high",
+    "signal_explanation": "The 6-3 split precisely follows the partisan appointment divide, with the six Republican-appointed justices in the majority limiting SEC's enforcement machinery and the three Democratic-appointed justices dissenting. The case represents a significant structural limitation on the administrative state, making it highly diagnostic.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding the Seventh Amendment requires a jury trial for SEC civil penalty actions; concurred separately to address the public-rights exception more broadly",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding that the Seventh Amendment applies to SEC civil enforcement and Congress cannot constitutionally route such suits to administrative tribunals to avoid jury trials",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority limiting SEC's in-house enforcement authority on Seventh Amendment grounds",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Wrote the principal dissent; argued the public-rights exception permitted Congress to route securities enforcement through administrative proceedings and the majority's ruling threatened decades of federal regulatory enforcement",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the dissent; argued the majority's Seventh Amendment holding was historically unsupported and would impose severe disruption on agency enforcement programs across the federal government",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority limiting the SEC's administrative enforcement authority",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority holding the Seventh Amendment applies to SEC civil enforcement",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority limiting SEC's power to use in-house administrative proceedings for civil penalty enforcement",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Joined the dissent; argued the decision would destabilize enforcement of the securities laws and that the Seventh Amendment's public-rights exception permitted Congress's tribunal design choices",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-859_1924.pdf",
+      "https://www.scotusblog.com/case-files/cases/securities-and-exchange-commission-v-jarkesy/"
+    ],
+    "assumptions": [
+      "We use 2021–2025 period party positions: R = 'aligned' with limiting agency adjudication and administrative state authority; D = 'opposed' (defending congressional design of expert regulatory tribunals).",
+      "All six R-appointed justices are coded non-diagnostic (doctrine-yes/party-yes) because both doctrine and party aligned on limiting the SEC's ALJ system.",
+      "Sotomayor, Kagan, and Jackson are coded party-yes because they voted to preserve the Democratic-designed Dodd-Frank enforcement structure."
+    ],
+    "counterarguments": [
+      "The Seventh Amendment holding is textually and historically grounded — the majority's reliance on English common-law analogues is a genuine originalist argument independent of partisan preference.",
+      "The dissent argued the majority's ruling would require re-adjudication of many pending agency enforcement cases, which is a practical disruption concern rather than a partisan position.",
+      "The 'public rights' exception to the Seventh Amendment is a genuinely contested area of constitutional law where reasonable jurists disagree, meaning the 6-3 split may reflect jurisprudential rather than partisan views."
+    ]
+  },
+  {
+    "id": "relentless",
+    "title": "Relentless, Inc. v. Department of Commerce",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 79 (2024)",
+    "area": "Agency Deference / Chevron Overruling",
+    "doctrine_ids": ["agency-deference"],
+    "description": "Decided as a companion to Loper Bright, the Court held 6-3 that NMFS's herring-monitor cost rule exceeded its statutory authority. More broadly, the Court's decision in Loper Bright (overruling Chevron) governs: courts must exercise independent judgment in statutory interpretation rather than deferring to agency readings of ambiguous statutes.",
+    "factual_background": "Relentless Inc. challenged a National Marine Fisheries Service rule requiring fishing vessels to pay the costs of federal observers who monitored compliance with fishery management plans. As in Loper Bright, the question was whether NMFS had statutory authority to require industry-funded monitoring. Jackson, who participated in Relentless but was recused from Loper Bright (having served on the panel below), dissented.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that courts must read statutes independently and not defer to agencies' preferred interpretations of ambiguous provisions. Chevron deference improperly allowed agencies to exploit statutory ambiguity to expand their own authority; overruling Chevron restores courts' primary role as independent interpreters of law under Article III and the APA.",
+    "r_party_prediction": "Republicans and conservative legal groups had long sought to overrule Chevron as a source of unlawful agency power expansion; overruling Chevron was a core goal of R-aligned legal organizations and the Federalist Society, and the Trump-era Court's composition made this possible.",
+    "d_party_prediction": "Democrats and agency-side advocates defended Chevron as foundational to the modern administrative state, arguing that congressional delegations of ambiguity to agencies reflected deliberate legislative design and that overruling Chevron would destabilize vast areas of federal regulatory law.",
+    "signal_level": "high",
+    "signal_explanation": "The 6-3 split in Relentless follows partisan appointment lines exactly, mirroring the Loper Bright decision. All six Republican-appointed justices voted to overrule Chevron; all three Democratic-appointed justices (including Jackson, who participated in Relentless) dissented. The overruling of a 40-year precedent on strict party lines is maximally diagnostic.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority overruling Chevron; wrote separately to argue Chevron had always been wrong and that courts must exercise independent judgment in statutory interpretation",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority overruling Chevron deference; the decision restores courts' proper role as independent interpreters of federal statutes under the APA",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority overruling Chevron; argued the original Chevron decision had been wrongly decided and should be abandoned",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined Kagan's dissent; argued that overruling Chevron destabilized settled regulatory law and that congressional delegations of interpretive authority to agencies were consistent with Article III",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent; argued Chevron reflected proper deference to congressional delegation of interpretive authority and that overruling it would inject judicial politics into regulatory law",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority overruling Chevron deference",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority overruling Chevron deference",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority overruling Chevron deference",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; argued overruling Chevron was unjustified given stare decisis and that the majority's decision replaced agency expertise with judicial preferences in technical regulatory matters",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-1219_7m58.pdf",
+      "https://www.scotusblog.com/case-files/cases/relentless-inc-v-department-of-commerce/"
+    ],
+    "assumptions": [
+      "Jackson participated in Relentless (not Loper Bright) because she sat on the DC Circuit panel that decided Loper Bright below.",
+      "We use 2021–2025 period party positions: R = 'aligned' with limiting agency deference; D = 'opposed' (defending Chevron and broad agency interpretive authority).",
+      "All six R-appointed justices are non-diagnostic (doctrine-yes/party-yes); all three D-appointed justices are partisan-signal (doctrine-no/party-yes)."
+    ],
+    "counterarguments": [
+      "The overruling of Chevron could increase judicial discretion in regulatory cases, which may in practice benefit whichever party's legal coalition dominates the judiciary — the long-term partisan effects are uncertain.",
+      "Roberts's majority opinion preserved past Chevron decisions under stare decisis, significantly limiting the immediate practical disruption, which suggests the ruling was calibrated rather than maximally disruptive.",
+      "The three D-appointed dissenters' position that Chevron reflected congressional delegation is a legitimate statutory interpretation theory that does not require attributing their votes to partisan interest."
+    ]
+  },
+  {
+    "id": "fcc-consumers-research",
+    "title": "FCC v. Consumers' Research",
+    "year": 2025,
+    "scotus_citation": "No. 24-354 (2025)",
+    "area": "Agency Deference / Nondelegation",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that the FCC's Universal Service Fund mechanism — which funds subsidized telecommunications access and is administered by a private entity (USAC) under FCC oversight — does not violate the nondelegation doctrine. Kavanaugh wrote for the majority; Gorsuch, Thomas, and Alito dissented.",
+    "factual_background": "The Telecommunications Act of 1996 required telecommunications providers to contribute to a Universal Service Fund to subsidize access for low-income consumers and rural areas. The FCC delegated day-to-day administration of the fund to USAC, a private non-profit corporation subject to FCC direction. Challengers argued the delegation to a private entity and the FCC's rate-setting discretion violated the nondelegation doctrine.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that Congress must provide meaningful guidance — an intelligible principle — when delegating legislative authority to executive agencies or private entities. A delegation that gives a private corporation unreviewable authority to set contribution rates affecting the entire telecommunications industry, without adequate governmental supervision, risks concentrating quasi-legislative power outside constitutional structures.",
+    "r_party_prediction": "The Republican Party in 2025 was divided on this question: the Trump administration generally supported maintaining USF (a program benefiting rural and low-income users in R-leaning areas), while doctrinaire anti-administrative-state conservatives sought to apply the nondelegation doctrine to dismantle delegation-heavy regulatory programs.",
+    "d_party_prediction": "Democrats broadly supported the USF as a vital program ensuring telecommunications access for underserved communities, and supported the FCC's authority to administer it through USAC; the D-party position was to uphold the delegation.",
+    "signal_level": "high",
+    "signal_explanation": "The unusual 6-3 split — with three conservative justices (Gorsuch, Thomas, Alito) dissenting while three other conservatives (Roberts, Kavanaugh, Barrett) joined all three Democratic-appointed justices — fractures the expected partisan alignment. The dissenters' nondelegation position is doctrinally consistent but breaks from the R-party political interest in maintaining USF for rural constituents.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued the delegation of rate-setting authority to USAC, a private entity, violated the nondelegation doctrine and the FCC's oversight was insufficient to cure the constitutional defect",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Joined the majority upholding the USF mechanism; held the FCC maintained adequate supervisory control over USAC to satisfy constitutional requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_3": {
+        "vote": "Dissented; argued the FCC's delegation of contribution-rate determination to a private non-profit lacked adequate intelligible principles and governmental oversight",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding the USF's structure under the nondelegation doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding the USF mechanism as consistent with constitutional delegation requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; argued the USF's private-entity delegation structure violated the core principle that legislative power may not be vested in private hands without meaningful governmental supervision",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Wrote the majority opinion upholding the USF; held the FCC exercised sufficient supervisory authority over USAC to satisfy the nondelegation doctrine's requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_8": {
+        "vote": "Joined the majority upholding the USF mechanism",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding the USF's delegation structure",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.scotusblog.com/case-files/cases/fcc-v-consumers-research/",
+      "https://www.supremecourt.gov/docket/docketfiles/html/public/24-354.html"
+    ],
+    "assumptions": [
+      "We use the 2025-present period party positions: R = 'opposed' to executive restraint broadly (second Trump administration asserting expansive executive authority), making the R-party alignment complex.",
+      "Thomas, Alito, and Gorsuch are coded doctrine-yes/party-no because their nondelegation dissent aligns with limiting agency power but cuts against the R-party political interest in maintaining USF for rural constituents.",
+      "Roberts, Kavanaugh, and Barrett are coded partial on party alignment because R-party position on USF is mixed.",
+      "Sotomayor, Kagan, and Jackson are coded party-yes because D-party fully supports maintaining USF."
+    ],
+    "counterarguments": [
+      "One could argue Kavanaugh, Roberts, and Barrett's votes upholding USF are actually politically pragmatic R-votes — USF benefits rural areas that lean Republican — rather than a departure from party interest.",
+      "The three dissenting conservatives' nondelegation position is consistent with their votes in Gundy and other cases, suggesting a principled doctrinal stance rather than selective application.",
+      "The case is decided in 2025 and involves novel private-entity delegation questions where the doctrine has not crystallized, making it difficult to characterize any vote as clearly doctrine-compliant or non-compliant."
+    ]
+  }
+]

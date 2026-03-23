@@ -1,0 +1,132 @@
+[
+  {
+    "id": "dept-commerce-ny",
+    "title": "Department of Commerce v. New York",
+    "year": 2019,
+    "scotus_citation": "588 U.S. 752 (2019)",
+    "area": "Executive Power / Administrative Law",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 5-4 that while the Secretary of Commerce had statutory authority to add a citizenship question to the census, the stated rationale (Voting Rights Act enforcement) was pretextual and the decision was therefore arbitrary and capricious under the APA. Roberts joined the four liberal justices to block the question.",
+    "factual_background": "Commerce Secretary Wilbur Ross announced in 2018 that the 2020 census would include a question asking about citizenship status, claiming the question was needed for Voting Rights Act enforcement. Evidence emerged that the rationale was post-hoc: Ross had decided to add the question before the VRA justification was constructed. Lower courts blocked the question.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that executive agencies must give genuine, honest reasons for their decisions and that courts should reject post-hoc rationalizations. Pretextual agency reasoning — where the official reason differs from the actual reason — violates the APA's requirement of reasoned decision-making and undermines the rule of law principle that governmental power must be exercised transparently.",
+    "r_party_prediction": "The Trump administration sought to include the citizenship question, arguing it was needed for VRA enforcement and that the executive has broad discretion over census content. Republicans broadly supported the question as a means of collecting citizenship data.",
+    "d_party_prediction": "Democrats and Democratic-leaning states opposed the citizenship question, arguing it would depress response rates among immigrant communities, reduce population counts in D-leaning states, and that the VRA rationale was a pretext for a partisan purpose.",
+    "signal_level": "high",
+    "signal_explanation": "Roberts's decision to join the four Democratic-appointed justices — against the position of the Trump administration — provides strong diagnostic signal. The three other R-appointed justices who dissented voted with their appointing party. The partisan split is clear and Roberts's crossing it against his party's position is highly diagnostic.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented in part; would have upheld the citizenship question and the Secretary's stated rationale, arguing courts should not second-guess executive prerogative in census design",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote for the Court holding that while statutory authority existed, the VRA rationale was pretextual and the decision must be remanded; joined the liberal bloc on the pretext question",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the Secretary's decision in full, arguing the majority's pretext analysis improperly second-guesses executive judgment",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority blocking the citizenship question; wrote separately on the discriminatory impact of the question on immigrant communities",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority blocking the citizenship question on pretext grounds",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; would have upheld the Secretary's citizenship question decision, arguing the majority invented a pretext doctrine that gives courts too much power over executive discretion",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Dissented; would have upheld the Secretary's decision, arguing the APA does not authorize judicial review of an executive officer's subjective motivations",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/18pdf/18-966_bofb.pdf",
+      "https://www.scotusblog.com/case-files/cases/department-of-commerce-v-new-york/"
+    ],
+    "assumptions": [
+      "Seat 8 (Barrett) omitted: confirmed October 2020.",
+      "Seat 9 (Jackson) omitted: confirmed April 2022.",
+      "We use the 2017–2021 period party positions: R = 'opposed' to executive restraint (defending Trump administration actions); D = 'aligned' (challenging executive overreach).",
+      "Thomas, Alito, Gorsuch, Kavanaugh are coded party-yes for defending the Trump administration's position even though their dissents made varying legal arguments."
+    ],
+    "counterarguments": [
+      "Roberts's opinion actually agreed the executive had statutory authority; only the pretextual reasoning was rejected. A stronger executive-restraint decision would have denied authority entirely.",
+      "Thomas's dissent argued that the majority's pretext analysis is novel and problematic — one could argue Thomas's position is doctrinally defensible even if it aligned with party interest.",
+      "After the decision, the Trump administration ultimately did not add the question because the census timeline did not allow for re-justification, meaning the remedy was effectively the same regardless of the legal theory."
+    ]
+  },
+  {
+    "id": "lucia-sec",
+    "title": "Lucia v. SEC",
+    "year": 2018,
+    "scotus_citation": "585 U.S. 237 (2018)",
+    "area": "Executive Power / Appointments Clause",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 7-2 that SEC administrative law judges are 'Officers of the United States' under the Appointments Clause and must therefore be appointed by the President, courts of law, or department heads — not by SEC staff. Kagan wrote the majority, crossing the expected partisan line.",
+    "factual_background": "Raymond Lucia challenged an SEC enforcement proceeding against him, arguing the ALJ who presided over the case was an Officer who had not been constitutionally appointed. The SEC had appointed its ALJs through an internal staff process rather than by Senate-confirmed commissioners.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that the Appointments Clause is a structural protection ensuring presidential accountability over those who exercise significant authority. ALJs who exercise substantial independent authority in enforcement proceedings are inferior Officers subject to Appointments Clause requirements, and appointments made by agency staff rather than heads of departments are constitutionally void.",
+    "r_party_prediction": "Republicans under the Trump administration supported requiring proper constitutional appointment of ALJs, viewing the Appointments Clause as a tool to subject independent agency adjudicators to greater executive accountability and potentially disrupt ongoing enforcement proceedings.",
+    "d_party_prediction": "Democrats and the prior SEC administration had structured ALJ appointments through staff processes to insulate adjudicators from political interference; the Democratic position supported the existing appointment process as consistent with Appointments Clause tradition.",
+    "signal_level": "medium",
+    "signal_explanation": "Kagan writing the majority and Sotomayor joining provides a strong doctrine-over-party signal for Democratic-appointed justices. Sotomayor's dissent on remedy (not on the constitutional holding) is partial. The case is moderately diagnostic because Kagan broke from the expected D-party position of defending the SEC's structure.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding ALJs are Officers; concurred separately to argue the Court should go further and require all ALJs be appointed by the President himself",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding ALJs are Officers under the Appointments Clause",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority holding ALJs are Officers under the Appointments Clause",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority on the constitutional holding but dissented from the remedy, arguing the new hearing should be before a different ALJ rather than on automatic remand",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Wrote the majority opinion holding ALJs are Officers subject to the Appointments Clause; joined by six justices on the constitutional holding",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the majority holding ALJs are Officers under the Appointments Clause",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/17pdf/17-130_4f14.pdf",
+      "https://www.scotusblog.com/case-files/cases/lucia-v-sec/"
+    ],
+    "assumptions": [
+      "Seat 7 (Kavanaugh) omitted: confirmed October 2018; Lucia was decided June 21, 2018.",
+      "Seats 8–9 omitted: not yet on the Court.",
+      "Breyer's partial dissent (on the merits) is not reflected here as Breyer is not in the seat map.",
+      "Kagan and Sotomayor are coded party-no because the D party's institutional interest was in defending the SEC's appointment structure.",
+      "We use the 2017–2021 period party positions: R = 'opposed' to executive restraint broadly but supported this particular Appointments Clause ruling as it enabled executive control over ALJs."
+    ],
+    "counterarguments": [
+      "Kagan's majority could be read as pro-executive (requiring presidential appointment chains) rather than as restraining the executive, which complicates the doctrine-over-party framing.",
+      "The Trump administration specifically chose not to defend the SEC's appointment structure, meaning the 'D party position' was somewhat orphaned — no party was actively defending the status quo.",
+      "Thomas's concurrence calling for even broader presidential appointment authority goes well beyond the majority's narrow holding and is arguably more 'partisan' than doctrinal."
+    ]
+  }
+]

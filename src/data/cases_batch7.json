@@ -1,0 +1,111 @@
+[
+  {
+    "id": "free-enterprise-fund",
+    "title": "Free Enterprise Fund v. PCAOB",
+    "year": 2010,
+    "scotus_citation": "561 U.S. 477 (2010)",
+    "area": "Executive Power / Removal Authority",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 5-4 that dual for-cause removal protections insulating PCAOB members from presidential control were unconstitutional. The President must be able to hold principal officers accountable by removing inferior officers beneath them without a second layer of tenure protection.",
+    "factual_background": "The Sarbanes-Oxley Act created the Public Company Accounting Oversight Board (PCAOB) whose members could be removed by the SEC only for cause, and SEC commissioners were themselves removable by the President only for cause — creating two insulating layers of protection from presidential removal.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that the Take Care Clause requires the President to maintain meaningful control over subordinate executive officers. Two stacked layers of for-cause removal protection impermissibly insulate inferior officers from the President and are unconstitutional regardless of Congress's intent to create an independent expert body.",
+    "r_party_prediction": "Republicans in 2010 criticized the expansion of independent regulatory agencies under Sarbanes-Oxley as excessive administrative-state growth insulated from democratic accountability. They broadly supported subjecting agency officers to presidential removal authority.",
+    "d_party_prediction": "Democrats supported the PCAOB's insulated structure as a necessary design feature of an independent expert body charged with overseeing securities markets, consistent with Congress's authority to structure executive agencies.",
+    "signal_level": "medium",
+    "signal_explanation": "The Court's ruling aligned with R-party rhetoric about limiting independent agencies, but because the doctrine question (two removal layers) was novel and unanimous lower-court agreement upheld the structure, the diagnostic signal is moderate. Sotomayor's dissent aligns with D party interest in agency independence but also with a plausible constitutional reading.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority striking down the dual removal protection; wrote separately to suggest the constitutional defect was even broader than Roberts's majority acknowledged",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding that two levels of for-cause removal protection violated the separation of powers; severed the offending removal restriction",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down the dual removal protection",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld the PCAOB structure as a valid exercise of Congress's authority to design independent regulatory bodies",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/09pdf/08-861.pdf",
+      "https://www.scotusblog.com/case-files/cases/free-enterprise-fund-v-public-company-accounting-oversight-board/"
+    ],
+    "assumptions": [
+      "Seat 5 (Kagan) is omitted: she was confirmed August 5, 2010; this case was decided June 28, 2010.",
+      "Seats 6–9 are omitted: those justices were not yet on the Court.",
+      "We use the 2009–2017 period party positions. In that period R = 'mixed' (rhetorically pro-restraint while out of power); D = 'opposed' (defending broad agency structures under the Obama administration).",
+      "All three R-appointed votes are coded non-diagnostic (doctrine-yes AND party-yes) because the R party's stated 2009–2017 position supported limiting independent agencies."
+    ],
+    "counterarguments": [
+      "Thomas argued for a broader rule that would invalidate all for-cause removal restrictions, which goes further than R-party consensus and might be considered hyper-doctrinal rather than partisan.",
+      "Roberts severed only the removal restriction and kept the PCAOB intact, a remedy less aggressive than full agency invalidation, which some R commentators criticized.",
+      "The doctrine question is genuinely contested: Morrison v. Olson (1988) had upheld single-layer for-cause removal, so the majority was extending rather than firmly applying precedent."
+    ]
+  },
+  {
+    "id": "zivotofsky",
+    "title": "Zivotofsky v. Kerry",
+    "year": 2015,
+    "scotus_citation": "576 U.S. 1 (2015)",
+    "area": "Executive Power / Foreign Recognition",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 6-3 that the President possesses exclusive constitutional authority to recognize foreign nations and governments, and that a federal statute requiring State Department to list 'Israel' as birthplace for Jerusalem-born citizens impermissibly encroached on that power.",
+    "factual_background": "Congress passed a law in 2002 allowing Americans born in Jerusalem to have 'Israel' listed as their birthplace on passports. President Bush signed the bill but issued a signing statement asserting the provision interfered with the President's recognition authority. The Obama administration refused to apply the provision. Menachem Zivotofsky's parents sued for compliance.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that executive power must be grounded in specific constitutional text. The Constitution's grant to the President of power to 'receive Ambassadors' textually embeds exclusive recognition authority in Article II; congressional statutes that purport to override that textual grant exceed Congress's authority under the Presentment Clause and impermissibly direct the content of diplomatic recognition.",
+    "r_party_prediction": "Republicans in Congress passed the 2002 law and politically supported listing 'Israel' as the birthplace for Jerusalem-born citizens; they sought to use legislation to bind presidential recognition policy, effectively restraining executive discretion on this sensitive diplomatic question in favor of a congressional preference.",
+    "d_party_prediction": "The Obama administration (and the Democratic Party's position) held that presidential recognition authority is exclusive under Article II and cannot be overridden by statute, defending broad executive power in the foreign-affairs domain.",
+    "signal_level": "medium",
+    "signal_explanation": "The case produces a cross-cutting signal: R-appointed dissenters (Roberts, Alito) voted to uphold the congressional law their party passed, aligning with party but against the doctrine's logic of exclusive executive recognition authority. D-appointed justices and Thomas concurred in striking down the law, aligning with doctrine but splitting from typical partisan expectations about executive power.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in the judgment striking down the statute, but on broader grounds: argued the President has plenary authority over all foreign affairs, not merely recognition",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Dissented; would have held the case presented a political question or, on the merits, that Congress may share in recognition-related matters through its foreign-commerce and naturalization powers",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the statute as within Congress's authority to regulate passport content, arguing the majority's exclusive-recognition holding was overbroad",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority holding the President has exclusive recognition authority and the statute was unconstitutional",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority holding the President has exclusive recognition authority and the statute was unconstitutional",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/14pdf/13-628_l5gm.pdf",
+      "https://www.scotusblog.com/case-files/cases/zivotofsky-v-kerry/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: Gorsuch, Kavanaugh, Barrett, Jackson were not yet on the Court.",
+      "We use 2009–2017 period party positions. R party was 'mixed' on executive restraint; D party was 'opposed' (defending executive power when in the White House).",
+      "Thomas's concurrence is coded doctrine-yes/party-no because he argued for broader executive power than the majority, departing from the R party's position that Congress could bind recognition policy.",
+      "Roberts and Alito are coded party-yes because they voted to uphold the R-sponsored statute, even though their dissent formally argued narrow statutory grounds."
+    ],
+    "counterarguments": [
+      "One could argue Thomas's broader foreign-affairs executive power theory is actually MORE partisan (favoring strong executive) than doctrinal, because it goes beyond the Article II recognition clause to a general plenary power over foreign relations.",
+      "Roberts's dissent focused on the political-question doctrine and avoided the merits in part, making it difficult to characterize as a clear party-vs-doctrine vote.",
+      "The 'executive restraint' doctrine can be read either way: restraining Congress from overriding the executive's textual recognition power, OR restraining the executive from claiming exclusive authority beyond explicit Article II text."
+    ]
+  }
+]

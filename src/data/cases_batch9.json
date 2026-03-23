@@ -1,0 +1,136 @@
+[
+  {
+    "id": "gundy",
+    "title": "Gundy v. United States",
+    "year": 2019,
+    "scotus_citation": "588 U.S. 128 (2019)",
+    "area": "Executive Power / Nondelegation",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "A 4-1-4 decision in which a four-Justice plurality upheld a broad delegation to the Attorney General in SORNA, while three dissenters urged adoption of a stricter nondelegation standard. Alito concurred in the judgment but signaled openness to revisiting the intelligible-principle test if a majority formed. The case previewed the emerging nondelegation debate.",
+    "factual_background": "The Sex Offender Registration and Notification Act (SORNA) required sex offenders convicted before the law's enactment to register, but delegated to the Attorney General authority to decide whether and how SORNA applied to pre-enactment offenders. Herman Gundy challenged this delegation as an unconstitutional grant of legislative power to the executive.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that Congress may not hand core legislative decisions to the executive without providing a meaningful standard to guide discretion. SORNA's delegation — giving the Attorney General essentially unchecked discretion over a major class of persons — lacks an intelligible principle and allows the executive to exercise quasi-legislative power in violation of Article I's vesting of all legislative power in Congress.",
+    "r_party_prediction": "Republicans and the Trump administration supported upholding SORNA's registration requirements but ideologically supported stricter nondelegation limits on agency power generally; the Republican Party platforms in this era called for limiting the administrative state.",
+    "d_party_prediction": "Democrats supported broad congressional delegations to executive agencies as necessary for effective governance; the D-party position was that the intelligible-principle test was adequate and that a stricter nondelegation doctrine would disrupt decades of regulatory programs.",
+    "signal_level": "high",
+    "signal_explanation": "The 4-4-1 split with Alito's notable concurrence signaling interest in a stricter nondelegation standard provides strong evidence of partisan-doctrinal tension. Sotomayor and Kagan in the plurality voted against the doctrine's demand for meaningful limits, aligning with D-party preference for broad delegations. Gorsuch, Roberts, and Thomas in dissent aligned both with doctrine and R-party anti-administrative-state rhetoric.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined Gorsuch's dissent urging adoption of a stricter nondelegation standard; would have held SORNA's delegation unconstitutional for lack of an intelligible principle guiding the Attorney General's discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined Gorsuch's dissent; would have applied a more demanding nondelegation test and struck down the delegation as lacking an adequate standard",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Concurred in the judgment upholding the delegation under the existing intelligible-principle test, but wrote separately to signal openness to reconsidering that test if a majority of the Court were willing to do so",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_4": {
+        "vote": "Joined the plurality upholding the delegation; voted to retain the permissive intelligible-principle test and reject a stricter nondelegation standard",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the plurality opinion upholding the delegation; argued SORNA's text provided sufficient guidance to pass the intelligible-principle test",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Wrote the principal dissent urging adoption of a meaningful nondelegation standard; would have held that Congress must provide a clear policy judgment before delegating to the executive",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/18pdf/17-6086_3f14.pdf",
+      "https://www.scotusblog.com/case-files/cases/gundy-v-united-states/"
+    ],
+    "assumptions": [
+      "Seat 7 (Kavanaugh) omitted: recused because he was not present at oral argument.",
+      "Seats 8–9 omitted: not yet on the Court.",
+      "Alito is coded partial/partial because he voted to uphold (against the stricter doctrine) but explicitly flagged willingness to revisit — a hybrid signal.",
+      "We use 2017–2021 period party positions: R = 'aligned' with restraint doctrine (wanting to limit agency power); D = 'opposed' (supporting broad delegation)."
+    ],
+    "counterarguments": [
+      "The Trump DOJ defended SORNA's delegation, meaning the R executive branch itself supported the broad delegation even as R-aligned justices in dissent challenged it.",
+      "Gorsuch's dissent relies on originalist history that may be considered genuinely doctrinal rather than partisan, since the historical evidence for nondelegation limits predates modern partisan alignments.",
+      "Alito's concurrence is strategically ambiguous: he could be building a future majority or simply declining to waste a dissent when only four votes exist — making his signal difficult to read as doctrine vs. strategy."
+    ]
+  },
+  {
+    "id": "arthrex",
+    "title": "United States v. Arthrex, Inc.",
+    "year": 2021,
+    "scotus_citation": "594 U.S. 1 (2021)",
+    "area": "Executive Power / Appointments Clause",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 5-4 that Patent Trial and Appeal Board Administrative Patent Judges (APJs), as constituted, exercised the authority of principal officers but were appointed as inferior officers — violating the Appointments Clause. Roberts's plurality remedied this by requiring that the Director of the USPTO could review APJ decisions.",
+    "factual_background": "Arthrex challenged an inter partes review proceeding before USPTO's Patent Trial and Appeal Board, arguing that the APJs who decided the case were unconstitutionally appointed inferior officers exercising principal-officer authority because their decisions were final and unreviewable by the Director.",
+    "doctrine_prediction": "A principled adherent of executive restraint holds that the Appointments Clause requires that any officer exercising substantial, final authority over third parties be either presidentially appointed or subject to supervision by a principal officer who is. Structuring an agency so that inferior officers issue unreviewable final orders removes them from the constitutional chain of accountability the Appointments Clause was designed to preserve.",
+    "r_party_prediction": "The Trump administration and Republicans supported structural reforms requiring greater executive oversight of patent adjudicators, consistent with the broader R-party goal of subjecting agency adjudication to presidential accountability chains.",
+    "d_party_prediction": "Democrats and patent bar stakeholders generally supported the existing PTAB structure as an expert tribunal whose independence from political direction was a feature; the D-party position favored maintaining the insulated adjudicative design.",
+    "signal_level": "medium",
+    "signal_explanation": "The 5-4 split follows the partisan appointment pattern, but the case involves specialized patent procedure rather than a high-salience political issue, moderating the diagnostic signal. Sotomayor and Kagan dissented on the remedy, not the constitutional holding, further complicating a clean partisan read.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the portion holding APJs were unconstitutionally structured; concurred separately arguing the proper remedy was to sever the APJs' tenure protections rather than restrict Director review",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the controlling plurality opinion holding that Director review cures the Appointments Clause defect; held APJs are inferior officers once the Director can supervise their decisions",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the portion of the plurality holding APJs' structure was constitutionally defective",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Agreed the constitutional problem existed but dissented from the remedy; argued the entire inter partes review regime should be severed differently or that the remedy was insufficient",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Agreed the constitutional problem existed but dissented from the remedy Roberts fashioned; would have applied a different severability analysis",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_6": {
+        "vote": "Joined the plurality holding APJs' structure violated the Appointments Clause and the Director-review remedy was appropriate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the plurality holding APJs' structure violated the Appointments Clause and the Director-review remedy was appropriate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the plurality; agreed that the Director-review remedy cured the Appointments Clause problem for APJs going forward",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/20pdf/19-1434_ancf.pdf",
+      "https://www.scotusblog.com/case-files/cases/united-states-v-arthrex-inc/"
+    ],
+    "assumptions": [
+      "Seat 9 (Jackson) omitted: confirmed April 2022.",
+      "Sotomayor and Kagan are coded partial/partial because they agreed on the constitutional holding but dissented on the remedy — neither fully endorsing nor rejecting doctrine.",
+      "We use 2021–2025 period party positions. R = 'aligned' with executive-restraint doctrine on structural appointments questions; D = 'opposed' (favoring insulated adjudicative designs).",
+      "Barrett is coded doctrine-yes/party-yes because she joined the controlling plurality in full."
+    ],
+    "counterarguments": [
+      "The remedy Roberts fashioned — requiring Director review — actually expands executive control over patent adjudication, which could be read as expanding rather than restraining executive power.",
+      "Breyer's dissent (not in seat map) argued that the majority's approach would politically contaminate an expert technical tribunal — a principled institutional argument not reducible to partisanship.",
+      "The 5-4 split on remedy rather than constitutional holding means the partisan alignment is less clean than the overall vote count suggests."
+    ]
+  }
+]

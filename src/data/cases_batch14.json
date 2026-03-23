@@ -1,0 +1,228 @@
+[
+  {
+    "id": "transunion",
+    "title": "TransUnion LLC v. Ramirez",
+    "year": 2021,
+    "scotus_citation": "594 U.S. 413 (2021)",
+    "area": "Standing / Concrete Injury",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "The Court held 5-4 that most members of a class action against TransUnion lacked standing under the FCRA because their inaccurate credit reports had never been sent to third parties — meaning they suffered no concrete injury despite the technical statutory violation. Thomas dissented, breaking from the conservative bloc.",
+    "factual_background": "TransUnion erroneously flagged many customers as potential terrorists and drug traffickers due to a flawed OFAC-alert system. Only a small subset of class members had their inaccurate reports actually disseminated to third-party businesses; the majority had inaccurate data in their files that was never sent out. The class certified under FCRA sought statutory damages for all members regardless of dissemination.",
+    "doctrine_prediction": "A principled adherent of standing doctrine holds that concrete injury requires a real-world impact traceable to the defendant's conduct, not merely the existence of inaccurate records in a file that no third party has seen. Class members whose inaccurate reports were never disseminated had no more than a potential future harm and cannot satisfy Article III without showing their statutory rights were violated in a way that caused them harm analogous to a common-law injury.",
+    "r_party_prediction": "Republicans and business groups supported limiting class-action standing to plaintiffs with concrete real-world harm, reducing large FCRA class-action liability for companies based on technical violations that caused no demonstrated real harm.",
+    "d_party_prediction": "Democrats and consumer advocates argued Congress's decision to create FCRA rights should be respected and that holding inaccurate, defamatory data — even unsent — is itself a legally cognizable harm consistent with common-law defamation analogues.",
+    "signal_level": "high",
+    "signal_explanation": "Thomas's notable dissent breaking from the conservative majority is highly diagnostic. He argued that Congress can create enforceable legal rights that are themselves concrete injuries — a position that aligned with the D-appointed dissenters but contradicted the R-appointed majority. The 5-4 split otherwise follows party lines with Thomas as the outlier.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued that Congress has authority to create legally enforceable private rights, and that violation of such rights — even without downstream real-world harm — constitutes concrete injury sufficient for Article III standing",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding that class members whose inaccurate reports were not disseminated lacked concrete injury and therefore lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority limiting standing to class members whose inaccurate reports were actually sent to third parties",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued holding inaccurate, defamatory data is analogous to publication at common law and that the majority's rigid concreteness requirement improperly second-guesses Congress's policy judgments about what harms warrant a legal remedy",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's standing analysis strips individuals of remedies Congress deliberately created and effectively immunizes companies that compile inaccurate consumer data from meaningful accountability",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority limiting standing to plaintiffs with concretely disseminated inaccurate reports",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Wrote the majority opinion holding that only the subset of class members whose inaccurate OFAC alerts were actually sent to third-party businesses suffered concrete injury sufficient for standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority holding that class members without disseminated inaccurate reports lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/20pdf/20-297_4g25.pdf",
+      "https://www.scotusblog.com/case-files/cases/transunion-llc-v-ramirez/"
+    ],
+    "assumptions": [
+      "Seat 9 (Jackson) omitted: confirmed April 2022.",
+      "Thomas (seat_1) is coded doctrine-no/party-no because his dissent favored broader standing and departed from both the majority's doctrine application and the R-party's litigation interest in limiting class-action liability.",
+      "We use 2021–2025 period party positions: R = 'aligned' with limiting standing; D = 'opposed' (favoring broad standing for consumer protection rights).",
+      "Thomas's position is genuinely idiosyncratic — he applies a common-law-rights theory of standing that in some contexts is more expansive than other conservative justices' views."
+    ],
+    "counterarguments": [
+      "Thomas's dissent is grounded in his broader theory that Congress can codify common-law rights and their violation is itself a concrete injury — a historically defensible position that is not straightforwardly 'partisan.'",
+      "The majority's 5-4 split with Thomas as the crucial swing in the 'wrong' direction may itself be evidence that doctrine, not partisanship, drove this case.",
+      "The practical effect of the ruling — dismissing class-action claims for most members — benefited business interests typically associated with the R party, but Thomas dissented on principle regardless of that outcome."
+    ]
+  },
+  {
+    "id": "dept-ed-brown",
+    "title": "Department of Education v. Brown",
+    "year": 2023,
+    "scotus_citation": "600 U.S. 551 (2023)",
+    "area": "Standing / Student Loan Forgiveness",
+    "doctrine_ids": ["standing-justiciability", "congressional-spending-authority"],
+    "description": "The Court unanimously held that two student-loan borrowers who were not eligible for a particular forgiveness program lacked standing to challenge that program. Barrett wrote for the Court. The decision separated standing analysis from the merits of the student-loan forgiveness controversy.",
+    "factual_background": "The Biden administration's student-loan forgiveness plan forgave up to $10,000 in federal student loan debt for eligible borrowers. Two plaintiffs — who held loans that made them ineligible for the specific forgiveness program they challenged — argued the program was unlawfully under-inclusive and that the HEROES Act did not authorize it. The Court reached the standing question without addressing the merits.",
+    "doctrine_prediction": "A principled adherent of standing doctrine holds that plaintiffs must challenge a government action that actually injures them, not challenge favorable government programs for being insufficiently generous to them. A plaintiff who seeks a government benefit and is denied it under program criteria challenges the exclusion, not the program's existence — and challenging the exclusion of others from a competing program does not establish the required causal connection between the challenged action and the plaintiff's injury.",
+    "r_party_prediction": "Republicans wanted the Biden student-loan forgiveness plan invalidated on the merits (as it later was in Biden v. Nebraska); these particular plaintiffs were attempting to challenge the program from an unusual angle. R-party position generally supported strict standing limits but would have preferred a merits ruling striking down the plan.",
+    "d_party_prediction": "The Biden administration sought to avoid a merits decision by arguing these plaintiffs lacked standing; dismissing on standing grounds was the D-party institutional preference in this specific case because it prevented a merits ruling against the forgiveness plan.",
+    "signal_level": "medium",
+    "signal_explanation": "The unanimous decision limits its diagnostic utility — all nine justices agreed these plaintiffs lacked standing. However, the doctrinal alignment is meaningful: R-appointed justices who voted for strict standing here also voted against the forgiveness plan's merits in other cases (Biden v. Nebraska), suggesting doctrine and party interest both pointed to the same outcome for D-appointed justices and a more complex alignment for R-appointed justices.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the unanimous opinion holding plaintiffs lacked standing to challenge the student-loan forgiveness program",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Joined the unanimous opinion denying standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Joined the unanimous opinion holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_4": {
+        "vote": "Joined the unanimous opinion holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the unanimous opinion denying standing to the plaintiffs who challenged the program as under-inclusive",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the unanimous opinion holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the unanimous opinion denying standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Wrote the unanimous opinion holding that plaintiffs lacked the required injury in fact and that their harm was not fairly traceable to the program they challenged",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the unanimous opinion holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/22-535_1b72.pdf",
+      "https://www.scotusblog.com/case-files/cases/department-of-education-v-brown/"
+    ],
+    "assumptions": [
+      "We use 2021–2025 period party positions.",
+      "R-appointed justices (seats 1, 2, 3, 6, 7, 8) are coded party-no: the R party wanted the Biden forgiveness plan struck down on the merits; denying these particular challengers standing prevented a merits ruling, which was against R-party interest.",
+      "D-appointed justices (seats 4, 5, 9) are coded party-yes: dismissing on standing grounds protected the Biden administration from a merits ruling adverse to its program.",
+      "The unanimous outcome makes this case minimally diagnostic but notable for R-appointed justices consistently applying standing doctrine against their party's political interest."
+    ],
+    "counterarguments": [
+      "The case is primarily about standing doctrine mechanics — the specific theory of injury these plaintiffs advanced was genuinely weak, making the unanimous outcome unsurprising regardless of politics.",
+      "The Biden administration won the standing battle but lost the merits war in Biden v. Nebraska, so the overall political outcome was not favorable to Democrats.",
+      "All nine justices voting for strict standing here is consistent with doctrine — but it may also reflect that no justice wanted to rule on the merits in this particular procedural posture."
+    ]
+  },
+  {
+    "id": "acheson-hotels",
+    "title": "Acheson Hotels, LLC v. Laufer",
+    "year": 2023,
+    "scotus_citation": "601 U.S. 1 (2023)",
+    "area": "Standing / ADA Tester Standing",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "The Court dismissed the case as moot 9-0 after the plaintiff voluntarily dismissed her claims, declining to reach the question whether a self-appointed ADA 'tester' who never intended to visit a hotel had standing to sue under the ADA for failure to include accessibility information on the hotel's website.",
+    "factual_background": "Deborah Laufer was a self-described ADA 'tester' who filed hundreds of suits against hotels alleging their reservation websites lacked required accessibility information. She had no intention of visiting Acheson Hotels. While the case was before the Supreme Court, Laufer voluntarily dismissed her claims following her attorney's disciplinary proceedings. The Court then dismissed as moot.",
+    "doctrine_prediction": "A principled adherent of standing doctrine would hold that a plaintiff who has no genuine intention of using the service at issue and suffers only the harm of encountering a website lacking required information lacks the personal stake in the litigation required by Article III. Tester plaintiffs who manufacture standing by visiting websites they have no intention of using to find ADA violations do not satisfy the injury-in-fact requirement's demand for concrete harm.",
+    "r_party_prediction": "Republicans and hospitality industry groups sought a ruling that tester plaintiffs lack standing for informational ADA violations without a genuine intention to use the service, which would have significantly reduced ADA litigation exposure for businesses.",
+    "d_party_prediction": "Disability rights advocates and Democrats supported tester standing as an important enforcement mechanism for the ADA, arguing that congressional intent to broadly enforce accessibility requirements justified broad standing even for testers.",
+    "signal_level": "low",
+    "signal_explanation": "The case was dismissed as moot without a merits ruling; no standing question was resolved. The signal level is low because the Court explicitly did not decide the substantive standing question that made the case significant.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the decision dismissing the case as moot; the Court declined to reach the merits of tester standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Wrote the unanimous opinion dismissing the case as moot after Laufer voluntarily dismissed her claims; the Court expressly declined to decide the tester-standing question",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Joined the decision dismissing as moot",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-429_gfbi.pdf",
+      "https://www.scotusblog.com/case-files/cases/acheson-hotels-llc-v-laufer/"
+    ],
+    "assumptions": [
+      "The signal level is low because the case was dismissed as moot with no merits ruling on tester standing.",
+      "All votes are coded doctrine-yes/party-yes as a placeholder because the court's refusal to reach the merits is formally consistent with standing doctrine (courts should not decide moot questions).",
+      "This case contributes nothing to scoring because low-signal cases receive zero weight in the scoring algorithm.",
+      "Barrett wrote separately to note the tester-standing question remained open and important for future cases."
+    ],
+    "counterarguments": [
+      "Several justices wrote concurrences expressing views on the merits of tester standing, suggesting the dismissal was not purely moot — the Court may have been avoiding a difficult question.",
+      "The mootness finding itself is not uncontested: some argued the voluntary dismissal was strategically timed to avoid a standing ruling that would have harmed the ADA plaintiffs' bar.",
+      "The case's dismissal leaves the tester-standing circuit split unresolved, meaning the Supreme Court may return to this question in a future case."
+    ]
+  }
+]
