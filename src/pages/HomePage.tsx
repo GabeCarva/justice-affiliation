@@ -5,12 +5,21 @@ import { JusticeCard } from '../components/JusticeCard'
 import { PartisanIndexChart } from '../components/Charts/PartisanIndexChart'
 import { DoctrineHeatmap } from '../components/Charts/DoctrineHeatmap'
 import { VoteMatrix } from '../components/Charts/VoteMatrix'
+import { QuadrantChart } from '../components/Charts/QuadrantChart'
+import { EvolutionChart } from '../components/Charts/EvolutionChart'
 import type { NamedJusticeScore } from '../lib/types'
 
 export function HomePage() {
   const scores = namedScores()
   const [selected, setSelected] = useState<NamedJusticeScore | null>(null)
-  const [activeTab, setActiveTab] = useState<'scatter' | 'heatmap' | 'matrix'>('scatter')
+  const [activeTab, setActiveTab] = useState<'scatter' | 'heatmap' | 'matrix' | 'quadrant' | 'evolution'>('quadrant')
+
+  // Summary stats
+  const mostPartisan = scores[0]
+  const leastPartisan = scores[scores.length - 1]
+  const avgPartisan = scores.reduce((s, x) => s + x.partisan_index, 0) / scores.length
+  const totalCases = cases.length
+  const highCases = cases.filter(c => c.signal_level === 'high').length
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -37,6 +46,22 @@ export function HomePage() {
           </Link>
         </div>
       </div>
+
+      {/* Summary stats strip */}
+      <section className="mb-10 grid grid-cols-2 md:grid-cols-4 gap-3">
+        {[
+          { label: 'Cases analyzed', value: totalCases.toString(), sub: `${highCases} high-signal` },
+          { label: 'Most partisan', value: mostPartisan?.justice.name.split(' ').slice(-1)[0] ?? '—', sub: `${((mostPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
+          { label: 'Least partisan', value: leastPartisan?.justice.name.split(' ').slice(-1)[0] ?? '—', sub: `${((leastPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
+          { label: 'Court average', value: `${(avgPartisan*100).toFixed(0)}%`, sub: 'mean partisan index' },
+        ].map(({ label, value, sub }) => (
+          <div key={label} className="border border-gray-200 dark:border-gray-700 rounded-xl p-4">
+            <p className="text-xs text-gray-500 mb-1">{label}</p>
+            <p className="text-2xl font-serif font-semibold">{value}</p>
+            <p className="text-xs text-gray-400 mt-0.5">{sub}</p>
+          </div>
+        ))}
+      </section>
 
       {/* Justice grid */}
       <section className="mb-12">
@@ -137,8 +162,14 @@ export function HomePage() {
       <section className="mb-12">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-serif font-semibold">Charts</h2>
-          <div className="flex gap-1 text-sm">
-            {(['scatter', 'heatmap', 'matrix'] as const).map(tab => (
+          <div className="flex gap-1 text-sm flex-wrap">
+            {([
+              ['quadrant',  'Quadrant'],
+              ['evolution', 'Evolution'],
+              ['scatter',   'Ranking'],
+              ['heatmap',   'By Doctrine'],
+              ['matrix',    'Vote Matrix'],
+            ] as const).map(([tab, label]) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -148,7 +179,7 @@ export function HomePage() {
                     : 'text-gray-500 hover:text-gray-800 dark:hover:text-gray-200'
                 }`}
               >
-                {tab === 'scatter' ? 'Overview' : tab === 'heatmap' ? 'By Doctrine' : 'Vote Matrix'}
+                {label}
               </button>
             ))}
           </div>
@@ -171,6 +202,27 @@ export function HomePage() {
             <>
               <h3 className="font-serif font-semibold mb-2">Case-Level Vote Matrix</h3>
               <VoteMatrix cases={cases} scores={scores} />
+            </>
+          )}
+          {activeTab === 'quadrant' && (
+            <>
+              <h3 className="font-serif font-semibold mb-1">Party vs. Doctrine Alignment — 4-Quadrant View</h3>
+              <p className="text-sm text-gray-500 mb-4">
+                Each axis is measured independently across all high/medium-signal cases.
+                A justice in the lower-right has high party alignment but low doctrine alignment (partisan).
+                A justice in the upper-left has low party alignment but high doctrine alignment (doctrinal).
+              </p>
+              <QuadrantChart data={scores} />
+            </>
+          )}
+          {activeTab === 'evolution' && (
+            <>
+              <h3 className="font-serif font-semibold mb-1">Justice Trajectories Through Case History</h3>
+              <p className="text-sm text-gray-500 mb-4">
+                Each mini-chart shows how a justice's party and doctrine alignment rates evolve as cases
+                accumulate in chronological order. Arrows connect consecutive cases; hover for case details.
+              </p>
+              <EvolutionChart data={scores} />
             </>
           )}
         </div>
