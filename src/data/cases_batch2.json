@@ -1,0 +1,362 @@
+[
+  {
+    "id": "seila-law-v-cfpb-2020",
+    "title": "Seila Law LLC v. Consumer Financial Protection Bureau",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 197 (2020)",
+    "area": "Executive Power / Removal Authority",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 5-4 that the Consumer Financial Protection Bureau's structure—headed by a single director removable only for cause—violated the separation of powers. The majority held the President must be able to remove the CFPB director at will.",
+    "factual_background": "Congress created the CFPB in the Dodd-Frank Act of 2010, structuring it as an independent agency headed by a single director who could be removed only for inefficiency, neglect, or malfeasance. Seila Law challenged a CFPB civil investigative demand, arguing the agency's structure was unconstitutional.",
+    "doctrine_prediction": "This case presents a genuine doctrinal contest. One strand of executive restraint doctrine holds that Congress may limit presidential removal authority to preserve independent expert agencies (consistent with Morrison v. Olson); under this view, the for-cause removal restriction is constitutionally valid. A competing unitary executive theory holds that Article II vests all executive power in the President and that removal restrictions improperly insulate executive officers from presidential accountability. The doctrine prediction depends on which strand one credits.",
+    "r_party_prediction": "The Trump administration and Republican Party supported striking down the CFPB removal restriction, enabling at-will presidential control over a consumer financial regulator created by Democrats and viewed as embodying the administrative state.",
+    "d_party_prediction": "The Democratic Party supported upholding the removal restriction as a valid exercise of Congress's structural authority to create independent regulatory agencies insulated from political pressure.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine is genuinely contested on this question (Morrison v. Olson remains on the books; the unitary executive theory is not universally accepted). R-appointed justices striking down the restriction align with their party's interest, but they also align with a recognized conservative constitutional theory, reducing the diagnostic signal. D-appointed justices upholding the restriction align with both party interest and the Morrison precedent strand of doctrine.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in part; joined the majority striking down the removal restriction but wrote separately arguing for a broader rule invalidating the entire CFPB structure",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding that the for-cause removal restriction violated the separation of powers; severed the restriction from the rest of the statute rather than invalidating the CFPB",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down the removal restriction",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld the for-cause removal restriction as within Congress's authority to structure independent regulatory agencies",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent; would have upheld the removal restriction and reaffirmed Morrison v. Olson's approval of congressional limits on presidential removal authority",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority and wrote separately, arguing for an even broader application of the unitary executive principle to invalidate all for-cause removal restrictions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority striking down the removal restriction; wrote separately to limit the holding",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-7_n6io.pdf",
+      "https://www.scotusblog.com/case-files/cases/seila-law-llc-v-consumer-financial-protection-bureau/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Barrett confirmed October 2020; Jackson confirmed 2022.",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint (supports expanding presidential control); D party 'aligned' with restraint.",
+      "All votes are coded 'partial' for doctrine alignment because the doctrinal question is genuinely contested between the Morrison and unitary-executive traditions, and neither side's vote clearly violates doctrine.",
+      "Party alignment is coded straightforwardly: R-appointed justices followed the Trump administration's position; D-appointed justices upheld the Democratic-created agency structure."
+    ],
+    "counterarguments": [
+      "Under a strict unitary executive reading, all five R-appointed justices' votes are fully doctrine-aligned (not just party-aligned), making this case entirely non-diagnostic.",
+      "Roberts's decision to sever the restriction (preserve the CFPB) rather than invalidate the agency could be read as a partial rebuke to the most aggressive R-party position, which wanted CFPB eliminated.",
+      "The 5-4 alignment along party lines in itself tells us little without knowing whether it reflects doctrine or partisanship, given that the legal question is itself politically contested."
+    ]
+  },
+  {
+    "id": "nfib-v-osha-2022",
+    "title": "NFIB v. Department of Labor (OSHA Vaccine Mandate)",
+    "year": 2022,
+    "scotus_citation": "595 U.S. 109 (2022)",
+    "area": "Agency Deference / Regulatory Authority",
+    "doctrine_ids": ["agency-deference", "executive-restraint"],
+    "description": "The Court blocked 6-3 OSHA's COVID-19 vaccine-or-test mandate for large employers, applying the major questions doctrine to hold that OSHA's broad workplace safety mandate did not clearly authorize a nationwide vaccination requirement covering 80 million workers.",
+    "factual_background": "The Biden administration directed OSHA to issue an emergency temporary standard requiring employers with 100 or more employees to mandate COVID-19 vaccination or weekly testing. Multiple states and industry groups challenged the rule as exceeding OSHA's statutory authority under the Occupational Safety and Health Act.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that OSHA's mandate falls within the agency's broad statutory authority to regulate occupational hazards, and that courts should defer to OSHA's expert determination that COVID-19 constitutes a grave danger in the workplace; the major-questions doctrine should not be used to disable clear regulatory authority. A principled executive-restraint adherent would hold that transformative economic and political regulation requires a clear statement from Congress, not an inference from a broad statutory grant.",
+    "r_party_prediction": "The Republican Party in 2021-2025 opposed the OSHA mandate as an unconstitutional executive overreach into private employment decisions, making blocking the mandate a major political and litigation priority.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended the OSHA mandate as squarely within the agency's occupational safety authority and consistent with the administration's pandemic response goals.",
+    "signal_level": "high",
+    "signal_explanation": "For the agency-deference doctrine: all six R-appointed justices voted to block an agency rule in a period when their party was consistently opposed to deference. Their votes align with party interest (block Biden) and against the traditional deference doctrine (OSHA should get deference on its own statutory mandate). The three D-appointed justices' votes are non-diagnostic (party and deference doctrine both support allowing the mandate).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate; wrote separately to argue the major questions doctrine applies and to criticize broad agency deference",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate under the major questions doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld OSHA's authority to issue the vaccine-or-test mandate as within its statutory jurisdiction over workplace safety hazards",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; wrote separately arguing OSHA's mandate fell squarely within the agency's statutory authority and that the majority misapplied the major questions doctrine",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the per curiam majority; wrote separately to argue for a broader rethinking of federal agency authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the per curiam majority blocking the OSHA mandate",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/21a244_hgci.pdf",
+      "https://www.scotusblog.com/case-files/cases/national-federation-of-independent-business-v-department-of-labor-osha/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed (April 2022); Justice Breyer (not in seat map) participated in the dissent.",
+      "We use the 2021-2025 period party positions for this January 2022 case.",
+      "We classify this primarily as an agency-deference case: the major-questions doctrine is an anti-deference tool, and using it to block OSHA is a departure from Chevron's pro-deference baseline.",
+      "D-appointed justices' votes are non-diagnostic because both their party interest (support Biden's mandate) and the deference doctrine (defer to OSHA) pointed toward allowing the mandate."
+    ],
+    "counterarguments": [
+      "Under the major-questions doctrine, even a deference advocate could agree that OSHA's mandate exceeded its authority because the statute never clearly addressed mass vaccination; this would make the R-appointed justices' votes doctrine-aligned rather than doctrine-against.",
+      "OSHA's mandate was unprecedented in scale and subject matter, and the major-questions doctrine applied here is consistent with the view that Congress must speak clearly before delegating authority for transformative policies.",
+      "The per curiam format (unsigned majority) may indicate consensus across ideological lines on the procedural/statutory question, even if the political dimensions were charged."
+    ]
+  },
+  {
+    "id": "west-virginia-v-epa-2022",
+    "title": "West Virginia v. EPA",
+    "year": 2022,
+    "scotus_citation": "597 U.S. 697 (2022)",
+    "area": "Agency Deference / Environmental Regulation",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that the EPA lacked authority under Clean Air Act § 111(d) to require power plants to implement generation-shifting strategies as part of a carbon emissions reduction scheme. The majority applied the major questions doctrine to hold that such a transformative policy required clear congressional authorization.",
+    "factual_background": "The Obama administration's Clean Power Plan directed the EPA to set emissions performance standards for existing power plants that could only be met through 'generation shifting'—reducing coal-fired power in favor of natural gas and renewables. The Biden administration sought to revive similar authority. West Virginia and other states challenged the plan before it took effect.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that the EPA's interpretation of its authority to set 'best system of emission reduction' standards is a permissible construction of ambiguous statutory language, and that courts should defer to EPA's technical expertise on complex emissions-reduction methodology. The major-questions exception narrows but does not displace this deference framework.",
+    "r_party_prediction": "The Republican Party strongly opposed the EPA Clean Power Plan and similar generation-shifting requirements, viewing them as an unlawful administrative expansion of regulatory authority over energy markets without congressional approval.",
+    "d_party_prediction": "The Democratic Party supported the EPA's authority to address carbon emissions through the Clean Air Act as essential to climate policy goals, defending broad agency authority under existing statutory grants.",
+    "signal_level": "high",
+    "signal_explanation": "All six R-appointed justices voted to block the EPA's major regulatory initiative in a period when their party consistently opposed the deference doctrine. Their votes align with party interest (block Biden's EPA) and against the traditional Chevron-deference principle that would have courts defer to EPA's statutory interpretation. All three D-appointed justices' votes are non-diagnostic (both party and doctrine support allowing EPA authority).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority; concurred to write separately on the scope of the major questions doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion applying the major questions doctrine to hold that the EPA lacked clear statutory authority for generation-shifting requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; wrote separately arguing the majority's major-questions approach improperly constrained EPA authority that Congress had broadly delegated under the Clean Air Act",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the principal dissent arguing for deference to EPA's interpretation of its own statutory mandate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority blocking the EPA generation-shifting authority",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/20-1530_n758.pdf",
+      "https://www.scotusblog.com/case-files/cases/west-virginia-v-epa/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed. Justice Breyer (not in seat map) participated in the dissent.",
+      "We use the 2021-2025 period party positions for this June 2022 case.",
+      "We treat the major-questions doctrine as an anti-deference tool; applying it to block EPA is classified as doctrine-against under the agency-deference principle that courts should defer to reasonable agency interpretations.",
+      "The case was decided before Jackson joined the Court on June 30, 2022 (Breyer's formal last day coincided with the decision)."
+    ],
+    "counterarguments": [
+      "Generation-shifting—requiring structural transformation of the entire energy sector—may be so far outside OSHA's and EPA's traditional authority that even a Chevron defender would agree the statute does not clearly authorize it; this would make the R-appointed votes doctrine-consistent rather than doctrine-against.",
+      "The dissent's argument that the major-questions doctrine is an invention of recent vintage is contested; some legal scholars view the clear-statement approach as longstanding doctrine with roots in the nondelegation principle.",
+      "All six R-appointed justices agreeing may reflect genuine doctrinal consensus rather than partisan coordination, since the question of whether Congress authorized generation-shifting in § 111(d) is textually difficult."
+    ]
+  },
+  {
+    "id": "biden-v-texas-2022",
+    "title": "Biden v. Texas (Remain in Mexico / MPP)",
+    "year": 2022,
+    "scotus_citation": "597 U.S. 785 (2022)",
+    "area": "Nationwide Injunctions / Immigration",
+    "doctrine_ids": ["nationwide-injunctions", "executive-restraint"],
+    "description": "The Court held 5-4 that the Biden administration had lawfully exercised its discretion to end the Migrant Protection Protocols (Remain in Mexico policy), reversing a nationwide injunction that had required the administration to continue implementing the program.",
+    "factual_background": "The Trump administration created MPP in 2019, requiring asylum seekers to remain in Mexico pending U.S. immigration proceedings. The Biden administration sought to terminate MPP, but a federal district court in Texas issued a nationwide injunction requiring its continuation based on statutory immigration law. The Court addressed both whether the administration's termination was lawful and whether the district court's nationwide remedy was proper.",
+    "doctrine_prediction": "A principled skeptic of nationwide injunctions would hold that the district court lacked authority to issue an injunction requiring the executive to operate a specific immigration program nationwide and for non-parties; the equitable remedy should be limited to the parties before the court. A principled executive-restraint adherent would require the executive to follow proper administrative procedure in terminating the program but would not require the courts to compel continuation of executive enforcement priorities.",
+    "r_party_prediction": "The Republican Party, as opponents of the Biden administration's immigration policies, supported maintaining the nationwide injunction that blocked the administration from ending Remain in Mexico, prioritizing the immigration policy outcome over any doctrinal concerns about broad district court remedies.",
+    "d_party_prediction": "The Democratic Party and Biden administration opposed the nationwide injunction, arguing that the executive should have broad discretion over immigration enforcement priorities and that the district court's nationwide remedy improperly constrained executive policy-making.",
+    "signal_level": "high",
+    "signal_explanation": "Four R-appointed justices (Thomas, Alito, Gorsuch, Barrett) voted to maintain the nationwide injunction against the Biden administration despite their party's stated general opposition to nationwide injunctions and their own prior statements criticizing such remedies. Two R-appointed justices (Roberts, Kavanaugh) voted to reverse the injunction, aligning with the doctrine even against their party's immediate political interest. The doctrinal signal is high because Gorsuch in particular has written extensively against nationwide injunctions.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have upheld the nationwide injunction requiring continuation of Remain in Mexico, finding the administration's termination procedurally defective",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion reversing the nationwide injunction and upholding the administration's authority to end Remain in Mexico",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the nationwide injunction blocking the administration from ending MPP",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority reversing the nationwide injunction; consistent with the administration's policy goals and doctrine skeptical of broad equitable remedies",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority reversing the nationwide injunction",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_6": {
+        "vote": "Dissented; would have upheld the nationwide injunction despite previously writing separately against nationwide injunctions in other contexts",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority reversing the nationwide injunction, consistent with doctrine skeptical of broad district court equitable remedies",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Dissented; would have upheld the nationwide injunction blocking the Biden administration's termination of Remain in Mexico",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/21pdf/21-954_g314.pdf",
+      "https://www.scotusblog.com/case-files/cases/biden-v-texas/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed. Justice Breyer (not in seat map) participated in the majority.",
+      "We use the 2021-2025 period party positions: R party 'opposed' to nationwide injunction doctrine (meaning they support using nationwide injunctions against the D administration); D party 'mixed'.",
+      "For the nationwide-injunctions doctrine, 'doctrine-aligned' means voting to limit or reverse the nationwide injunction; 'doctrine-against' means voting to maintain or expand it.",
+      "Gorsuch's vote to maintain the nationwide injunction is especially notable given his prior writings criticizing such remedies in other cases, making his vote clearly party-aligned over doctrine."
+    ],
+    "counterarguments": [
+      "The dissenters argued that the administration violated statutory immigration law in terminating MPP, making the nationwide injunction a remedy for a legal violation rather than merely a policy disagreement; under this view, maintaining the injunction is consistent with rule-of-law principles.",
+      "D-appointed justices' votes are coded 'partial' for party alignment because the D party's general position on nationwide injunctions is genuinely mixed: they are pro-deference when their party governs but have used nationwide injunctions opportunistically.",
+      "Roberts and Kavanaugh may have joined the majority for merits reasons unrelated to the scope of the remedy, meaning the nationwide-injunctions doctrine may not be the primary driver of the 5-4 outcome."
+    ]
+  },
+  {
+    "id": "biden-v-nebraska-2023",
+    "title": "Biden v. Nebraska (Student Loan Forgiveness)",
+    "year": 2023,
+    "scotus_citation": "600 U.S. 477 (2023)",
+    "area": "Executive Power / Spending Authority",
+    "doctrine_ids": ["executive-restraint", "congressional-spending-authority"],
+    "description": "The Court held 6-3 that the Secretary of Education lacked authority under the HEROES Act to cancel approximately $430 billion in student loan debt. The majority applied the major questions doctrine, requiring clear congressional authorization for a program of such vast economic and political significance.",
+    "factual_background": "The Biden administration invoked the HEROES Act's emergency waiver authority—allowing the Secretary to 'waive or modify' student loan provisions during a national emergency—to cancel up to $20,000 in student loan debt for eligible borrowers, citing the COVID-19 pandemic. Six states sued, arguing the program exceeded statutory authority.",
+    "doctrine_prediction": "A principled executive-restraint and congressional-spending-authority adherent would hold that canceling hundreds of billions in congressionally established loan obligations requires an explicit statutory grant, not an inference from a general emergency-waiver provision; the Appropriations Clause and the nondelegation principle together require Congress to speak clearly before the executive exercises such extraordinary fiscal authority.",
+    "r_party_prediction": "The Republican Party strongly opposed student loan forgiveness as an unauthorized executive expenditure, viewing it as a policy that would shift enormous costs to taxpayers without congressional approval and as a clear political payoff to a Democratic constituency.",
+    "d_party_prediction": "The Democratic Party supported the student loan cancellation as lawful under the HEROES Act and as addressing economic hardship from the pandemic, defending the administration's authority to provide targeted relief to borrowers.",
+    "signal_level": "medium",
+    "signal_explanation": "R-appointed justices blocking the program are both party-aligned and arguably doctrine-aligned (need clear authorization), making their votes non-diagnostic. D-appointed justices allowing the program are party-aligned but against the executive-restraint and spending-authority doctrines, creating a medium diagnostic signal for seats 4, 5, and 9.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority blocking student loan forgiveness under the major questions doctrine; wrote separately",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding the HEROES Act did not provide clear authorization for mass student loan cancellation",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld the student loan forgiveness program as within the Secretary's emergency waiver authority under the HEROES Act",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority misread the HEROES Act and the major questions doctrine, and would have upheld the program",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority blocking student loan forgiveness under the major questions doctrine",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority blocking student loan forgiveness",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Recused from participation due to prior service on a board of a party involved in a related case",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/22-506_nmip.pdf",
+      "https://www.scotusblog.com/case-files/cases/biden-v-nebraska/"
+    ],
+    "assumptions": [
+      "Justice Jackson recused from this case; her seat_9 entry is coded 'partial' for both fields to reflect the non-participation rather than a substantive vote.",
+      "We use the 2021-2025 period party positions for this June 2023 case.",
+      "R-appointed justices blocking the program are coded doctrine-aligned because the major questions and appropriations doctrines both require clear authorization for transformative fiscal action.",
+      "D-appointed justices allowing the program are coded doctrine-against because the HEROES Act's emergency waiver language does not clearly authorize mass cancellation of loan principal; allowing this would expand executive spending authority beyond what the congressional-spending-authority doctrine permits."
+    ],
+    "counterarguments": [
+      "The HEROES Act's text authorizing the Secretary to 'waive or modify' 'any statutory or regulatory provision applicable to the student financial assistance programs' could be read as an explicit grant covering cancellation, making the D-appointed justices' votes doctrine-consistent (they just read the statute differently).",
+      "R-appointed justices may be applying the major-questions doctrine selectively, accepting comparable delegations when the political result favors their party, which would make even their votes diagnostic in the opposite direction.",
+      "Congressional-spending-authority doctrine focuses on appropriations and impoundment; applying it to a statutory waiver-authority case is a stretch, since Congress did appropriate HEROES Act emergency powers."
+    ]
+  }
+]

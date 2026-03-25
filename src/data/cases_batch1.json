@@ -1,0 +1,302 @@
+[
+  {
+    "id": "nfib-v-sebelius-2012",
+    "title": "NFIB v. Sebelius",
+    "year": 2012,
+    "scotus_citation": "567 U.S. 519 (2012)",
+    "area": "Federalism / Spending Power",
+    "doctrine_ids": ["federalism-states-rights", "congressional-spending-authority"],
+    "description": "The Court upheld the Affordable Care Act's individual mandate as a valid exercise of the taxing power, while finding the mandate could not be sustained under the Commerce Clause. Seven justices also held that the Medicaid expansion as drafted was unconstitutionally coercive of states under the Spending Clause, though a majority upheld the expansion with the coercive penalty severed.",
+    "factual_background": "Congress enacted the Affordable Care Act in 2010, including an individual mandate to purchase health insurance and a Medicaid expansion that conditioned all states' existing Medicaid funding on participation in the expansion. Twenty-six states challenged the law as exceeding Congress's enumerated powers.",
+    "doctrine_prediction": "A principled federalism adherent would hold that Congress may not use Spending Clause conditions to coerce states into accepting new programs by threatening their existing federal funding; the ACA Medicaid expansion as originally written crossed the line from permissible inducement to unconstitutional coercion. On the Commerce Clause, the same adherent would hold that the power to regulate commerce does not extend to compelling individuals to engage in commerce they have not chosen to enter.",
+    "r_party_prediction": "The Republican Party in 2012 sought invalidation of the entire ACA as exceeding Congress's enumerated powers, arguing both the individual mandate and the Medicaid expansion were unconstitutional.",
+    "d_party_prediction": "The Democratic Party sought full affirmance of the ACA, arguing that both the individual mandate and the unconditional Medicaid expansion were valid exercises of Congress's Commerce, Necessary and Proper, and Spending Clause authority.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine and party interest diverge primarily for the Chief Justice (R-appointed, upheld ACA overall against his party's interest) and for D-appointed justices on the Medicaid coercion holding (they dissented from the federalism limit against their party's interest in maximizing federal expansion). However, the Commerce Clause question is genuinely complex and the Tax Clause rationale is plausible, reducing the pure partisan signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Would have struck down the entire ACA; joined the plurality on Commerce Clause limits; dissented from the Tax Clause rationale upholding the mandate",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the controlling opinion: upheld the individual mandate as a valid tax, held the mandate could not be sustained under the Commerce Clause, and wrote the Medicaid coercion holding limiting the expansion remedy",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Would have struck down the entire ACA; joined the plurality on Commerce Clause limits; dissented from the Tax Clause rationale",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding the ACA; dissented from the Medicaid coercion holding and would have upheld the full Medicaid expansion without limitation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding the ACA; dissented from the Medicaid coercion holding and would have upheld the full Medicaid expansion without limitation",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/11pdf/11-393c3a2.pdf",
+      "https://www.scotusblog.com/case-files/cases/national-federation-of-independent-business-v-sebelius/"
+    ],
+    "assumptions": [
+      "We treat the Medicaid coercion holding as the primary test of federalism doctrine because it is the clearest application of Spending Clause anti-coercion principles.",
+      "The Chief Justice's Tax Clause rationale is treated as a partial departure from R party interest because the R party sought full invalidation and the ruling preserved the ACA.",
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2012.",
+      "We use the 2009-2017 period party positions for the 2012 case."
+    ],
+    "counterarguments": [
+      "One could argue that Thomas and Alito striking down the full ACA is both doctrine-aligned (enforcing enumerated power limits) AND party-aligned (R wanted ACA dead), making them non-diagnostic rather than diagnostic.",
+      "Roberts limited the Medicaid expansion through the coercion ruling, which was actually a conservative federalism victory even while upholding the overall law, making his vote mixed rather than purely party-against.",
+      "The Commerce Clause limit that Roberts wrote (joined by all four conservatives plus himself) was a significant federalism win for Republicans regardless of the Tax Clause result."
+    ]
+  },
+  {
+    "id": "nlrb-v-noel-canning-2014",
+    "title": "NLRB v. Noel Canning",
+    "year": 2014,
+    "scotus_citation": "573 U.S. 513 (2014)",
+    "area": "Executive Power / Recess Appointments",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court unanimously held that the President's three recess appointments to the National Labor Relations Board were constitutionally invalid. The majority held that 'recess' means only intersession recesses of more than ten days; a four-justice concurrence would have applied an even stricter rule allowing only intersession recesses. All nine justices voted to limit the President's recess appointment power.",
+    "factual_background": "President Obama made three recess appointments to the NLRB during a three-day intrasession recess while the Senate was holding pro forma sessions. The NLRB subsequently issued a decision in a labor dispute. Noel Canning challenged the NLRB order, arguing the appointees were not validly confirmed.",
+    "doctrine_prediction": "A principled executive restraint adherent would hold that the Recess Appointments Clause must be construed to prevent the executive from circumventing Senate confirmation; presidential power requires grounding in constitutional text and structure, and the executive cannot manufacture recess conditions to bypass the Senate's advice and consent role.",
+    "r_party_prediction": "The Republican Party in 2014 opposed Obama's recess appointments as an unconstitutional power grab and sought to protect the Senate's confirmation role, making blocking the appointments a partisan priority.",
+    "d_party_prediction": "The Democratic Party and the Obama administration defended broad recess appointment authority as necessary to staff executive agencies when the Senate was effectively refusing to act on nominees.",
+    "signal_level": "high",
+    "signal_explanation": "D-appointed justices (seats 4 and 5) voted unanimously to limit a Democratic president's executive appointment power, placing doctrinal fidelity over party interest. The R-appointed justices' votes are less diagnostic because their party interest and doctrine both pointed toward limiting recess appointments. This case is high-signal specifically for Democratic-appointed justices.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in judgment; joined the stricter four-justice concurrence that would have invalidated all intrasession recess appointments regardless of length",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the four-justice concurrence taking the stricter view; concurred in the judgment limiting recess appointments",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the four-justice concurrence taking the stricter view; concurred in the judgment limiting recess appointments",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined Justice Breyer's majority opinion holding recess appointments invalid; voted to limit the President's recess appointment power against the position of the appointing party's president",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Joined Justice Breyer's majority opinion holding recess appointments invalid; voted to limit the President's recess appointment power against the position of the appointing party's president",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/13pdf/12-1281_3e04.pdf",
+      "https://www.scotusblog.com/case-files/cases/nlrb-v-noel-canning/"
+    ],
+    "assumptions": [
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2014.",
+      "We use the 2009-2017 period party positions: D party 'opposed' to executive restraint doctrine (supported broad executive action); R party 'mixed' (rhetorically aligned with restraint but not consistently).",
+      "The four-justice concurrence (Thomas, Roberts, Alito, plus Scalia not in our seat map) represents even stricter executive restraint than the majority, which remains doctrine-aligned.",
+      "We treat all votes as limiting the executive appointment power for purposes of doctrine alignment, though the degree of limitation differed."
+    ],
+    "counterarguments": [
+      "R-appointed justices limiting Obama's recess appointments could be read as party-motivated rather than principle-driven, since their party interest coincidentally aligned with doctrine, making their votes non-diagnostic rather than diagnostic.",
+      "The D-appointed justices who wrote and joined the majority (Breyer, Ginsburg, Kagan, Sotomayor, Kennedy) had a plausible doctrinal basis for allowing some recess appointments in genuine recesses, which is not the same as endorsing the Obama appointments at issue.",
+      "The unanimity of the result weakens the partisan signal somewhat, since a result that achieves 9-0 agreement is unlikely to be purely partisan."
+    ]
+  },
+  {
+    "id": "king-v-burwell-2015",
+    "title": "King v. Burwell",
+    "year": 2015,
+    "scotus_citation": "576 U.S. 473 (2015)",
+    "area": "Statutory Interpretation / Agency Deference",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that the phrase 'Exchange established by the State' in the Affordable Care Act encompasses federally established exchanges, preserving tax credit eligibility for millions of enrollees. The Chief Justice explicitly declined to apply Chevron deference, holding that questions of this magnitude for a major statute are for the courts to resolve independently.",
+    "factual_background": "The IRS issued a rule extending premium tax credits to health insurance purchased on federal exchanges as well as state exchanges. Plaintiffs in states with only federal exchanges argued the statutory text limited credits to 'Exchange established by the State,' which would have gutted the ACA in most states.",
+    "doctrine_prediction": "A principled agency-deference adherent applying Chevron would hold that the IRS's broad reading of an ambiguous statutory phrase is entitled to deference as a reasonable construction; courts should defer to agency expertise when Congress speaks ambiguously. A major-questions-skeptic would question whether this magnitude of policy decision should rest on agency interpretation.",
+    "r_party_prediction": "The Republican Party in 2015 sought a narrow reading of 'Exchange established by the State' that would eliminate tax credits on federal exchanges, effectively crippling the ACA's coverage provisions and achieving through litigation what the party could not achieve legislatively.",
+    "d_party_prediction": "The Democratic Party sought a broad reading preserving tax credits on all exchanges, consistent with the ACA's overall structure and the administration's IRS rule.",
+    "signal_level": "medium",
+    "signal_explanation": "The Chief Justice's vote is diagnostic: he upheld the ACA against his party's interest, though he also rejected Chevron deference (aligning with his party's anti-deference position on methodology). D-appointed justices are non-diagnostic (party and doctrine both point toward upholding). Thomas and Alito are diagnostic for the agency-deference doctrine: they refused to defer even through independent interpretation reaching the same result.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have read 'Exchange established by the State' to exclude federal exchanges, denying credits to millions and effectively invalidating the ACA in most states",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority upholding ACA subsidies on federal exchanges; explicitly declined to apply Chevron, instead applying independent judicial interpretation to find the broader reading compelled by statutory context and structure",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have read 'Exchange established by the State' narrowly to exclude federal exchanges",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding ACA subsidies on federal exchanges",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding ACA subsidies on federal exchanges",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/14pdf/14-114_qol1.pdf",
+      "https://www.scotusblog.com/case-files/cases/king-v-burwell/"
+    ],
+    "assumptions": [
+      "Seats 6-9 are omitted because those justices were not yet on the Court in 2015.",
+      "We use the 2009-2017 period party positions: R party 'aligned' with anti-deference position (attacked Chevron as unconstitutional delegation); D party 'aligned' with pro-deference position.",
+      "Roberts's vote is coded 'partial' for doctrine alignment because he reached the pro-deference result (upholding the agency-favored outcome) through anti-deference methodology (rejecting Chevron), making it ambiguous.",
+      "For party alignment, Roberts is coded 'no' because the R party's primary goal was to invalidate ACA subsidies, not to debate deference methodology."
+    ],
+    "counterarguments": [
+      "Roberts's rejection of Chevron could be coded as doctrine-aligned with the conservative anti-deference principled position, making his vote doctrine-aligned-and-party-against rather than doctrine-partial.",
+      "Thomas and Alito applying independent textual interpretation (anti-Chevron) could be seen as doctrine-aligned with the conservative principled position on agency deference, making their votes non-diagnostic (party-aligned AND doctrine-aligned).",
+      "The R party's stated position attacked Chevron generally, but their specific interest in this case was the narrow ACA reading; Roberts's outcome (upholding ACA) is unambiguously party-against."
+    ]
+  },
+  {
+    "id": "dhs-v-regents-2020",
+    "title": "DHS v. Regents of the University of California",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 1 (2020)",
+    "area": "Executive Power / Administrative Law",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 5-4 that the Department of Homeland Security's rescission of the Deferred Action for Childhood Arrivals (DACA) program was arbitrary and capricious under the Administrative Procedure Act. The majority found that DHS failed to consider the reliance interests of DACA recipients and did not adequately explain its reasoning.",
+    "factual_background": "The Obama administration created DACA in 2012 through a DHS memorandum, deferring deportation proceedings for undocumented immigrants who arrived as children. The Trump administration rescinded DACA in 2017, citing legal concerns. Multiple district courts issued nationwide injunctions blocking the rescission pending judicial review.",
+    "doctrine_prediction": "A principled executive restraint adherent, applying the APA's arbitrary-and-capricious standard, would hold that agencies must provide reasoned explanations when rescinding prior policies and must account for serious reliance interests; courts should enforce this obligation as a structural check ensuring executive decisions rest on law, not mere preference.",
+    "r_party_prediction": "The Republican Party and the Trump administration argued that rescinding DACA was a valid exercise of executive immigration discretion that courts should not second-guess under the APA; the party sought maximum deference to executive judgment on immigration enforcement priorities.",
+    "d_party_prediction": "The Democratic Party sought to block the DACA rescission as arbitrary and capricious for failing to consider reliance interests and provide adequate justification, protecting an Obama-era policy that aligned with Democratic immigration priorities.",
+    "signal_level": "high",
+    "signal_explanation": "The Chief Justice (R-appointed, seat 2) voted with the four D-appointed justices to block the Trump administration's DACA rescission, demonstrating doctrine-aligned voting against his party's clear interest. Four other R-appointed justices (Thomas, Alito, Gorsuch, Kavanaugh) voted to allow the rescission in line with their party's interest but against the doctrine requiring reasoned administrative decision-making.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have upheld the DACA rescission, finding DHS had adequate legal authority and that courts should not second-guess the executive's immigration policy decisions under the APA",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion blocking the DACA rescission as arbitrary and capricious; found DHS failed to consider reliance interests and did not provide adequate reasoning under the APA",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have upheld the DACA rescission as a valid exercise of executive immigration discretion",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority blocking the DACA rescission; wrote separately to address equal protection concerns",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority blocking the DACA rescission as arbitrary and capricious under the APA",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; joined the opinion that would have upheld the DACA rescission as a valid exercise of executive immigration discretion",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Dissented; joined the opinion that would have upheld the DACA rescission as a valid exercise of executive discretion without requiring the APA reasoning the majority demanded",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/18-587_5ifl.pdf",
+      "https://www.scotusblog.com/case-files/cases/department-of-homeland-security-v-regents-of-the-university-of-california/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Justice Barrett was not yet confirmed (October 2020); Justice Jackson was not yet confirmed (2022).",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint doctrine (supported Trump's broad executive authority); D party 'aligned' with executive restraint doctrine (sought to restrain Trump).",
+      "The APA arbitrary-and-capricious standard is treated as an application of executive restraint doctrine: courts enforce procedural and substantive limits on executive action.",
+      "The Chief Justice's vote is classified as doctrine-aligned and party-against because Roberts explicitly applied the APA's reasoned-decision-making requirement to block a clear Trump administration policy priority."
+    ],
+    "counterarguments": [
+      "Roberts's majority opinion did not hold that DACA was legally required to continue—only that the rescission process was defective. DHS could have rescinded DACA with better reasoning, meaning Roberts may have been buying time rather than resolving the underlying question.",
+      "The dissenters argued that DACA was itself legally questionable as an executive action, making requiring more detailed justification for its rescission somewhat inconsistent with executive restraint doctrine.",
+      "Sotomayor's and Kagan's votes are non-diagnostic if we view them as simply voting to protect a policy their party supported, regardless of the APA rationale."
+    ]
+  },
+  {
+    "id": "trump-v-hawaii-2018",
+    "title": "Trump v. Hawaii",
+    "year": 2018,
+    "scotus_citation": "585 U.S. 667 (2018)",
+    "area": "Executive Power / Immigration",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court upheld 5-4 President Trump's Presidential Proclamation restricting entry of nationals from several predominantly Muslim countries. The majority held that 8 U.S.C. § 1182(f) broadly authorized the President to suspend entry of any class of aliens whose entry he found detrimental to national interests.",
+    "factual_background": "President Trump issued a series of executive orders and proclamations restricting entry of nationals from several predominantly Muslim-majority countries, citing national security concerns. The proclamation was challenged on both statutory and constitutional grounds.",
+    "doctrine_prediction": "A principled executive restraint adherent would scrutinize whether § 1182(f)'s broad delegation to the President to suspend entry of aliens 'detrimental to the interests of the United States' genuinely authorized such a sweeping categorical ban, or whether the principle against reading broad delegations as authorizing unprecedented action required a limiting construction. The doctrine counsels that courts rigorously evaluate the scope of statutory authorization before allowing major executive actions to stand.",
+    "r_party_prediction": "The Republican Party supported upholding the travel ban as a valid exercise of the president's broad immigration enforcement and national security authority, treating § 1182(f) as conferring near-unlimited discretion.",
+    "d_party_prediction": "The Democratic Party opposed the travel ban as exceeding statutory authority and violating constitutional anti-discrimination norms, arguing the President must stay within the bounds of what Congress actually authorized.",
+    "signal_level": "medium",
+    "signal_explanation": "Doctrine and party interest diverge for R-appointed justices: the executive restraint principle counsels rigorously evaluating the scope of delegation, but all five R-appointed justices in the majority upheld the broadest reading. However, the signal is only medium because § 1182(f)'s text is broad and the statutory argument for the ban is plausible, reducing the clarity of the doctrine violation.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority upholding the travel ban as within § 1182(f)'s broad grant of presidential authority over alien entry",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion upholding the travel ban under § 1182(f), rejecting religious establishment challenges and applying rational basis review to the national security justification",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority upholding the travel ban under § 1182(f)",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have found the travel ban violated § 1182(f) and the Establishment Clause; compared the majority's reasoning to Korematsu",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; would have found the travel ban violated statutory authorization and constitutional constraints",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the travel ban under § 1182(f)",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/17pdf/17-965_h315.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-hawaii/"
+    ],
+    "assumptions": [
+      "Seats 7, 8, and 9 are omitted: Kavanaugh was not yet confirmed (October 2018); Barrett joined in 2020; Jackson in 2022.",
+      "We use the 2017-2021 period party positions: R party 'opposed' to executive restraint doctrine (supported broad Trump executive authority); D party 'aligned' with restraint doctrine.",
+      "We code R-appointed justices as doctrine-against because the executive restraint principle—reading delegations narrowly to prevent executive overreach—counsels skepticism of the broad § 1182(f) reading adopted by the majority.",
+      "D-appointed justices are coded non-diagnostic (both party and doctrine aligned) because their party interest and doctrine both supported blocking the ban."
+    ],
+    "counterarguments": [
+      "The text of § 1182(f) ('whenever the President finds that the entry of any aliens or of any class of aliens into the United States would be detrimental to the interests of the United States, he may by proclamation, and for such period as he shall deem necessary, suspend the entry of all aliens or any class of aliens') is unusually explicit in conferring broad discretion, making a textual argument for the majority plausible.",
+      "Under originalist executive-power theory, the president has plenary authority over alien entry that predates statutory grants, which would make this a non-diagnostic case for originalist justices.",
+      "Kennedy's concurrence (he was in the majority but wrote separately to signal concerns about discriminatory animus) suggests even some R-appointed justices found the case more difficult than a pure party vote would suggest."
+    ]
+  }
+]

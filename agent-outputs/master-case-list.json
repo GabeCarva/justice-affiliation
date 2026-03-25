@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "free-enterprise-fund",
+    "title": "Free Enterprise Fund v. PCAOB",
+    "year": 2010,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "noel-canning",
+    "title": "NLRB v. Noel Canning",
+    "year": 2014,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "zivotofsky",
+    "title": "Zivotofsky v. Kerry",
+    "year": 2015,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "dept-commerce-ny",
+    "title": "Department of Commerce v. New York",
+    "year": 2019,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "trump-hawaii",
+    "title": "Trump v. Hawaii",
+    "year": 2018,
+    "doctrine_ids": [
+      "executive-restraint",
+      "nationwide-injunctions"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch"
+    ],
+    "num_justices": 6
+  },
+  {
+    "id": "lucia-sec",
+    "title": "Lucia v. SEC",
+    "year": 2018,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch"
+    ],
+    "num_justices": 6
+  },
+  {
+    "id": "gundy",
+    "title": "Gundy v. United States",
+    "year": 2019,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "dhs-regents",
+    "title": "DHS v. Regents of the University of California",
+    "year": 2020,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "seila-law",
+    "title": "Seila Law v. CFPB",
+    "year": 2020,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "arthrex",
+    "title": "United States v. Arthrex",
+    "year": 2021,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "collins-yellen",
+    "title": "Collins v. Yellen",
+    "year": 2021,
+    "doctrine_ids": [
+      "executive-restraint"
+    ],
+    "signal_level": "low",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "biden-nebraska",
+    "title": "Biden v. Nebraska",
+    "year": 2023,
+    "doctrine_ids": [
+      "executive-restraint",
+      "congressional-spending-authority"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "us-v-texas-2023",
+    "title": "United States v. Texas (immigration)",
+    "year": 2023,
+    "doctrine_ids": [
+      "executive-restraint",
+      "standing-justiciability"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "trump-immunity",
+    "title": "Trump v. United States",
+    "year": 2024,
+    "doctrine_ids": [
+      "presidential-immunity"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "trump-casa",
+    "title": "Trump v. CASA, Inc.",
+    "year": 2025,
+    "doctrine_ids": [
+      "nationwide-injunctions",
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "utility-air",
+    "title": "Utility Air Regulatory Group v. EPA",
+    "year": 2014,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "king-burwell",
+    "title": "King v. Burwell",
+    "year": 2015,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "michigan-epa",
+    "title": "Michigan v. EPA",
+    "year": 2015,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "kisor-wilkie",
+    "title": "Kisor v. Wilkie",
+    "year": 2019,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "ala-realtors-hhs",
+    "title": "Alabama Assoc. of Realtors v. HHS",
+    "year": 2021,
+    "doctrine_ids": [
+      "agency-deference",
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "little-sisters",
+    "title": "Little Sisters of Poor v. Pennsylvania",
+    "year": 2020,
+    "doctrine_ids": [
+      "agency-deference",
+      "executive-restraint"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "wv-epa",
+    "title": "West Virginia v. EPA",
+    "year": 2022,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "nfib-osha",
+    "title": "NFIB v. OSHA",
+    "year": 2022,
+    "doctrine_ids": [
+      "agency-deference",
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "sackett-epa",
+    "title": "Sackett v. EPA",
+    "year": 2023,
+    "doctrine_ids": [
+      "agency-deference",
+      "federalism-states-rights"
+    ],
+    "signal_level": "low",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "sec-jarkesy",
+    "title": "SEC v. Jarkesy",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "ohio-epa",
+    "title": "Ohio v. EPA",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "loper-bright",
+    "title": "Loper Bright Enterprises v. Raimondo",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "relentless",
+    "title": "Relentless Inc. v. Department of Commerce",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "corner-post",
+    "title": "Corner Post v. Board of Governors",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference",
+      "standing-justiciability"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "garland-cargill",
+    "title": "Garland v. Cargill",
+    "year": 2024,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "fcc-consumers-research",
+    "title": "FCC v. Consumers' Research",
+    "year": 2025,
+    "doctrine_ids": [
+      "agency-deference"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "clapper",
+    "title": "Clapper v. Amnesty International USA",
+    "year": 2013,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "spokeo",
+    "title": "Spokeo v. Robins",
+    "year": 2016,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "transunion",
+    "title": "TransUnion LLC v. Ramirez",
+    "year": 2021,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  },
+  {
+    "id": "dept-ed-brown",
+    "title": "Department of Education v. Brown",
+    "year": 2023,
+    "doctrine_ids": [
+      "standing-justiciability",
+      "congressional-spending-authority"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "acheson-hotels",
+    "title": "Acheson Hotels v. Laufer",
+    "year": 2023,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "low",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "fda-alliance",
+    "title": "FDA v. Alliance for Hippocratic Medicine",
+    "year": 2024,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "murthy-missouri",
+    "title": "Murthy v. Missouri",
+    "year": 2024,
+    "doctrine_ids": [
+      "standing-justiciability"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "arizona-us",
+    "title": "Arizona v. United States",
+    "year": 2012,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "shelby-county",
+    "title": "Shelby County v. Holder",
+    "year": 2013,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "bond-us",
+    "title": "Bond v. United States",
+    "year": 2014,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "low",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "murphy-ncaa",
+    "title": "Murphy v. NCAA",
+    "year": 2018,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch"
+    ],
+    "num_justices": 6
+  },
+  {
+    "id": "nfib-sebelius",
+    "title": "NFIB v. Sebelius",
+    "year": 2012,
+    "doctrine_ids": [
+      "federalism-states-rights",
+      "congressional-spending-authority"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "haaland-brackeen",
+    "title": "Haaland v. Brackeen",
+    "year": 2023,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "low",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "moore-harper",
+    "title": "Moore v. Harper",
+    "year": 2023,
+    "doctrine_ids": [
+      "federalism-states-rights"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "trump-anderson",
+    "title": "Trump v. Anderson",
+    "year": 2024,
+    "doctrine_ids": [
+      "federalism-states-rights",
+      "presidential-immunity"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "aid-alliance",
+    "title": "Agency for Int'l Dev. v. Alliance for Open Society",
+    "year": 2013,
+    "doctrine_ids": [
+      "congressional-spending-authority"
+    ],
+    "signal_level": "medium",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan"
+    ],
+    "num_justices": 5
+  },
+  {
+    "id": "cfpb-cfs",
+    "title": "CFPB v. Community Financial Services Assoc.",
+    "year": 2024,
+    "doctrine_ids": [
+      "congressional-spending-authority"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett",
+      "Jackson"
+    ],
+    "num_justices": 9
+  },
+  {
+    "id": "trump-vance",
+    "title": "Trump v. Vance",
+    "year": 2020,
+    "doctrine_ids": [
+      "presidential-immunity"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "trump-mazars",
+    "title": "Trump v. Mazars",
+    "year": 2020,
+    "doctrine_ids": [
+      "presidential-immunity"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "num_justices": 7
+  },
+  {
+    "id": "biden-texas-2022",
+    "title": "Biden v. Texas (MPP)",
+    "year": 2022,
+    "doctrine_ids": [
+      "nationwide-injunctions",
+      "executive-restraint"
+    ],
+    "signal_level": "high",
+    "justices_on_court": [
+      "Thomas",
+      "Roberts",
+      "Alito",
+      "Sotomayor",
+      "Kagan",
+      "Gorsuch",
+      "Kavanaugh",
+      "Barrett"
+    ],
+    "num_justices": 8
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "arizona-us",
+    "title": "Arizona v. United States",
+    "year": 2012,
+    "scotus_citation": "567 U.S. 387 (2012)",
+    "area": "Federalism / Preemption",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 5-3 that three provisions of Arizona's SB 1070 immigration enforcement law were preempted by federal law, while unanimously allowing enforcement of Section 2(B) requiring officers to check immigration status during lawful stops. Kennedy wrote for the majority.",
+    "factual_background": "Arizona enacted SB 1070 in 2010, which created state-law immigration enforcement mechanisms including criminal penalties for unlawfully present aliens and authorization for police to arrest persons on immigration grounds. The federal government sued Arizona arguing federal immigration law preempted the state scheme. The Supreme Court struck three provisions but preserved the 'show me your papers' status-check requirement.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that immigration is a domain where federal supremacy under the Supremacy Clause is strongest because it involves foreign relations and national uniformity. However, states retain police power authority to regulate conduct within their borders, and not every state law touching immigration is preempted. The preemption analysis must carefully distinguish between state laws that conflict with federal objectives and state laws that merely supplement federal enforcement.",
+    "r_party_prediction": "Republicans supported Arizona's right to enforce immigration laws within its borders, arguing the state was responding to federal inaction and that states retain police power authority to address illegal immigration. Arizona's Republican governor and legislature passed SB 1070 as a response to what they characterized as federal failure to secure the border.",
+    "d_party_prediction": "The Obama administration and Democrats argued that immigration enforcement is an exclusively federal domain and that Arizona's law — by creating parallel state enforcement mechanisms — conflicted with the federal government's discretionary enforcement choices, undermining the uniform national policy that immigration requires.",
+    "signal_level": "medium",
+    "signal_explanation": "Roberts joining the majority in striking down three provisions against the R-party position provides diagnostic signal. The 5-3 lineup (Kennedy writing, joined by Roberts, Ginsburg, Breyer, Sotomayor) diverged from the party-line expectation that R-appointed justices would uphold Arizona's law. Thomas dissented along with Alito (partially), maintaining the full R-party position.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented in part; would have upheld all challenged provisions of Arizona's SB 1070, arguing states retain the power to enforce federal immigration law and that preemption should not be so broadly applied",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority striking three SB 1070 provisions as preempted by federal immigration law; the federal government's discretionary enforcement choices preempt conflicting state criminal penalties",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Concurred in part and dissented in part; would have upheld two additional provisions the majority struck, arguing the state criminal provisions for unlawfully present aliens were not clearly preempted",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority striking three SB 1070 provisions as preempted by federal immigration law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority striking three SB 1070 provisions as preempted",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/11pdf/11-182b5e1.pdf",
+      "https://www.scotusblog.com/case-files/cases/arizona-v-united-states/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: not yet on the Court.",
+      "Kagan recused from this case (she had worked on it as Solicitor General); the 5-3 majority reflects this recusal. Seat_5 (Kagan) is retained in this dataset because she typically participated but is noted as recused here — seat_5 vote is omitted from the votes object.",
+      "Roberts (seat_2) is coded doctrine-yes/party-no because he voted to strike three Arizona provisions against the R-party's stated position supporting Arizona's law.",
+      "Thomas (seat_1) and Alito (seat_3) are coded partial because they each voted to uphold some provisions the majority struck, aligning with R-party interest.",
+      "We use 2009–2017 period party positions: R = 'mixed' but generally supportive of state immigration enforcement; D = 'aligned' with federal preemption of state immigration laws."
+    ],
+    "counterarguments": [
+      "The federalism doctrine cuts both ways on preemption: states have sovereign interests in their police power that could support upholding Arizona's law as consistent with complementary state enforcement.",
+      "Roberts's joining the majority may reflect his view that immigration is a uniquely federal domain — not necessarily that he was rejecting the federalism doctrine generally.",
+      "The Court unanimously upheld Section 2(B) — the most politically salient 'show me your papers' provision — meaning the decision was a mixed outcome rather than a clear rebuke of Arizona."
+    ]
+  },
+  {
+    "id": "shelby-county",
+    "title": "Shelby County v. Holder",
+    "year": 2013,
+    "scotus_citation": "570 U.S. 529 (2013)",
+    "area": "Federalism / Congressional Enforcement Powers",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 5-4 that Section 4(b) of the Voting Rights Act — the coverage formula determining which jurisdictions must seek federal preclearance before changing voting laws — was unconstitutional because it relied on outdated 1965 data and violated the equal-sovereignty principle among states.",
+    "factual_background": "The Voting Rights Act of 1965 required jurisdictions with a history of voting discrimination to obtain federal preclearance before changing election laws. Congress reauthorized the Act in 2006 using the same coverage formula from 1965. Shelby County, Alabama argued the formula was no longer justified by current conditions. The Court struck down the formula without addressing Section 5 preclearance directly.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that Congress's power to enforce constitutional amendments does not permit it to impose disparate burdens on states indefinitely based on historical conduct without updating the justification. States have equal sovereignty and the federal government's intrusive oversight of state election administration must be grounded in current evidence of constitutional violations, not conditions that may have changed substantially over 50 years.",
+    "r_party_prediction": "Republicans broadly supported striking down the VRA coverage formula as an outdated imposition on Southern states and an infringement on state sovereignty in managing their own elections; the R-party had long criticized the preclearance regime as unnecessary and discriminatory against covered states.",
+    "d_party_prediction": "Democrats strongly defended the VRA preclearance requirement as essential for protecting minority voting rights and argued that Congress had adequate evidence of continued voting discrimination to justify reauthorization; the D-party treated the VRA as a foundational civil rights protection.",
+    "signal_level": "high",
+    "signal_explanation": "The 5-4 split precisely follows partisan appointment lines on one of the most consequential voting-rights decisions in decades. Roberts writing for the five R-appointed justices and Ginsburg writing for the four D-appointed dissenters is a maximally partisan alignment pattern on a high-salience case.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority striking down Section 4(b); wrote separately to argue Section 5 preclearance itself is unconstitutional under the Fifteenth Amendment's demand for equal state sovereignty",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding Section 4(b)'s coverage formula unconstitutional as incompatible with the equal-sovereignty principle and unsupported by current evidence",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down Section 4(b) of the Voting Rights Act",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined Ginsburg's dissent; argued Congress had ample evidence of continuing voting discrimination to justify VRA reauthorization and that the majority's equal-sovereignty principle had no textual basis",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined Ginsburg's dissent; argued the majority's equal-sovereignty principle was invented and that Congress's judgment about the continued need for preclearance should receive substantial deference under Section 2 of the Fifteenth Amendment",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf",
+      "https://www.scotusblog.com/case-files/cases/shelby-county-v-holder/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: not yet on the Court.",
+      "We use 2009–2017 period party positions: R = 'aligned' with limiting federal oversight of state elections; D = 'opposed' (defending federal protection of voting rights as paramount to state sovereignty concerns).",
+      "Thomas (seat_1) concurred separately, going further than the majority — his position is doctrine-yes/party-yes (non-diagnostic).",
+      "All five R-appointed justices are coded non-diagnostic (doctrine-yes/party-yes); all four D-appointed justices are coded partisan (doctrine-no/party-yes)."
+    ],
+    "counterarguments": [
+      "The 'equal sovereignty' principle Roberts invoked has been criticized as having no clear constitutional textual basis, making the majority opinion potentially more ideological than doctrinal.",
+      "Congress overwhelmingly reauthorized the VRA in 2006 with extensive legislative findings of continued discrimination; one could argue judicial invalidation over that record shows aggressive judicial second-guessing of Congress rather than faithful application of federalism doctrine.",
+      "The practical effect — gutting VRA preclearance — produced rapid changes in voting laws in previously covered jurisdictions, which some argue vindicates the dissent's view that the preclearance requirement was still necessary."
+    ]
+  },
+  {
+    "id": "bond-us",
+    "title": "Bond v. United States",
+    "year": 2014,
+    "scotus_citation": "572 U.S. 844 (2014)",
+    "area": "Federalism / Treaty Implementation",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 6-3 that a federal chemical weapons statute implementing the Chemical Weapons Convention did not reach Carol Bond's local assault with harmful chemicals on her husband's paramour, applying the federalism canon to avoid construing a treaty-implementing statute to cover purely local criminal conduct.",
+    "factual_background": "Carol Bond poisoned her husband's lover with toxic chemicals she obtained from her employer and ordered online. Federal prosecutors charged her under the Chemical Weapons Convention Implementation Act rather than state law. Bond argued applying the federal statute to her local conduct exceeded Congress's treaty power and violated the Tenth Amendment. The Court avoided the constitutional question by narrowly construing the statute.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that federal statutes implementing international treaties must be read, where ambiguous, to avoid displacing traditional state police power over local criminal conduct. The power to make treaties does not give Congress unlimited authority to federalize all crimes involving means covered by a treaty; the federalism canon of avoiding unnecessary constitutional questions in treaty implementation preserves the states' traditional role in prosecuting local crimes.",
+    "r_party_prediction": "Republicans and federalism advocates supported limiting the treaty power's reach into traditional state criminal law domains, arguing that reading treaty-implementing statutes to cover purely local conduct would give the federal government effectively unlimited criminal jurisdiction over any conduct involving treaty-covered substances.",
+    "d_party_prediction": "The Obama administration defended the broad application of the Chemical Weapons Convention Implementation Act, arguing that treaty obligations required comprehensive federal enforcement authority and that Congress had authority to implement the CWC broadly.",
+    "signal_level": "low",
+    "signal_explanation": "The Court avoided the constitutional question by relying on statutory interpretation with a federalism gloss, and several justices wrote separately with differing views on the constitutional issue. The outcome was cross-partisan (Roberts joined liberal justices while Thomas, Scalia, and Alito wrote separately to reach the constitutional question), reducing diagnostic value.",
+    "votes": {
+      "seat_1": {
+        "vote": "Concurred in the judgment but wrote separately, joined by Scalia and Alito, to hold that the Chemical Weapons Convention Implementation Act was itself unconstitutional as applied to Bond under the Necessary and Proper Clause",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion construing the statute narrowly to avoid applying it to Bond's local conduct, relying on the federalism canon without reaching the constitutional treaty-power question",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined Thomas's concurrence arguing the CWC implementation act was unconstitutional as applied rather than joining Roberts's avoidance-canon majority",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority's statutory narrowing approach, agreeing Bond's conduct was not covered by the federal chemical weapons statute",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority's statutory narrowing approach",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/13pdf/12-158_8m59.pdf",
+      "https://www.scotusblog.com/case-files/cases/bond-v-united-states-2/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: not yet on the Court.",
+      "Signal level is low because the Court avoided the constitutional question; the statutory holding produces a cross-partisan majority that limits diagnostic value.",
+      "D-appointed justices (seats 4, 5) are coded party-partial because they agreed with the limiting outcome but on narrower statutory grounds, not on federalism principle.",
+      "We use 2009–2017 period party positions."
+    ],
+    "counterarguments": [
+      "The cross-partisan majority (Roberts joining liberal justices) on the statutory question makes it difficult to characterize the decision as partisan.",
+      "Thomas, Scalia, and Alito reaching the constitutional question may be more doctrinally principled than Roberts's avoidance approach, but it is also more outcome-determinative.",
+      "D-appointed justices joining the majority outcome (if not the reasoning) suggests the 'avoid the constitutional question' approach can produce cross-partisan results without being truly diagnostic."
+    ]
+  }
+]

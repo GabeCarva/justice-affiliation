@@ -1,0 +1,142 @@
+[
+  {
+    "id": "kisor-wilkie",
+    "title": "Kisor v. Wilkie",
+    "year": 2019,
+    "scotus_citation": "588 U.S. 558 (2019)",
+    "area": "Agency Deference / Auer Deference",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court declined 5-4 to overrule Auer deference (requiring courts to defer to an agency's reasonable interpretation of its own ambiguous regulations), but significantly narrowed its scope. Kagan wrote the majority narrowing Auer; Gorsuch wrote the principal dissent urging complete abandonment of Auer deference.",
+    "factual_background": "James Kisor, a Vietnam veteran, sought to reopen his disability benefits claim based on newly discovered service records. The Board of Veterans Appeals denied reopening, deferring to the VA's interpretation of its own regulation on what constituted 'relevant' evidence. Kisor argued courts should not defer to agencies' self-serving interpretations of their own regulations.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that judicial deference to agency interpretations of ambiguous statutes and regulations must be grounded in congressional delegation of interpretive authority to the agency, not in agency expertise alone. Where an agency's regulation is genuinely ambiguous and the agency's interpretation falls within the range of reasonable meanings, courts may credit that interpretation — but only after the court independently determines the regulation is truly ambiguous and the agency's reading is not a post-hoc litigation position.",
+    "r_party_prediction": "Republicans and conservative legal groups urged the Court to overrule Auer entirely, arguing that deference to agencies' self-serving interpretation of their own regulations violated separation of powers and gave agencies incentive to write vague regulations to expand their own power.",
+    "d_party_prediction": "Democrats and the Trump administration (unusually aligned) both sought to preserve some form of deference to agency interpretations, though the Trump administration's position on Auer was somewhat equivocal; the D-party position was that agency expertise and institutional competence justified deference to agency regulatory interpretations.",
+    "signal_level": "high",
+    "signal_explanation": "The 5-4 split with Gorsuch's powerful dissent calling for Auer's overruling provides a strong signal of partisan-doctrinal division on the foundational question of administrative law. Sotomayor and Kagan in the majority voted to preserve deference, aligning with D-party interest in agency authority. Thomas, Roberts, and Alito in the 'against Auer' bloc aligned with R-party anti-administrative-state positions.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined Gorsuch's dissent urging the Court to overrule Auer deference entirely; argued courts must interpret regulations de novo without thumb on the scale for agency readings",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Concurred in the judgment but joined Gorsuch's critique of Auer deference; accepted the majority's narrowed Auer framework as sufficient for now while signaling Auer should be abandoned if the narrowed version proves unworkable",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_3": {
+        "vote": "Joined Gorsuch's dissent urging complete overruling of Auer deference; argued that stare decisis does not require preserving a precedent that violates constitutional separation of powers",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority preserving a narrowed form of Auer deference; argued that agency expertise in interpreting self-authored regulations justifies judicial deference within appropriate limits",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Wrote the majority opinion narrowing but preserving Auer deference; held courts must independently determine genuine ambiguity exists before deferring, and agencies may not rely on post-hoc litigation-driven interpretations",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Wrote the principal dissent arguing the Court should overrule Auer and require courts to independently interpret regulations without deferring to the promulgating agency",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Concurred in the judgment, joining Roberts's narrowing concurrence; accepted the majority's narrowed Auer framework as an adequate limitation while leaving open the possibility of further reconsideration",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/18pdf/18-15_8njq.pdf",
+      "https://www.scotusblog.com/case-files/cases/kisor-v-wilkie/"
+    ],
+    "assumptions": [
+      "Seat 8 (Barrett) omitted: confirmed October 2020.",
+      "Seat 9 (Jackson) omitted: not yet on the Court.",
+      "Roberts and Kavanaugh are coded partial/partial: they joined neither the majority's full Auer preservation nor the dissent's full overruling, instead accepting a narrowed version.",
+      "We use the 2017–2021 period party positions: R = 'aligned' with limiting agency deference; D = 'opposed' (defending broad agency interpretive authority).",
+      "Auer deference was ultimately overruled by Loper Bright in 2024, vindicating the dissent's analytical framework."
+    ],
+    "counterarguments": [
+      "The Trump administration filed a brief that partially sided with Kisor, meaning the R-executive and R-appointed justices were not fully aligned — the executive supported some deference while the dissenters wanted none.",
+      "Kagan's majority can be read as a genuine middle-ground compromise that actually strengthened judicial review by adding preconditions to deference, making her vote more doctrinal than partisan.",
+      "Roberts and Kavanaugh's concurrences show internal R-bloc fragmentation: they declined to join both the majority and the dissent, suggesting the partisan signal is less clean than the 5-4 tally implies."
+    ]
+  },
+  {
+    "id": "ala-realtors-hhs",
+    "title": "Alabama Assoc. of Realtors v. HHS",
+    "year": 2021,
+    "scotus_citation": "594 U.S. 758 (2021)",
+    "area": "Agency Deference / Major Questions",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 per curiam that the CDC likely lacked statutory authority under Section 361 of the Public Health Service Act to impose a nationwide eviction moratorium, applying a nascent major-questions principle. The Court vacated the stay of the lower court's injunction blocking the moratorium.",
+    "factual_background": "The CDC issued a nationwide eviction moratorium during the COVID-19 pandemic, citing Section 361 of the Public Health Service Act, which authorizes measures 'necessary to prevent the spread of communicable disease.' When that authority was set to expire, Congress did not extend it; the Biden administration allowed the CDC to re-issue the moratorium unilaterally. Landlords challenged the CDC's authority.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that when an agency claims authority to regulate a vast economic sector through a vague catchall provision in a public-health statute — rather than through a specific statutory grant — courts should not defer to the agency's expansive interpretation. Congress speaks clearly when it authorizes major economic interventions; statutory silence or generality does not license agencies to resolve major economic questions on their own.",
+    "r_party_prediction": "Republicans and landlord groups strongly opposed the CDC eviction moratorium as an unconstitutional assertion of executive power that lacked clear congressional authorization and exceeded the agency's statutory mandate under a public health statute.",
+    "d_party_prediction": "The Biden administration and Democrats defended the moratorium as within CDC's broad statutory authority to take measures necessary to prevent disease spread, arguing the pandemic emergency justified an expansive reading of the agency's public-health powers.",
+    "signal_level": "medium",
+    "signal_explanation": "The 6-3 vote was per curiam with only Breyer, Sotomayor, and Kagan noted as dissenters. The conservative majority applied the major-questions principle without full briefing or argument. The signal is moderate because the decision was on an emergency stay application rather than full merits, and the legal question (CDC's statutory authority) was genuinely novel.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the per curiam majority vacating the stay; the CDC lacked clear statutory authority to impose a nationwide eviction moratorium under a general public-health provision",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the per curiam majority; the major-questions principle required Congress to speak clearly before an agency could claim authority over vast sectors of the economy through a vague health statute",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the per curiam majority limiting CDC's claimed eviction-moratorium authority",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the Court should not strike down the moratorium on an emergency application without full merits briefing, and that CDC's statutory interpretation was reasonable given the pandemic emergency",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the emergency posture was inappropriate for the Court to resolve the significant statutory question, and that CDC had a reasonable legal basis for the moratorium",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the per curiam majority limiting the CDC's authority under the public health statute",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the per curiam majority; agreed CDC lacked clear statutory authority for a nationwide eviction moratorium",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the per curiam majority limiting CDC's statutory authority",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/20pdf/21a23_ap6c.pdf",
+      "https://www.scotusblog.com/case-files/cases/alabama-association-of-realtors-v-department-of-health-and-human-services/"
+    ],
+    "assumptions": [
+      "Seat 9 (Jackson) omitted: not yet on the Court.",
+      "We use 2021–2025 period party positions: R = 'aligned' with limiting agency authority under the major-questions doctrine; D = 'opposed' (defending Biden administration CDC's broad statutory interpretation).",
+      "The decision was issued per curiam on an emergency stay application; no individual authorship was assigned to the majority.",
+      "Breyer's dissent (not in seat map) accompanied Sotomayor's and Kagan's."
+    ],
+    "counterarguments": [
+      "The procedural posture (emergency stay application) meant the Court acted without full briefing, which some argue makes this a weaker precedent than a merits decision.",
+      "Congress had previously extended the CDC moratorium by statute, suggesting it viewed the moratorium as within the overall statutory scheme — a fact the majority did not fully address.",
+      "Biden administration lawyers argued the statutory text ('necessary to prevent the spread of communicable disease') was broad enough to include eviction moratoria, a reasonable plain-text argument the per curiam did not engage in depth."
+    ]
+  }
+]

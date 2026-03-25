@@ -1,0 +1,47 @@
+{
+  "seat_1": {
+    "justice_id": "thomas",
+    "description": "Most senior associate justice appointed by a Republican president before 2000",
+    "period": { "start_year": 1991, "end_year": null }
+  },
+  "seat_2": {
+    "justice_id": "roberts",
+    "description": "Chief Justice",
+    "period": { "start_year": 2005, "end_year": null }
+  },
+  "seat_3": {
+    "justice_id": "alito",
+    "description": "Second most senior associate justice appointed by a Republican president (pre-Obama era)",
+    "period": { "start_year": 2006, "end_year": null }
+  },
+  "seat_4": {
+    "justice_id": "sotomayor",
+    "description": "Most senior associate justice appointed by a Democratic president",
+    "period": { "start_year": 2009, "end_year": null }
+  },
+  "seat_5": {
+    "justice_id": "kagan",
+    "description": "Second most senior associate justice appointed by a Democratic president",
+    "period": { "start_year": 2010, "end_year": null }
+  },
+  "seat_6": {
+    "justice_id": "gorsuch",
+    "description": "Most senior associate justice appointed by a Republican president in the first Trump term",
+    "period": { "start_year": 2017, "end_year": null }
+  },
+  "seat_7": {
+    "justice_id": "kavanaugh",
+    "description": "Second associate justice appointed by a Republican president in the first Trump term",
+    "period": { "start_year": 2018, "end_year": null }
+  },
+  "seat_8": {
+    "justice_id": "barrett",
+    "description": "Third associate justice appointed by a Republican president in the first Trump term",
+    "period": { "start_year": 2020, "end_year": null }
+  },
+  "seat_9": {
+    "justice_id": "jackson",
+    "description": "Associate justice appointed by a Democratic president after 2020",
+    "period": { "start_year": 2022, "end_year": null }
+  }
+}

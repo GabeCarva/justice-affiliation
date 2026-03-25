@@ -1,0 +1,233 @@
+[
+  {
+    "id": "united-states-v-texas-2023",
+    "title": "United States v. Texas (Immigration Priorities)",
+    "year": 2023,
+    "scotus_citation": "599 U.S. 670 (2023)",
+    "area": "Executive Power / Standing",
+    "doctrine_ids": ["executive-restraint", "standing-justiciability"],
+    "description": "The Court held 8-1 that Texas and Louisiana lacked Article III standing to challenge the Biden administration's immigration enforcement priority guidelines, which directed ICE to prioritize certain categories of noncitizens for removal. Chief Justice Roberts wrote for the Court; Justice Alito alone dissented.",
+    "factual_background": "The Biden administration issued enforcement guidelines directing immigration officials to prioritize removal of noncitizens based on national security threats, recent border crossers, and convicted criminals, rather than pursuing all removable noncitizens equally. Texas and Louisiana argued the policy would increase their costs and challenged it as contrary to statute.",
+    "doctrine_prediction": "A principled executive-restraint adherent applying the APA and prosecutorial-discretion doctrine would hold that the executive retains broad enforcement discretion over whom to prioritize for removal; courts should not compel specific enforcement actions absent a clear statutory mandate. A principled standing adherent would hold that states cannot establish injury-in-fact from the federal government's failure to arrest individuals within their borders.",
+    "r_party_prediction": "The Republican Party and aligned states supported Texas's challenge, seeking to compel the Biden administration to pursue more aggressive immigration enforcement; this litigation was a major vehicle for Republican political opposition to Biden's immigration policies.",
+    "d_party_prediction": "The Democratic Party and Biden administration argued states lacked standing to challenge enforcement priority guidelines and that executive enforcement discretion is nearly unreviewable under existing doctrine.",
+    "signal_level": "high",
+    "signal_explanation": "Seven R-appointed justices joined the majority holding that Texas lacked standing to challenge Biden's immigration enforcement priorities—voting against their party's sustained litigation effort to force stricter immigration enforcement. Only Alito dissented. The doctrine (strict standing; executive enforcement discretion) and the party interest (R wanted strict enforcement, Texas standing upheld) diverged sharply, and all R-appointed justices except one followed doctrine.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding Texas lacked standing; signed on to the enforcement-discretion and standing analysis",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion holding states lack standing to compel federal immigration enforcement actions and upholding executive prosecutorial discretion over removal priorities",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented alone; would have found standing for Texas and addressed the merits of the immigration enforcement statute challenge",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding executive enforcement discretion and finding Texas lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding executive enforcement discretion; notably a Trump appointee voting against a Trump-era state challenge to the Biden administration's immigration policy",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding executive enforcement discretion and finding lack of standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding executive enforcement discretion",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/22-58_i425.pdf",
+      "https://www.scotusblog.com/case-files/cases/united-states-v-texas/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to standing doctrine (supports broad standing for states challenging Biden); D party 'opposed' to standing doctrine generally but aligned with limiting standing here.",
+      "R-appointed justices are coded doctrine-aligned because they applied the established rule that states lack standing to compel federal enforcement actions and that the executive has broad prosecutorial discretion.",
+      "Alito's solo dissent is coded party-aligned, doctrine-against: he would have found standing and ordered enforcement, consistent with R party interests but departing from the executive-discretion and standing doctrines.",
+      "This 8-1 result provides unusually strong evidence: it is very rare for 7 out of 8 R-appointed justices to rule against their party's litigation objective on a high-profile immigration question."
+    ],
+    "counterarguments": [
+      "R-appointed justices ruling against standing here may reflect genuine concern about the institutional implications of allowing states to commandeer federal enforcement resources, a structural argument consistent with federalism doctrine (limiting states' ability to override federal priorities), which is also a conservative principle.",
+      "The 8-1 result suggests the legal argument for Texas standing was genuinely weak, meaning this case may not be diagnostic of principled doctrine-following but rather of a case where even partisan-motivated justices could not find a legally defensible path to the desired result.",
+      "Alito's dissent was the only doctrinally-plausible path to the party-aligned result, suggesting the case's logic was clear enough that only one justice was willing to adopt the stretched legal theory needed to reach that outcome."
+    ]
+  },
+  {
+    "id": "corner-post-v-board-of-governors-2024",
+    "title": "Corner Post, Inc. v. Board of Governors of the Federal Reserve System",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 799 (2024)",
+    "area": "Agency Deference / Administrative Law",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that the Administrative Procedure Act's six-year statute of limitations begins running when a plaintiff suffers an injury, not when the agency rule was first promulgated. This ruling allows businesses formed after a rule's promulgation to challenge long-settled agency regulations without time limitation.",
+    "factual_background": "Corner Post was incorporated after the Federal Reserve issued its debit card transaction fee rules under Regulation II in 2011. Corner Post challenged the rule in 2021, arguing the APA's six-year limitations period ran from when it was injured (when it began business), not when the rule was issued. The Eighth Circuit held the challenge was untimely.",
+    "doctrine_prediction": "A principled agency-deference and regulatory-stability adherent would hold that agencies and regulated parties rely on finality of long-established rules; extending the limitations period indefinitely each time a new company is formed would paralyze the regulatory state by subjecting settled rules to perpetual challenge. Doctrinal principles of regulatory stability support time-limited challenges to agency action.",
+    "r_party_prediction": "The Republican Party supported expanding the window to challenge agency regulations as part of its longstanding goal of providing industry with additional tools to overturn progressive regulatory programs, including rules issued decades ago by Democratic administrations.",
+    "d_party_prediction": "The Democratic Party opposed expanding the limitations period, which would subject established regulations—including environmental, consumer protection, and financial regulations—to perpetual challenge and regulatory uncertainty.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to expand the limitations window, aligning with party interest (more opportunities to challenge agency rules) while working against the agency-deference doctrine's implicit value of regulatory finality. D-appointed justices unanimously dissented, consistent with both party interest and the deference doctrine's preference for regulatory stability. Signal is medium because the doctrine here (agency-deference) is somewhat attenuated—this is a statutory-interpretation question about limitations periods rather than a direct deference question.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority expanding when plaintiffs may challenge agency rules under the APA",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued the ruling undermines regulatory stability and creates perpetual uncertainty for agencies and regulated parties",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's interpretation of the APA limitations period would allow indefinite challenges to long-settled regulations",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority expanding the APA limitations period",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion holding that the APA's statute of limitations accrues when a plaintiff suffers an injury, not when the rule was first issued",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Wrote the principal dissent arguing the majority's interpretation would destabilize the regulatory state and is inconsistent with how statutes of limitations work",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-1008_5i36.pdf",
+      "https://www.scotusblog.com/case-files/cases/corner-post-inc-v-board-of-governors-of-the-federal-reserve-system/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions for this July 2024 case.",
+      "We classify this case under agency-deference because the practical effect of the ruling is to subject decades-old agency rules to perpetual challenge, which is hostile to the regulatory finality that deference doctrine supports.",
+      "R-appointed justices are coded party-aligned (supports regulatory challengers) and doctrine-against (undermines regulatory stability).",
+      "D-appointed justices are non-diagnostic (both party and doctrine support regulatory stability/limiting challenges)."
+    ],
+    "counterarguments": [
+      "The majority's holding is grounded in a plausible textual reading of the APA's accrual rule: the statute says 'a cause of action accrues when it accrues,' and a party not yet in existence when a rule was issued cannot have had a claim accrue at that time.",
+      "Agency-deference doctrine, properly understood, concerns courts' deference to agency interpretations when they review cases on the merits, not limitations periods for filing challenges; classifying Corner Post as an agency-deference case may overstate the doctrinal connection.",
+      "The ruling's practical effect in expanding challenges to agency rules is a consequence of a textualist statutory interpretation, not a rejection of deference principles per se, reducing the diagnostic significance for the agency-deference doctrine."
+    ]
+  },
+  {
+    "id": "garland-v-cargill-2024",
+    "title": "Garland v. Cargill",
+    "year": 2024,
+    "scotus_citation": "602 U.S. 406 (2024)",
+    "area": "Agency Deference / Statutory Interpretation",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 6-3 that bump stocks do not convert semi-automatic rifles into machine guns under federal law, reversing an ATF rule issued during the Trump administration that had classified bump stocks as prohibited machine gun components. Justice Thomas wrote for the majority.",
+    "factual_background": "Following the 2017 Las Vegas mass shooting, the Trump administration directed ATF to reinterpret the federal definition of 'machine gun' to include semi-automatic rifles equipped with bump stocks, which allow rapid fire. ATF issued a rule banning bump stocks. Michael Cargill surrendered his bump stocks under the rule and then challenged it.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that ATF's interpretation of 'machine gun' to include bump-stock-equipped rifles is a reasonable construction of an ambiguous statutory phrase ('single function of the trigger') entitled to deference; courts should defer to ATF's expertise in interpreting the National Firearms Act. A principled textualist applying independent judgment would ask whether the statute's text—which refers to a weapon that fires 'more than one shot by a single function of the trigger'—covers bump stocks as a matter of plain meaning.",
+    "r_party_prediction": "The Republican Party in 2024 supported striking down the bump stock ban as an ATF regulatory overreach into Second Amendment territory; the NRA and gun-rights advocates filed briefs supporting Cargill, aligning with the R party's Second Amendment and anti-regulation positions.",
+    "d_party_prediction": "The Democratic Party and Biden administration defended the ATF rule as a commonsense gun safety measure within ATF's statutory authority, consistent with Democratic gun-control goals.",
+    "signal_level": "medium",
+    "signal_explanation": "All six R-appointed justices voted to strike down the ATF bump stock rule, aligning with party interest (Second Amendment, anti-ATF) and the conservative anti-deference position (reject ATF's interpretation). However, the textualist case for the majority—that bump stocks do not technically make one trigger function fire multiple shots—is genuinely strong, making this a medium-signal case where doctrine and party interest both support the R bloc's vote. The unusual origin of the rule (a Trump administration action) adds complexity.",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion holding that bump stocks do not satisfy the statutory definition of 'machine gun' under a plain-text reading of the National Firearms Act",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; wrote that ATF's reading of the statute was reasonable and that the majority's textualist analysis ignored the practical reality of how bump stocks function",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; would have upheld the ATF rule as a reasonable interpretation of the machine gun definition",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority striking down the ATF bump stock rule",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Dissented; would have upheld the ATF rule",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-976_lkgn.pdf",
+      "https://www.scotusblog.com/case-files/cases/garland-v-cargill/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'aligned' with anti-deference conservative position; D party 'aligned' with deference.",
+      "R-appointed justices are coded doctrine-against because, under the traditional Chevron deference framework (pre-Loper Bright, which was decided after this case was argued), ATF's interpretation of an ambiguous statutory phrase would be entitled to deference.",
+      "The irony that this rule was issued by a Republican administration is preserved in assumptions but does not change the 2024 R party interest, which supported striking down the rule.",
+      "D-appointed justices are non-diagnostic (both party and doctrine support upholding ATF's rule)."
+    ],
+    "counterarguments": [
+      "The majority's textualist analysis is strong: the statutory phrase 'single function of the trigger' is an objective mechanical description, and bump stocks physically work through separate trigger functions per shot. Under this reading, the case is about plain statutory meaning, not a departure from deference doctrine.",
+      "Because Loper Bright was decided soon after this case and overruled Chevron, classifying the majority's vote as doctrine-against overstates the deference obligation; post-Loper Bright, independent textual analysis is the correct method and the majority was following future doctrine.",
+      "The R party's interest in this case was mixed: the bump stock rule originated in the Trump administration, and some R figures supported the ban; the NRA's position was not monolithic, reducing the clarity of the R party-interest prediction."
+    ]
+  }
+]

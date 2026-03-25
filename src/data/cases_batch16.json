@@ -1,0 +1,219 @@
+[
+  {
+    "id": "murphy-ncaa",
+    "title": "Murphy v. NCAA",
+    "year": 2018,
+    "scotus_citation": "584 U.S. 453 (2018)",
+    "area": "Federalism / Anticommandeering",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 6-3 that the Professional and Amateur Sports Protection Act (PASPA) — which prohibited states from authorizing sports gambling — violated the anticommandeering doctrine by commanding states not to enact their own laws. Alito wrote for the majority. Kagan joined the majority, breaking from the expected Democratic alignment.",
+    "factual_background": "New Jersey sought to legalize sports betting at casinos and racetracks. PASPA prohibited states from 'authorizing by law' sports gambling. New Jersey argued the federal law unconstitutionally commandeered state legislatures by prohibiting them from repealing their own anti-gambling laws. The Court extended the anticommandeering principle to prohibitions on state legislation, not just affirmative mandates.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that the anticommandeering principle protects state sovereignty by preventing Congress from directing the legislative processes of the states. This principle applies equally when Congress prohibits states from enacting laws as when it commands them to enact laws; in either case, the federal government is dictating the content of state legislation, which violates the constitutional structure of dual sovereignty.",
+    "r_party_prediction": "Republicans and federalism advocates supported the anticommandeering ruling, consistent with the R-party's traditional support for state authority and opposition to federal mandates on state legislative processes.",
+    "d_party_prediction": "The Obama-era PASPA was enacted with bipartisan support and the D-party institutional position was to defend federal authority over the sports gambling domain; the Democratic position was that PASPA was a valid exercise of Congress's commerce power.",
+    "signal_level": "high",
+    "signal_explanation": "Kagan joining the majority against the expected D-party position of defending federal authority over state legislation provides a strong doctrine-over-party signal. The 6-3 alignment includes two D-appointed justices (Kagan and partially Ginsburg) supporting the federalism holding, while only Sotomayor and Breyer clearly dissented.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority striking down PASPA; concurred separately to argue the anticommandeering principle flows directly from the Constitution's structure and is essential to preserve state sovereignty",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority striking down PASPA as violating the anticommandeering doctrine",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the majority opinion holding that PASPA's prohibition on state authorization of sports gambling commandeered state legislatures in violation of the Tenth Amendment",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented in part; agreed PASPA's authorization prohibition was invalid but would have preserved the portion of PASPA prohibiting states from licensing betting operations through their own governmental entities",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority on the anticommandeering holding; wrote separately to note that the Court had correctly extended New York v. United States to cover prohibitory commandeering as well as affirmative commandeering",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the majority striking down PASPA as an unconstitutional commandeering of state legislative authority",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/17pdf/16-476_dbfi.pdf",
+      "https://www.scotusblog.com/case-files/cases/murphy-v-national-collegiate-athletic-association/"
+    ],
+    "assumptions": [
+      "Seat 7 (Kavanaugh) omitted: confirmed October 2018; Murphy was decided May 14, 2018.",
+      "Seats 8–9 omitted: not yet on the Court.",
+      "Kagan (seat_5) is coded doctrine-yes/party-no because she joined the anticommandeering holding against the expected D-party position of defending federal authority over state gambling law.",
+      "Sotomayor (seat_4) is coded partial/partial: she agreed on the main anticommandeering holding but dissented from severing the entire statute.",
+      "We use 2017–2021 period party positions."
+    ],
+    "counterarguments": [
+      "PASPA was enacted in 1992 with broad bipartisan support, meaning the D-party position on this specific statute may not have been as clearly defined as the coding suggests.",
+      "The sports gambling industry's strong lobbying interest in the outcome may have influenced the political alignment of the case in ways that cross traditional partisan lines.",
+      "Kagan's joining the majority may reflect her genuine commitment to federalism doctrine rather than a departure from partisan preference, since she had previously supported anticommandeering principles in academic writings."
+    ]
+  },
+  {
+    "id": "haaland-brackeen",
+    "title": "Haaland v. Brackeen",
+    "year": 2023,
+    "scotus_citation": "599 U.S. 255 (2023)",
+    "area": "Federalism / Indian Child Welfare",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 7-2 that the Indian Child Welfare Act's preferences for placing Native American children with Native families in adoption proceedings did not violate the anticommandeering doctrine or equal protection. Barrett wrote the majority. Thomas dissented.",
+    "factual_background": "Non-Native American foster parents and several states challenged ICWA, which requires states in child welfare proceedings involving Native American children to preference placement with Native families or tribal members, and to notify tribes of proceedings. Challengers argued ICWA unconstitutionally commandeered state family law processes and made race-based placements.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that while Congress may set federal standards that states must implement, it cannot commandeer state courts or agencies to administer a federal regulatory scheme as federal agents. The anticommandeering inquiry is whether the federal law merely sets minimum standards or instead directs state officials to implement federal policy using their sovereign institutional resources.",
+    "r_party_prediction": "Texas and other R-led states challenged ICWA as an unconstitutional intrusion into state family law and an improper race-based classification, consistent with R-party opposition to race-conscious federal programs and support for limiting federal mandates on states.",
+    "d_party_prediction": "Democrats and tribal advocates supported ICWA as a valid exercise of Congress's plenary authority over Indian affairs and a necessary protection for Native American families against the historical abuses of forced removal; the D-party position strongly supported the statute.",
+    "signal_level": "low",
+    "signal_explanation": "The 7-2 decision with broad cross-partisan support — including Barrett writing the majority joined by Sotomayor, Kagan, Jackson, and also Kavanaugh and Roberts — limits diagnostic value. Only Thomas (and partly Gorsuch on specific provisions) dissented on the anticommandeering question.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued ICWA's placement preferences constituted racial classifications that violate equal protection and that the statutes impermissibly directed state officials to apply federal policy",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority upholding ICWA; the placement preferences reflected Congress's plenary authority over Indian affairs and the anticommandeering doctrine was not violated",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Joined parts of the majority upholding ICWA's core placement preferences, though concurred separately on some provisions",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding ICWA's placement preferences under Congress's Indian affairs power",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding ICWA; Congress's plenary power over Indian affairs provided an independent basis for the statute apart from the Commerce Clause",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined portions of the majority; wrote separately to note open questions about equal protection that the Court declined to resolve",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding ICWA's core provisions",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion upholding ICWA; held the statute did not violate anticommandeering, equal protection, or the nondelegation doctrine",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding ICWA's placement preferences and tribal notification requirements",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/21-376_c07d.pdf",
+      "https://www.scotusblog.com/case-files/cases/haaland-v-brackeen/"
+    ],
+    "assumptions": [
+      "Signal level is low: the 7-2 vote with broad cross-partisan support limits diagnostic value.",
+      "Indian affairs law occupies a unique constitutional space (Congress's plenary power doctrine) that does not map cleanly onto typical federalism analysis.",
+      "Roberts, Alito, Kavanaugh, and Barrett voting to uphold ICWA against the R-state challengers' position is coded party-no because R-led states brought the challenge.",
+      "We use 2021–2025 period party positions."
+    ],
+    "counterarguments": [
+      "Congress's plenary authority over Indian affairs is an independent constitutional basis distinct from federalism doctrine, making ICWA's validity a sui generis question not squarely governed by anticommandeering precedent.",
+      "The 7-2 vote may reflect a genuine cross-partisan consensus that Indian affairs law occupies a special constitutional category rather than partisan alignment.",
+      "Thomas's dissent is the only vote clearly tracking the R-state challengers' position; all other R-appointed justices rejected the challenge, which complicates any partisan framing."
+    ]
+  },
+  {
+    "id": "moore-harper",
+    "title": "Moore v. Harper",
+    "year": 2023,
+    "scotus_citation": "600 U.S. 1 (2023)",
+    "area": "Federalism / Elections Clause",
+    "doctrine_ids": ["federalism-states-rights"],
+    "description": "The Court held 6-3 that the Elections Clause does not immunize state legislatures from review by state courts applying state constitutional law when they regulate federal elections. Roberts wrote for the majority, rejecting the 'independent state legislature' theory and holding state courts can check state legislative overreach in federal election administration.",
+    "factual_background": "North Carolina Republicans drew a congressional map that the North Carolina Supreme Court struck down as an extreme partisan gerrymander under the state constitution. The Republican-controlled legislature petitioned the U.S. Supreme Court, arguing that the Elections Clause gives state legislatures plenary, unreviewable authority over federal elections — the 'independent state legislature' theory. The U.S. Supreme Court rejected this theory.",
+    "doctrine_prediction": "A principled adherent of federalism doctrine holds that the Elections Clause, in granting state 'Legislatures' authority to regulate federal elections, does not exempt those legislatures from the constraints of their own state constitutions as interpreted by state courts. States operate as complete constitutional systems, and treating legislatures as independent from state constitutions would fracture state sovereignty by elevating one branch of state government above the state's own foundational law.",
+    "r_party_prediction": "Republican-controlled legislatures in gerrymandering states sought a ruling that state courts cannot override their federal election maps under state law, which would have significantly expanded R-controlled legislatures' power over congressional districts by removing state judicial oversight.",
+    "d_party_prediction": "Democrats strongly opposed the independent state legislature theory as a vehicle for locking in partisan gerrymanders and potentially disrupting state court oversight of federal election administration more broadly; the D-party position supported state constitutional checks on legislative authority over elections.",
+    "signal_level": "medium",
+    "signal_explanation": "Roberts writing the majority and joining D-appointed justices against the position of Republican-controlled legislatures is diagnostic. Kavanaugh and Barrett also joined, meaning three R-appointed justices voted against the R-party's position. Alito, Thomas, and Gorsuch dissented on mootness grounds (they argued the case was moot after the NC Supreme Court changed its composition), limiting the signal from the dissent.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; argued the case was moot after North Carolina's new Supreme Court reversed course on the gerrymander and that the majority should not have reached the merits of the independent-state-legislature theory",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Wrote the majority opinion rejecting the independent state legislature theory; held state courts retain authority to review state legislative action in federal elections under state constitutional law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; argued the case was moot and the majority was issuing an advisory opinion by reaching the merits after the state court had reversed its own prior ruling",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority rejecting the independent state legislature theory and affirming state court oversight of federal elections under state constitutional law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority; argued that accepting the independent state legislature theory would have destabilized election administration nationwide",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; argued the case was moot after North Carolina's Supreme Court reversed course, and that the majority issued an advisory opinion by reaching the ISL question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority rejecting the independent state legislature theory",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority rejecting the independent state legislature theory and upholding state court oversight of federal elections",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority rejecting the independent state legislature theory",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/21-1271_3f14.pdf",
+      "https://www.scotusblog.com/case-files/cases/moore-v-harper/"
+    ],
+    "assumptions": [
+      "We use 2021–2025 period party positions: R = supported ISL theory favoring R-controlled legislatures; D = opposed ISL theory.",
+      "Thomas, Alito, Gorsuch are coded partial/party-yes because their dissents focused on mootness rather than endorsing ISL on the merits, but their mootness position would have prevented a ruling against the R-party's preferred theory.",
+      "Roberts, Kavanaugh, and Barrett are coded doctrine-yes/party-no because they rejected ISL against the position of R-controlled legislatures.",
+      "The mootness basis of the three dissents is a complication: the dissenters may have believed the case was genuinely moot, not that ISL was correct on the merits."
+    ],
+    "counterarguments": [
+      "The three dissenters' mootness argument has genuine legal merit — after the NC Supreme Court reversed itself, it was not clear there was a live controversy for the U.S. Supreme Court to decide.",
+      "Roberts's majority opinion could be read as strengthening state sovereignty overall (state constitutions bind state legislatures) rather than as a partisan outcome favoring Democrats.",
+      "Kavanaugh and Barrett joining the majority against ISL may reflect genuine doctrinal views about state constitutional law rather than departure from partisan preference."
+    ]
+  }
+]

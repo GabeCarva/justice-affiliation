@@ -1,0 +1,92 @@
+[
+  {
+    "id": "thomas",
+    "name": "Clarence Thomas",
+    "appointed_by": "George H.W. Bush",
+    "appointing_party": "R",
+    "year_appointed": 1991,
+    "year_left": null,
+    "stated_philosophy": ["Originalism", "Textualism", "Natural Law"],
+    "claimed_doctrines": ["executive-restraint", "federalism", "agency-deference", "standing-justiciability", "nationwide-injunctions"]
+  },
+  {
+    "id": "roberts",
+    "name": "John G. Roberts Jr.",
+    "appointed_by": "George W. Bush",
+    "appointing_party": "R",
+    "year_appointed": 2005,
+    "year_left": null,
+    "stated_philosophy": ["Minimalism", "Institutionalism", "Moderate Originalism"],
+    "claimed_doctrines": ["executive-restraint", "standing-justiciability", "agency-deference"]
+  },
+  {
+    "id": "alito",
+    "name": "Samuel A. Alito Jr.",
+    "appointed_by": "George W. Bush",
+    "appointing_party": "R",
+    "year_appointed": 2006,
+    "year_left": null,
+    "stated_philosophy": ["Originalism", "Textualism"],
+    "claimed_doctrines": ["executive-restraint", "federalism", "standing-justiciability", "presidential-immunity"]
+  },
+  {
+    "id": "sotomayor",
+    "name": "Sonia Sotomayor",
+    "appointed_by": "Barack Obama",
+    "appointing_party": "D",
+    "year_appointed": 2009,
+    "year_left": null,
+    "stated_philosophy": ["Living Constitutionalism", "Pragmatism"],
+    "claimed_doctrines": ["standing-justiciability", "federalism"]
+  },
+  {
+    "id": "kagan",
+    "name": "Elena Kagan",
+    "appointed_by": "Barack Obama",
+    "appointing_party": "D",
+    "year_appointed": 2010,
+    "year_left": null,
+    "stated_philosophy": ["Pragmatism", "Living Constitutionalism", "Textualism (statutory)"],
+    "claimed_doctrines": ["agency-deference", "standing-justiciability", "congressional-spending"]
+  },
+  {
+    "id": "gorsuch",
+    "name": "Neil M. Gorsuch",
+    "appointed_by": "Donald Trump",
+    "appointing_party": "R",
+    "year_appointed": 2017,
+    "year_left": null,
+    "stated_philosophy": ["Originalism", "Textualism", "Natural Law"],
+    "claimed_doctrines": ["agency-deference", "executive-restraint", "standing-justiciability", "nationwide-injunctions"]
+  },
+  {
+    "id": "kavanaugh",
+    "name": "Brett M. Kavanaugh",
+    "appointed_by": "Donald Trump",
+    "appointing_party": "R",
+    "year_appointed": 2018,
+    "year_left": null,
+    "stated_philosophy": ["Originalism", "Textualism", "Pragmatism"],
+    "claimed_doctrines": ["executive-restraint", "standing-justiciability", "presidential-immunity"]
+  },
+  {
+    "id": "barrett",
+    "name": "Amy Coney Barrett",
+    "appointed_by": "Donald Trump",
+    "appointing_party": "R",
+    "year_appointed": 2020,
+    "year_left": null,
+    "stated_philosophy": ["Originalism", "Textualism"],
+    "claimed_doctrines": ["executive-restraint", "standing-justiciability", "agency-deference", "nationwide-injunctions"]
+  },
+  {
+    "id": "jackson",
+    "name": "Ketanji Brown Jackson",
+    "appointed_by": "Joseph Biden",
+    "appointing_party": "D",
+    "year_appointed": 2022,
+    "year_left": null,
+    "stated_philosophy": ["Living Constitutionalism", "Pragmatism", "Dworkin-influenced"],
+    "claimed_doctrines": ["standing-justiciability", "agency-deference"]
+  }
+]
