@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react'
 import type { NamedJusticeScore } from '../../lib/types'
 import { computeTrajectory } from '../../lib/trajectory'
 import type { TrajectoryPoint } from '../../lib/trajectory'
+import { getLastName } from '../../lib/utils'
 
 interface Props { data: NamedJusticeScore[] }
 
@@ -58,19 +59,22 @@ function MiniChart({ score, onHover }: MiniChartProps) {
   if (!traj.length) return null
 
   const partyColor = score.justice.appointing_party === 'R' ? '#dc2626' : '#2563eb'
-  const lastName = score.justice.name.split(' ').slice(-1)[0]
+  const lastName = getLastName(score.justice.name)
   const final = traj[traj.length - 1]
 
   // Group mean reference lines
   const mx = sx(0.79), my = sy(0.64)
 
   return (
-    <svg width="100%" viewBox={`0 0 ${W} ${H}`} style={{ overflow: 'visible' }}>
+    <svg width="100%" viewBox={`0 0 ${W} ${H}`}>
       <defs>
         <marker id={`arr-${score.seat_id}`} markerWidth="6" markerHeight="6"
           refX="3" refY="3" orient="auto">
           <path d="M0,0 L6,3 L0,6 Z" fill="#6b7280" opacity={0.6} />
         </marker>
+        <clipPath id={`clip-${score.seat_id}`}>
+          <rect x={PAD.left} y={PAD.top} width={iW} height={iH} />
+        </clipPath>
       </defs>
 
       {/* Background quadrant shading */}
@@ -107,7 +111,8 @@ function MiniChart({ score, onHover }: MiniChartProps) {
         </g>
       ))}
 
-      {/* Trajectory segments */}
+      {/* Trajectory segments — clipped to inner chart area */}
+      <g clipPath={`url(#clip-${score.seat_id})`}>
       {traj.map((pt, i) => {
         if (i === 0) return null
         const prev = traj[i - 1]
@@ -151,6 +156,7 @@ function MiniChart({ score, onHover }: MiniChartProps) {
           </g>
         )
       })}
+      </g>
 
       {/* Start dot (first point) */}
       {traj.length > 0 && (

@@ -1,0 +1,407 @@
+{
+  "seat_1": {
+    "justice_name": "Clarence Thomas",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "strong",
+      "source": "Concurrence in Perez v. Mortgage Bankers Ass'n (2015); Michigan v. EPA (2015); joined Loper Bright majority (2024)",
+      "summary": "Has argued Chevron and Auer deference are unconstitutional, violating the APA's requirement that courts decide questions of law. Joined the majority overruling Chevron in Loper Bright."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Concurrence in Biden v. Nebraska (2023); consistent votes limiting executive spending authority",
+      "summary": "Supports strict limits on executive use of appropriations. Applies the major questions doctrine and separation of powers to require clear congressional authorization for major fiscal actions."
+    },
+    "executive-restraint": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Free Enterprise Fund v. PCAOB (2010); Seila Law v. CFPB (2020); various opinions on removal authority",
+      "summary": "Advocates strict textual limits on executive power derived from the Constitution's vesting and appointments clauses. Consistently votes to enforce structural constraints on the administrative state."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Bond v. United States concurrence (2014); Murphy v. NCAA (2018); Shelby County v. Holder (2013)",
+      "summary": "One of the Court's most consistent federalism advocates. Argues the 10th Amendment and structural principles impose firm limits on federal authority to commandeer or override state law."
+    },
+    "standing-justiciability": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Clapper v. Amnesty International (2013); TransUnion v. Ramirez (2021)",
+      "summary": "Generally applies strict Article III standing requirements. Joined majorities in Clapper and TransUnion limiting standing for speculative and statutory injuries."
+    },
+    "presidential-immunity": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Concurrence in Trump v. United States (2024); joined majority in Trump v. Vance (2020)",
+      "summary": "Supports broad presidential immunity for official acts; wrote separately in Trump v. United States to question the validity of the special counsel's appointment, suggesting even broader immunity than the majority. Voted with the majority in Trump v. Vance acknowledging limited accountability."
+    },
+    "nationwide-injunctions": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Concurrence in Trump v. Hawaii (2018)",
+      "summary": "Wrote a lengthy concurrence arguing that universal injunctions binding non-parties lack any basis in equity or history. Courts should confine relief to the parties before them."
+    }
+  },
+  "seat_2": {
+    "justice_name": "John G. Roberts Jr.",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "King v. Burwell majority (2015) — notably avoided Chevron; Loper Bright Enterprises v. Raimondo majority (2024)",
+      "summary": "Authored the decision overruling Chevron, holding that courts — not agencies — must determine the meaning of ambiguous statutes. Earlier signaled skepticism by resolving King v. Burwell without invoking Chevron."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Biden v. Nebraska majority (2023); NFIB v. Sebelius (2012) — Medicaid expansion holding",
+      "summary": "Applied the major questions doctrine in Biden v. Nebraska to block student loan forgiveness. In NFIB, held that Congress cannot use the Spending Clause to coerce states by threatening to withdraw existing funds."
+    },
+    "executive-restraint": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Seila Law v. CFPB majority (2020); Biden v. Nebraska (2023); NFIB v. Department of Labor (2022)",
+      "summary": "Consistently enforces structural limits on executive power. Authored Seila Law invalidating tenure protections for the CFPB director and authored the OSHA vaccine-mandate stay applying the major questions doctrine."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Shelby County v. Holder majority (2013); NFIB v. Sebelius (2012) — Commerce Clause holding",
+      "summary": "Authored Shelby County limiting Congress's enforcement power under Section 5. In NFIB, held that the Commerce Clause cannot compel individuals to purchase health insurance, preserving limits on federal power."
+    },
+    "standing-justiciability": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "FDA v. Alliance for Hippocratic Medicine majority (2024); Murthy v. Missouri majority (2024)",
+      "summary": "Enforces Article III standing limits. Authored FDA v. Alliance rejecting standing for anti-abortion doctors challenging mifepristone approval, and Murthy rejecting standing for states challenging government social-media communications."
+    },
+    "presidential-immunity": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Trump v. United States majority (2024)",
+      "summary": "Authored the sweeping immunity decision holding former presidents have absolute immunity for core constitutional acts and presumptive immunity for all official acts. Remanded for lower courts to apply the framework."
+    },
+    "nationwide-injunctions": {
+      "position": "neutral",
+      "strength": "weak",
+      "source": "No sustained separate writing on nationwide injunctions",
+      "summary": "Has not taken a strong documented position on the validity of nationwide injunctions as a categorical matter, though he has voted in cases where their scope was at issue."
+    }
+  },
+  "seat_3": {
+    "justice_name": "Samuel A. Alito Jr.",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Joined Thomas concurrence in Michigan v. EPA (2015); joined Loper Bright majority (2024)",
+      "summary": "Consistently votes to limit agency deference. Joined the Loper Bright majority overruling Chevron and has supported limiting Auer deference in separate writings."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Dissent in CFPB v. CFSA (2024); joined Biden v. Nebraska majority (2023)",
+      "summary": "Takes the strictest view of the appropriations power: the CFPB's funding mechanism is unconstitutional because it bypasses annual congressional appropriations. Joined the majority limiting executive spending in Biden v. Nebraska."
+    },
+    "executive-restraint": {
+      "position": "neutral",
+      "strength": "weak",
+      "source": "Mixed voting record; supports structural limits in separation-of-powers cases but has broad deference to executive national-security and immigration claims",
+      "summary": "Applies executive restraint doctrine selectively. Supports removal-authority and nondelegation limits in the administrative-state context, but is more deferential to executive claims in immigration, national security, and presidential-immunity contexts."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Dissent in Arizona v. United States (2012); Murphy v. NCAA (2018)",
+      "summary": "Generally votes to protect state sovereignty. Dissented in Arizona v. United States, arguing that federal preemption was applied too broadly, and joined the Murphy v. NCAA anti-commandeering opinion."
+    },
+    "standing-justiciability": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Clapper v. Amnesty International majority (2013); TransUnion v. Ramirez (2021)",
+      "summary": "Authored Clapper requiring concrete, non-speculative injury for Article III standing. Consistently votes to enforce justiciability limits on plaintiffs who have not suffered concrete harm."
+    },
+    "presidential-immunity": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Joined Trump v. United States (2024); recusal controversy over January 6 flag",
+      "summary": "Joined the Trump v. United States majority and wrote separately to expand the framework — arguing the analysis should focus on whether a prosecution would chill future presidential decision-making, not merely whether the act was official."
+    },
+    "nationwide-injunctions": {
+      "position": "neutral",
+      "strength": "weak",
+      "source": "No sustained separate writing on nationwide injunctions as a categorical matter",
+      "summary": "Has not authored a sustained critique of nationwide injunctions. Votes in relevant cases but has not staked out a clear doctrinal position on their general validity."
+    }
+  },
+  "seat_4": {
+    "justice_name": "Sonia Sotomayor",
+    "agency-deference": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Dissent in Loper Bright Enterprises v. Raimondo (2024); Kisor v. Wilkie (2019)",
+      "summary": "Strongly defends Chevron and Auer deference as appropriate judicial humility before agency technical expertise. Dissented in Loper Bright arguing the majority overstates judicial competence and undermines democratic accountability."
+    },
+    "congressional-spending-authority": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Biden v. Nebraska (2023); joined CFPB v. CFSA majority (2024)",
+      "summary": "Supports broad congressional delegation of spending authority to the executive. Dissented in Biden v. Nebraska, arguing the HEROES Act unambiguously authorized the student-loan forgiveness program."
+    },
+    "executive-restraint": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Seila Law v. CFPB (2020); DHS v. Regents of the University of California (2020); NFIB v. OSHA (2022)",
+      "summary": "Defends broad executive discretion within statutory frameworks. Dissented in Seila Law, arguing for-cause removal protections preserve agency independence; dissented in NFIB v. OSHA, arguing OSHA had clear statutory authority."
+    },
+    "federalism-states-rights": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Shelby County v. Holder (2013); dissent in Murphy v. NCAA (2018)",
+      "summary": "Favors federal authority over states in enforcement-power and anti-commandeering cases. Dissented in Shelby County arguing the preclearance formula was still constitutionally justified given ongoing voting-rights violations."
+    },
+    "standing-justiciability": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in TransUnion v. Ramirez (2021); dissent in Clapper v. Amnesty International (2013)",
+      "summary": "Favors broader access to federal courts. Dissented in TransUnion arguing Congress can define cognizable injuries for Article III purposes, and dissented in Clapper arguing surveillance-related injury was sufficiently concrete."
+    },
+    "presidential-immunity": {
+      "position": "opposed",
+      "strength": "strong",
+      "source": "Dissent in Trump v. United States (2024): 'No man is above the law'",
+      "summary": "Wrote a scathing dissent in Trump v. United States arguing the majority's immunity framework places the president above criminal accountability and fundamentally alters the constitutional order. Called it 'a mockery' of the rule of law."
+    },
+    "nationwide-injunctions": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Trump v. CASA, Inc. (2025)",
+      "summary": "Defends the power of federal courts to issue nationwide injunctive relief against unlawful government policies. Dissented when the Court narrowed nationwide injunctions in Trump v. CASA."
+    }
+  },
+  "seat_5": {
+    "justice_name": "Elena Kagan",
+    "agency-deference": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Dissent in Loper Bright (2024); oral argument in King v. Burwell (2015): 'This is Chevron'",
+      "summary": "The Court's most vocal defender of Chevron deference. Dissented in Loper Bright arguing the majority gives courts final say over matters Congress delegated to expert agencies. Famously declared King v. Burwell a straightforward Chevron case."
+    },
+    "congressional-spending-authority": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Biden v. Nebraska (2023): 'Did you think they did not know?'",
+      "summary": "Dissented in Biden v. Nebraska, arguing Congress unambiguously delegated authority to waive student-loan repayment under the HEROES Act. Criticizes the major questions doctrine as a tool for courts to second-guess congressional delegations."
+    },
+    "executive-restraint": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Seila Law v. CFPB (2020); dissent in Biden v. Nebraska (2023)",
+      "summary": "Supports broad executive discretion and agency authority within congressional delegations. Dissented in Seila Law arguing removal protections are consistent with the Constitution's vesting of executive power."
+    },
+    "federalism-states-rights": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Shelby County v. Holder (2013); dissent in Murphy v. NCAA (2018)",
+      "summary": "Generally supports federal authority. Dissented in Shelby County arguing Congress had adequate evidence of ongoing voting-rights violations to justify reauthorizing the preclearance formula."
+    },
+    "standing-justiciability": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in TransUnion v. Ramirez (2021); dissent in Spokeo, Inc. v. Robins (2016)",
+      "summary": "Favors broader standing for plaintiffs, particularly where Congress has defined legally cognizable injuries. Dissented in TransUnion arguing the majority improperly constrains Congress's power to create statutory rights."
+    },
+    "presidential-immunity": {
+      "position": "opposed",
+      "strength": "strong",
+      "source": "Dissent in Trump v. United States (2024)",
+      "summary": "Joined Sotomayor's dissent in Trump v. United States. Argued the majority's immunity framework insulates presidents from criminal accountability for official acts in ways that undermine the constitutional structure."
+    },
+    "nationwide-injunctions": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Trump v. CASA, Inc. (2025)",
+      "summary": "Supports broad injunctive relief to protect non-parties from illegal government action. Dissented in Trump v. CASA, arguing courts must be able to provide complete relief against unconstitutional policies."
+    }
+  },
+  "seat_6": {
+    "justice_name": "Neil Gorsuch",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "strong",
+      "source": "Gutierrez-Brizuela v. Lynch concurrence (10th Cir. 2016): Chevron 'a judge-made doctrine for the abdication of the judicial duty'; Kisor v. Wilkie dissent (2019); joined Loper Bright majority (2024)",
+      "summary": "Has called Chevron deference a constitutional wrong turn, arguing it violates the APA and Article III by having courts defer to the executive's legal conclusions. Wrote extensively against Auer deference in Kisor v. Wilkie and joined the Loper Bright majority overruling Chevron."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Dissent in CFPB v. CFSA (2024); joined Biden v. Nebraska majority (2023)",
+      "summary": "Applies strict separation-of-powers limits to executive spending. Dissented in CFPB v. CFSA, arguing the CFPB's self-funding mechanism violated the Appropriations Clause by insulating the agency from annual congressional control."
+    },
+    "executive-restraint": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Seila Law v. CFPB (2020); Gundy v. United States dissent (2019); various administrative-law opinions",
+      "summary": "A strong advocate for structural limits on the administrative state. Joined the Seila Law majority and dissented in Gundy arguing the plurality's nondelegation analysis was insufficiently rigorous. Consistently votes to enforce appointments-clause and removal requirements."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Murphy v. NCAA majority (2018); Bond v. United States (2014)",
+      "summary": "Authored Murphy v. NCAA applying the anti-commandeering doctrine to PASPA, one of the most expansive federalism rulings of the modern era. Consistently defends state sovereignty against federal overreach."
+    },
+    "standing-justiciability": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "TransUnion v. Ramirez (2021); various administrative-law standing opinions",
+      "summary": "Applies Article III standing requirements carefully, particularly in agency-review cases. Joined the TransUnion majority limiting standing for intangible statutory violations without concrete downstream harm."
+    },
+    "presidential-immunity": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Concurrence in Trump v. United States (2024)",
+      "summary": "Joined the Trump v. United States majority establishing immunity for official presidential acts. Wrote a narrow concurrence focusing on the need for clear statutory authorization before a prosecution of a former president can proceed."
+    },
+    "nationwide-injunctions": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Concurrence in Trump v. Hawaii (2018); partial concurrence in Trump v. CASA (2025)",
+      "summary": "Joined Thomas's critique of universal injunctions in Trump v. Hawaii as lacking historical grounding in equity practice. Consistently argues courts should limit injunctive relief to the parties before them."
+    }
+  },
+  "seat_7": {
+    "justice_name": "Brett Kavanaugh",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Authored TransUnion v. Ramirez (2021) limiting statutory standing; joined Loper Bright majority (2024); various majority opinions applying the major questions doctrine",
+      "summary": "Joined the Loper Bright majority overruling Chevron. Has authored several opinions applying the major questions doctrine to limit agency interpretations of ambiguous statutory authority, particularly in the West Virginia v. EPA context."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Joined Biden v. Nebraska majority (2023); authored West Virginia v. EPA majority (2022)",
+      "summary": "Supports the major questions doctrine as a limit on executive spending and regulatory authority. Authored West Virginia v. EPA requiring clear congressional authorization for regulations of major economic significance."
+    },
+    "executive-restraint": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Collins v. Yellen (2021); authored West Virginia v. EPA (2022)",
+      "summary": "As a former DC Circuit judge, brings administrative-law expertise to executive-restraint cases. Generally votes to enforce statutory and structural limits on executive action, though with less categorical force than Gorsuch or Thomas."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Joined Murphy v. NCAA (2018); various federalism opinions",
+      "summary": "Generally supportive of state sovereignty, particularly in anti-commandeering and preemption cases. Joined the Murphy v. NCAA majority and applies Tenth Amendment limits on federal authority."
+    },
+    "standing-justiciability": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "TransUnion v. Ramirez majority (2021); Spokeo, Inc. v. Robins (2016)",
+      "summary": "Authored TransUnion limiting Article III standing to plaintiffs who suffer concrete, real-world harm — not merely violations of a statutory right. This is one of the most significant standing opinions of the Roberts era."
+    },
+    "presidential-immunity": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Concurrence in Trump v. United States (2024)",
+      "summary": "Joined the Trump v. United States majority and wrote separately to emphasize that a former president should not have to worry that politically motivated prosecutors will second-guess official decisions. Concerned about the chilling effect on presidential action."
+    },
+    "nationwide-injunctions": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Joined majority in Trump v. CASA, Inc. (2025)",
+      "summary": "Joined the majority narrowing the availability of nationwide injunctions. Consistent with a general view that Article III limits judicial relief to redressing injuries of the parties before the court."
+    }
+  },
+  "seat_8": {
+    "justice_name": "Amy Coney Barrett",
+    "agency-deference": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Academic article: 'Substantive Canons and Faithful Agency' (2014) — skeptical of deference doctrines; joined Loper Bright majority (2024)",
+      "summary": "Her academic work before joining the Court expressed skepticism about deference doctrines as inconsistent with faithful statutory interpretation. Joined Loper Bright overruling Chevron, consistent with her pre-confirmation scholarly views."
+    },
+    "congressional-spending-authority": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Joined Biden v. Nebraska majority (2023); CFPB v. CFSA (2024) — partial concurrence",
+      "summary": "Joined the Biden v. Nebraska majority requiring clear congressional authorization for major executive spending decisions. Wrote separately in CFPB v. CFSA expressing concern about the CFPB's unusual funding structure, though ultimately joined the majority upholding it."
+    },
+    "executive-restraint": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Collins v. Yellen (2021); joined Seila Law majority (2020)",
+      "summary": "Joined the Seila Law majority limiting removal protections for the CFPB director. Generally votes to enforce structural constitutional limits on executive power, applying the original constitutional design."
+    },
+    "federalism-states-rights": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Haaland v. Brackeen (2023) — joined judgment; various federalism opinions",
+      "summary": "Generally supports state sovereignty in federalism cases. Joined the Haaland v. Brackeen judgment upholding ICWA, though with reservations about the breadth of Congress's Indian affairs power."
+    },
+    "standing-justiciability": {
+      "position": "neutral",
+      "strength": "weak",
+      "source": "Acheson Hotels v. Laufer (2023) — authored per curiam dismissing on mootness",
+      "summary": "Has not staked out a strong categorical position on standing. Authored Acheson Hotels dismissing an ADA tester-standing case as moot rather than resolving the standing question, drawing criticism for avoiding the issue."
+    },
+    "presidential-immunity": {
+      "position": "neutral",
+      "strength": "weak",
+      "source": "Partial concurrence/dissent in Trump v. United States (2024) — joined most of majority but dissented from use of immune-act evidence",
+      "summary": "Joined most of the Trump v. United States majority but wrote separately to dissent from the evidentiary preclusion of immune acts, suggesting more targeted immunity than the Roberts opinion. The most cautious of the majority justices."
+    },
+    "nationwide-injunctions": {
+      "position": "supports",
+      "strength": "moderate",
+      "source": "Joined majority in Trump v. CASA, Inc. (2025)",
+      "summary": "Joined the majority narrowing nationwide injunctions, consistent with a general textualist view that Article III limits judicial relief to the parties in the case."
+    }
+  },
+  "seat_9": {
+    "justice_name": "Ketanji Brown Jackson",
+    "agency-deference": {
+      "position": "supports",
+      "strength": "strong",
+      "source": "Dissent in Loper Bright Enterprises v. Raimondo (2024); various dissents in agency-deference cases",
+      "summary": "Strongly defends agency deference as reflecting appropriate institutional competence. Dissented in Loper Bright arguing that agencies — not generalist judges — are better positioned to interpret complex regulatory statutes, and that the majority disrupts decades of settled law."
+    },
+    "congressional-spending-authority": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Joined Sotomayor dissents in spending authority cases; dissent in CFPB v. CFSA discussions",
+      "summary": "Supports broad congressional delegation of spending authority to executive agencies. Opposes the major questions doctrine as an illegitimate tool for courts to second-guess congressional choices about how to structure executive spending."
+    },
+    "executive-restraint": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Joined dissents in Seila Law-type cases; various dissents in administrative-law cases",
+      "summary": "Defends executive discretion within statutory frameworks and opposes aggressive judicial limits on the administrative state. Consistently joins dissents in cases holding executive action unconstitutional or ultra vires."
+    },
+    "federalism-states-rights": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Haaland v. Brackeen (2023); various federalism dissents",
+      "summary": "Generally favors federal authority over states in preemption and enforcement-power cases. In Haaland v. Brackeen, joined the majority upholding Congress's broad Indian affairs authority over state law."
+    },
+    "standing-justiciability": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in FDA v. Alliance for Hippocratic Medicine (2024); various standing dissents",
+      "summary": "Favors broader access to federal courts and is skeptical of standing doctrines that foreclose judicial review of government action. Dissented in cases where the majority rejected standing on what she viewed as overly narrow grounds."
+    },
+    "presidential-immunity": {
+      "position": "opposed",
+      "strength": "strong",
+      "source": "Dissent in Trump v. United States (2024)",
+      "summary": "Joined Sotomayor's dissent and wrote separately comparing the majority's framework to creating 'a law-free zone around the President.' Argued the decision fundamentally alters the constitutional structure by shielding presidential crimes from prosecution."
+    },
+    "nationwide-injunctions": {
+      "position": "opposed",
+      "strength": "moderate",
+      "source": "Dissent in Trump v. CASA, Inc. (2025)",
+      "summary": "Dissented when the Court narrowed nationwide injunctions, arguing courts must be able to provide complete relief against unconstitutional government action affecting non-parties when partial relief would be inadequate."
+    }
+  }
+}

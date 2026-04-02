@@ -3,7 +3,7 @@ import {
   ReferenceLine, ResponsiveContainer, Cell, Label
 } from 'recharts'
 import type { NamedJusticeScore } from '../../lib/types'
-import { getPartyColor } from '../../lib/utils'
+import { getPartyColor, getLastName } from '../../lib/utils'
 
 interface Props {
   data: NamedJusticeScore[]
@@ -31,7 +31,7 @@ const CustomDot = (props: any) => {
         stroke="white" strokeWidth={2}
       />
       <text x={cx} y={cy - 12} textAnchor="middle" fontSize={11} fill="#374151">
-        {payload.name.split(' ').pop()}
+        {getLastName(payload.name)}
       </text>
     </g>
   )
@@ -91,7 +91,7 @@ export function PartisanIndexChart({ data }: Props) {
             <Label value="Partisan Index" angle={-90} position="insideLeft" offset={-10} />
           </YAxis>
           <Tooltip content={<CustomTooltip />} />
-          <ReferenceLine y={0.5} stroke="#9ca3af" strokeDasharray="4 4" label={{ value: 'Neutral (50%)', position: 'right', fontSize: 11 }} />
+          <ReferenceLine y={0.5} stroke="#9ca3af" strokeDasharray="4 4" label={{ value: '50% (no votes = Mod. Partisan)', position: 'right', fontSize: 10 }} />
           <ReferenceLine y={0.75} stroke="#fca5a5" strokeDasharray="2 4" />
           <ReferenceLine y={0.25} stroke="#93c5fd" strokeDasharray="2 4" />
           <Scatter data={chartData} shape={<CustomDot />}>
