@@ -23,6 +23,16 @@ export function getPartyColor(party: 'R' | 'D'): string {
   return party === 'R' ? '#c0392b' : '#2980b9';
 }
 
+const NAME_SUFFIXES = new Set(['Jr.', 'Sr.', 'II', 'III', 'IV'])
+
+export function getLastName(fullName: string): string {
+  const parts = fullName.trim().split(/\s+/)
+  while (parts.length > 1 && NAME_SUFFIXES.has(parts[parts.length - 1])) {
+    parts.pop()
+  }
+  return parts[parts.length - 1]
+}
+
 export function getPartisanIndexColor(index: number): string {
   // Red = partisan, blue = doctrinal, gray = mixed
   if (index >= 0.6) return '#c0392b';

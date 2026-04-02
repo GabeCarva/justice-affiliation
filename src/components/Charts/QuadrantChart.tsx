@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { NamedJusticeScore } from '../../lib/types'
 import { computeFinalRates } from '../../lib/trajectory'
+import { getLastName } from '../../lib/utils'
 
 interface Props { data: NamedJusticeScore[] }
 
@@ -107,7 +108,7 @@ export function QuadrantChart({ data }: Props) {
             const cx = scaleX(s.party_rate)
             const cy = scaleY(s.doctrine_rate)
             const color = s.justice.appointing_party === 'R' ? '#dc2626' : '#2563eb'
-            const lastName = s.justice.name.split(' ').slice(-1)[0]
+            const lastName = getLastName(s.justice.name)
             return (
               <g key={s.seat_id} style={{ cursor: 'default' }}
                 onMouseEnter={e => {

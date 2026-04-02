@@ -3,7 +3,7 @@ import {
   ReferenceLine, ResponsiveContainer, Cell, Label
 } from 'recharts'
 import type { NamedJusticeScore } from '../../lib/types'
-import { getPartyColor } from '../../lib/utils'
+import { getPartyColor, getLastName } from '../../lib/utils'
 
 interface Props {
   data: NamedJusticeScore[]
@@ -31,7 +31,7 @@ const CustomDot = (props: any) => {
         stroke="white" strokeWidth={2}
       />
       <text x={cx} y={cy - 12} textAnchor="middle" fontSize={11} fill="#374151">
-        {payload.name.split(' ').pop()}
+        {getLastName(payload.name)}
       </text>
     </g>
   )
