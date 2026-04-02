@@ -1,0 +1,218 @@
+[
+  {
+    "id": "sackett-v-epa-2023",
+    "title": "Sackett v. EPA",
+    "year": 2023,
+    "scotus_citation": "598 U.S. 651 (2023)",
+    "area": "Federalism / Agency Deference",
+    "doctrine_ids": ["federalism-states-rights", "agency-deference"],
+    "description": "The Court unanimously held that the EPA's 'significant nexus' test for determining which wetlands qualify as 'waters of the United States' under the Clean Water Act was too broad. However, the justices divided 5-4 on the correct test: the Alito plurality adopted a narrower 'continuous surface connection' standard, while Kavanaugh and four D-appointed justices would have used a broader test.",
+    "factual_background": "Michael and Chantell Sackett sought to build a home near Priest Lake, Idaho on property containing wetlands. EPA determined their land fell within the Clean Water Act's jurisdiction as 'waters of the United States' using the 'significant nexus' test. The Sacketts challenged the EPA's authority to regulate their property.",
+    "doctrine_prediction": "A principled agency-deference adherent would hold that the EPA's 'significant nexus' test represents a reasonable agency interpretation of an ambiguous statutory phrase, entitled to deference; courts should defer to EPA's expert judgment about the ecologically meaningful connections between wetlands and navigable waters. A principled federalism adherent would hold that extensive federal regulation of intrastate wetlands raises Tenth Amendment concerns about federal displacement of state land-use authority.",
+    "r_party_prediction": "The Republican Party supported the narrowest possible reading of the Clean Water Act's jurisdictional reach, limiting federal EPA authority over private property and land use—a consistent position across property rights, federalism, and anti-regulatory principles.",
+    "d_party_prediction": "The Democratic Party supported the EPA's broader 'significant nexus' test as necessary for effective water quality protection, consistent with an expansive reading of federal regulatory authority under environmental statutes.",
+    "signal_level": "low",
+    "signal_explanation": "Signal is low because all nine justices agreed that EPA's 'significant nexus' test went too far—including the three D-appointed justices who wrote separately only to prefer a somewhat broader alternative test. When D-appointed justices vote to limit an environmental regulation in a Biden-era case, it could represent doctrine-over-party, but the near-unanimity suggests the legal case against the significant-nexus test was strong enough to transcend partisan preference. The disagreement was only about how much to limit the test, not whether to limit it.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the plurality adopting the narrowest 'continuous surface connection' test for WOTUS",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the Alito plurality on the narrower WOTUS standard",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the plurality adopting the 'continuous surface connection' test and rejecting the significant nexus standard as too broad",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Concurred in judgment rejecting the significant nexus test; joined Kavanaugh's concurrence favoring a somewhat broader WOTUS test than the plurality's",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment; wrote separately to argue the plurality's continuous-surface-connection test was itself too narrow and lacked textual support",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the Alito plurality adopting the narrowest WOTUS test",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Concurred in judgment but wrote separately to argue the plurality's test was too narrow; favored a broader standard consistent with the statute's text and historical practice",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the Alito plurality adopting the narrowest WOTUS test",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Concurred in judgment; joined the Kavanaugh concurrence favoring a broader WOTUS test than the plurality's continuous-surface-connection standard",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/22pdf/21-454_4g18.pdf",
+      "https://www.scotusblog.com/case-files/cases/sackett-v-environmental-protection-agency/"
+    ],
+    "assumptions": [
+      "D-appointed justices are coded 'partial' and 'no' for party alignment because they concurred in limiting EPA's jurisdiction, which goes against the D party's general position of supporting broad EPA authority.",
+      "R-appointed justices in the plurality are coded doctrine-against for agency-deference (they did not defer to EPA's significant-nexus interpretation) and doctrine-against for federalism (the narrowest test limits federal power over wetlands, which the federalism doctrine supports)—an unusual case where party and one doctrine align for R justices.",
+      "Kavanaugh's concurrence is notable: an R-appointed justice who would have preserved a broader EPA test than the R-bloc plurality, reflecting doctrine-over-party on agency deference.",
+      "The 'low' signal reflects the near-consensus: when even D-appointed justices agree EPA went too far, the case is less diagnostic of partisan versus doctrinal voting."
+    ],
+    "counterarguments": [
+      "The federalism doctrine could support the plurality's narrow WOTUS test (limits federal authority over state land), making the R justices' votes simultaneously party-aligned AND doctrine-aligned under the federalism framing, which would make this case non-diagnostic.",
+      "D-appointed justices who concurred in rejecting significant nexus may have been constrained by the weakness of the legal argument for EPA's broad position rather than choosing doctrine over party.",
+      "The significant-nexus test's statutory basis was indeed contested; the Clean Water Act's reference to 'navigable waters' and 'waters of the United States' may not clearly reach isolated or remote wetlands, making the unanimous rejection of the broadest EPA interpretation a textual matter rather than a partisan or doctrinal one."
+    ]
+  },
+  {
+    "id": "little-sisters-v-pennsylvania-2020",
+    "title": "Little Sisters of the Poor v. Pennsylvania",
+    "year": 2020,
+    "scotus_citation": "591 U.S. 657 (2020)",
+    "area": "Executive Power / Agency Authority",
+    "doctrine_ids": ["executive-restraint", "agency-deference"],
+    "description": "The Court held 7-2 that the Trump administration lawfully expanded religious and moral exemptions to the ACA's contraceptive-coverage mandate. Justice Thomas wrote for the majority, holding that Congress had authorized the agencies to craft the mandate's scope and exemptions, and that the agencies did not act arbitrarily in extending protections to religious objectors.",
+    "factual_background": "The Obama administration's ACA rules required employer health plans to cover contraceptive services at no cost. After extensive litigation over religious exemptions, the Trump administration issued rules broadly exempting religious and moral objectors. Pennsylvania and New Jersey challenged the new exemptions as beyond agency authority.",
+    "doctrine_prediction": "A principled executive-restraint and agency-deference adherent would hold that the agencies must act within the statutory authority Congress granted; expanding exemptions beyond what the statute clearly authorizes would exceed delegated authority. At the same time, a principled deference adherent would accept a reasonable agency construction of its own mandate's scope, including the decision to exempt religious objectors if Congress's silence on exemptions is ambiguous.",
+    "r_party_prediction": "The Republican Party and Trump administration strongly supported the expanded religious exemptions as aligned with both religious liberty goals and the administration's policy of reducing ACA requirements.",
+    "d_party_prediction": "The Democratic Party opposed the expanded exemptions as gutting the contraceptive mandate for millions of women employees and argued the agencies exceeded their statutory authority.",
+    "signal_level": "medium",
+    "signal_explanation": "The 7-2 majority included Kagan and Breyer concurring in judgment (not joining the majority's broader reasoning), suggesting mixed signals. The case is diagnostic primarily because D-appointed justices Kagan and Breyer concurred in upholding a Trump administration rule against D party interest, though they limited their agreement. R-appointed justices' votes are non-diagnostic (both party and deference doctrine support the rule if agencies had authority).",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion upholding the expanded religious and moral exemptions to the ACA contraceptive mandate",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have held the agencies exceeded their statutory authority in creating such broad exemptions and that the mandate's text did not authorize them",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment only; agreed the agencies had statutory authority but wrote separately to argue the majority went too far in analyzing the exemption's merits",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the expanded religious and moral exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding the expanded exemptions",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/19pdf/19-431_c07d.pdf",
+      "https://www.scotusblog.com/case-files/cases/little-sisters-of-the-poor-saints-peter-and-paul-home-v-pennsylvania/"
+    ],
+    "assumptions": [
+      "Seats 8 and 9 are omitted: Barrett confirmed October 2020; Jackson confirmed 2022.",
+      "We use the 2017-2021 period party positions for this June 2020 case.",
+      "All votes are coded 'partial' for doctrine because the agency-authority question is genuinely contested: the agencies arguably had statutory flexibility to define the mandate's scope, but the breadth of the exemption was also in tension with the statute's purpose.",
+      "Seat 5 (Kagan) is coded party-against because her concurring in the judgment to uphold a Trump administration rule—even if on narrower grounds—went against the D party's goal of maintaining comprehensive contraceptive coverage."
+    ],
+    "counterarguments": [
+      "Kagan's concurrence can be read as a limited doctrinal judgment about agency authority rather than a vote supporting the policy outcome; her concurrence explicitly limited her agreement to the question of statutory authority while preserving challenges on APA grounds.",
+      "Sotomayor's dissent suggests that the D-appointed justices were split on the merits question, reducing the signal from Kagan's concurrence.",
+      "R-appointed justices upholding a Republican administration rule is non-diagnostic if we accept that the agencies genuinely had statutory authority to create exemptions; if the statute authorized it, the vote reflects doctrine, not partisanship."
+    ]
+  },
+  {
+    "id": "collins-v-yellen-2021",
+    "title": "Collins v. Yellen",
+    "year": 2021,
+    "scotus_citation": "594 U.S. 220 (2021)",
+    "area": "Executive Power / Removal Authority",
+    "doctrine_ids": ["executive-restraint"],
+    "description": "The Court held 9-0 that the Federal Housing Finance Agency's structure—with a director removable only for cause—violated the separation of powers, following the logic of Seila Law. The justices divided 5-4 on the appropriate remedy for shareholders challenging a Third Amendment to the FHFA's conservatorship agreement.",
+    "factual_background": "Congress created the FHFA to oversee Fannie Mae and Freddie Mac, structuring it with a single director removable only for cause. The Trump administration amended the conservatorship agreement in 2019, directing Fannie and Freddie profits to Treasury. Shareholders challenged both the FHFA's structure and the Third Amendment.",
+    "doctrine_prediction": "A principled executive-restraint adherent, applying the conservative unitary executive position, would hold that the for-cause removal restriction for the FHFA director unconstitutionally insulates an executive official from presidential accountability; the President must be able to remove executive officers at will. A competing restraint-of-executive view would hold that Congress may structure independent agencies with removal protections, as settled in Humphrey's Executor.",
+    "r_party_prediction": "The Republican Party and Trump administration supported expanding presidential removal authority over independent agencies, consistent with a unitary executive position that had motivated the Seila Law litigation.",
+    "d_party_prediction": "The Democratic Party supported maintaining independent agency structures with removal protections, viewing the for-cause protection as a necessary check on executive interference with financial regulatory decisions.",
+    "signal_level": "low",
+    "signal_explanation": "The 9-0 result on the constitutional question substantially reduces the diagnostic signal. When a result is unanimous, the partisan hypothesis has little explanatory power. The constitutional holding tracks Seila Law, and the division on remedy (5-4) was more about remedy doctrine than the underlying constitutional question. Low signal.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding the FHFA's for-cause removal restriction unconstitutional; concurred separately on additional grounds",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding the FHFA's removal restriction unconstitutional; part of the 5-justice majority on the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Wrote the majority opinion holding the FHFA removal restriction unconstitutional and addressing the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority on the unconstitutionality of the removal restriction; dissented on the remedy question, arguing shareholders were entitled to broader relief",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_5": {
+        "vote": "Joined the majority on unconstitutionality; dissented on remedy",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "partial"
+      },
+      "seat_6": {
+        "vote": "Joined the majority holding the removal restriction unconstitutional and on the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority on both unconstitutionality and the remedy question",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the majority on unconstitutionality and the remedy question in her first term",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/20pdf/19-422_g3bi.pdf",
+      "https://www.scotusblog.com/case-files/cases/collins-v-mnuchin/"
+    ],
+    "assumptions": [
+      "Seat 9 is omitted: Jackson was not yet confirmed.",
+      "We use the 2017-2021 period party positions for this June 2021 case.",
+      "All votes are coded 'partial' for doctrine because, as in Seila Law, the executive-restraint doctrine is genuinely contested between the Morrison/Humphrey's Executor tradition (Congress may create independent agencies) and the unitary executive theory (no for-cause protections allowed).",
+      "D-appointed justices agreeing the removal restriction is unconstitutional is notable—they voted to limit independent agency protections despite this going against D party interests. However, the 9-0 result and the fact that they separately sought more relief for shareholders complicate the alignment."
+    ],
+    "counterarguments": [
+      "A unanimous constitutional holding strongly suggests that the legal case against the removal restriction was clear enough that no principled jurist could defend it after Seila Law, making the case non-diagnostic rather than revealing.",
+      "D-appointed justices' votes on unconstitutionality may reflect stare decisis with Seila Law rather than independent doctrinal judgment, since Seila Law was decided just one year earlier and the FHFA structure was nearly identical.",
+      "The real diagnostic question in this case—whether shareholders were entitled to a remedy—was decided 5-4 along party lines, suggesting the politically salient dispute was not the constitutional question but the remedy, which this analysis does not fully capture."
+    ]
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "utility-air",
+    "title": "Utility Air Regulatory Group v. EPA",
+    "year": 2014,
+    "scotus_citation": "573 U.S. 302 (2014)",
+    "area": "Agency Deference / Statutory Interpretation",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 5-4 that the EPA could not rewrite the Clean Air Act's numerical thresholds to regulate greenhouse gases from stationary sources under the PSD and Title V programs. While the agency had authority to regulate GHGs from mobile sources, it could not apply the same trigger thresholds to stationary sources without exceeding the statutory text.",
+    "factual_background": "After Massachusetts v. EPA (2007) held that greenhouse gases were 'air pollutants' under the Clean Air Act, the EPA extended GHG regulation to large stationary sources under Prevention of Significant Deterioration (PSD) and Title V programs. Industry groups argued the EPA impermissibly rewrote the statutory thresholds — which were set for conventional pollutants — to make them workable for GHGs.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that agencies must stay within the textual limits Congress enacted and cannot substitute their own numbers for those Congress chose. Where a statute sets specific numerical thresholds, an agency that rewrites those numbers to make its preferred policy workable exceeds its statutory authority, regardless of how reasonable the policy goal is.",
+    "r_party_prediction": "Republicans and industry groups supported limiting the EPA's GHG regulation, arguing the agency had exceeded its statutory authority and that major new climate regulations required explicit congressional authorization rather than agency initiative.",
+    "d_party_prediction": "The Obama administration and Democrats defended the EPA's approach as a reasonable interpretation of broad statutory language to address the urgent problem of climate change, arguing courts should defer to the agency's technical judgment about how to apply the Act.",
+    "signal_level": "high",
+    "signal_explanation": "The 5-4 split follows partisan appointment lines precisely, with all R-appointed justices in the majority limiting EPA authority and all D-appointed justices dissenting. This clean partisan alignment on a significant climate regulation question provides a strong diagnostic signal for both partisanship and doctrine.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority limiting EPA's authority to rewrite statutory thresholds; would have gone further to deny EPA authority to regulate GHGs from stationary sources entirely",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding EPA could not rewrite the statutory numerical thresholds to apply GHG regulation to stationary sources",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority limiting EPA's authority over GHG regulation at stationary sources",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; would have upheld EPA's authority to regulate GHGs from stationary sources and deferred to the agency's reasonable interpretation of the Act's threshold provisions",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued EPA's interpretation was a permissible construction of the statute and courts should defer to the agency's technical expertise in applying the Clean Air Act",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/13pdf/12-1146_4g18.pdf",
+      "https://www.scotusblog.com/case-files/cases/utility-air-regulatory-group-v-epa/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: those justices were not yet on the Court.",
+      "We use the 2009–2017 period party positions. R = 'aligned' with limiting agency authority; D = 'opposed' (supporting broad agency deference and EPA authority).",
+      "Thomas and the three joining R-appointed justices are all coded non-diagnostic (doctrine-yes/party-yes) because they aligned with both doctrine and party on limiting EPA.",
+      "The case predates Chevron's eventual overruling in Loper Bright; the majority used a Chevron step-one analysis to find the rewrite impermissible."
+    ],
+    "counterarguments": [
+      "The majority did uphold EPA's authority to regulate GHGs from sources that were already regulated for conventional pollutants ('anyway' sources), meaning the decision was a partial win for EPA — not total defeat.",
+      "Scalia's majority opinion acknowledged EPA's GHG regulation of mobile sources was valid under Massachusetts v. EPA, limiting the scope of the anti-deference holding to the threshold-rewriting question.",
+      "D-appointed justices' votes to uphold EPA could be read as aligned with a different doctrinal tradition — Chevron deference — rather than as purely partisan."
+    ]
+  },
+  {
+    "id": "michigan-epa",
+    "title": "Michigan v. EPA",
+    "year": 2015,
+    "scotus_citation": "576 U.S. 743 (2015)",
+    "area": "Agency Deference / Cost-Benefit Analysis",
+    "doctrine_ids": ["agency-deference"],
+    "description": "The Court held 5-4 that the EPA acted unreasonably by failing to consider costs when deciding whether it was 'appropriate and necessary' to regulate mercury emissions from power plants under the MATS rule. Agencies must consider all relevant factors — including economic cost — unless Congress clearly forbids it.",
+    "factual_background": "The EPA's Mercury and Air Toxics Standards (MATS) rule regulated hazardous air pollutant emissions from power plants. The EPA concluded that regulation was 'appropriate and necessary' without considering compliance costs at the threshold finding stage, later claiming costs would be considered in setting specific emission standards. The compliance cost was estimated at $9.6 billion annually against monetized benefits of $4-6 million directly attributable to the targeted pollutants.",
+    "doctrine_prediction": "A principled adherent of agency-deference doctrine holds that an agency must consider all relevant factors — and cost is nearly always relevant — before exercising major regulatory authority. Refusing to consider whether the cost of a regulatory program is justified at the threshold decision is not a permissible interpretation of a statute that requires a regulation to be 'appropriate' — a term that inherently demands a balancing judgment.",
+    "r_party_prediction": "Republicans and states challenged the MATS rule as regulatory overreach, arguing the EPA ignored enormous compliance costs in pursuit of its climate and air quality agenda, and that Congress did not authorize regulations that impose billions in costs for minimal direct benefits.",
+    "d_party_prediction": "The Obama EPA and Democrats defended the MATS rule as a necessary protection against hazardous air pollutants from the nation's dirtiest power plants, arguing that co-benefits (reduction of particulates) justified the costs and that the statute did not require cost consideration at the threshold stage.",
+    "signal_level": "medium",
+    "signal_explanation": "The 5-4 split follows partisan appointment lines, but the legal question — whether 'appropriate and necessary' requires cost consideration — is a genuine statutory interpretation question rather than a clear case of agency overreach. The moderate signal reflects real doctrinal ambiguity about what 'appropriate' requires.",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the majority holding EPA must consider costs; wrote separately to argue cost-consideration should be required at all stages of agency rulemaking, not just threshold determinations",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding EPA's failure to consider costs when making the 'appropriate and necessary' finding was unreasonable",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the majority holding EPA must consider costs at the threshold stage",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Dissented; argued EPA's decision not to quantify costs at the threshold finding was a reasonable interpretation of 'appropriate and necessary' given the statute's structure and the agency's plan to address costs at the standard-setting stage",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Dissented; argued the majority's ruling imposed a cost-consideration requirement not demanded by the statutory text and interfered with EPA's reasonable interpretive choices",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/14pdf/14-46_10n2.pdf",
+      "https://www.scotusblog.com/case-files/cases/michigan-v-environmental-protection-agency-2/"
+    ],
+    "assumptions": [
+      "Seats 6–9 omitted: those justices were not yet on the Court.",
+      "We use 2009–2017 period party positions: R = 'aligned' with limiting agency deference (constraining EPA's regulatory reach); D = 'opposed' (supporting broad agency authority and EPA's rulemaking choices).",
+      "Scalia (not in seat map) wrote the majority; Kennedy (not in seat map) joined.",
+      "Kagan wrote the principal dissent (not reflected in seat_5 because she is seat_5 and is coded as a dissenter here)."
+    ],
+    "counterarguments": [
+      "The Court remanded rather than vacating the MATS rule outright, meaning the decision did not immediately invalidate the regulation — only required EPA to revisit the cost question.",
+      "On remand, the DC Circuit found EPA had adequately justified the rule on cost grounds, so the practical effect of the majority's ruling was limited.",
+      "Kagan's dissent argued 'appropriate and necessary' naturally means appropriate from a public-health standpoint, making the statutory interpretation question genuinely close rather than a clear case of agency overreach."
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "murthy-v-missouri-2024",
+    "title": "Murthy v. Missouri",
+    "year": 2024,
+    "scotus_citation": "603 U.S. 43 (2024)",
+    "area": "Standing and Justiciability",
+    "doctrine_ids": ["standing-justiciability"],
+    "description": "The Court held 6-3 that Republican state plaintiffs and individual social media users lacked Article III standing to challenge the Biden administration's communications with social media platforms about content moderation. Justice Barrett wrote for a majority that included three R-appointed and three D-appointed justices; Justices Thomas, Alito, and Gorsuch dissented.",
+    "factual_background": "Missouri, Louisiana, and individual plaintiffs sued senior Biden administration officials, arguing that the government had coerced social media platforms to suppress conservative speech. The Fifth Circuit found a First Amendment violation. The Supreme Court reversed on standing grounds before reaching the merits.",
+    "doctrine_prediction": "A principled strict-standing adherent would hold that the plaintiffs cannot trace their alleged social media censorship to specific government communications rather than independent platform decisions; the causal chain from government speech to platform action to plaintiff injury is too speculative and attenuated to satisfy Article III's injury-causation-redressability requirements.",
+    "r_party_prediction": "The Republican Party and its aligned state attorneys general strongly supported finding standing to allow the suit to proceed, seeking to expose and enjoin what they characterized as the Biden administration's censorship of conservative viewpoints on social media.",
+    "d_party_prediction": "The Democratic Party and Biden administration argued for dismissal on standing grounds, seeking to avoid judicial scrutiny of government-platform communications and to preserve the administration's ability to communicate with social media companies about disinformation.",
+    "signal_level": "high",
+    "signal_explanation": "The Court split 3-3 among R-appointed justices: Barrett, Roberts, and Kavanaugh applied strict standing to dismiss a suit brought by R-party-aligned plaintiffs (doctrine-aligned, party-against), while Thomas, Alito, and Gorsuch would have found standing consistent with R party interest (party-aligned, doctrine-against). The 6-3 lineup with a mixed R-appointed majority makes this a high-signal case for distinguishing doctrine-followers from party-followers among R-appointed justices.",
+    "votes": {
+      "seat_1": {
+        "vote": "Dissented; would have found standing and addressed the merits of the alleged First Amendment violation arising from government-platform communications",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the majority holding plaintiffs lacked standing due to insufficient traceability and redressability",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_3": {
+        "vote": "Dissented; would have found standing for at least some plaintiffs and addressed the coercion claim on the merits",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Dissented; would have found standing and has written extensively arguing for broader standing in cases involving government censorship allegations",
+        "vote_aligns_with_doctrine": "no",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the majority holding plaintiffs lacked standing, consistent with strict standing enforcement",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Wrote the majority opinion applying strict Article III standing requirements to dismiss the suit; found insufficient traceability of plaintiffs' alleged injuries to government conduct",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority holding plaintiffs lacked standing",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-411_3dq3.pdf",
+      "https://www.scotusblog.com/case-files/cases/murthy-v-missouri/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'opposed' to strict standing (supports broad standing to challenge Biden administration); D party 'opposed' generally to strict standing but aligned with dismissal in this specific case.",
+      "D-appointed justices are coded party-aligned because the D party's specific interest in this case (dismiss the anti-administration suit) coincided with the strict-standing result.",
+      "R-appointed justices who dissented (Thomas, Alito, Gorsuch) are coded party-aligned, doctrine-against: their party wants standing for R-aligned challengers, even though the strict-standing doctrine counsels dismissal.",
+      "R-appointed justices who joined the majority (Barrett, Roberts, Kavanaugh) are coded doctrine-aligned, party-against: they applied strict standing to dismiss a suit that would have advanced R party interests."
+    ],
+    "counterarguments": [
+      "Thomas, Alito, and Gorsuch's dissents focused on genuine legal questions about government coercion of private speech; one can have sincere doctrinal views that the First Amendment standing analysis differs from ordinary injury-in-fact standing, making their votes doctrine-consistent.",
+      "Barrett, Kavanaugh, and Roberts joining the majority could reflect their view of the weakness of this particular record rather than a general doctrinal commitment, meaning the case may be decided on specific facts rather than standing principle.",
+      "D-appointed justices' votes in the majority could reflect self-interested reasoning (protecting their party's administration) rather than principled standing enforcement, which would make their votes party-aligned over doctrine-aligned rather than non-diagnostic."
+    ]
+  },
+  {
+    "id": "cfpb-v-community-financial-services-2024",
+    "title": "Consumer Financial Protection Bureau v. Community Financial Services Association of America",
+    "year": 2024,
+    "scotus_citation": "601 U.S. 416 (2024)",
+    "area": "Congressional Spending Authority / Appropriations",
+    "doctrine_ids": ["congressional-spending-authority"],
+    "description": "The Court held 7-2 that the Consumer Financial Protection Bureau's funding mechanism—drawing from Federal Reserve earnings rather than annual congressional appropriations—was constitutional under the Appropriations Clause. The decision preserved the CFPB's structure and reversed the Fifth Circuit's ruling that the funding mechanism violated the Constitution.",
+    "factual_background": "Congress funded the CFPB by authorizing it to draw operating expenses from Federal Reserve earnings, bypassing the annual appropriations process. The Fifth Circuit held this structure violated the Appropriations Clause because it lacked sufficient congressional control over the ongoing funding. The Supreme Court reversed.",
+    "doctrine_prediction": "A principled congressional-spending-authority adherent would examine whether the Appropriations Clause requires annual congressional control over each expenditure or whether a standing statutory authorization is sufficient. The doctrine requires that Congress authorize expenditures by law; the question is whether an ongoing statutory mechanism satisfies that requirement or whether the Clause demands more direct periodic control to maintain meaningful legislative oversight of the executive.",
+    "r_party_prediction": "The Republican Party has historically opposed the CFPB as a symbol of excessive regulatory government, and several R-aligned groups sought to invalidate its funding as a means of gutting the agency's authority without a congressional vote. Striking down CFPB's funding would have effectively ended the agency.",
+    "d_party_prediction": "The Democratic Party supported upholding CFPB's funding structure, having created the agency after the financial crisis to protect consumers from predatory practices; invalidation would have been a major Democratic policy defeat.",
+    "signal_level": "high",
+    "signal_explanation": "The vote produced a highly unusual 7-2 coalition: Thomas (R) wrote the majority joined by Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson. Roberts and Alito alone dissented. Four R-appointed justices (Thomas, Gorsuch, Kavanaugh, Barrett) voted to preserve the Democratic-created CFPB against their party's interest. Two R-appointed justices (Roberts, Alito) voted to invalidate it. This case provides a rare direct test of doctrine over party interest with striking results.",
+    "votes": {
+      "seat_1": {
+        "vote": "Wrote the majority opinion upholding the CFPB's funding mechanism as consistent with the Appropriations Clause's requirement that expenditures be authorized by law",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_2": {
+        "vote": "Dissented; argued the CFPB's perpetual, self-directed funding structure violates the Appropriations Clause by removing meaningful congressional control over the agency's budget",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Dissented; joined the opinion arguing the CFPB's funding mechanism lacks adequate Appropriations Clause grounding in annual congressional action",
+        "vote_aligns_with_doctrine": "partial",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_5": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_6": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_7": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_8": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_9": {
+        "vote": "Joined the majority upholding the CFPB's funding structure",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/22-448_o7jq.pdf",
+      "https://www.scotusblog.com/case-files/cases/consumer-financial-protection-bureau-v-community-financial-services-association-of-america/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'mixed' on congressional spending authority; D party 'aligned'.",
+      "R-appointed justices upholding CFPB funding are coded doctrine-aligned because the majority's reading—that a statutory authorization satisfies 'Appropriation made by Law'—is a plausible interpretation of the Clause that does maintain congressional control (Congress set the funding mechanism by statute). Roberts and Alito's dissent (requiring annual appropriations) is coded 'partial' because it takes a stricter view of Clause requirements that is also textually defensible.",
+      "The unusual 7-2 split with Thomas writing makes this case particularly valuable: if any justice might be expected to follow party interest against the CFPB, it would be Thomas, who has written the most consistently anti-administrative-state opinions. His vote to uphold is a strong doctrine signal.",
+      "Roberts and Alito are the only R-appointed justices coded party-aligned, and their votes are labeled 'partial' for doctrine because the stricter Appropriations Clause interpretation they applied is not frivolous."
+    ],
+    "counterarguments": [
+      "Thomas's majority opinion may reflect a genuine textualist reading of 'Appropriations made by Law' as encompassing any statutory authorization rather than a party-against preference; under this reading, his vote is doctrine-aligned and cannot be coded party-against.",
+      "Roberts and Alito's dissent is a defensible constitutional argument that the Appropriations Clause requires more than perpetual self-authorization; their votes may be doctrine-consistent rather than party-motivated.",
+      "The CFPB had been controversial under both Trump administrations as well as in the courts; some R-aligned groups had actually benefited from CFPB enforcement actions, making the R party's interest in invalidating CFPB funding less uniformly clear than it appears."
+    ]
+  },
+  {
+    "id": "trump-v-anderson-2024",
+    "title": "Trump v. Anderson",
+    "year": 2024,
+    "scotus_citation": "601 U.S. 100 (2024)",
+    "area": "Presidential Immunity / Federalism",
+    "doctrine_ids": ["presidential-immunity", "federalism-states-rights"],
+    "description": "A unanimous Court reversed the Colorado Supreme Court's ruling that former President Trump was disqualified from the presidential primary ballot under Section 3 of the Fourteenth Amendment. The per curiam opinion held that states cannot unilaterally enforce Section 3 against federal officeholders and candidates; congressional action is required.",
+    "factual_background": "The Colorado Supreme Court held that former President Trump was constitutionally disqualified from the presidency under the Fourteenth Amendment's insurrection disqualification clause following January 6, 2021. Colorado removed him from the primary ballot. The Supreme Court reversed unanimously in the judgment, though concurrences differed on the scope of the ruling.",
+    "doctrine_prediction": "A principled federalism adherent applying doctrines of state versus federal power would hold that enforcement of a constitutional provision against candidates for federal office is a federal question requiring federal enforcement mechanisms; states may not unilaterally adjudicate the constitutional eligibility of federal candidates, as this would enable a handful of states to determine national elections. The Fourteenth Amendment's Section 5 enforcement clause supports this structural reading.",
+    "r_party_prediction": "The Republican Party had an obvious and direct interest in keeping Trump on the ballot; reversing Colorado's disqualification decision aligned with the R party's immediate political survival. R-party-aligned groups filed briefs opposing Colorado's ruling.",
+    "d_party_prediction": "The Democratic Party and several D-aligned advocacy groups supported Colorado's disqualification ruling as properly enforcing the Constitution's insurrection bar, while the D-appointed justices wrote separately to argue the majority went further than necessary in limiting state enforcement.",
+    "signal_level": "high",
+    "signal_explanation": "All three D-appointed justices voted in the judgment to reverse Colorado and keep Trump on the ballot, directly against their party's interest in removing a political opponent from the election. While they wrote separately to limit the ruling's scope, they agreed on the key result. This is strong evidence of doctrine over party for D-appointed seats. R-appointed justices' votes are non-diagnostic (party and doctrine pointed the same direction).",
+    "votes": {
+      "seat_1": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification; wrote separately to argue Section 3 is self-executing and does not require congressional legislation",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_2": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification and holding that states cannot unilaterally enforce Section 3 against federal candidates",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_3": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_4": {
+        "vote": "Concurred in judgment reversing Colorado; wrote separately with Kagan and Jackson to argue the majority went further than necessary by addressing congressional enforcement, criticizing the per curiam as an advisory opinion on issues not before the Court",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_5": {
+        "vote": "Concurred in judgment reversing Colorado; joined the separate concurrence arguing the majority reached beyond the question presented",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      },
+      "seat_6": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_7": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_8": {
+        "vote": "Joined the per curiam reversing the Colorado disqualification",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "yes"
+      },
+      "seat_9": {
+        "vote": "Concurred in judgment reversing Colorado; joined the separate concurrence arguing the majority overreached by deciding the congressional enforcement question unnecessarily",
+        "vote_aligns_with_doctrine": "yes",
+        "vote_aligns_with_appointer_party": "no"
+      }
+    },
+    "sources": [
+      "https://www.supremecourt.gov/opinions/23pdf/23-719_19m2.pdf",
+      "https://www.scotusblog.com/case-files/cases/trump-v-anderson/"
+    ],
+    "assumptions": [
+      "We use the 2021-2025 period party positions: R party 'aligned' with presidential immunity doctrine; D party 'opposed'.",
+      "The federalism-states-rights doctrine is also implicated: the ruling holds states cannot adjudicate federal candidate eligibility, which is a federal-supremacy result (limits state power). R party in 2021-2025 is 'aligned' with federalism doctrine (states' rights), but upholding federal authority here runs against the states'-rights framing. We classify D justices as doctrine-aligned, party-against for this case.",
+      "D-appointed justices concurring in judgment to reverse Colorado are coded doctrine-aligned (the structural federalism argument supports federal-only enforcement) and party-against (reversing Colorado directly benefited the D party's opponent).",
+      "The 9-0 judgment obscures the fact that D-appointed justices tried to limit the ruling; their concurrence is still a vote against their party's interest on the key question."
+    ],
+    "counterarguments": [
+      "D-appointed justices objected only to the majority's additional holding on congressional enforcement, not to the core result; one can argue that their concurrence is technically the minimum position consistent with the doctrine, making them doctrine-following rather than party-against.",
+      "D party's view on this case was not monolithic; some D-aligned scholars also argued Colorado's ruling was wrong as a matter of constitutional structure, meaning the D party's 'interest' in keeping Trump off the ballot was not as uniformly held as other partisan questions.",
+      "The unanimous result (9-0 in judgment) weakens the diagnostic signal considerably, suggesting the structural federalism/Section 3 argument was genuinely compelling to all justices regardless of party alignment."
+    ]
+  }
+]
