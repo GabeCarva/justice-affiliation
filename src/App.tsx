@@ -6,6 +6,7 @@ import { BlogPage } from './pages/BlogPage'
 import { MethodologyPage } from './pages/MethodologyPage'
 import { VerifyPage } from './pages/VerifyPage'
 import { DoctrinePage } from './pages/DoctrinePage'
+import { PriorsPage } from './pages/PriorsPage'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/methodology" element={<MethodologyPage />} />
             <Route path="/verify" element={<VerifyPage />} />
             <Route path="/doctrines" element={<DoctrinePage />} />
+            <Route path="/priors" element={<PriorsPage />} />
           </Routes>
         </main>
         <Footer />

@@ -6,6 +6,7 @@ const links = [
   { to: '/methodology', label: 'Methodology' },
   { to: '/verify', label: 'Verify Scores' },
   { to: '/doctrines', label: 'Doctrines' },
+  { to: '/priors', label: 'Stated Positions' },
 ]
 
 export function Nav() {
