@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { namedScores, cases, doctrines } from '../lib/data'
 import type { NamedJusticeScore, DiagnosticCase } from '../lib/types'
-import { classifyPartisanIndex } from '../lib/utils'
+import { classifyPartisanIndex, getLastName } from '../lib/utils'
 
 const WEIGHT: Record<string, number> = { high: 1.0, medium: 0.5, low: 0.0 }
 
@@ -112,7 +112,7 @@ export function VerifyPage() {
                   : 'border-gray-200 dark:border-gray-700 hover:border-gray-400'
               }`}
             >
-              {s.justice.name.split(' ').pop()}
+              {getLastName(s.justice.name)}
               <span className="ml-1 text-xs opacity-70">({(s.partisan_index * 100).toFixed(0)}%)</span>
             </button>
           ))}

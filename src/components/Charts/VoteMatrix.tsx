@@ -1,4 +1,5 @@
 import type { DiagnosticCase, NamedJusticeScore } from '../../lib/types'
+import { getLastName } from '../../lib/utils'
 
 interface Props {
   cases: DiagnosticCase[]
@@ -46,7 +47,7 @@ export function VoteMatrix({ cases, scores }: Props) {
               {sortedScores.map(s => (
                 <th key={s.seat_id} className="p-1 font-medium text-gray-600 text-center min-w-[50px]"
                   title={s.justice.name}>
-                  {s.justice.name.split(' ').pop()}
+                  {getLastName(s.justice.name)}
                 </th>
               ))}
             </tr>

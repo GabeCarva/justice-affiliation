@@ -1,5 +1,6 @@
 import type { NamedJusticeScore } from '../../lib/types'
 import type { Doctrine } from '../../lib/types'
+import { getLastName } from '../../lib/utils'
 
 interface Props {
   scores: NamedJusticeScore[]
@@ -49,7 +50,7 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
             {sortedScores.map(score => (
               <tr key={score.seat_id} className="border-t border-gray-100">
                 <td className="p-2">
-                  <span className="font-medium">{score.justice.name.split(' ').pop()}</span>
+                  <span className="font-medium">{getLastName(score.justice.name)}</span>
                   <span className="text-gray-400 ml-1">
                     ({score.justice.appointing_party})
                   </span>
