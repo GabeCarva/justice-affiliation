@@ -156,6 +156,111 @@ export function getPriorForSeat(seatId: string, doctrineId: string): DoctrinePri
   return p as DoctrinePrior
 }
 
+// ─── Prior-adjusted quadrant positions ───────────────────────────────────────
+// Replicates trajectory.ts weighting (high=1.0, medium=0.5, low=0.0), but
+// replaces each vote that violates the justice's stated prior with the
+// expected vote. When a violation is party-correlated (voted against doctrine
+// WITH party), flipping the doctrine vote also flips the party alignment.
+
+export interface PriorAdjustedPoint {
+  seat_id: string
+  justice_name: string
+  actual_party_rate: number
+  actual_doctrine_rate: number
+  adjusted_party_rate: number
+  adjusted_doctrine_rate: number
+  adjustment_count: number
+}
+
+function signalWeight(signal_level: string): number {
+  if (signal_level === 'high') return 1.0
+  if (signal_level === 'medium') return 0.5
+  return 0.0
+}
+
+export function computePriorAdjustedPoints(): PriorAdjustedPoint[] {
+  const casesArr = casesData as unknown as (CaseRecord & { signal_level: string })[]
+  const priors = priorsData as Record<string, Record<string, unknown>>
+
+  return Object.keys(priors).map(seatId => {
+    const justicePriors = priors[seatId]
+    const justiceName = justicePriors.justice_name as string
+
+    // Only high/medium signal cases — same filter as trajectory.ts
+    const eligible = casesArr.filter(
+      c => c.votes[seatId] !== undefined && signalWeight(c.signal_level) > 0
+    )
+
+    let partyYesActual = 0, partyYesAdjusted = 0, partyTotal = 0
+    let docYesActual = 0, docYesAdjusted = 0, docTotal = 0
+    let adjustmentCount = 0
+
+    for (const c of eligible) {
+      const vote = c.votes[seatId]
+      const w = signalWeight(c.signal_level)
+      const docAlign = vote.vote_aligns_with_doctrine
+      const partyAlign = vote.vote_aligns_with_appointer_party
+
+      // Accumulate actual weighted rates
+      if (docAlign === 'yes')         docYesActual += w
+      else if (docAlign === 'partial') docYesActual += 0.5 * w
+      docTotal += w
+
+      if (partyAlign === 'yes')         partyYesActual += w
+      else if (partyAlign === 'partial') partyYesActual += 0.5 * w
+      partyTotal += w
+
+      // Determine if this case has a violated prior
+      let adjDoc = docAlign
+      let adjParty = partyAlign
+      let adjusted = false
+
+      if (docAlign !== 'partial') {
+        for (const docId of c.doctrine_ids) {
+          const prior = justicePriors[docId] as DoctrinePrior | undefined
+          if (!prior || prior.position === 'unknown' || prior.position === 'neutral' || prior.strength === 'weak') continue
+
+          const expectedDoc = prior.position === 'supports' ? 'yes' : 'no'
+          if (docAlign === expectedDoc) continue // No violation
+
+          // Violation: substitute expected vote
+          adjDoc = expectedDoc
+          // If they voted against doctrine to side with party, flipping doctrine also flips party
+          if (partyAlign === 'yes' && expectedDoc === 'yes') {
+            // Was: no-doctrine, yes-party → adjusted: yes-doctrine, no-party
+            adjParty = 'no'
+          } else if (partyAlign === 'no' && expectedDoc === 'no') {
+            // Was: yes-doctrine, no-party → adjusted: no-doctrine, yes-party
+            adjParty = 'yes'
+          }
+          adjusted = true
+          break // One prior per case is enough
+        }
+      }
+
+      if (adjusted) adjustmentCount++
+
+      if (adjDoc === 'yes')         docYesAdjusted += w
+      else if (adjDoc === 'partial') docYesAdjusted += 0.5 * w
+
+      if (adjParty === 'yes')         partyYesAdjusted += w
+      else if (adjParty === 'partial') partyYesAdjusted += 0.5 * w
+    }
+
+    const safeRate = (num: number, den: number) => (den > 0 ? num / den : 0.5)
+
+    return {
+      seat_id: seatId,
+      justice_name: justiceName,
+      actual_party_rate: safeRate(partyYesActual, partyTotal),
+      actual_doctrine_rate: safeRate(docYesActual, docTotal),
+      adjusted_party_rate: safeRate(partyYesAdjusted, partyTotal),
+      adjusted_doctrine_rate: safeRate(docYesAdjusted, docTotal),
+      adjustment_count: adjustmentCount,
+    }
+  })
+}
+
 export const DOCTRINE_LABELS: Record<string, string> = {
   'agency-deference': 'Agency Deference',
   'congressional-spending-authority': 'Spending Authority',

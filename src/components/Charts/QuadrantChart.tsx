@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import type { NamedJusticeScore } from '../../lib/types'
 import { computeFinalRates } from '../../lib/trajectory'
+import { computePriorAdjustedPoints } from '../../lib/priors'
 import { getLastName } from '../../lib/utils'
 
 interface Props { data: NamedJusticeScore[] }
 
 interface TooltipState {
   x: number; y: number; svgX: number; svgY: number
-  name: string; party: 'R' | 'D'
+  seat_id: string; name: string; party: 'R' | 'D'
   partyRate: number; doctrineRate: number
   partisan_index: number; total_diagnostic_cases: number
 }
@@ -31,6 +32,11 @@ const MX = 0.79, MY = 0.64
 
 export function QuadrantChart({ data }: Props) {
   const [tip, setTip] = useState<TooltipState | null>(null)
+  const [showAdjusted, setShowAdjusted] = useState(false)
+
+  const adjustedMap = Object.fromEntries(
+    computePriorAdjustedPoints().map(p => [p.seat_id, p])
+  )
 
   const points = data.map(s => ({
     ...s,
@@ -51,6 +57,11 @@ export function QuadrantChart({ data }: Props) {
       </p>
       <div className="relative" style={{ maxWidth: W }}>
         <svg width="100%" viewBox={`0 0 ${W} ${H}`} className="overflow-visible select-none">
+          <defs>
+            <marker id="arrowhead" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+              <path d="M0,0 L0,6 L6,3 z" fill="#6b7280" />
+            </marker>
+          </defs>
           {/* Quadrant shading */}
           <rect x={PAD.left} y={PAD.top} width={mx - PAD.left} height={my - PAD.top}  fill="#f0fdf4" opacity={0.7} />
           <rect x={mx} y={PAD.top} width={W - PAD.right - mx} height={my - PAD.top}   fill="#fefce8" opacity={0.7} />
@@ -103,12 +114,38 @@ export function QuadrantChart({ data }: Props) {
             Doctrine Alignment Rate →
           </text>
 
+          {/* Prior-adjusted ghost circles and arrows */}
+          {showAdjusted && points.map(s => {
+            const adj = adjustedMap[s.seat_id]
+            if (!adj || adj.adjustment_count === 0) return null
+            const cx = scaleX(s.party_rate)
+            const cy = scaleY(s.doctrine_rate)
+            const gx = scaleX(adj.adjusted_party_rate)
+            const gy = scaleY(adj.adjusted_doctrine_rate)
+            // Arrow from ghost → actual (shows how actual departs from prior-consistent position)
+            const dx = cx - gx, dy = cy - gy
+            const len = Math.sqrt(dx * dx + dy * dy)
+            if (len < 2) return null
+            const ux = dx / len, uy = dy / len
+            // Shorten arrow endpoints so they don't overlap the circles
+            const x1 = gx + ux * 10, y1 = gy + uy * 10
+            const x2 = cx - ux * 10, y2 = cy - uy * 10
+            return (
+              <g key={`adj-${s.seat_id}`} style={{ pointerEvents: 'none' }}>
+                <circle cx={gx} cy={gy} r={9} fill="none" stroke="#6b7280" strokeWidth={2} strokeDasharray="3 2" />
+                <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="#6b7280" strokeWidth={1.5}
+                  markerEnd="url(#arrowhead)" />
+              </g>
+            )
+          })}
+
           {/* Justice dots */}
           {points.map(s => {
             const cx = scaleX(s.party_rate)
             const cy = scaleY(s.doctrine_rate)
             const color = s.justice.appointing_party === 'R' ? '#dc2626' : '#2563eb'
             const lastName = getLastName(s.justice.name)
+            const adj = adjustedMap[s.seat_id]
             return (
               <g key={s.seat_id} style={{ cursor: 'default' }}
                 onMouseEnter={e => {
@@ -116,6 +153,7 @@ export function QuadrantChart({ data }: Props) {
                   setTip({
                     x: e.clientX - rect.left, y: e.clientY - rect.top,
                     svgX: cx, svgY: cy,
+                    seat_id: s.seat_id,
                     name: s.justice.name,
                     party: s.justice.appointing_party,
                     partyRate: s.party_rate,
@@ -131,6 +169,11 @@ export function QuadrantChart({ data }: Props) {
                 <text x={cx} y={cy - 15} textAnchor="middle" fontSize={11} fontWeight={600} fill="#1f2937">
                   {lastName}
                 </text>
+                {showAdjusted && adj && adj.adjustment_count > 0 && (
+                  <text x={cx} y={cy + 22} textAnchor="middle" fontSize={9} fill="#6b7280">
+                    {adj.adjustment_count}adj
+                  </text>
+                )}
               </g>
             )
           })}
@@ -146,7 +189,12 @@ export function QuadrantChart({ data }: Props) {
                   style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.12))' }} />
                 <text x={tx + 10} y={ty + 18} fontSize={12} fontWeight={700} fill="#111827">{tip.name}</text>
                 <text x={tx + 10} y={ty + 35} fontSize={11} fill="#6b7280">
-                  Party align: {(tip.partyRate * 100).toFixed(1)}%
+                  {(() => {
+                    const adj = showAdjusted ? adjustedMap[tip.seat_id] : null
+                    const base = `Party align: ${(tip.partyRate * 100).toFixed(1)}%`
+                    if (!adj || adj.adjustment_count === 0) return base
+                    return `${base} → ${(adj.adjusted_party_rate * 100).toFixed(1)}% (adj)`
+                  })()}
                 </text>
                 <text x={tx + 10} y={ty + 50} fontSize={11} fill="#6b7280">
                   Doctrine align: {(tip.doctrineRate * 100).toFixed(1)}%
@@ -163,12 +211,29 @@ export function QuadrantChart({ data }: Props) {
           })()}
         </svg>
 
-        {/* Legend */}
-        <div className="flex gap-4 justify-center text-xs text-gray-500 mt-1">
+        {/* Toggle + Legend */}
+        <div className="flex flex-wrap gap-4 justify-center items-center text-xs text-gray-500 mt-2">
           <span><span className="inline-block w-3 h-3 rounded-full bg-red-600 mr-1" />Republican-appointed</span>
           <span><span className="inline-block w-3 h-3 rounded-full bg-blue-600 mr-1" />Democrat-appointed</span>
           <span className="text-gray-400">— dashed lines = group mean</span>
+          <button
+            onClick={() => setShowAdjusted(v => !v)}
+            className={`ml-2 px-3 py-1 rounded border text-xs font-medium transition-colors ${
+              showAdjusted
+                ? 'bg-gray-700 text-white border-gray-700'
+                : 'bg-white text-gray-600 border-gray-300 hover:border-gray-500'
+            }`}
+          >
+            {showAdjusted ? '◎ Prior-adjusted on' : '◎ Show prior-adjusted'}
+          </button>
         </div>
+        {showAdjusted && (
+          <p className="text-xs text-gray-400 text-center mt-1 max-w-lg mx-auto">
+            Dashed circle = where each justice would plot if they had voted consistently with their stated prior.
+            Arrow points toward actual position. Larger gap = more departure from stated philosophy.
+            Count below name = cases adjusted.
+          </p>
+        )}
       </div>
     </div>
   )
