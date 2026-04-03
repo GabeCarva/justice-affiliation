@@ -8,6 +8,7 @@ import { VoteMatrix } from '../components/Charts/VoteMatrix'
 import { QuadrantChart } from '../components/Charts/QuadrantChart'
 import { EvolutionChart } from '../components/Charts/EvolutionChart'
 import type { NamedJusticeScore } from '../lib/types'
+import { getLastName } from '../lib/utils'
 
 export function HomePage() {
   const scores = namedScores()
@@ -51,8 +52,8 @@ export function HomePage() {
       <section className="mb-10 grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
           { label: 'Cases analyzed', value: totalCases.toString(), sub: `${highCases} high-signal` },
-          { label: 'Most partisan', value: mostPartisan?.justice.name.split(' ').slice(-1)[0] ?? '—', sub: `${((mostPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
-          { label: 'Least partisan', value: leastPartisan?.justice.name.split(' ').slice(-1)[0] ?? '—', sub: `${((leastPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
+          { label: 'Most partisan', value: mostPartisan ? getLastName(mostPartisan.justice.name) : '—', sub: `${((mostPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
+          { label: 'Least partisan', value: leastPartisan ? getLastName(leastPartisan.justice.name) : '—', sub: `${((leastPartisan?.partisan_index ?? 0)*100).toFixed(0)}% partisan index` },
           { label: 'Court average', value: `${(avgPartisan*100).toFixed(0)}%`, sub: 'mean partisan index' },
         ].map(({ label, value, sub }) => (
           <div key={label} className="border border-gray-200 dark:border-gray-700 rounded-xl p-4">
