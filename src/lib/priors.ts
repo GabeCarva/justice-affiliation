@@ -56,6 +56,7 @@ type CaseRecord = {
   id: string
   title: string
   year: number
+  signal_level: string
   doctrine_ids: string[]
   votes: Record<string, CaseVote>
 }
@@ -81,7 +82,10 @@ export function computeSurpriseScores(): JusticeSurpriseScore[] {
       // Skip unknown or weak priors — no clear prediction to test against
       if (prior.position === 'unknown' || prior.strength === 'weak') continue
 
-      const casesForDoctrine = cases.filter(c => c.doctrine_ids.includes(doctrineId))
+      // Only high/medium signal cases — same filter as trajectory.ts
+      const casesForDoctrine = cases.filter(
+        c => c.doctrine_ids.includes(doctrineId) && signalWeight(c.signal_level) > 0
+      )
       const violationDetails: PriorViolation[] = []
       let casesEvaluated = 0
 

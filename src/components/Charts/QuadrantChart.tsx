@@ -184,25 +184,26 @@ export function QuadrantChart({ data }: Props) {
             const ty = tip.svgY > H * 0.6  ? tip.svgY - 106 : tip.svgY + 8
             return (
               <g>
-                <rect x={tx} y={ty} width={164} height={96} rx={6}
+                <rect x={tx} y={ty} width={196} height={110} rx={6}
                   fill="white" stroke="#e5e7eb" strokeWidth={1}
                   style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.12))' }} />
                 <text x={tx + 10} y={ty + 18} fontSize={12} fontWeight={700} fill="#111827">{tip.name}</text>
-                <text x={tx + 10} y={ty + 35} fontSize={11} fill="#6b7280">
+                <text x={tx + 10} y={ty + 35} fontSize={10} fill="#9ca3af">All high/med cases, signal-weighted</text>
+                <text x={tx + 10} y={ty + 51} fontSize={11} fill="#6b7280">
                   {(() => {
                     const adj = showAdjusted ? adjustedMap[tip.seat_id] : null
-                    const base = `Party align: ${(tip.partyRate * 100).toFixed(1)}%`
+                    const base = `Party rate: ${(tip.partyRate * 100).toFixed(1)}%`
                     if (!adj || adj.adjustment_count === 0) return base
-                    return `${base} → ${(adj.adjusted_party_rate * 100).toFixed(1)}% (adj)`
+                    return `${base} → ${(adj.adjusted_party_rate * 100).toFixed(1)}% (prior-adj)`
                   })()}
                 </text>
-                <text x={tx + 10} y={ty + 50} fontSize={11} fill="#6b7280">
-                  Doctrine align: {(tip.doctrineRate * 100).toFixed(1)}%
+                <text x={tx + 10} y={ty + 66} fontSize={11} fill="#6b7280">
+                  Doctrine rate: {(tip.doctrineRate * 100).toFixed(1)}%
                 </text>
-                <text x={tx + 10} y={ty + 65} fontSize={11} fill="#6b7280">
-                  Partisan index: {(tip.partisan_index * 100).toFixed(1)}%
+                <text x={tx + 10} y={ty + 81} fontSize={11} fill="#6b7280">
+                  Partisan index: {(tip.partisan_index * 100).toFixed(1)}% (diagnostic only)
                 </text>
-                <text x={tx + 10} y={ty + 80} fontSize={11}
+                <text x={tx + 10} y={ty + 96} fontSize={11}
                   fill={tip.party === 'R' ? '#dc2626' : '#2563eb'}>
                   {tip.party === 'R' ? 'Republican' : 'Democrat'}-appointed
                 </text>

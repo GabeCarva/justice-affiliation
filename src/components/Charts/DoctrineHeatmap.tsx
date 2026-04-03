@@ -9,16 +9,15 @@ interface Props {
 
 function cellColor(index: number | undefined): string {
   if (index === undefined) return '#f3f4f6'
-  if (index >= 0.75) return '#dc2626'
-  if (index >= 0.6) return '#f87171'
-  if (index >= 0.45) return '#d1d5db'
-  if (index >= 0.3) return '#93c5fd'
-  return '#2563eb'
+  if (index >= 0.75) return '#dc2626'   // Strongly partisan
+  if (index >= 0.45) return '#f87171'   // Moderately partisan
+  if (index >= 0.25) return '#93c5fd'   // Moderately doctrinal
+  return '#2563eb'                       // Strongly doctrinal
 }
 
 function cellTextColor(index: number | undefined): string {
   if (index === undefined) return '#9ca3af'
-  if (index >= 0.75 || index <= 0.3) return '#ffffff'
+  if (index >= 0.75 || index < 0.25) return '#ffffff'
   return '#374151'
 }
 
@@ -86,18 +85,22 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
           </tbody>
         </table>
       </div>
-      <div className="flex gap-3 justify-end text-xs text-gray-500 mt-3">
+      <div className="flex flex-wrap gap-3 justify-end text-xs text-gray-500 mt-3">
         <span className="flex items-center gap-1">
           <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#dc2626' }} />
           Strongly partisan (&ge;75%)
         </span>
         <span className="flex items-center gap-1">
-          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#d1d5db' }} />
-          Mixed
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#f87171' }} />
+          Mod. partisan (45–75%)
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#93c5fd' }} />
+          Mod. doctrinal (25–45%)
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#2563eb' }} />
-          Strongly doctrinal (&le;30%)
+          Strongly doctrinal (&lt;25%)
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#f3f4f6', border: '1px solid #e5e7eb' }} />
