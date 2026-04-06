@@ -3,6 +3,7 @@
 export interface Doctrine {
   id: string;
   name: string;
+  short_name?: string;
   description: string;
   constitutional_basis: string;
   key_question: string;
