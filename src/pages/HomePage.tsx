@@ -8,7 +8,7 @@ import { VoteMatrix } from '../components/Charts/VoteMatrix'
 import { QuadrantChart } from '../components/Charts/QuadrantChart'
 import { EvolutionChart } from '../components/Charts/EvolutionChart'
 import type { NamedJusticeScore } from '../lib/types'
-import { getLastName } from '../lib/utils'
+import { getLastName, getPartisanIndexColor } from '../lib/utils'
 
 export function HomePage() {
   const scores = namedScores()
@@ -128,7 +128,7 @@ export function HomePage() {
                                 className="h-1.5 rounded-full"
                                 style={{
                                   width: `${(partisan * 100).toFixed(0)}%`,
-                                  backgroundColor: partisan >= 0.6 ? '#dc2626' : partisan <= 0.4 ? '#2563eb' : '#6b7280',
+                                  backgroundColor: getPartisanIndexColor(partisan),
                                 }}
                               />
                             </div>

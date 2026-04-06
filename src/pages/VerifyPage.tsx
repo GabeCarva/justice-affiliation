@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { namedScores, cases, doctrines } from '../lib/data'
 import type { NamedJusticeScore, DiagnosticCase } from '../lib/types'
-import { classifyPartisanIndex, getLastName } from '../lib/utils'
+import { classifyPartisanIndex, getLastName, getPartisanIndexColor } from '../lib/utils'
 
 const WEIGHT: Record<string, number> = { high: 1.0, medium: 0.5, low: 0.0 }
 
@@ -198,7 +198,7 @@ export function VerifyPage() {
                               className="h-1.5 rounded-full"
                               style={{
                                 width: `${(partisan * 100).toFixed(0)}%`,
-                                backgroundColor: partisan >= 0.6 ? '#dc2626' : partisan <= 0.4 ? '#2563eb' : '#6b7280',
+                                backgroundColor: getPartisanIndexColor(partisan),
                               }}
                             />
                           </div>

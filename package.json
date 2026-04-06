@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "validate": "npx ts-node --esm scripts/validate_data.ts",
-    "verify-scoring": "npx ts-node --esm scripts/verify_blind_scoring.ts"
+    "verify-scoring": "npx ts-node --esm scripts/verify_blind_scoring.ts",
+    "verify-alignment": "npx ts-node --esm scripts/verify-alignment.ts",
+    "generate-scores": "npx ts-node --esm scripts/generate-scores.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,5 +1,5 @@
 import type { NamedJusticeScore } from '../lib/types'
-import { classifyPartisanIndex, confidenceLabel } from '../lib/utils'
+import { classifyPartisanIndex, confidenceLabel, getPartisanIndexColor } from '../lib/utils'
 
 interface Props {
   score: NamedJusticeScore
@@ -48,7 +48,7 @@ export function JusticeCard({ score, onClick, selected }: Props) {
             className="h-2 rounded-full transition-all"
             style={{
               width: `${pct}%`,
-              backgroundColor: score.partisan_index >= 0.6 ? '#dc2626' : score.partisan_index <= 0.4 ? '#2563eb' : '#6b7280',
+              backgroundColor: getPartisanIndexColor(score.partisan_index),
             }}
           />
         </div>
