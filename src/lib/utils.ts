@@ -32,9 +32,17 @@ export function getLastName(fullName: string): string {
   return parts[parts.length - 1]
 }
 
+// Canonical classification thresholds — every color decision in the app
+// must use these constants (or the functions below) so they stay in sync.
+export const THRESHOLDS = {
+  STRONGLY_PARTISAN:    0.75,
+  MODERATELY_PARTISAN:  0.45,
+  MODERATELY_DOCTRINAL: 0.25,
+} as const
+
 export function getPartisanIndexColor(index: number): string {
-  // Red = partisan, blue = doctrinal, gray = mixed
-  if (index >= 0.45) return '#c0392b';
-  if (index <= 0.25) return '#2980b9';
-  return '#7f8c8d';
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return '#dc2626'  // Strongly partisan   — deep red
+  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return '#f87171'  // Moderately partisan — light red
+  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#93c5fd'  // Moderately doctrinal — light blue
+  return '#2563eb'                                                  // Strongly doctrinal  — deep blue
 }
