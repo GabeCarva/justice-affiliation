@@ -265,12 +265,12 @@ export function computePriorAdjustedPoints(): PriorAdjustedPoint[] {
   })
 }
 
-export const DOCTRINE_LABELS: Record<string, string> = {
-  'agency-deference': 'Agency Deference',
-  'congressional-spending-authority': 'Spending Authority',
-  'executive-restraint': 'Executive Restraint',
-  'federalism-states-rights': 'Federalism',
-  'nationwide-injunctions': 'Nationwide Injunctions',
-  'presidential-immunity': 'Presidential Immunity',
-  'standing-justiciability': 'Standing',
-}
+// Derive labels from doctrines.json so they stay in sync automatically.
+// Short labels for compact UI; full names available via doctrines[].name.
+import doctrinesData from '../data/doctrines.json'
+
+type DoctrineEntry = { id: string; name: string }
+
+export const DOCTRINE_LABELS: Record<string, string> = Object.fromEntries(
+  (doctrinesData as DoctrineEntry[]).map(d => [d.id, d.name])
+)

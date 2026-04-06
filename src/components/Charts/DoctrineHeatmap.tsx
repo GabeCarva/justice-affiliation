@@ -39,7 +39,7 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
               {doctrines.map(d => (
                 <th key={d.id} className="p-2 font-medium text-gray-600 text-center min-w-[90px] max-w-[90px]">
                   <span title={d.name} className="block truncate" style={{ maxWidth: 86 }}>
-                    {d.name.replace('Congressional Spending Authority', 'Spending').replace('Federalism / States Rights', 'Federalism').replace('Standing and Justiciability', 'Standing').replace('Executive Restraint', 'Exec. Restraint').replace('Agency Deference', 'Agency Def.').replace('Nationwide Injunctions', 'Nationwide Inj.')}
+                    {d.short_name || d.name}
                   </span>
                 </th>
               ))}
