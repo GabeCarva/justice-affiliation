@@ -1,6 +1,6 @@
 import type { NamedJusticeScore } from '../../lib/types'
 import type { Doctrine } from '../../lib/types'
-import { getLastName } from '../../lib/utils'
+import { getLastName, THRESHOLDS } from '../../lib/utils'
 
 interface Props {
   scores: NamedJusticeScore[]
@@ -9,15 +9,15 @@ interface Props {
 
 function cellColor(index: number | undefined): string {
   if (index === undefined) return '#f3f4f6'
-  if (index >= 0.75) return '#dc2626'   // Strongly partisan
-  if (index >= 0.45) return '#f87171'   // Moderately partisan
-  if (index >= 0.25) return '#93c5fd'   // Moderately doctrinal
-  return '#2563eb'                       // Strongly doctrinal
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return '#dc2626'  // Strongly partisan
+  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return '#f87171'  // Moderately partisan
+  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#93c5fd'  // Moderately doctrinal
+  return '#2563eb'                                                  // Strongly doctrinal
 }
 
 function cellTextColor(index: number | undefined): string {
   if (index === undefined) return '#9ca3af'
-  if (index >= 0.75 || index < 0.25) return '#ffffff'
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN || index < THRESHOLDS.MODERATELY_DOCTRINAL) return '#ffffff'
   return '#374151'
 }
 
