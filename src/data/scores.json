@@ -1,10 +1,10 @@
 [
   {
     "seat_id": "seat_1",
-    "partisan_index": 0.6226415094339622,
-    "total_diagnostic_cases": 46,
-    "partisan_votes": 13,
-    "doctrine_votes": 6,
+    "partisan_index": 0.5666666666666667,
+    "total_diagnostic_cases": 48,
+    "partisan_votes": 14,
+    "doctrine_votes": 8,
     "mixed_votes": 0,
     "per_doctrine": {
       "federalism-states-rights": {
@@ -16,12 +16,12 @@
         "cases_evaluated": 5
       },
       "executive-restraint": {
-        "partisan_index": 0.7272727272727273,
-        "cases_evaluated": 15
+        "partisan_index": 0.6666666666666666,
+        "cases_evaluated": 14
       },
       "agency-deference": {
         "partisan_index": 0.2,
-        "cases_evaluated": 15
+        "cases_evaluated": 13
       },
       "nationwide-injunctions": {
         "partisan_index": 1,
@@ -34,16 +34,24 @@
       "presidential-immunity": {
         "partisan_index": 1,
         "cases_evaluated": 4
+      },
+      "first-amendment": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 3
+      },
+      "equal-protection": {
+        "partisan_index": 0.3333333333333333,
+        "cases_evaluated": 2
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_2",
-    "partisan_index": 0.24561403508771928,
-    "total_diagnostic_cases": 46,
-    "partisan_votes": 7,
-    "doctrine_votes": 14,
+    "partisan_index": 0.23809523809523808,
+    "total_diagnostic_cases": 48,
+    "partisan_votes": 8,
+    "doctrine_votes": 15,
     "mixed_votes": 2,
     "per_doctrine": {
       "federalism-states-rights": {
@@ -55,12 +63,12 @@
         "cases_evaluated": 5
       },
       "executive-restraint": {
-        "partisan_index": 0.2727272727272727,
-        "cases_evaluated": 15
+        "partisan_index": 0.3333333333333333,
+        "cases_evaluated": 14
       },
       "agency-deference": {
-        "partisan_index": 0.6,
-        "cases_evaluated": 15
+        "partisan_index": 0.6666666666666666,
+        "cases_evaluated": 13
       },
       "nationwide-injunctions": {
         "partisan_index": 0,
@@ -73,15 +81,23 @@
       "presidential-immunity": {
         "partisan_index": 0.14285714285714285,
         "cases_evaluated": 4
+      },
+      "first-amendment": {
+        "partisan_index": 0,
+        "cases_evaluated": 3
+      },
+      "equal-protection": {
+        "partisan_index": 0.3333333333333333,
+        "cases_evaluated": 2
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_3",
-    "partisan_index": 0.7818181818181819,
-    "total_diagnostic_cases": 46,
-    "partisan_votes": 16,
+    "partisan_index": 0.8032786885245902,
+    "total_diagnostic_cases": 48,
+    "partisan_votes": 19,
     "doctrine_votes": 3,
     "mixed_votes": 1,
     "per_doctrine": {
@@ -94,12 +110,12 @@
         "cases_evaluated": 5
       },
       "executive-restraint": {
-        "partisan_index": 0.9230769230769231,
-        "cases_evaluated": 15
+        "partisan_index": 0.9090909090909091,
+        "cases_evaluated": 14
       },
       "agency-deference": {
         "partisan_index": 0.2,
-        "cases_evaluated": 15
+        "cases_evaluated": 13
       },
       "nationwide-injunctions": {
         "partisan_index": 1,
@@ -112,16 +128,24 @@
       "presidential-immunity": {
         "partisan_index": 1,
         "cases_evaluated": 4
+      },
+      "first-amendment": {
+        "partisan_index": 1,
+        "cases_evaluated": 3
+      },
+      "equal-protection": {
+        "partisan_index": 1,
+        "cases_evaluated": 2
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_4",
-    "partisan_index": 0.8260869565217391,
-    "total_diagnostic_cases": 46,
-    "partisan_votes": 26,
-    "doctrine_votes": 5,
+    "partisan_index": 0.7346938775510204,
+    "total_diagnostic_cases": 48,
+    "partisan_votes": 24,
+    "doctrine_votes": 8,
     "mixed_votes": 2,
     "per_doctrine": {
       "federalism-states-rights": {
@@ -134,11 +158,11 @@
       },
       "executive-restraint": {
         "partisan_index": 0.625,
-        "cases_evaluated": 15
+        "cases_evaluated": 14
       },
       "agency-deference": {
         "partisan_index": 1,
-        "cases_evaluated": 15
+        "cases_evaluated": 13
       },
       "nationwide-injunctions": {
         "partisan_index": 0.6666666666666666,
@@ -151,16 +175,24 @@
       "presidential-immunity": {
         "partisan_index": 0.2,
         "cases_evaluated": 4
+      },
+      "first-amendment": {
+        "partisan_index": 0,
+        "cases_evaluated": 3
+      },
+      "equal-protection": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_5",
-    "partisan_index": 0.7666666666666667,
-    "total_diagnostic_cases": 45,
-    "partisan_votes": 23,
-    "doctrine_votes": 8,
+    "partisan_index": 0.6914893617021277,
+    "total_diagnostic_cases": 47,
+    "partisan_votes": 21,
+    "doctrine_votes": 11,
     "mixed_votes": 1,
     "per_doctrine": {
       "federalism-states-rights": {
@@ -173,11 +205,11 @@
       },
       "executive-restraint": {
         "partisan_index": 0.5454545454545454,
-        "cases_evaluated": 14
+        "cases_evaluated": 13
       },
       "agency-deference": {
-        "partisan_index": 0.9777777777777777,
-        "cases_evaluated": 15
+        "partisan_index": 0.975609756097561,
+        "cases_evaluated": 13
       },
       "nationwide-injunctions": {
         "partisan_index": 0.6666666666666666,
@@ -190,25 +222,33 @@
       "presidential-immunity": {
         "partisan_index": 0.2,
         "cases_evaluated": 4
+      },
+      "first-amendment": {
+        "partisan_index": 0,
+        "cases_evaluated": 3
+      },
+      "equal-protection": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 2
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_6",
-    "partisan_index": 0.4583333333333333,
+    "partisan_index": 0.4222222222222222,
     "total_diagnostic_cases": 34,
     "partisan_votes": 9,
     "doctrine_votes": 7,
     "mixed_votes": 0,
     "per_doctrine": {
       "executive-restraint": {
-        "partisan_index": 0.8,
-        "cases_evaluated": 12
+        "partisan_index": 0.75,
+        "cases_evaluated": 11
       },
       "agency-deference": {
         "partisan_index": 0.2,
-        "cases_evaluated": 12
+        "cases_evaluated": 11
       },
       "nationwide-injunctions": {
         "partisan_index": 1,
@@ -229,25 +269,33 @@
       "federalism-states-rights": {
         "partisan_index": 1,
         "cases_evaluated": 3
+      },
+      "first-amendment": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      },
+      "equal-protection": {
+        "partisan_index": 1,
+        "cases_evaluated": 1
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_7",
-    "partisan_index": 0.30612244897959184,
+    "partisan_index": 0.23404255319148937,
     "total_diagnostic_cases": 30,
-    "partisan_votes": 6,
-    "doctrine_votes": 9,
+    "partisan_votes": 5,
+    "doctrine_votes": 10,
     "mixed_votes": 1,
     "per_doctrine": {
       "executive-restraint": {
-        "partisan_index": 0.5555555555555556,
-        "cases_evaluated": 9
+        "partisan_index": 0.42857142857142855,
+        "cases_evaluated": 8
       },
       "agency-deference": {
         "partisan_index": 0.7142857142857143,
-        "cases_evaluated": 12
+        "cases_evaluated": 11
       },
       "nationwide-injunctions": {
         "partisan_index": 0,
@@ -268,21 +316,29 @@
       "federalism-states-rights": {
         "partisan_index": 0,
         "cases_evaluated": 2
+      },
+      "first-amendment": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      },
+      "equal-protection": {
+        "partisan_index": 0,
+        "cases_evaluated": 1
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_8",
-    "partisan_index": 0.25925925925925924,
-    "total_diagnostic_cases": 23,
-    "partisan_votes": 3,
+    "partisan_index": 0.2857142857142857,
+    "total_diagnostic_cases": 24,
+    "partisan_votes": 4,
     "doctrine_votes": 6,
     "mixed_votes": 0,
     "per_doctrine": {
       "agency-deference": {
         "partisan_index": 1,
-        "cases_evaluated": 10
+        "cases_evaluated": 9
       },
       "executive-restraint": {
         "partisan_index": 0.5,
@@ -307,16 +363,24 @@
       "federalism-states-rights": {
         "partisan_index": 0,
         "cases_evaluated": 2
+      },
+      "first-amendment": {
+        "partisan_index": 0.5,
+        "cases_evaluated": 1
+      },
+      "equal-protection": {
+        "partisan_index": 1,
+        "cases_evaluated": 1
       }
     },
     "confidence": "high"
   },
   {
     "seat_id": "seat_9",
-    "partisan_index": 0.8484848484848485,
-    "total_diagnostic_cases": 17,
-    "partisan_votes": 9,
-    "doctrine_votes": 1,
+    "partisan_index": 0.7878787878787878,
+    "total_diagnostic_cases": 18,
+    "partisan_votes": 8,
+    "doctrine_votes": 2,
     "mixed_votes": 1,
     "per_doctrine": {
       "executive-restraint": {
@@ -333,7 +397,7 @@
       },
       "agency-deference": {
         "partisan_index": 1,
-        "cases_evaluated": 7
+        "cases_evaluated": 6
       },
       "presidential-immunity": {
         "partisan_index": 0.2,
@@ -345,6 +409,14 @@
       },
       "nationwide-injunctions": {
         "partisan_index": 1,
+        "cases_evaluated": 1
+      },
+      "first-amendment": {
+        "partisan_index": 0,
+        "cases_evaluated": 1
+      },
+      "equal-protection": {
+        "partisan_index": 0.5,
         "cases_evaluated": 1
       }
     },

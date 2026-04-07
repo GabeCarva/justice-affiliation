@@ -99,10 +99,10 @@ confidence = "high" if total >= 4 else "medium" if total >= 2 else "low"`}
         <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">Limitations</h2>
         <ul>
           <li>
-            <strong>Selection bias:</strong> We chose 22 cases. Different cases would produce different scores.
+            <strong>Selection bias:</strong> We chose cases from a curated set. Different cases would produce different scores.
           </li>
           <li>
-            <strong>Small N:</strong> Per-doctrine scores are based on 2–7 cases. Treat them as suggestive, not definitive.
+            <strong>Small N:</strong> Per-doctrine scores are based on 2–10 cases. Treat them as suggestive, not definitive.
           </li>
           <li>
             <strong>Doctrine contestation:</strong> The definitions of "doctrine-aligned" are themselves contested.
@@ -114,6 +114,98 @@ confidence = "high" if total >= 4 else "medium" if total >= 2 else "low"`}
           <li>
             <strong>Partial human context:</strong> The orchestrator agent coordinating the pipeline had full context,
             even if individual analysis agents did not. This is a structural limitation disclosed here.
+          </li>
+        </ul>
+
+        <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">What Explains the Liberal Outliers?</h2>
+        <p>
+          Sotomayor (82.6%), Kagan (76.7%), and Jackson (84.8%) score substantially higher partisan indices
+          than Roberts (24.6%), Kavanaugh (30.6%), and Barrett (25.9%). The naive reading — that liberal
+          justices are simply more partisan — deserves scrutiny. At least four structural factors inflate
+          liberal scores independent of actual partisan behavior:
+        </p>
+        <ol>
+          <li>
+            <strong>Majority/minority asymmetry.</strong> Conservative justices currently hold a 6-3 majority.
+            A majority justice must build coalitions across doctrinal sub-factions and occasionally compromise
+            to hold five votes; this naturally produces some doctrine-over-party votes. A minority justice
+            writing in dissent faces no coalition constraint and can vote her preferences cleanly. This
+            systematically lowers partisan index for majority justices regardless of their actual commitments.
+          </li>
+          <li>
+            <strong>Doctrinal baseline loading.</strong> Six of the nine doctrines in this project — executive
+            restraint, agency deference, federalism, standing, presidential immunity, and nationwide
+            injunctions — use the <em>current conservative position</em> as the principled baseline. These
+            are precisely the doctrines on which conservatives recently won by constructing new positions
+            (major questions doctrine, anti-Chevron, broad immunity). When "voting with doctrine" means
+            "voting with the new conservative consensus," liberal justices who resist that consensus are
+            scored partisan for disagreeing with positions that did not exist a decade ago.
+          </li>
+          <li>
+            <strong>Precedent-fidelity conflated with partisanship.</strong> A justice who votes to preserve
+            Chevron deference because it was settled, unanimously-decided law is exhibiting fidelity to
+            precedent — itself a recognized judicial principle. The framework cannot distinguish "I'm
+            following settled law" from "I'm voting partisan." Agency deference scores for liberal justices
+            (Sotomayor 100%, Kagan 98%) are likely substantially inflated by this conflation.
+          </li>
+          <li>
+            <strong>The gap is real but smaller than reported.</strong> After correcting for these structural
+            factors, the actual partisan-behavior gap between liberal and conservative justices is real but
+            significantly smaller than the raw numbers suggest — roughly half to one-quarter the size.
+            Roberts, Kavanaugh, and Barrett have made genuine counter-partisan votes (Roberts in NFIB v.
+            Sebelius and DHS v. Regents; all three on standing cases against Republican-aligned plaintiffs)
+            that the framework correctly credits. The liberal justices have fewer such departures, and that
+            difference is worth taking seriously even after correcting for structural inflation.
+          </li>
+        </ol>
+
+        <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">Framework Asymmetry</h2>
+        <p>
+          This project explicitly notes the asymmetric application of standing doctrine: conservative
+          justices have applied strict standing to liberal-aligned plaintiffs while permitting broad standing
+          for conservative-aligned plaintiffs. That asymmetry is documented and affects scoring.
+        </p>
+        <p>
+          An analogous asymmetry on the conservative side is not currently flagged: the selective application
+          of originalism. Several conservative justices demand strict textual fidelity in administrative law
+          cases but have employed "history and tradition" analysis in substantive due process cases
+          (including <em>Dobbs v. Jackson Women's Health</em> and <em>Bruen</em>) — a methodology that has
+          no textual basis in the Constitution and would be unrecognizable to the originalists who developed
+          the theory. Measuring consistency of stated interpretive method across doctrinal contexts is a
+          meta-level analysis this project does not currently perform. A complete account of principled
+          versus partisan behavior would need to address it.
+        </p>
+
+        <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">What's Missing</h2>
+        <p>
+          Three additional doctrinal areas would substantially improve the framework's completeness and
+          its ability to test whether justices apply their professed methodology even when it hurts:
+        </p>
+        <ul>
+          <li>
+            <strong>First Amendment.</strong> Cases where conservative doctrine (broad speech protection,
+            anti-compelled speech, viewpoint neutrality) cuts against conservative political outcomes are
+            among the most diagnostic in the entire corpus. <em>Snyder v. Phelps</em> — Westboro Baptist
+            picketing military funerals — required justices to protect deeply offensive anti-military speech
+            to be faithful to First Amendment doctrine. <em>United States v. Alvarez</em> required
+            protecting lies about military service. These cases test whether conservative justices apply
+            their stated doctrine when it protects speech they find repugnant — the gold standard for
+            identifying genuine methodological commitment.
+          </li>
+          <li>
+            <strong>Equal Protection.</strong> The transformation of the Equal Protection Clause from an
+            anti-subordination principle into an anti-classification principle — culminating in{' '}
+            <em>Students for Fair Admissions v. Harvard</em> (2023) — is the single most consequential
+            doctrinal reorientation of the Roberts Court era. The conservative anti-classification position
+            and liberal anti-subordination position are reasonably articulable and produce clear diagnostic
+            cases. Omitting this doctrine leaves a central battlefield unscored.
+          </li>
+          <li>
+            <strong>Criminal Procedure.</strong> The Fourth and Sixth Amendments occasionally produce
+            counter-partisan votes — Gorsuch has sided with criminal defendants in Sixth Amendment
+            confrontation-clause and Fourth Amendment cases in ways that diverge from typical Republican
+            law-enforcement priorities. These diagnostic votes are currently excluded from scoring entirely,
+            likely undercounting genuine doctrine-over-party behavior among conservative justices.
           </li>
         </ul>
 
