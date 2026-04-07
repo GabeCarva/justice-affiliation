@@ -5,15 +5,15 @@ import { JusticeCard } from '../components/JusticeCard'
 import { PartisanIndexChart } from '../components/Charts/PartisanIndexChart'
 import { DoctrineHeatmap } from '../components/Charts/DoctrineHeatmap'
 import { VoteMatrix } from '../components/Charts/VoteMatrix'
-import { QuadrantChart } from '../components/Charts/QuadrantChart'
-import { EvolutionChart } from '../components/Charts/EvolutionChart'
+import { TensionScatter } from '../components/Charts/TensionScatter'
+import { RunningPartisanChart } from '../components/Charts/RunningPartisanChart'
 import type { NamedJusticeScore } from '../lib/types'
 import { getLastName, getPartisanIndexColor } from '../lib/utils'
 
 export function HomePage() {
   const scores = namedScores()
   const [selected, setSelected] = useState<NamedJusticeScore | null>(null)
-  const [activeTab, setActiveTab] = useState<'scatter' | 'heatmap' | 'matrix' | 'quadrant' | 'evolution'>('quadrant')
+  const [activeTab, setActiveTab] = useState<'scatter' | 'heatmap' | 'matrix' | 'tension' | 'running'>('tension')
 
   // Summary stats
   const mostPartisan = scores[0]
@@ -165,8 +165,8 @@ export function HomePage() {
           <h2 className="text-xl font-serif font-semibold">Charts</h2>
           <div className="flex gap-1 text-sm flex-wrap">
             {([
-              ['quadrant',  'Quadrant'],
-              ['evolution', 'Evolution'],
+              ['tension',  'Tension Scatter'],
+              ['running',  'Running Index'],
               ['scatter',   'Ranking'],
               ['heatmap',   'By Doctrine'],
               ['matrix',    'Vote Matrix'],
@@ -205,25 +205,29 @@ export function HomePage() {
               <VoteMatrix cases={cases} scores={scores} />
             </>
           )}
-          {activeTab === 'quadrant' && (
+          {activeTab === 'tension' && (
             <>
-              <h3 className="font-serif font-semibold mb-1">Party vs. Doctrine Alignment — 4-Quadrant View</h3>
+              <h3 className="font-serif font-semibold mb-1">Diagnostic Tension Scatter</h3>
               <p className="text-sm text-gray-500 mb-4">
-                Each axis is measured independently across all high/medium-signal cases.
-                A justice in the lower-right has high party alignment but low doctrine alignment (partisan).
-                A justice in the upper-left has low party alignment but high doctrine alignment (doctrinal).
+                The X axis shows how often each justice faced cases where party and doctrine pointed in
+                opposite directions — the only cases that reveal a genuine preference. The Y axis is the
+                partisan index: among those forced choices, how often did they side with their appointing
+                party over doctrine? Non-diagnostic cases (where party and doctrine agreed) are excluded from
+                both axes.
               </p>
-              <QuadrantChart data={scores} />
+              <TensionScatter data={scores} />
             </>
           )}
-          {activeTab === 'evolution' && (
+          {activeTab === 'running' && (
             <>
-              <h3 className="font-serif font-semibold mb-1">Justice Trajectories Through Case History</h3>
+              <h3 className="font-serif font-semibold mb-1">Running Partisan Index Over Time</h3>
               <p className="text-sm text-gray-500 mb-4">
-                Each mini-chart shows how a justice's party and doctrine alignment rates evolve as cases
-                accumulate in chronological order. Arrows connect consecutive cases; hover for case details.
+                Shows how each justice's partisan index accumulates chronologically, using only diagnostic
+                cases where party and doctrine genuinely conflicted. A rising line means partisan votes
+                dominate; a falling line means doctrinal votes. Non-diagnostic cases are invisible here —
+                they don't move the index in either direction.
               </p>
-              <EvolutionChart data={scores} />
+              <RunningPartisanChart data={scores} />
             </>
           )}
         </div>
