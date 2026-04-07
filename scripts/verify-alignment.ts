@@ -265,11 +265,16 @@ check('getPartisanIndexColor references MODERATELY_DOCTRINAL',
   colorFnBody.includes('THRESHOLDS.MODERATELY_DOCTRINAL') || colorFnBody.includes('0.25'),
   `function body: ${colorFnBody.trim().slice(0, 120)}`)
 
-// DoctrineHeatmap cellColor should use the same values
+// DoctrineHeatmap cellColor should use the same threshold values (either numeric literals or THRESHOLDS constants)
 const heatmapSrc = loadSrc('components/Charts/DoctrineHeatmap.tsx')
 function extractCellColorThresholds(src: string): number[] {
-  const matches = [...src.matchAll(/>= ([\d.]+)/g)]
-  return matches.map(m => parseFloat(m[1])).filter(v => v > 0 && v < 1)
+  // Accept numeric literals (legacy) or THRESHOLDS.* constant references (preferred)
+  const nums = [...src.matchAll(/>= ([\d.]+)/g)]
+    .map(m => parseFloat(m[1])).filter(v => v > 0 && v < 1)
+  if (src.includes('THRESHOLDS.STRONGLY_PARTISAN'))   nums.push(T.STRONGLY_PARTISAN)
+  if (src.includes('THRESHOLDS.MODERATELY_PARTISAN'))  nums.push(T.MODERATELY_PARTISAN)
+  if (src.includes('THRESHOLDS.MODERATELY_DOCTRINAL')) nums.push(T.MODERATELY_DOCTRINAL)
+  return nums
 }
 const heatmapBounds = extractCellColorThresholds(heatmapSrc)
 check('DoctrineHeatmap uses STRONGLY_PARTISAN threshold',

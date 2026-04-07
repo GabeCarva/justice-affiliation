@@ -21,15 +21,6 @@ const iH = H - PAD.top - PAD.bottom
 const toX = (v: number) => PAD.left + v * iW
 const toY = (v: number) => PAD.top + (1 - v) * iH
 
-// Axis domain: zoom in to the interesting range
-const X_MIN = 0.55, X_MAX = 1.0
-const Y_MIN = 0.45, Y_MAX = 0.85
-const scaleX = (v: number) => toX((v - X_MIN) / (X_MAX - X_MIN))
-const scaleY = (v: number) => toY((v - Y_MIN) / (Y_MAX - Y_MIN))
-
-// Group means (computed from data): party≈0.79, doctrine≈0.64
-const MX = 0.79, MY = 0.64
-
 export function QuadrantChart({ data }: Props) {
   const [tip, setTip] = useState<TooltipState | null>(null)
   const [showAdjusted, setShowAdjusted] = useState(false)
@@ -42,6 +33,23 @@ export function QuadrantChart({ data }: Props) {
     ...s,
     ...computeFinalRates(s.seat_id),
   }))
+
+  // Compute axis bounds from actual data with padding (updates automatically as scores change)
+  const allParty = points.map(p => p.party_rate)
+  const allDoc   = points.map(p => p.doctrine_rate)
+  const snap = (v: number, dir: 'floor' | 'ceil') =>
+    (dir === 'floor' ? Math.floor : Math.ceil)(v * 20) / 20  // snap to nearest 0.05
+  const X_MIN = Math.max(0,   snap(Math.min(...allParty) - 0.05, 'floor'))
+  const X_MAX = Math.min(1,   snap(Math.max(...allParty) + 0.03, 'ceil'))
+  const Y_MIN = Math.max(0,   snap(Math.min(...allDoc)   - 0.05, 'floor'))
+  const Y_MAX = Math.min(1,   snap(Math.max(...allDoc)   + 0.05, 'ceil'))
+
+  const scaleX = (v: number) => toX((v - X_MIN) / (X_MAX - X_MIN))
+  const scaleY = (v: number) => toY((v - Y_MIN) / (Y_MAX - Y_MIN))
+
+  // Compute group means from data
+  const MX = allParty.reduce((s, v) => s + v, 0) / allParty.length
+  const MY = allDoc.reduce((s, v) => s + v, 0)   / allDoc.length
 
   const ticks = (min: number, max: number, n: number) =>
     Array.from({ length: n }, (_, i) => min + (i / (n - 1)) * (max - min))

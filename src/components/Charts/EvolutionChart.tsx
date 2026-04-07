@@ -1,6 +1,6 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import type { NamedJusticeScore } from '../../lib/types'
-import { computeTrajectory } from '../../lib/trajectory'
+import { computeTrajectory, computeFinalRates } from '../../lib/trajectory'
 import type { TrajectoryPoint } from '../../lib/trajectory'
 import { getLastName } from '../../lib/utils'
 
@@ -19,11 +19,20 @@ const PAD = { top: 24, right: 16, bottom: 28, left: 32 }
 const iW = W - PAD.left - PAD.right
 const iH = H - PAD.top - PAD.bottom
 
-// Fixed axis domain across all charts for comparability
-const X_MIN = 0.55, X_MAX = 1.0
-const Y_MIN = 0.45, Y_MAX = 0.85
-const sx = (v: number) => PAD.left + ((v - X_MIN) / (X_MAX - X_MIN)) * iW
-const sy = (v: number) => PAD.top  + (1 - (v - Y_MIN) / (Y_MAX - Y_MIN)) * iH
+// Axis scale helpers — bounds passed in as props so all mini-charts share the same scale
+const makeSx = (xMin: number, xMax: number) =>
+  (v: number) => PAD.left + ((v - xMin) / (xMax - xMin)) * iW
+const makeSy = (yMin: number, yMax: number) =>
+  (v: number) => PAD.top  + (1 - (v - yMin) / (yMax - yMin)) * iH
+
+// Ticks: every 0.1 increment within [min, max]
+function axisTicks(min: number, max: number): number[] {
+  const ticks: number[] = []
+  for (let v = 0.1; v <= 1.0; v = Math.round((v + 0.1) * 10) / 10) {
+    if (v >= min - 0.001 && v <= max + 0.001) ticks.push(v)
+  }
+  return ticks
+}
 
 const CATEGORY_COLOR: Record<string, string> = {
   partisan: '#dc2626',  // red
@@ -52,18 +61,22 @@ function ArrowHead({ x1, y1, x2, y2, color }: { x1:number; y1:number; x2:number;
 interface MiniChartProps {
   score: NamedJusticeScore
   onHover: (tip: TipState | null) => void
+  xMin: number; xMax: number; yMin: number; yMax: number
+  meanX: number; meanY: number
 }
 
-function MiniChart({ score, onHover }: MiniChartProps) {
+function MiniChart({ score, onHover, xMin, xMax, yMin, yMax, meanX, meanY }: MiniChartProps) {
   const traj = computeTrajectory(score.seat_id)
   if (!traj.length) return null
+
+  const sx = makeSx(xMin, xMax)
+  const sy = makeSy(yMin, yMax)
 
   const partyColor = score.justice.appointing_party === 'R' ? '#dc2626' : '#2563eb'
   const lastName = getLastName(score.justice.name)
   const final = traj[traj.length - 1]
 
-  // Group mean reference lines
-  const mx = sx(0.79), my = sy(0.64)
+  const mx = sx(meanX), my = sy(meanY)
 
   return (
     <svg width="100%" viewBox={`0 0 ${W} ${H}`}>
@@ -93,8 +106,8 @@ function MiniChart({ score, onHover }: MiniChartProps) {
       <line x1={PAD.left} y1={my} x2={W - PAD.right} y2={my}
         stroke="#d1d5db" strokeDasharray="3 2" strokeWidth={1} />
 
-      {/* Axis ticks (minimal) */}
-      {[0.6, 0.7, 0.8, 0.9].map(v => (
+      {/* Axis ticks (dynamic — every 0.1 within bounds) */}
+      {axisTicks(xMin, xMax).map(v => (
         <g key={v}>
           <line x1={sx(v)} y1={H - PAD.bottom} x2={sx(v)} y2={H - PAD.bottom + 3} stroke="#9ca3af" />
           <text x={sx(v)} y={H - PAD.bottom + 11} textAnchor="middle" fontSize={8} fill="#9ca3af">
@@ -102,7 +115,7 @@ function MiniChart({ score, onHover }: MiniChartProps) {
           </text>
         </g>
       ))}
-      {[0.5, 0.6, 0.7, 0.8].map(v => (
+      {axisTicks(yMin, yMax).map(v => (
         <g key={v}>
           <line x1={PAD.left - 3} y1={sy(v)} x2={PAD.left} y2={sy(v)} stroke="#9ca3af" />
           <text x={PAD.left - 5} y={sy(v) + 3} textAnchor="end" fontSize={8} fill="#9ca3af">
@@ -263,6 +276,23 @@ export function EvolutionChart({ data }: Props) {
 
   const handleHover = (t: TipState | null) => setTip(t)
 
+  // Compute shared axis bounds and group means from actual data (auto-updates with scores)
+  const chartBounds = useMemo(() => {
+    const rates = data.map(s => computeFinalRates(s.seat_id))
+    const allParty = rates.map(r => r.party_rate)
+    const allDoc   = rates.map(r => r.doctrine_rate)
+    const snap = (v: number, dir: 'floor' | 'ceil') =>
+      (dir === 'floor' ? Math.floor : Math.ceil)(v * 20) / 20
+    return {
+      xMin:  Math.max(0, snap(Math.min(...allParty) - 0.05, 'floor')),
+      xMax:  Math.min(1, snap(Math.max(...allParty) + 0.03, 'ceil')),
+      yMin:  Math.max(0, snap(Math.min(...allDoc)   - 0.05, 'floor')),
+      yMax:  Math.min(1, snap(Math.max(...allDoc)   + 0.05, 'ceil')),
+      meanX: allParty.reduce((s, v) => s + v, 0) / allParty.length,
+      meanY: allDoc.reduce((s, v) => s + v, 0)   / allDoc.length,
+    }
+  }, [data])
+
   // Sort: R-appointed first (left to right as in the header bar), then D
   const sorted = [...data].sort((a, b) => {
     const pa = a.justice.appointing_party, pb = b.justice.appointing_party
@@ -290,7 +320,7 @@ export function EvolutionChart({ data }: Props) {
           {sorted.map(s => (
             <div key={s.seat_id}
               className="border border-gray-200 dark:border-gray-700 rounded-xl p-2 bg-white dark:bg-gray-900">
-              <MiniChart score={s} onHover={handleHover} />
+              <MiniChart score={s} onHover={handleHover} {...chartBounds} />
             </div>
           ))}
         </div>
