@@ -12,8 +12,9 @@ export function DoctrinePage() {
     <div className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-serif font-semibold mb-2">Doctrine Definitions</h1>
       <p className="text-gray-500 mb-8">
-        The seven constitutional doctrines tracked in this analysis. Definitions were written without reference
+        The nine constitutional doctrines tracked in this analysis. Definitions were written without reference
         to any justice names, cases, or party positions to prevent bias contamination.
+        Doctrines marked with <span className="text-red-600 font-medium">!</span> have known scoring reliability limitations.
       </p>
 
       <div className="flex flex-col md:flex-row gap-8">
@@ -24,13 +25,16 @@ export function DoctrinePage() {
               <li key={d.id}>
                 <button
                   onClick={() => setSelected(d)}
-                  className={`w-full text-left px-3 py-2 rounded text-sm transition-colors ${
+                  className={`w-full text-left px-3 py-2 rounded text-sm transition-colors flex items-center justify-between gap-1 ${
                     selected.id === d.id
                       ? 'bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium'
                       : 'hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300'
                   }`}
                 >
-                  {d.name}
+                  <span>{d.name}</span>
+                  {d.scoring_caveat && (
+                    <span className={`text-xs font-bold flex-shrink-0 ${selected.id === d.id ? 'text-red-300' : 'text-red-500'}`} title="Scoring reliability note">!</span>
+                  )}
                 </button>
               </li>
             ))}
@@ -71,6 +75,13 @@ export function DoctrinePage() {
               <h3 className="font-semibold mb-1 text-amber-900 dark:text-amber-300">Contested Aspects</h3>
               <p className="text-amber-800 dark:text-amber-200">{selected.contested_aspects}</p>
             </div>
+
+            {selected.scoring_caveat && (
+              <div className="border border-red-300 dark:border-red-700 bg-red-50 dark:bg-red-950 rounded-lg p-4">
+                <h3 className="font-semibold mb-1 text-red-900 dark:text-red-300">Scoring Reliability Note</h3>
+                <p className="text-red-800 dark:text-red-200">{selected.scoring_caveat}</p>
+              </div>
+            )}
 
             {/* Party position mappings */}
             {mappings.length > 0 && (

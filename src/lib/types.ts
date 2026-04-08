@@ -10,6 +10,7 @@ export interface Doctrine {
   principled_conservative_position: string;
   principled_liberal_position: string;
   contested_aspects: string;
+  scoring_caveat?: string;
 }
 
 export interface DoctrinePartyPeriod {
@@ -54,6 +55,7 @@ export interface DiagnosticCase {
   sources: string[];
   assumptions: string[];
   counterarguments: string[];
+  methodological_note?: string;
 }
 
 export interface Justice {

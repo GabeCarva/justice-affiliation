@@ -822,5 +822,249 @@
         ]
       }
     ]
+  },
+  {
+    "doctrine_id": "first-amendment",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "The Bush-era Republican Party had a mixed relationship with broad First Amendment libertarianism. On campaign finance, Republicans generally opposed McCain-Feingold's restrictions on soft-money and issue-advocacy advertising, aligning with the doctrine's strict-scrutiny approach to political speech. On national-security speech restrictions and flag-burning, the party's instincts ran counter to doctrinal free-speech absolutism, and leading Republicans supported the Bipartisan Campaign Reform Act's broadcast-advertising restrictions despite later condemning them.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Republican support for the Flag Desecration Amendment (H.J.Res. 10, 108th Cong., 2003), which would have overridden First Amendment protection for symbolic speech, directly contrary to doctrinal broad-speech principle",
+          "Republican opposition to McCain-Feingold's electioneering-communication restrictions as infringements on political speech, aligning with strict-scrutiny doctrine on campaign finance — but many Republicans voted for the final bill",
+          "USA PATRIOT Act, Pub. L. 107-56 (2001), supported by Republican majority, expanded surveillance and 'material support' criminal liability in ways critics argued chilled expressive association"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Out of executive power and increasingly shaped by the Tea Party movement and religious-liberty litigation, Republicans realigned strongly with broad First Amendment protection, opposing speech-code regulations on campuses, supporting Citizens United's political-speech holding, and championing religious and commercial speech rights against compelled-speech mandates. The party's rhetoric tracked doctrinal broad-protection principles closely, particularly on compelled speech and campaign finance.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Republican congressional resolutions and platform language endorsing Citizens United v. FEC (2010) as a correct application of First Amendment principles to corporate political speech",
+          "2012 Republican Party Platform condemning campus speech codes and government mandates compelling private parties — including religious employers — to facilitate expression they oppose",
+          "Republican support for Hobby Lobby-adjacent First Amendment compelled-speech arguments, framing HHS contraceptive mandate as impermissible compulsion of private parties' expressive conduct"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Republican First Amendment advocacy intensified around social-media content moderation, claiming that conservative viewpoints were being suppressed by private platforms and that some form of must-carry or anti-discrimination obligation should apply. This stance was in tension with doctrinal free-speech principles (which protect private editorial decisions from government compulsion), but the party's practical litigation priorities — expanding anti-compelled-speech and anti-viewpoint-discrimination protections in other contexts — remained doctrinally aligned.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "EO 13925 (May 28, 2020) directing FCC to reconsider Section 230 immunity for social-media companies that engage in viewpoint-based moderation, asserting government authority over private editorial decisions — in tension with First Amendment doctrine protecting private expression",
+          "2020 Republican Party Platform reaffirming Citizens United and opposing campaign-finance restrictions on political speech, aligned with strict-scrutiny doctrine",
+          "Republican state legislation in Florida and Texas (NetChoice cases) requiring social-media platforms to carry speech regardless of editorial judgment — directly contrary to compelled-speech doctrine the party champions in other contexts"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Republicans championed First Amendment claims in contexts that aligned with conservative cultural priorities: opposing mandatory pronoun policies, defending religious speech exemptions from anti-discrimination law, and supporting compelled-speech challenges to professional licensing requirements. The party's litigation strategy focused on the anti-compelled-speech and viewpoint-neutrality principles that doctrinal conservatism emphasizes.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Republican amicus support in 303 Creative v. Elenis (2023) arguing that Colorado's anti-discrimination law violated the designer's compelled-speech rights — an anti-compelled-speech position squarely aligned with doctrine",
+          "Republican-filed briefs in NRA v. Vullo (2024) arguing that government officials may not use regulatory pressure to suppress disfavored private speech — aligned with viewpoint-neutrality doctrine",
+          "2024 Republican Party Platform calling for protection of free speech online and opposing government-coordinated censorship of private expression, aligning with anti-viewpoint-discrimination principle"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has pursued a contradictory First Amendment posture: asserting broad anti-censorship rhetoric while simultaneously using government funding conditions, agency directives, and regulatory pressure to suppress disfavored speech (DEI-related expression, reporting critical of administration policies, academic research). The gap between the party's doctrinal alignment on anti-compelled-speech and viewpoint-neutrality in prior litigation and its current practice of government-directed viewpoint discrimination is substantial.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Executive orders in early 2025 directing federal agencies to terminate grants to institutions that maintain DEI programs, conditioning federal funding on ideological conformity — a potential viewpoint-discrimination concern under doctrine",
+          "Administration pressure on law firms, universities, and media outlets through contract terminations and regulatory scrutiny, creating chilling effects on expressive conduct the doctrine protects",
+          "2025 Republican rhetoric defending administration content-based funding conditions as viewpoint-neutral enforcement of non-discrimination law, in tension with the party's own prior anti-compelled-speech litigation positions"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "first-amendment",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats were broadly supportive of speech-protective rulings on hate speech and expressive conduct, but the party championed campaign-finance restrictions (McCain-Feingold) that the doctrinal First Amendment libertarian position condemns as content-based limits on political speech. Democrats argued that spending limits prevented corruption and preserved democratic equality — a balancing approach at odds with strict-scrutiny doctrine on political speech.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic majority support for Bipartisan Campaign Reform Act (McCain-Feingold), Pub. L. 107-155 (2002), restricting electioneering communications and soft-money contributions — opposed by doctrinal strict-scrutiny position",
+          "Democratic criticism of USA PATRIOT Act as chilling associational and expressive freedom — aligned with doctrinal speech protection",
+          "2004 Democratic Party Platform defending campaign-finance reform as a means of reducing corrupting influence of money in politics, opposing Citizens United-style strict scrutiny of spending limits"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Democrats condemned Citizens United v. FEC (2010) as a corruption of democracy and sought legislative and constitutional remedies, directly opposing the doctrinal principle that political spending is core protected speech. Democrats also supported professional speech regulations (compelled disclosure requirements, anti-discrimination mandates that incidentally compelled private expression) at odds with the anti-compelled-speech principle.",
+        "alignment_with_doctrine": "opposed",
+        "evidence": [
+          "Democratic congressional effort to pass the DISCLOSE Act (S. 3628, 111th Cong., 2010) to require disclosure of political spending by corporations and associations after Citizens United, opposing the ruling's strict-scrutiny framework",
+          "Obama administration defense of the California law in NIFLA v. Becerra (cert. granted 2018) requiring crisis pregnancy centers to post specific state disclosures — a compelled-speech mandate that the Court later struck down",
+          "2016 Democratic Party Platform calling for a constitutional amendment to overturn Citizens United and restore campaign-finance regulation, opposing the doctrinal strict-scrutiny rule for political speech"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Democrats maintained opposition to Citizens United while also supporting professional-speech regulations, mandatory disclosures, and anti-discrimination laws that impose incidental expressive burdens. Democratic First Amendment advocacy centered on protecting press freedom and anti-censorship principles against Trump administration pressure, partially aligning with doctrine, while simultaneously defending speech-limiting regulations in anti-discrimination and campaign-finance contexts.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic support for shield laws and press freedom claims against administration subpoenas — aligned with doctrinal speech protection",
+          "Democratic defense of public-sector union agency fees in Janus v. AFSCME (2018), arguing that mandatory fees did not compel ideological speech — a position the Court rejected as contrary to anti-compelled-speech doctrine",
+          "2020 Democratic Party Platform reaffirming commitment to overturning Citizens United through constitutional amendment or legislation, opposed to doctrinal strict-scrutiny rule on political speech"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Democrats pursued a mixed First Amendment strategy: opposing social-media deregulation while supporting anti-disinformation efforts that critics characterized as government-coordinated speech suppression (challenged in Murthy v. Missouri). The party championed anti-hate-speech and anti-discrimination mandates that impose incidental expressive burdens, while opposing the compelled-speech exemptions that 303 Creative and similar cases extended to commercial service providers.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic support for administration agency communications with social-media platforms flagging alleged disinformation — challenged as government-directed viewpoint discrimination in Murthy v. Missouri (2024)",
+          "Democratic opposition to 303 Creative v. Elenis (2023) compelled-speech exemption, arguing that anti-discrimination law does not unconstitutionally compel expression in commercial services",
+          "2024 Democratic Party Platform defending both press freedom and reasonable campaign-finance regulation, combining elements aligned and opposed to doctrinal strict-scrutiny principles"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Democrats have become First Amendment advocates as the dominant speech-suppression concern has shifted to government pressure on universities, media, and civil society under the second Trump administration. The party has aligned with strict anti-viewpoint-discrimination doctrine in opposing administration funding conditions and regulatory pressure on disfavored speakers, even as it continues to oppose Citizens United and support anti-discrimination mandates that impose incidental expressive burdens.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Democratic legal challenges and public statements opposing administration termination of grants to universities maintaining DEI programs, invoking First Amendment unconstitutional-conditions doctrine",
+          "Democratic minority leaders issued statements in early 2025 invoking the First Amendment's viewpoint-neutrality principle against administration pressure on law firms and media organizations",
+          "Senate Democrats introduced legislation in 2025 to protect academic freedom and bar federal agencies from conditioning grants on political or ideological criteria — aligned with anti-viewpoint-discrimination doctrine"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "equal-protection",
+    "party": "R",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Republicans nominally endorsed colorblind equal protection, opposing affirmative action in public university admissions and supporting the anti-classification arguments in Grutter v. Bollinger (2003) dissents. However, the party's practical record was mixed: the Bush administration maintained federal affirmative action in contracting under Executive Order 11246 and did not challenge most existing programs, opposing only their most ambitious extensions.",
+        "alignment_with_doctrine": "mixed",
+        "evidence": [
+          "Bush administration brief in Grutter v. Bollinger (2003) opposing the University of Michigan Law School's race-conscious admissions policy and arguing for strict application of equal-protection anti-classification principle — aligned with doctrine",
+          "Bush administration continuation of Executive Order 11246 requiring federal contractors to take affirmative action in employment — in tension with strict anti-classification doctrine",
+          "2004 Republican Party Platform opposing race-based preferences in college admissions and government contracting while affirming equal opportunity without explicit rejection of all existing programs"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Republicans intensified opposition to race-conscious programs, supporting state ballot initiatives banning affirmative action (Michigan, California, Washington) and backing the anti-classification arguments in Fisher v. University of Texas (2013, 2016). The party consistently argued that any race-conscious government program violates equal protection regardless of remedial intent, closely tracking doctrinal anti-classification conservatism.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Republican support for Michigan's Proposal 2 (2006) banning race-based preferences in state university admissions and government contracting, upheld in Schuette v. Coalition to Defend Affirmative Action (2014)",
+          "Republican amicus briefs and congressional statements supporting the anti-classification argument in Fisher v. University of Texas (2013) and Fisher II (2016), arguing that diversity is not a compelling interest sufficient to survive strict scrutiny",
+          "2012 Republican Party Platform explicitly opposing racial preferences in college admissions, employment, and government contracting, endorsing colorblind equal protection"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "The Trump administration actively used DOJ and DOE to challenge race-conscious admissions programs and investigate universities for anti-white or anti-Asian discrimination, aligning executive enforcement with anti-classification doctrine. The administration also attempted to limit the anti-discrimination protections of the Voting Rights Act in redistricting contexts, a more contested application of equal protection principles.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "DOJ and DOE withdrawal of Obama-era guidance on race-conscious admissions (2018) — aligned with anti-classification doctrine",
+          "Trump DOJ investigation of Yale University's admissions policies for racial discrimination against Asian and white applicants (2020), applying anti-classification logic symmetrically",
+          "2020 Republican Party Platform opposing race-based preferences in college admissions and explicitly endorsing Students for Fair Admissions litigation strategy"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Republicans championed the Students for Fair Admissions litigation leading to the 2023 ban on race-conscious admissions, with the party unanimously aligned on the anti-classification principle. Republican state legislatures also passed legislation restricting race-conscious DEI programs in public institutions, invoking equal-protection anti-classification doctrine to justify these measures.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Republican party alignment with SFFA v. Harvard (2023) as a doctrinal vindication of the anti-classification principle; 2024 Republican Platform calling for elimination of DEI programs across federal government and higher education",
+          "Republican state legislation in Florida (SB 266, 2023), Texas, and other states eliminating DEI offices and programs at public universities, invoking equal-protection colorblind principle",
+          "Republican congressional efforts to condition federal education funding on elimination of race-conscious programs, invoking the anti-classification holding of SFFA as the constitutional baseline"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "The second Trump administration has aggressively enforced anti-classification equal protection through executive orders eliminating DEI programs across the federal government and conditioning grants on certification of colorblind hiring and admissions. The party's practical alignment with anti-classification doctrine has never been stronger, though critics argue the administration applies it selectively (protecting some preferences based on veteran or legacy status that would fail strict scrutiny).",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "EO 14173 (Jan. 20, 2025) 'Ending Illegal Discrimination and Restoring Merit-Based Opportunity' directing agencies to eliminate DEI programs and treat any race-conscious program as per se illegal under equal protection",
+          "Administration enforcement letters to universities requiring certification that no race-conscious programs exist as a condition of federal funding — operationalizing SFFA's anti-classification holding",
+          "2025 Republican congressional hearings targeting university DEI offices as violations of federal anti-discrimination law interpreted through anti-classification lens"
+        ]
+      }
+    ]
+  },
+  {
+    "doctrine_id": "equal-protection",
+    "party": "D",
+    "periods": [
+      {
+        "start_year": 2001,
+        "end_year": 2009,
+        "practical_position": "Democrats defended race-conscious affirmative action programs as constitutionally permissible and socially necessary, opposing the anti-classification arguments in Grutter litigation and supporting universities' use of race as one factor in holistic admissions. The party consistently applied the anti-subordination reading of equal protection, holding that diversity and remediation are compelling interests that justify limited race-consciousness.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic congressional amicus brief in Grutter v. Bollinger (2003) defending the University of Michigan's holistic admissions policy as constitutionally permissible and educationally beneficial",
+          "2004 Democratic Party Platform affirming affirmative action as a remedy for historic discrimination and defending the anti-subordination principle against strict anti-classification arguments",
+          "Democratic opposition to state initiatives banning affirmative action (California Prop 209 implementation litigation; Michigan Prop 2), arguing that eliminating race-conscious programs violated equal protection's remedial purpose"
+        ]
+      },
+      {
+        "start_year": 2009,
+        "end_year": 2017,
+        "practical_position": "Democrats continued to defend affirmative action in university admissions and federal contracting, supporting the anti-subordination reading of equal protection against anti-classification challenges in Fisher I and II. The party also championed Voting Rights Act protections as applications of equal-protection principles, opposing the Shelby County v. Holder (2013) majority that struck down the VRA preclearance formula.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Obama administration amicus brief in Fisher v. University of Texas (2013) defending race-conscious admissions as satisfying strict scrutiny under the diversity rationale — aligned with anti-subordination doctrine",
+          "Democratic opposition to Shelby County v. Holder (2013), arguing that Section 4(b)'s coverage formula reflected ongoing unequal treatment of minority voters — applying anti-subordination equal-protection logic",
+          "2012 Democratic Party Platform explicitly defending affirmative action as a constitutionally permissible remedy for historical discrimination and a tool for achieving genuine equal opportunity"
+        ]
+      },
+      {
+        "start_year": 2017,
+        "end_year": 2021,
+        "practical_position": "Democrats defended race-conscious programs against Trump administration rollback, supporting litigation in SFFA v. Harvard at the amicus level and opposing DOJ investigations into university admissions. The party continued to apply anti-subordination doctrine to voting rights and redistricting, supporting majority-minority districts as constitutionally permissible remedies for vote dilution.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic state AGs filed amicus briefs in SFFA v. Harvard (2019 and 2022) defending race-conscious admissions as consistent with equal protection under the anti-subordination principle",
+          "Democratic opposition to Trump administration DOJ investigation of Yale admissions, arguing the investigation misapplied equal protection by treating all race-consciousness as equally suspect",
+          "2020 Democratic Party Platform reaffirming affirmative action in higher education and employment as constitutionally grounded tools for remedying ongoing effects of racial discrimination"
+        ]
+      },
+      {
+        "start_year": 2021,
+        "end_year": 2025,
+        "practical_position": "Democrats vigorously opposed SFFA v. Harvard (2023), filing amicus briefs and issuing political statements arguing that the anti-classification majority had overturned decades of precedent and misread the Fourteenth Amendment's remedial purpose. Following the ruling, Democrats sought to identify race-neutral means of achieving diversity goals while continuing to argue that the anti-classification holding was constitutionally wrong.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Biden administration filed amicus brief in SFFA v. Harvard (2022) defending race-conscious admissions and arguing that the diversity interest satisfies strict scrutiny — aligned with anti-subordination doctrine",
+          "Democratic congressional members introduced the 'College Opportunity and Institutional Reform Act' (proposed, 2023) to preserve race-conscious admissions through legislative authorization, arguing SFFA was wrongly decided",
+          "2024 Democratic Party Platform criticizing SFFA as a backward step in equal protection jurisprudence and calling for expanded access and diversity in higher education through race-conscious and race-neutral means"
+        ]
+      },
+      {
+        "start_year": 2025,
+        "end_year": null,
+        "practical_position": "Democrats have opposed the second Trump administration's aggressive anti-classification enforcement — including EO 14173 and related grant conditions — as a misapplication of SFFA and a violation of institutions' academic freedom. The party continues to support anti-subordination equal protection principles in litigation and legislation, arguing that blanket elimination of DEI programs exceeds what the Constitution requires even under the anti-classification reading.",
+        "alignment_with_doctrine": "aligned",
+        "evidence": [
+          "Democratic state AGs and university associations challenged EO 14173 in court (AAUP v. Trump, D.D.C., 2025) arguing the order exceeded constitutional authority and violated First and Fourteenth Amendment principles",
+          "Senate Democratic Caucus statements (February–March 2025) condemning administration enforcement of anti-DEI orders as unconstitutional overreach and demanding restoration of anti-subordination equal-protection protections",
+          "2025 Democratic minority platform documents reaffirming commitment to race-conscious remediation and opposing administration interpretation of SFFA as requiring elimination of all diversity programming"
+        ]
+      }
+    ]
   }
 ]

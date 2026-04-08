@@ -247,6 +247,9 @@ export function VerifyPage() {
                     }`}>
                       {t.signalLevel} (weight {t.weight})
                     </span>
+                    {cases.find(c => c.id === t.caseId)?.methodological_note && (
+                      <span className="ml-2 text-xs font-bold text-orange-600" title="Methodological flag — see case detail">⚑</span>
+                    )}
                   </div>
                   <div className="flex gap-3 text-xs font-mono">
                     {t.partisanContrib > 0 && (
@@ -302,6 +305,12 @@ export function VerifyPage() {
                   <ul className="list-disc list-inside text-sm text-gray-600 dark:text-gray-400 space-y-0.5">
                     {selectedCase.counterarguments.map((a, i) => <li key={i}>{a}</li>)}
                   </ul>
+                </div>
+              )}
+              {selectedCase.methodological_note && (
+                <div className="mt-4 border border-orange-300 dark:border-orange-700 bg-orange-50 dark:bg-orange-950 rounded-lg p-3">
+                  <p className="font-medium text-sm mb-1 text-orange-900 dark:text-orange-300">Methodological Flag</p>
+                  <p className="text-sm text-orange-800 dark:text-orange-200">{selectedCase.methodological_note}</p>
                 </div>
               )}
             </div>
