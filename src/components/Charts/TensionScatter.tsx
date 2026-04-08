@@ -71,8 +71,8 @@ export function TensionScatter({ data }: Props) {
           {/* Threshold bands */}
           <rect x={PAD.left} y={yTop}      width={iW} height={yStrong - yTop}        fill="#fee2e2" opacity={0.35} />
           <rect x={PAD.left} y={yStrong}   width={iW} height={yModPart - yStrong}    fill="#fef9c3" opacity={0.35} />
-          <rect x={PAD.left} y={yModPart}  width={iW} height={yModDoc  - yModPart}   fill="#eff6ff" opacity={0.35} />
-          <rect x={PAD.left} y={yModDoc}   width={iW} height={yBottom  - yModDoc}    fill="#dbeafe" opacity={0.35} />
+          <rect x={PAD.left} y={yModPart}  width={iW} height={yModDoc  - yModPart}   fill="#f3f4f6" opacity={0.6} />
+          <rect x={PAD.left} y={yModDoc}   width={iW} height={yBottom  - yModDoc}    fill="#e5e7eb" opacity={0.6} />
 
           {/* Threshold lines */}
           {[THRESHOLDS.STRONGLY_PARTISAN, THRESHOLDS.MODERATELY_PARTISAN, THRESHOLDS.MODERATELY_DOCTRINAL].map(t => (
@@ -89,8 +89,8 @@ export function TensionScatter({ data }: Props) {
           {/* Band labels (left of Y axis) */}
           <text x={PAD.left - 4} y={(yTop + yStrong) / 2 + 4}      textAnchor="end" fontSize={9} fill="#dc2626">Strongly partisan</text>
           <text x={PAD.left - 4} y={(yStrong + yModPart) / 2 + 4}  textAnchor="end" fontSize={9} fill="#f87171">Mod. partisan</text>
-          <text x={PAD.left - 4} y={(yModPart + yModDoc) / 2 + 4}  textAnchor="end" fontSize={9} fill="#93c5fd">Mod. doctrinal</text>
-          <text x={PAD.left - 4} y={(yModDoc + yBottom) / 2 + 4}   textAnchor="end" fontSize={9} fill="#2563eb">Strongly doctrinal</text>
+          <text x={PAD.left - 4} y={(yModPart + yModDoc) / 2 + 4}  textAnchor="end" fontSize={9} fill="#9ca3af">Mod. doctrinal</text>
+          <text x={PAD.left - 4} y={(yModDoc + yBottom) / 2 + 4}   textAnchor="end" fontSize={9} fill="#6b7280">Strongly doctrinal</text>
 
           {/* Chart border */}
           <rect x={PAD.left} y={PAD.top} width={iW} height={iH}

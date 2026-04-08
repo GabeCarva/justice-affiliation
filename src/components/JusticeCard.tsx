@@ -48,7 +48,7 @@ export function JusticeCard({ score, onClick, selected }: Props) {
             className="h-2 rounded-full transition-all"
             style={{
               width: `${pct}%`,
-              backgroundColor: getPartisanIndexColor(score.partisan_index),
+              backgroundColor: getPartisanIndexColor(score.partisan_index, score.justice.appointing_party),
             }}
           />
         </div>

@@ -6,9 +6,9 @@ interface Props {
   scores: NamedJusticeScore[]
 }
 
-function cellBg(voteAlignsDoctrine: string, voteAlignsParty: string): string {
-  if (voteAlignsDoctrine === 'yes' && voteAlignsParty === 'no') return '#bfdbfe' // doctrine
-  if (voteAlignsParty === 'yes' && voteAlignsDoctrine === 'no') return '#fecaca' // partisan
+function cellBg(voteAlignsDoctrine: string, voteAlignsParty: string, party: 'R' | 'D'): string {
+  if (voteAlignsDoctrine === 'yes' && voteAlignsParty === 'no') return '#e5e7eb' // doctrine — neutral gray
+  if (voteAlignsParty === 'yes' && voteAlignsDoctrine === 'no') return party === 'R' ? '#fecaca' : '#bfdbfe' // partisan — party color
   if (voteAlignsDoctrine === 'yes' && voteAlignsParty === 'yes') return '#d1fae5' // both (non-diagnostic)
   if (voteAlignsDoctrine === 'partial' || voteAlignsParty === 'partial') return '#fef3c7' // mixed
   return '#f3f4f6' // neither / missing
@@ -33,8 +33,8 @@ export function VoteMatrix({ cases, scores }: Props) {
     <div>
       <p className="text-xs text-gray-500 mb-3">
         Each cell shows how a justice voted relative to doctrine and appointing-party interest in that case.
-        Blue (D) = voted with doctrine over party. Red (P) = voted with party over doctrine. Green (=) = both aligned
-        (non-diagnostic). Yellow (~) = partial alignment. Cases are sorted by signal level (high first).
+        Gray (D) = voted with doctrine over party. Party-colored (P) = voted with party over doctrine (red = R-appointed, blue = D-appointed).
+        Green (=) = both aligned (non-diagnostic). Yellow (~) = partial. Cases sorted by signal level (high first).
       </p>
       <div className="overflow-x-auto">
         <table className="text-xs border-collapse" style={{ minWidth: '100%' }}>
@@ -78,7 +78,7 @@ export function VoteMatrix({ cases, scores }: Props) {
                       </td>
                     )
                   }
-                  const bg = cellBg(vote.vote_aligns_with_doctrine, vote.vote_aligns_with_appointer_party)
+                  const bg = cellBg(vote.vote_aligns_with_doctrine, vote.vote_aligns_with_appointer_party, s.justice.appointing_party)
                   const label = cellLabel(vote.vote_aligns_with_doctrine, vote.vote_aligns_with_appointer_party)
                   return (
                     <td key={s.seat_id} className="p-0 text-center"
@@ -99,12 +99,16 @@ export function VoteMatrix({ cases, scores }: Props) {
       </div>
       <div className="flex flex-wrap gap-3 justify-start text-xs text-gray-500 mt-3">
         <span className="flex items-center gap-1">
-          <span className="inline-block w-5 h-4 rounded text-center font-semibold text-gray-700" style={{ backgroundColor: '#bfdbfe' }}>D</span>
+          <span className="inline-block w-5 h-4 rounded text-center font-semibold text-gray-600" style={{ backgroundColor: '#e5e7eb' }}>D</span>
           Doctrine over party
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-5 h-4 rounded text-center font-semibold text-gray-700" style={{ backgroundColor: '#fecaca' }}>P</span>
-          Party over doctrine
+          R-party over doctrine
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-5 h-4 rounded text-center font-semibold text-gray-700" style={{ backgroundColor: '#bfdbfe' }}>P</span>
+          D-party over doctrine
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-5 h-4 rounded text-center font-semibold text-gray-700" style={{ backgroundColor: '#d1fae5' }}>=</span>

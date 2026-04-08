@@ -7,18 +7,21 @@ interface Props {
   doctrines: Doctrine[]
 }
 
-function cellColor(index: number | undefined): string {
+function cellColor(index: number | undefined, party: 'R' | 'D'): string {
   if (index === undefined) return '#f3f4f6'
-  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return '#dc2626'  // Strongly partisan
-  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return '#f87171'  // Moderately partisan
-  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#93c5fd'  // Moderately doctrinal
-  return '#2563eb'                                                  // Strongly doctrinal
+  const isR = party === 'R'
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return isR ? '#dc2626' : '#2563eb'  // deep party color
+  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return isR ? '#f87171' : '#93c5fd'  // light party color
+  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#9ca3af'                     // medium gray (doctrinal)
+  return '#374151'                                                                    // dark gray  (strongly doctrinal)
 }
 
 function cellTextColor(index: number | undefined): string {
   if (index === undefined) return '#9ca3af'
-  if (index >= THRESHOLDS.STRONGLY_PARTISAN || index < THRESHOLDS.MODERATELY_DOCTRINAL) return '#ffffff'
-  return '#374151'
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN) return '#ffffff'    // deep party color → white text
+  if (index >= THRESHOLDS.MODERATELY_PARTISAN) return '#374151'  // light party color → dark text
+  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#374151' // medium gray → dark text
+  return '#ffffff'                                                 // dark gray → white text
 }
 
 export function DoctrineHeatmap({ scores, doctrines }: Props) {
@@ -27,9 +30,9 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
   return (
     <div>
       <p className="text-xs text-gray-500 mb-3">
-        Each cell shows a justice's partisan index for a specific doctrine. Red cells indicate votes that
-        followed the appointing party over doctrine; blue cells indicate the reverse. Gray cells indicate
-        insufficient data. Cells without data are shown in light gray.
+        Each cell shows a justice's partisan index for a specific doctrine. Party-colored cells (red for R-appointed,
+        blue for D-appointed) indicate votes that followed the appointing party over doctrine; gray cells indicate
+        doctrinal adherence. Light gray = no data.
       </p>
       <div className="overflow-x-auto">
         <table className="w-full text-xs border-collapse">
@@ -71,7 +74,7 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
                       <div
                         className="m-0.5 rounded py-2 px-1 text-center"
                         style={{
-                          backgroundColor: cellColor(idx),
+                          backgroundColor: cellColor(idx, score.justice.appointing_party),
                           color: cellTextColor(idx),
                         }}
                       >
@@ -88,18 +91,20 @@ export function DoctrineHeatmap({ scores, doctrines }: Props) {
       <div className="flex flex-wrap gap-3 justify-end text-xs text-gray-500 mt-3">
         <span className="flex items-center gap-1">
           <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#dc2626' }} />
-          Strongly partisan (&ge;75%)
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#2563eb' }} />
+          Strongly partisan ≥75% (R / D)
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#f87171' }} />
-          Mod. partisan (45–75%)
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#93c5fd' }} />
+          Mod. partisan 45–75% (R / D)
         </span>
         <span className="flex items-center gap-1">
-          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#93c5fd' }} />
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#9ca3af' }} />
           Mod. doctrinal (25–45%)
         </span>
         <span className="flex items-center gap-1">
-          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#2563eb' }} />
+          <span className="inline-block w-4 h-3 rounded" style={{ backgroundColor: '#374151' }} />
           Strongly doctrinal (&lt;25%)
         </span>
         <span className="flex items-center gap-1">

@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-04-08T00:00:00Z",
+  "source_note": "Cases compiled from SCOTUSblog and Ballotpedia. Reflects the 2025–26 term docket as of the compilation date. Only cases argued but not yet decided are included.",
+  "cases": [
+    {
+      "id": "trump-v-barbara",
+      "title": "Trump v. Barbara",
+      "docket": "25-365",
+      "status": "argued",
+      "argued_date": "2026-04-01",
+      "description": "Whether President Trump's executive order (E.O. 14160) ending birthright citizenship for children born on U.S. soil to parents without lawful immigration status complies with the Citizenship Clause of the Fourteenth Amendment. The President attended oral arguments in person — the first sitting president to do so in U.S. history.",
+      "relevant_doctrines": ["equal-protection", "executive-restraint"],
+      "r_interest": "Uphold the executive order; restrict birthright citizenship for children of undocumented parents",
+      "d_interest": "Strike down the executive order; maintain broad birthright citizenship under the Fourteenth Amendment Citizenship Clause",
+      "doctrine_alignment": "d",
+      "doctrine_rationale": "United States v. Wong Kim Ark (1898) established that the Citizenship Clause grants citizenship to virtually all persons born on U.S. soil. Restricting this by executive order exceeds presidential authority and conflicts with settled constitutional text. Equal-protection principles reinforce the broad reading: denying citizenship based solely on parental immigration status creates a disfavored class of persons born on U.S. soil.",
+      "signal_caveat": "This is primarily a Citizenship Clause textualism case, not a standard equal-protection case. The partisan-index scores are imperfect proxies here. Confidence in all individual vote predictions is reduced accordingly."
+    },
+    {
+      "id": "trump-v-slaughter",
+      "title": "Trump v. Slaughter",
+      "docket": "25-332",
+      "status": "argued",
+      "argued_date": "2025-12-08",
+      "description": "Whether statutory removal protections for Federal Trade Commission members violate the separation of powers, and whether Humphrey's Executor v. United States (1935) — which permits Congress to insulate independent agency heads from at-will presidential removal — should be overruled.",
+      "relevant_doctrines": ["executive-restraint", "agency-deference"],
+      "r_interest": "Strike down removal protections; expand the President's power to fire FTC commissioners at will",
+      "d_interest": "Uphold removal protections; preserve the independence of multi-member regulatory commissions",
+      "doctrine_alignment": "contested",
+      "doctrine_rationale": "The executive-restraint doctrine carries an unresolvable internal tension in this case. Limited-government conservatism favors constraining presidential removal power (aligning with the D-party position). Unitary-executive conservatism favors expanding it (aligning with the R-party position). Both are principled conservative theories with genuine scholarly support. The scores in this project measure departure from the limited-government baseline only.",
+      "signal_caveat": "The executive-restraint doctrine has a known scoring reliability issue flagged elsewhere in this project. Unitary-executive conservatives who vote to expand removal power are not necessarily being partisan — they may be following a different but coherent legal theory. All predictions here are low-confidence. Do not weight them heavily."
+    },
+    {
+      "id": "little-v-hecox",
+      "title": "Little v. Hecox",
+      "docket": "24-38",
+      "status": "argued",
+      "argued_date": "2026-01-13",
+      "description": "Whether Idaho's Fairness in Women's Sports Act — which restricts participation in women's athletic competitions to biological females — violates the Equal Protection Clause of the Fourteenth Amendment. Consolidated with West Virginia v. B.P.J. (24-43), which raises parallel Title IX and equal protection questions.",
+      "relevant_doctrines": ["equal-protection"],
+      "r_interest": "Uphold the law; states may limit women's sports participation to biological females without violating equal protection",
+      "d_interest": "Strike down the law; restricting transgender girls from women's sports constitutes unconstitutional sex discrimination",
+      "doctrine_alignment": "r",
+      "doctrine_rationale": "The principled conservative equal-protection position holds that sex-based classifications reflecting biological differences may survive intermediate scrutiny when the governmental interest — competitive fairness in athletics — is substantially related to the classification. This project's equal-protection scores measure departure from that conservative baseline.",
+      "signal_caveat": null
+    },
+    {
+      "id": "louisiana-v-callais",
+      "title": "Louisiana v. Callais",
+      "docket": "24-109",
+      "status": "argued",
+      "argued_date": "2025-10-15",
+      "description": "Whether Section 2 of the Voting Rights Act — as applied to require majority-Black congressional districts to remedy racial vote dilution — violates the Fourteenth or Fifteenth Amendments. The case was reargued in October 2025 after an unusual second grant of certiorari, suggesting the Court is reconsidering its Allen v. Milligan (2023) precedent.",
+      "relevant_doctrines": ["equal-protection", "federalism-states-rights"],
+      "r_interest": "Weaken or strike down VRA Section 2's race-conscious districting requirements",
+      "d_interest": "Uphold VRA Section 2; preserve federal protections against racial vote dilution in redistricting",
+      "doctrine_alignment": "r",
+      "doctrine_rationale": "The principled conservative equal-protection position holds that the Constitution requires government to be colorblind: race-conscious remedies must survive strict scrutiny. On this view, VRA Section 2's race-conscious districting requirements are constitutionally suspect. Note: Roberts joined the liberal bloc in Allen v. Milligan (2023) upholding Section 2; his behavior in that case may reflect precedent-following rather than doctrine.",
+      "signal_caveat": "Roberts voted to uphold VRA Section 2 in Allen v. Milligan (2023). That behavior is consistent with precedent-following rather than a doctrinal commitment, and the unusual re-argument suggests the Court may be revisiting the question. His individual prediction carries extra uncertainty. Overall confidence reduced."
+    },
+    {
+      "id": "nrsc-v-fec",
+      "title": "NRSC v. FEC",
+      "docket": "24-621",
+      "status": "argued",
+      "argued_date": "2026-04-01",
+      "description": "Whether federal statutory limits on coordinated expenditures between political parties and their candidates (52 U.S.C. § 30116) violate the First Amendment rights of political parties. A ruling for the NRSC would effectively overturn Colorado Republican Federal Campaign Committee v. FEC (Colorado II, 2001).",
+      "relevant_doctrines": ["first-amendment"],
+      "r_interest": "Strike down coordinated spending limits; political parties should have unlimited ability to coordinate expenditures with candidates",
+      "d_interest": "Uphold coordinated spending limits; preserve campaign finance regulation to prevent corruption and the appearance of corruption",
+      "doctrine_alignment": "r",
+      "doctrine_rationale": "The principled conservative First Amendment position — established through Buckley v. Valeo and Citizens United — holds that political expenditures are core protected speech. Limits on party-candidate coordination restrict this speech without a sufficiently compelling anti-corruption interest, given that parties and candidates are naturally aligned. This project's first-amendment scores measure departure from that broad-speech baseline.",
+      "signal_caveat": null
+    },
+    {
+      "id": "watson-v-rnc",
+      "title": "Watson v. RNC",
+      "docket": "24-1260",
+      "status": "argued",
+      "argued_date": "2026-03-23",
+      "description": "Whether federal Election Day statutes preempt state laws allowing mail-in ballots received after Election Day to be counted. The Republican National Committee argues that Congress established a single uniform federal election day, barring states from accepting late-arriving ballots.",
+      "relevant_doctrines": ["federalism-states-rights"],
+      "r_interest": "Federal law preempts state ballot receipt deadlines; halt counting of ballots received after Election Day",
+      "d_interest": "States retain authority over election administration; state laws permitting post-Election-Day ballot receipt are valid",
+      "doctrine_alignment": "d",
+      "doctrine_rationale": "The principled federalism position holds that states have broad inherent authority over election administration and that federal preemption of state law requires a clear, unambiguous congressional statement. The historical Election Day statutes designated when voters must cast ballots — not when states must stop counting ballots already cast. Federalism doctrine therefore favors the state-authority reading, which aligns with the Democratic interest in preserving mail-in voting access.",
+      "signal_caveat": "The RNC is arguing for federal preemption of state election laws — the opposite of its typical states'-rights posture. This creates a genuine doctrine-vs.-party tension for R-appointed justices, making this case diagnostic in a politically unusual direction. Predictions for R-appointed justices may be less reliable if justices are sensitive to the partisan stakes of the outcome."
+    }
+  ]
+}

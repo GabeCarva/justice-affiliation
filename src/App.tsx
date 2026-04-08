@@ -7,6 +7,7 @@ import { MethodologyPage } from './pages/MethodologyPage'
 import { VerifyPage } from './pages/VerifyPage'
 import { DoctrinePage } from './pages/DoctrinePage'
 import { PriorsPage } from './pages/PriorsPage'
+import { PredictivePage } from './pages/PredictivePage'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/verify" element={<VerifyPage />} />
             <Route path="/doctrines" element={<DoctrinePage />} />
             <Route path="/priors" element={<PriorsPage />} />
+            <Route path="/predict" element={<PredictivePage />} />
           </Routes>
         </main>
         <Footer />
