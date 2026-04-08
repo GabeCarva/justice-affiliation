@@ -128,7 +128,7 @@ export function HomePage() {
                                 className="h-1.5 rounded-full"
                                 style={{
                                   width: `${(partisan * 100).toFixed(0)}%`,
-                                  backgroundColor: getPartisanIndexColor(partisan),
+                                  backgroundColor: getPartisanIndexColor(partisan, selected.justice.appointing_party),
                                 }}
                               />
                             </div>
@@ -138,7 +138,7 @@ export function HomePage() {
                         <td className="py-2 pr-6 text-right">
                           <div className="flex items-center justify-end gap-2">
                             <div className="w-20 bg-gray-100 dark:bg-gray-700 rounded-full h-1.5">
-                              <div className="h-1.5 rounded-full bg-blue-500"
+                              <div className="h-1.5 rounded-full bg-gray-400"
                                 style={{ width: `${(doctrinal * 100).toFixed(0)}%` }} />
                             </div>
                             <span className="font-mono w-10 text-right">{(doctrinal * 100).toFixed(0)}%</span>

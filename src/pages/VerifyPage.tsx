@@ -52,11 +52,11 @@ function computeTrace(score: NamedJusticeScore, allCases: DiagnosticCase[]): Vot
     })
 }
 
-function contribBg(p: number, d: number) {
-  if (p > d) return '#fee2e2'
-  if (d > p) return '#dbeafe'
-  if (p === 0 && d === 0) return '#f9fafb'
-  return '#fef9c3'
+function contribBg(p: number, d: number, party: 'R' | 'D') {
+  if (p > d) return party === 'R' ? '#fee2e2' : '#dbeafe'  // partisan: party color
+  if (d > p) return '#f3f4f6'                               // doctrine: neutral gray
+  if (p === 0 && d === 0) return '#f9fafb'                  // non-diagnostic
+  return '#fef9c3'                                           // mixed
 }
 
 export function VerifyPage() {
@@ -198,7 +198,7 @@ export function VerifyPage() {
                               className="h-1.5 rounded-full"
                               style={{
                                 width: `${(partisan * 100).toFixed(0)}%`,
-                                backgroundColor: getPartisanIndexColor(partisan),
+                                backgroundColor: getPartisanIndexColor(partisan, score.justice.appointing_party),
                               }}
                             />
                           </div>
@@ -209,7 +209,7 @@ export function VerifyPage() {
                         <div className="flex items-center justify-end gap-2">
                           <div className="w-24 bg-gray-100 rounded-full h-1.5">
                             <div
-                              className="h-1.5 rounded-full bg-blue-500"
+                              className="h-1.5 rounded-full bg-gray-400"
                               style={{ width: `${(doctrinal * 100).toFixed(0)}%` }}
                             />
                           </div>
@@ -235,7 +235,7 @@ export function VerifyPage() {
                 key={t.caseId}
                 onClick={() => setSelectedCaseId(prev => prev === t.caseId ? null : t.caseId)}
                 className="border border-gray-200 dark:border-gray-700 rounded-lg p-4 cursor-pointer hover:border-gray-400 transition-colors"
-                style={{ backgroundColor: contribBg(t.partisanContrib, t.doctrineContrib) }}
+                style={{ backgroundColor: contribBg(t.partisanContrib, t.doctrineContrib, score.justice.appointing_party) }}
               >
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
                   <div>
@@ -253,10 +253,12 @@ export function VerifyPage() {
                   </div>
                   <div className="flex gap-3 text-xs font-mono">
                     {t.partisanContrib > 0 && (
-                      <span className="text-red-700">+{t.partisanContrib.toFixed(2)} partisan</span>
+                      <span style={{ color: score.justice.appointing_party === 'R' ? '#b91c1c' : '#1d4ed8' }}>
+                        +{t.partisanContrib.toFixed(2)} partisan
+                      </span>
                     )}
                     {t.doctrineContrib > 0 && (
-                      <span className="text-blue-700">+{t.doctrineContrib.toFixed(2)} doctrine</span>
+                      <span className="text-gray-500">+{t.doctrineContrib.toFixed(2)} doctrine</span>
                     )}
                     {t.partisanContrib === 0 && t.doctrineContrib === 0 && (
                       <span className="text-gray-400">non-diagnostic</span>

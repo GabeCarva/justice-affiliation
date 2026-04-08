@@ -40,9 +40,13 @@ export const THRESHOLDS = {
   MODERATELY_DOCTRINAL: 0.25,
 } as const
 
-export function getPartisanIndexColor(index: number): string {
-  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return '#dc2626'  // Strongly partisan   — deep red
-  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return '#f87171'  // Moderately partisan — light red
-  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#93c5fd'  // Moderately doctrinal — light blue
-  return '#2563eb'                                                  // Strongly doctrinal  — deep blue
+// Party-aware: partisan votes use the appointing-party color (R=red, D=blue);
+// doctrinal votes use neutral dark gray so "blue" can't be confused with
+// Democrat-party coloring.
+export function getPartisanIndexColor(index: number, party: 'R' | 'D'): string {
+  const isR = party === 'R'
+  if (index >= THRESHOLDS.STRONGLY_PARTISAN)    return isR ? '#dc2626' : '#2563eb'  // deep party color
+  if (index >= THRESHOLDS.MODERATELY_PARTISAN)  return isR ? '#f87171' : '#93c5fd'  // light party color
+  if (index >= THRESHOLDS.MODERATELY_DOCTRINAL) return '#9ca3af'                     // medium gray (doctrinal)
+  return '#374151'                                                                    // dark gray  (strongly doctrinal)
 }

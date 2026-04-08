@@ -27,10 +27,10 @@ const sx = (year: number) =>
 const sy = (v: number) =>
   PAD.top + (1 - v) * iH
 
-const VOTE_COLOR: Record<DiagnosticStep['vote_type'], string> = {
-  partisan: '#dc2626',
-  doctrine: '#2563eb',
-  mixed:    '#7c3aed',
+function voteColor(voteType: DiagnosticStep['vote_type'], party: 'R' | 'D'): string {
+  if (voteType === 'partisan') return party === 'R' ? '#dc2626' : '#2563eb'  // party color
+  if (voteType === 'doctrine') return '#6b7280'                               // neutral gray
+  return '#7c3aed'                                                             // mixed: purple
 }
 
 interface MiniChartProps {
@@ -67,8 +67,8 @@ function MiniChart({ score, onHover }: MiniChartProps) {
       {/* Threshold bands */}
       <rect x={PAD.left} y={yTop}     width={iW} height={yStrong  - yTop}       fill="#fee2e2" opacity={0.3} />
       <rect x={PAD.left} y={yStrong}  width={iW} height={yModPart - yStrong}    fill="#fef9c3" opacity={0.3} />
-      <rect x={PAD.left} y={yModPart} width={iW} height={yModDoc  - yModPart}   fill="#eff6ff" opacity={0.3} />
-      <rect x={PAD.left} y={yModDoc}  width={iW} height={yBottom  - yModDoc}    fill="#dbeafe" opacity={0.3} />
+      <rect x={PAD.left} y={yModPart} width={iW} height={yModDoc  - yModPart}   fill="#f3f4f6" opacity={0.5} />
+      <rect x={PAD.left} y={yModDoc}  width={iW} height={yBottom  - yModDoc}    fill="#e5e7eb" opacity={0.5} />
 
       {/* Threshold lines */}
       {[THRESHOLDS.STRONGLY_PARTISAN, THRESHOLDS.MODERATELY_PARTISAN, THRESHOLDS.MODERATELY_DOCTRINAL].map(t => (
@@ -107,7 +107,7 @@ function MiniChart({ score, onHover }: MiniChartProps) {
           const cx = sx(step.year)
           const cy = sy(step.running_index)
           const prev = i > 0 ? steps[i - 1] : null
-          const color = VOTE_COLOR[step.vote_type]
+          const color = voteColor(step.vote_type, score.justice.appointing_party)
 
           return (
             <g key={step.case_id}>
@@ -188,9 +188,10 @@ function CaseTooltip({ tip, containerWidth }: { tip: TipState; containerWidth: n
     tip.step.vote_type === 'partisan' ? 'Voted with party (against doctrine)' :
     tip.step.vote_type === 'doctrine' ? 'Voted with doctrine (against party)' :
     'Mixed / partial'
-  const voteColor =
-    tip.step.vote_type === 'partisan' ? 'text-red-600' :
-    tip.step.vote_type === 'doctrine' ? 'text-blue-600' : 'text-purple-600'
+  const tipVoteColor =
+    tip.step.vote_type === 'doctrine' ? 'text-gray-600' :
+    tip.step.vote_type === 'mixed'    ? 'text-purple-600' :
+    tip.party === 'R' ? 'text-red-600' : 'text-blue-600'
 
   const left  = tip.mouseX > containerWidth * 0.55 ? undefined : tip.mouseX + 16
   const right = tip.mouseX > containerWidth * 0.55 ? containerWidth - tip.mouseX + 16 : undefined
@@ -204,7 +205,7 @@ function CaseTooltip({ tip, containerWidth }: { tip: TipState; containerWidth: n
         <span className="font-semibold text-gray-900 text-sm">{tip.step.case_title}</span>
         <span className="text-gray-400 ml-2 shrink-0">{tip.step.year}</span>
       </div>
-      <div className={`font-semibold mb-1 ${voteColor}`}>{voteLabel}</div>
+      <div className={`font-semibold mb-1 ${tipVoteColor}`}>{voteLabel}</div>
       <div className="text-gray-500">
         Running partisan index after this case:{' '}
         <span className="font-semibold text-gray-800">
@@ -229,12 +230,12 @@ export function RunningPartisanChart({ data }: Props) {
     <div>
       <p className="text-xs text-gray-500 mb-3">
         Running partisan index computed only from diagnostic cases — cases where party alignment and
-        doctrine alignment pointed in opposite directions. Each dot is a case;{' '}
-        <span className="text-red-600 font-medium">red</span> = voted with party against doctrine,{' '}
-        <span className="text-blue-600 font-medium">blue</span> = voted with doctrine against party,{' '}
-        <span className="text-purple-600 font-medium">purple</span> = mixed/partial.
-        The line shows how the index accumulates as cases arrive. Non-diagnostic cases (party and doctrine
-        agreed) are excluded entirely. Hover any dot for case details.
+        doctrine alignment pointed in opposite directions. Each dot is a case vote; a dot in the justice's party
+        color (red = R-appointed, blue = D-appointed) means they voted with party over doctrine.{' '}
+        <span className="text-gray-500 font-medium">Gray</span> = voted with doctrine over party.{' '}
+        <span className="text-purple-600 font-medium">Purple</span> = mixed/partial.
+        The line shows how the index accumulates as cases arrive. Non-diagnostic cases are excluded entirely.
+        Hover any dot for case details.
       </p>
 
       {/* Shared band legend */}
@@ -248,11 +249,11 @@ export function RunningPartisanChart({ data }: Props) {
           Mod. partisan (45–75%)
         </span>
         <span className="flex items-center gap-1">
-          <span className="inline-block w-8 h-3 rounded" style={{ backgroundColor: '#eff6ff', opacity: 0.8 }} />
+          <span className="inline-block w-8 h-3 rounded" style={{ backgroundColor: '#d1d5db', opacity: 0.8 }} />
           Mod. doctrinal (25–45%)
         </span>
         <span className="flex items-center gap-1">
-          <span className="inline-block w-8 h-3 rounded" style={{ backgroundColor: '#dbeafe', opacity: 0.8 }} />
+          <span className="inline-block w-8 h-3 rounded" style={{ backgroundColor: '#9ca3af', opacity: 0.8 }} />
           Strongly doctrinal (&lt;25%)
         </span>
       </div>
