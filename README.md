@@ -9,8 +9,8 @@ Most SCOTUS analysis asks "who voted with whom." This project asks a different q
 where judicial doctrine and party interest diverge, which does a justice follow? Only these
 "diagnostic" cases reveal whether a justice is primarily principled or primarily partisan.
 
-The result is a partisan index for each current justice, computed from 22 Supreme Court cases
-(2012–2024) across 7 constitutional doctrines.
+The result is a partisan index for each current justice, computed from 57 Supreme Court cases
+(2011–2024) across 9 constitutional doctrines.
 
 ## Live Site
 
@@ -26,9 +26,9 @@ npm run dev
 ## Data
 
 All data is in `src/data/`:
-- `doctrines.json` — 7 constitutional doctrine definitions
+- `doctrines.json` — 9 constitutional doctrine definitions
 - `doctrine-party-map.json` — party positions per doctrine per time period
-- `cases.json` — 22 diagnostic cases with anonymized votes
+- `cases.json` — 57 diagnostic cases with anonymized votes
 - `scores.json` — blind partisan index scores by seat ID
 - `justice-seat-map.json` — maps seat IDs to justice names (introduced last)
 - `justices.json` — justice metadata

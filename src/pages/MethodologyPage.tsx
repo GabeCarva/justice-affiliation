@@ -102,7 +102,7 @@ confidence = "high" if total >= 4 else "medium" if total >= 2 else "low"`}
             <strong>Selection bias:</strong> We chose cases from a curated set. Different cases would produce different scores.
           </li>
           <li>
-            <strong>Small N:</strong> Per-doctrine scores are based on 2–10 cases. Treat them as suggestive, not definitive.
+            <strong>Small N:</strong> Per-doctrine scores are based on 2–16 cases. Treat them as suggestive, not definitive.
           </li>
           <li>
             <strong>Doctrine contestation:</strong> The definitions of "doctrine-aligned" are themselves contested.
@@ -119,8 +119,8 @@ confidence = "high" if total >= 4 else "medium" if total >= 2 else "low"`}
 
         <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">What Explains the Liberal Outliers?</h2>
         <p>
-          Sotomayor (82.6%), Kagan (76.7%), and Jackson (84.8%) score substantially higher partisan indices
-          than Roberts (24.6%), Kavanaugh (30.6%), and Barrett (25.9%). The naive reading — that liberal
+          Sotomayor (73.5%), Kagan (69.1%), and Jackson (78.8%) score substantially higher partisan indices
+          than Roberts (23.8%), Kavanaugh (23.4%), and Barrett (28.6%). The naive reading — that liberal
           justices are simply more partisan — deserves scrutiny. At least four structural factors inflate
           liberal scores independent of actual partisan behavior:
         </p>
