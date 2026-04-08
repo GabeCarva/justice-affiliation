@@ -12,7 +12,7 @@ export function BlogPage() {
         Are Supreme Court Justices Ideological or Partisan?
       </h1>
       <p className="text-sm text-gray-500 mb-10">
-        A structured analysis using 22 Supreme Court cases, 7 constitutional doctrines, and a blind scoring protocol.
+        A structured analysis using {cases.length} Supreme Court cases, {doctrines.length} constitutional doctrines, and a blind scoring protocol.
       </p>
 
       <section className="prose prose-gray dark:prose-invert max-w-none">
@@ -62,7 +62,7 @@ export function BlogPage() {
 
         <h2 className="font-serif text-2xl font-semibold mt-10 mb-4">The Doctrines</h2>
         <p>
-          We tracked seven constitutional doctrines that are directly relevant to the major contested cases of the
+          We tracked {doctrines.length} constitutional doctrines that are directly relevant to the major contested cases of the
           current court era, and where party positions have demonstrably shifted over time:
         </p>
         <ul>
@@ -136,9 +136,9 @@ export function BlogPage() {
             The partisan index cannot distinguish genuine doctrine adherence from ideology-based party loyalty.
           </li>
           <li>
-            <strong>The small-N problem.</strong> With 22 cases and 7 doctrines, per-doctrine scores are based on
-            very few data points. Small samples produce unstable estimates. A justice might appear highly partisan on
-            agency deference based on 3-4 cases.
+            <strong>The small-N problem.</strong> With {cases.length} cases and {doctrines.length} doctrines, per-doctrine scores are based on
+            relatively few data points. Small samples produce unstable estimates. A justice might appear highly partisan on
+            agency deference based on a handful of cases.
           </li>
           <li>
             <strong>Selection bias.</strong> We chose the cases. A different selection could produce different scores.
